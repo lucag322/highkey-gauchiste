@@ -1,0 +1,309 @@
+{
+ "name": "V2 - Longue pose N&B - Danièle Obono",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 14.593,
+ "note": "Plans ProRes 9:16 recadrés, N&B, texte cuit (gen/V2/out). s/e en images du clip (30 i/s), rec en images timeline. Aucun ralenti : speed_pct 100 partout. Coupes sur les frappes réelles du refrain (frappes.json). Générateur : lot4/_claude/gen/V2/genV2.py",
+ "phrase": {
+  "texte": "Et je crois que c'est de la responsabilité des politiques, c'est notre rôle, sinon à quoi on sert ? De faire en sorte que la justice sociale soit mise en place et appliquée.",
+  "extrait_audible": "c'est de la responsabilité des politiques, c'est notre rôle, sinon à quoi on sert ? De faire en sorte que la justice sociale soit mise en place et appliquée.",
+  "url": "https://www.youtube.com/watch?v=wn6qL6YseFY",
+  "source": "Danièle Obono sur LCI, 24/09/2026 (chaîne officielle Danièle Obono, vidéo « L'EXTRÊME richesse est immorale »)",
+  "in_s": 1008.17,
+  "out_s": 1015.29,
+  "voix": "son direct synchro sur la longue pose, musique qui monte dessous, refrain juste après"
+ },
+ "texte_style": {
+  "police": "Arial Black",
+  "couleur": "#FFFFFF, mots-clés JUSTICE SOCIALE #E4002B",
+  "contour": "noir + ombre floue",
+  "position": "centré, largeur <= 580 px, bas du bloc à y 1370 (zone sûre TikTok)"
+ },
+ "musique": {
+  "fichier": "lot4/sons/V2-mj-beat-it.wav",
+  "complet": "lot4/sons/V2-mj-beat-it_complet.wav",
+  "debut_dans_complet_s": 80.18,
+  "refrain_timeline_s": 7.225,
+  "coupes_timeline_s": [
+   7.225,
+   8.095,
+   8.972,
+   9.839,
+   10.7,
+   11.564,
+   12.004,
+   12.425,
+   12.863,
+   13.288,
+   14.593
+  ],
+  "paroles_audibles": "sous la voix (bas, qui monte) : « …wanna be tough, better do what you can / So beat it, but you wanna be bad » ; refrain plein : « Just beat it, beat it, beat it, beat it / No one wants to be defeated / Showin' how funky… »"
+ },
+ "video": [
+  {
+   "id": "pose",
+   "clip": "V2_pose.mov",
+   "folder": "genV2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/V2/out/V2_pose.mov",
+   "s": 0,
+   "e": 217,
+   "rec": 0,
+   "dur": 217,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "longue pose en son direct : « c'est de la responsabilité des politiques… mise en place et appliquée. »",
+   "source": {
+    "fichier": "lot3/sources/G4-obono-lci-2026-09-24-b.mp4",
+    "in_s": 138.2,
+    "out_s": 145.433,
+    "url": "https://www.youtube.com/watch?v=wn6qL6YseFY",
+    "t_youtube_s": 1008.2
+   },
+   "texte": "C'EST DE LA / RESPONSABILITÉ / DES POLITIQUES · C'EST NOTRE / RÔLE · SINON À QUOI / ON SERT ? · DE FAIRE / EN SORTE / QUE LA · JUSTICE / SOCIALE (rouge) · SOIT MISE / EN PLACE / ET APPLIQUÉE (zone sûre TikTok : x 0,17-0,83, bas du bloc y 1370)",
+   "effets": "longue pose sans coupe 7.22 s en son direct (voix synchro), poussée lente 1,00 -> 1,08, N&B contrasté, grain, cartons cuits mot à mot"
+  },
+  {
+   "id": "plateau",
+   "clip": "V2_plateau.mov",
+   "folder": "genV2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/V2/out/V2_plateau.mov",
+   "s": 0,
+   "e": 26,
+   "rec": 217,
+   "dur": 26,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "plateau large, Obono de dos face au studio (entrée du drop)",
+   "source": {
+    "fichier": "lot3/sources/G4-obono-lci-2026-09-24-b.mp4",
+    "in_s": 149.0,
+    "out_s": 149.867,
+    "url": "https://www.youtube.com/watch?v=wn6qL6YseFY",
+    "t_youtube_s": 1019.0
+   },
+   "temps": 2,
+   "coupe_sur_t": 7.225
+  },
+  {
+   "id": "gros",
+   "clip": "V2_gros.mov",
+   "folder": "genV2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/V2/out/V2_gros.mov",
+   "s": 0,
+   "e": 26,
+   "rec": 243,
+   "dur": 26,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "plan poitrine, regard vif",
+   "source": {
+    "fichier": "lot3/sources/G4-obono-lci-2026-09-24-a.mp4",
+    "in_s": 96.5,
+    "out_s": 97.367,
+    "url": "https://www.youtube.com/watch?v=wn6qL6YseFY",
+    "t_youtube_s": 1496.5
+   },
+   "temps": 2,
+   "coupe_sur_t": 8.095
+  },
+  {
+   "id": "mains",
+   "clip": "V2_mains.mov",
+   "folder": "genV2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/V2/out/V2_mains.mov",
+   "s": 0,
+   "e": 26,
+   "rec": 269,
+   "dur": 26,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "mains ouvertes, elle argumente",
+   "source": {
+    "fichier": "lot3/sources/G4-obono-lci-2026-09-24-a.mp4",
+    "in_s": 107.0,
+    "out_s": 107.867,
+    "url": "https://www.youtube.com/watch?v=wn6qL6YseFY",
+    "t_youtube_s": 1507.0
+   },
+   "temps": 2,
+   "coupe_sur_t": 8.972
+  },
+  {
+   "id": "bfm",
+   "clip": "V2_bfm.mov",
+   "folder": "genV2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/V2/out/V2_bfm.mov",
+   "s": 0,
+   "e": 26,
+   "rec": 295,
+   "dur": 26,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "BFMTV, gros plan veste jaune",
+   "source": {
+    "fichier": "lot3/sources/G4-obono-bfmtv-2026-09-04.mp4",
+    "in_s": 132.4,
+    "out_s": 133.267,
+    "url": "https://www.youtube.com/watch?v=XDCpNQsFZWc",
+    "t_youtube_s": 1632.4
+   },
+   "temps": 2,
+   "coupe_sur_t": 9.839
+  },
+  {
+   "id": "regard",
+   "clip": "V2_regard.mov",
+   "folder": "genV2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/V2/out/V2_regard.mov",
+   "s": 0,
+   "e": 26,
+   "rec": 321,
+   "dur": 26,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "elle fixe son contradicteur",
+   "source": {
+    "fichier": "lot3/sources/G4-obono-lci-2026-09-24-b.mp4",
+    "in_s": 51.0,
+    "out_s": 51.867,
+    "url": "https://www.youtube.com/watch?v=wn6qL6YseFY",
+    "t_youtube_s": 921.0
+   },
+   "temps": 2,
+   "coupe_sur_t": 10.7
+  },
+  {
+   "id": "face",
+   "clip": "V2_face.mov",
+   "folder": "genV2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/V2/out/V2_face.mov",
+   "s": 0,
+   "e": 13,
+   "rec": 347,
+   "dur": 13,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "face caméra",
+   "source": {
+    "fichier": "lot3/sources/G4-obono-lci-2026-09-24-a.mp4",
+    "in_s": 12.0,
+    "out_s": 12.433,
+    "url": "https://www.youtube.com/watch?v=wn6qL6YseFY",
+    "t_youtube_s": 1412.0
+   },
+   "temps": 1,
+   "coupe_sur_t": 11.564
+  },
+  {
+   "id": "ots",
+   "clip": "V2_ots.mov",
+   "folder": "genV2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/V2/out/V2_ots.mov",
+   "s": 0,
+   "e": 13,
+   "rec": 360,
+   "dur": 13,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "BFMTV, elle argumente face à Jad Zahab",
+   "source": {
+    "fichier": "lot3/sources/G4-obono-bfmtv-2026-09-04.mp4",
+    "in_s": 20.0,
+    "out_s": 20.433,
+    "url": "https://www.youtube.com/watch?v=XDCpNQsFZWc",
+    "t_youtube_s": 1520.0
+   },
+   "temps": 1,
+   "coupe_sur_t": 12.004
+  },
+  {
+   "id": "geste",
+   "clip": "V2_geste.mov",
+   "folder": "genV2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/V2/out/V2_geste.mov",
+   "s": 0,
+   "e": 13,
+   "rec": 373,
+   "dur": 13,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "main sur le cœur",
+   "source": {
+    "fichier": "lot3/sources/G4-obono-lci-2026-09-24-a.mp4",
+    "in_s": 133.0,
+    "out_s": 133.433,
+    "url": "https://www.youtube.com/watch?v=wn6qL6YseFY",
+    "t_youtube_s": 1533.0
+   },
+   "temps": 1,
+   "coupe_sur_t": 12.425
+  },
+  {
+   "id": "voix",
+   "clip": "V2_voix.mov",
+   "folder": "genV2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/V2/out/V2_voix.mov",
+   "s": 0,
+   "e": 13,
+   "rec": 386,
+   "dur": 13,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "elle parle, voix forte",
+   "source": {
+    "fichier": "lot3/sources/G4-obono-lci-2026-09-24-b.mp4",
+    "in_s": 61.6,
+    "out_s": 62.033,
+    "url": "https://www.youtube.com/watch?v=wn6qL6YseFY",
+    "t_youtube_s": 931.6
+   },
+   "temps": 1,
+   "coupe_sur_t": 12.863
+  },
+  {
+   "id": "fin",
+   "clip": "V2_fin.mov",
+   "folder": "genV2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/V2/out/V2_fin.mov",
+   "s": 0,
+   "e": 39,
+   "rec": 399,
+   "dur": 39,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "fin, regard caméra",
+   "source": {
+    "fichier": "lot3/sources/G4-obono-lci-2026-09-24-b.mp4",
+    "in_s": 116.0,
+    "out_s": 117.3,
+    "url": "https://www.youtube.com/watch?v=wn6qL6YseFY",
+    "t_youtube_s": 986.0
+   },
+   "temps": 3,
+   "coupe_sur_t": 13.288
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "V2-mix.wav",
+   "folder": "genV2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/V2/out/V2-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "voix + ambiance du plateau LCI (son direct 138.17-145.29 s de LCI-b) sur la longue pose ; Beat It 80.180-94.773 s du clip officiel : fin du couplet qui monte de -20 à -7 dB sous la voix, puis refrain plein à 7.225 s, -14 LUFS, fondu de fin 0,5 s"
+  }
+ ]
+}

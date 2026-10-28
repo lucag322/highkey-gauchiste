@@ -1,0 +1,44 @@
+{
+ "titre": "Experience",
+ "artiste": "Ludovico Einaudi",
+ "url": "https://youtu.be/1e9B31FLT-s",
+ "chaine": "Ludovico Einaudi (officielle, Official Visualizer)",
+ "fichier": "lot4/sons/G6-einaudi-experience_complet.wav",
+ "extrait_morceau_s": [
+  116.492,
+  131.392
+ ],
+ "bpm": 92.4,
+ "drop": {
+  "morceau_s": 121.492,
+  "timeline_s": 5.0,
+  "note": "le passage le plus connu : pic « les plus revus » YouTube 120,1-123,2 s ; drop sur le temps fort 121,49 s (attaque de basse la plus forte du passage, mesurée)"
+ },
+ "sous_la_phrase": "montée cordes/piano 116,49-121,49 s (crescendo 118,9-121,5 s), -8 dB et passe-bas doux 2,5 kHz sous la voix, remonte à plein de 4,68 à 5,00 s",
+ "frappes": "pas de batterie : frappe = attaque réelle la plus précoce (basse 30-200 Hz ou piano 200-4000 Hz) de chaque temps, rythme/grille.py -> frappes.json",
+ "frappes_timeline_s": [
+  0.429,
+  1.072,
+  1.743,
+  2.392,
+  3.022,
+  3.626,
+  4.323,
+  5.0,
+  5.693,
+  6.266,
+  6.914,
+  7.547,
+  8.212,
+  8.868,
+  9.512,
+  10.16,
+  10.864,
+  11.474,
+  12.106,
+  12.755,
+  13.408,
+  14.046,
+  14.703
+ ]
+}

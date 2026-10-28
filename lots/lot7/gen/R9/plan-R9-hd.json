@@ -1,0 +1,511 @@
+{
+ "name": "R9 - Collage ransom-note émeraude - Jean-Luc Mélenchon (jeunesse)",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 19.0,
+ "note": "Plans ProRes 9:16 composés en Python (lot7/_claude/gen/R9/out) : Mélenchon détouré (_claude/outils/decoupe.py) en N&B, buste jusqu'au pupitre posé sur le bas du cadre (visage dans la zone sûre TikTok), contour autocollant, double tirage tramé, aplats émeraude / noir / blanc qui changent sur les frappes, bandes, scotch, tirages N&B et émeraude, silhouette blanche 3 images, foule plein cadre, textes ransom-note cuits. s/e en images du clip (30 i/s), rec en images timeline. Coupes sur les frappes réelles de Meuda (out/R9-frappes.json). Aucun ralenti. Générateur : genR9.py",
+ "phrase": {
+  "texte": "Alors c'est une crise de la civilisation humaine que votre génération, jeunes gens, va non seulement devoir affronter, mais régler.",
+  "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+  "source": "lot1/sources/3-melenchon-huma-citation.mp4",
+  "in_s": 29.2,
+  "out_s": 36.94,
+  "t_youtube_s": [
+   4739.2,
+   4746.94
+  ],
+  "timeline_s": [
+   0.6,
+   8.34
+  ],
+  "voix": "son direct de la Fête de l'Huma, images synchro (plan continu 4,58-70,64 s) ou foule de Valence où personne ne parle ; coupée après « régler » avant « et que nous tous… » (sens gardé)"
+ },
+ "musique": {
+  "fichier": "lot7/sons/R9-tiakola-meuda_complet.wav",
+  "titre": "Tiakola - Meuda",
+  "url": "https://www.youtube.com/watch?v=Qq7Q6CLCfvs",
+  "debut_complet_s": 23.877,
+  "fin_complet_s": 42.877,
+  "drop_timeline_s": 8.8628,
+  "coupes_frappes_s": [
+   2.9783,
+   5.5048,
+   8.8628,
+   11.398,
+   12.243,
+   13.0872,
+   14.3558,
+   15.5958,
+   16.4686
+  ],
+  "coupes_images": [
+   89,
+   165,
+   266,
+   342,
+   367,
+   393,
+   431,
+   468,
+   494
+  ]
+ },
+ "textes": [
+  {
+   "plan": "A1",
+   "texte": "ALORS C'EST"
+  },
+  {
+   "plan": "A1",
+   "texte": "UNE CRISE"
+  },
+  {
+   "plan": "A1",
+   "texte": "DE LA"
+  },
+  {
+   "plan": "A1",
+   "texte": "CIVILISATION"
+  },
+  {
+   "plan": "A2",
+   "texte": "HUMAINE"
+  },
+  {
+   "plan": "A2",
+   "texte": "QUE VOTRE"
+  },
+  {
+   "plan": "A2",
+   "texte": "GÉNÉRATION,"
+  },
+  {
+   "plan": "A3",
+   "texte": "JEUNES GENS,"
+  },
+  {
+   "plan": "A3",
+   "texte": "VA NON SEULEMENT"
+  },
+  {
+   "plan": "A3",
+   "texte": "DEVOIR AFFRONTER,"
+  },
+  {
+   "plan": "A3",
+   "texte": "MAIS RÉGLER."
+  },
+  {
+   "plan": "B1",
+   "texte": "UNE CRISE"
+  },
+  {
+   "plan": "B1",
+   "texte": "DE LA CIVILISATION"
+  },
+  {
+   "plan": "B1",
+   "texte": "HUMAINE"
+  },
+  {
+   "plan": "B2",
+   "texte": "VOTRE"
+  },
+  {
+   "plan": "B2",
+   "texte": "GÉNÉRATION"
+  },
+  {
+   "plan": "B3",
+   "texte": "JEUNES"
+  },
+  {
+   "plan": "B3",
+   "texte": "GENS"
+  },
+  {
+   "plan": "B4",
+   "texte": "VA NON SEULEMENT"
+  },
+  {
+   "plan": "B4",
+   "texte": "DEVOIR"
+  },
+  {
+   "plan": "B4",
+   "texte": "AFFRONTER"
+  },
+  {
+   "plan": "B5",
+   "texte": "MAIS"
+  },
+  {
+   "plan": "B5",
+   "texte": "RÉGLER."
+  },
+  {
+   "plan": "FIN",
+   "texte": "JEAN-LUC"
+  },
+  {
+   "plan": "FIN",
+   "texte": "MÉLENCHON"
+  },
+  {
+   "plan": "FIN",
+   "texte": "2027"
+  }
+ ],
+ "video": [
+  {
+   "id": "A1",
+   "clip": "R9_A1.mov",
+   "folder": "genR9",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R9/out/R9_A1.mov",
+   "s": 0,
+   "e": 89,
+   "rec": 0,
+   "dur": 89,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "ouverture sur les jeunes de Valence de dos qui applaudissent (personne ne parle à l'image) + foule émeraude + salle de dos, tirages scotchés, un de plus sur les frappes",
+   "kind": "collage",
+   "temps": 7.02,
+   "photos": [
+    {
+     "fichier": "lot7/sources/R9-melenchon-valence-jeunes.mp4",
+     "in_s": 20.1,
+     "cadre_source": [
+      0,
+      170,
+      1500,
+      1080
+     ],
+     "tirage": "mono",
+     "url": "https://www.youtube.com/watch?v=IYegq2-6-go",
+     "t_youtube_s": 2960.1
+    },
+    {
+     "fichier": "lot7/sources/R9-melenchon-valence-jeunes.mp4",
+     "in_s": 7.0,
+     "cadre_source": [
+      0,
+      200,
+      1560,
+      1080
+     ],
+     "tirage": "emer",
+     "url": "https://www.youtube.com/watch?v=IYegq2-6-go",
+     "t_youtube_s": 2947.0
+    },
+    {
+     "fichier": "lot7/sources/R9-melenchon-valence-jeunes.mp4",
+     "in_s": 60.3,
+     "cadre_source": [
+      0,
+      200,
+      1500,
+      1080
+     ],
+     "tirage": "mono",
+     "url": "https://www.youtube.com/watch?v=IYegq2-6-go",
+     "t_youtube_s": 3000.3
+    }
+   ]
+  },
+  {
+   "id": "A2",
+   "clip": "R9_A2.mov",
+   "folder": "genR9",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R9/out/R9_A2.mov",
+   "s": 0,
+   "e": 76,
+   "rec": 89,
+   "dur": 76,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "Huma, plan synchro (« humaine que votre génération ») : Mélenchon découpé N&B jusqu'au pupitre, contour autocollant, double tramé émeraude",
+   "kind": "cut",
+   "temps": 6.0,
+   "source": {
+    "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+    "in_s": 31.567,
+    "out_s": 34.1,
+    "fps": 50.0,
+    "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+    "t_youtube_s": 4741.57,
+    "contexte": "Fête de l'Humanité, 12/9/2026 (chaîne JEAN-LUC MÉLENCHON)",
+    "synchro_voix": true
+   }
+  },
+  {
+   "id": "A3",
+   "clip": "R9_A3.mov",
+   "folder": "genR9",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R9/out/R9_A3.mov",
+   "s": 0,
+   "e": 101,
+   "rec": 165,
+   "dur": 101,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "Huma, plan synchro (« jeunes gens, va non seulement devoir affronter, mais régler ») : découpe N&B sur aplat qui change sur les frappes, double tramé noir",
+   "kind": "cut",
+   "temps": 7.97,
+   "source": {
+    "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+    "in_s": 34.1,
+    "out_s": 37.467,
+    "fps": 50.0,
+    "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+    "t_youtube_s": 4744.1,
+    "contexte": "Fête de l'Humanité, 12/9/2026 (chaîne JEAN-LUC MÉLENCHON)",
+    "synchro_voix": true
+   }
+  },
+  {
+   "id": "B1",
+   "clip": "R9_B1.mov",
+   "folder": "genR9",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R9/out/R9_B1.mov",
+   "s": 0,
+   "e": 76,
+   "rec": 266,
+   "dur": 76,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "drop : flash blanc 3 images, Fête de l'Huma main ouverte découpé N&B sur émeraude puis noir, gros mots découpés qui tombent sur les frappes",
+   "kind": "cut",
+   "temps": 6.0,
+   "source": {
+    "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+    "in_s": 49.6,
+    "out_s": 52.133,
+    "fps": 50.0,
+    "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+    "t_youtube_s": 4759.6,
+    "contexte": "Fête de l'Humanité, 12/9/2026 (chaîne JEAN-LUC MÉLENCHON)",
+    "synchro_voix": false
+   }
+  },
+  {
+   "id": "B2",
+   "clip": "R9_B2.mov",
+   "folder": "genR9",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R9/out/R9_B2.mov",
+   "s": 0,
+   "e": 25,
+   "rec": 342,
+   "dur": 25,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "foule de Valence (drapeaux) en tirage N&B + tirage émeraude, sur noir",
+   "kind": "collage",
+   "temps": 1.97,
+   "photos": [
+    {
+     "fichier": "lot7/sources/R9-melenchon-valence-jeunes.mp4",
+     "in_s": 24.0,
+     "cadre_source": [
+      0,
+      300,
+      1560,
+      1080
+     ],
+     "tirage": "mono",
+     "url": "https://www.youtube.com/watch?v=IYegq2-6-go",
+     "t_youtube_s": 2964.0
+    },
+    {
+     "fichier": "lot7/sources/R9-melenchon-valence-jeunes.mp4",
+     "in_s": 11.5,
+     "cadre_source": [
+      0,
+      200,
+      1560,
+      1080
+     ],
+     "tirage": "emer",
+     "url": "https://www.youtube.com/watch?v=IYegq2-6-go",
+     "t_youtube_s": 2951.5
+    }
+   ]
+  },
+  {
+   "id": "B3",
+   "clip": "R9_B3.mov",
+   "folder": "genR9",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R9/out/R9_B3.mov",
+   "s": 0,
+   "e": 26,
+   "rec": 367,
+   "dur": 26,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "la salle de Valence de dos face à la scène + foule, sur émeraude",
+   "kind": "collage",
+   "temps": 2.05,
+   "photos": [
+    {
+     "fichier": "lot7/sources/R9-melenchon-valence-jeunes.mp4",
+     "in_s": 63.4,
+     "cadre_source": [
+      0,
+      200,
+      1500,
+      1080
+     ],
+     "tirage": "mono",
+     "url": "https://www.youtube.com/watch?v=IYegq2-6-go",
+     "t_youtube_s": 3003.4
+    },
+    {
+     "fichier": "lot7/sources/R9-melenchon-valence-jeunes.mp4",
+     "in_s": 26.0,
+     "cadre_source": [
+      0,
+      300,
+      1560,
+      1080
+     ],
+     "tirage": "mono",
+     "url": "https://www.youtube.com/watch?v=IYegq2-6-go",
+     "t_youtube_s": 2966.0
+    }
+   ]
+  },
+  {
+   "id": "B4",
+   "clip": "R9_B4.mov",
+   "folder": "genR9",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R9/out/R9_B4.mov",
+   "s": 0,
+   "e": 38,
+   "rec": 393,
+   "dur": 38,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "Fête de l'Huma bras ouverts (autre moment), découpé N&B sur papier blanc, double tramé émeraude",
+   "kind": "cut",
+   "temps": 3.0,
+   "source": {
+    "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+    "in_s": 45.5,
+    "out_s": 46.767,
+    "fps": 50.0,
+    "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+    "t_youtube_s": 4755.5,
+    "contexte": "Fête de l'Humanité, 12/9/2026 (chaîne JEAN-LUC MÉLENCHON)",
+    "synchro_voix": false
+   }
+  },
+  {
+   "id": "B5",
+   "clip": "R9_B5.mov",
+   "folder": "genR9",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R9/out/R9_B5.mov",
+   "s": 0,
+   "e": 37,
+   "rec": 431,
+   "dur": 37,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "la foule de Valence plein cadre en N&B, bords déchirés ; MAIS RÉGLER. en grosses lettres découpées",
+   "kind": "full",
+   "temps": 2.92,
+   "source": {
+    "fichier": "lot7/sources/R9-melenchon-valence-jeunes.mp4",
+    "in_s": 13.2,
+    "out_s": 14.433,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=IYegq2-6-go",
+    "t_youtube_s": 2953.2,
+    "contexte": "meeting des AMFiS, Valence, 23/8/2026 (chaîne JEAN-LUC MÉLENCHON), extrait 2940-3010 s",
+    "synchro_voix": false
+   }
+  },
+  {
+   "id": "B6",
+   "clip": "R9_B6.mov",
+   "folder": "genR9",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R9/out/R9_B6.mov",
+   "s": 0,
+   "e": 26,
+   "rec": 468,
+   "dur": 26,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "Fête de l'Huma, bras tendu : silhouette blanche 3 images puis Mélenchon N&B sur émeraude, sans texte",
+   "kind": "sil",
+   "temps": 2.05,
+   "source": {
+    "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+    "in_s": 65.2,
+    "out_s": 66.067,
+    "fps": 50.0,
+    "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+    "t_youtube_s": 4775.2,
+    "contexte": "Fête de l'Humanité, 12/9/2026 (chaîne JEAN-LUC MÉLENCHON)",
+    "synchro_voix": false
+   },
+   "decoupe": {
+    "outil": "_claude/outils/decoupe.py",
+    "cadre": [
+     260,
+     40,
+     1520,
+     815
+    ],
+    "gauche": 0.0,
+    "droite": 0.0,
+    "haut": 0.0,
+    "morceaux": [
+     1
+    ],
+    "bas_net_min": 0.488
+   }
+  },
+  {
+   "id": "FIN",
+   "clip": "R9_FIN.mov",
+   "folder": "genR9",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R9/out/R9_FIN.mov",
+   "s": 0,
+   "e": 76,
+   "rec": 494,
+   "dur": 76,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "carton final propre (papier blanc déchiré scotché sur émeraude, noir + émeraude) : son nom et 2027 (année de l'élection)",
+   "kind": "card",
+   "temps": 6.0
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "R9-mix.wav",
+   "folder": "genR9",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R9/out/R9-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS : voix 29.12-37.02 s (+7 dB) à 0.52 s ; Meuda dès 23.877 s du complet, -16 dB sous la voix, montée, -4 dB au drop, fondu de fin 0,3 s"
+  }
+ ],
+ "stems": [
+  "lot7/_claude/gen/R9/out/R9-voix.wav",
+  "lot7/_claude/gen/R9/out/R9-musique.wav"
+ ],
+ "logos_exclus": "Huma : pupitre FÊTE DE L'HUMA sous la découpe (cadres y < 815) ; Valence : filigrane MELENCHON 2027.fr (haut droite) hors de tous les cadres"
+}

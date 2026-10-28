@@ -1,0 +1,386 @@
+{
+ "name": "G4 - Glow - Obono",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 14.9,
+ "note": "Lot 3, glow COULEUR (aucune image N&B). Coupes sur les kicks réels (rythme/frappes.json). Plans ProRes 9:16 30 i/s prêts (recadrés, poussées, étalonnés, texte cuit sur A1/A2, flash cuit sur B1, fondu cuit sur B10). Ralentis : speed_pct + Optical Flow. Générateur : lot3/_claude/gen/G4/genG4.py, halo #9F80FF",
+ "musique": {
+  "fichier": "lot3/sons/G4-pastel-ghost-dark-beach_complet.wav",
+  "debut_extrait_s": 68.938,
+  "entree_pleine_timeline_s": 5.25,
+  "bpm_reel": 129.9,
+  "kicks_timeline_s": [
+   0.175,
+   0.639,
+   1.098,
+   1.561,
+   2.019,
+   2.482,
+   2.944,
+   3.407,
+   3.87,
+   4.327,
+   4.789,
+   5.25,
+   5.714,
+   6.178,
+   6.637,
+   7.096,
+   7.563,
+   8.021,
+   8.482,
+   8.943,
+   9.407,
+   9.868,
+   10.329,
+   10.791,
+   11.252,
+   11.713,
+   12.175,
+   12.634,
+   13.098,
+   13.563,
+   14.022,
+   14.482
+  ],
+  "sous_la_voix": "ducking : morceau passe-bas 420 Hz -7 dB de 0 à 5.25 s, plein ensuite"
+ },
+ "phrase": {
+  "source": "https://youtu.be/wn6qL6YseFY 1540,08-1544,74 s (LCI 24/09/2026, chaîne de Danièle Obono)",
+  "texte": "Ce que les gens ne supportent pas, c'est de voir autant de richesses dans un pays où il y a 10 millions de pauvres.",
+  "timeline_s": [
+   0.2,
+   4.86
+  ]
+ },
+ "textes": [
+  {
+   "t0": 0.2,
+   "t1": 0.62,
+   "ligne": "CE QUE LES GENS"
+  },
+  {
+   "t0": 0.62,
+   "t1": 1.52,
+   "ligne": "NE SUPPORTENT PAS"
+  },
+  {
+   "t0": 1.52,
+   "t1": 2.12,
+   "ligne": "C'EST DE VOIR"
+  },
+  {
+   "t0": 2.12,
+   "t1": 3.18,
+   "ligne": "AUTANT DE RICHESSES"
+  },
+  {
+   "t0": 3.18,
+   "t1": 3.92,
+   "ligne": "DANS UN PAYS"
+  },
+  {
+   "t0": 3.92,
+   "t1": 4.26,
+   "ligne": "OÙ IL Y A"
+  },
+  {
+   "t0": 4.26,
+   "t1": 4.58,
+   "ligne": "10 MILLIONS"
+  },
+  {
+   "t0": 4.58,
+   "t1": 5.25,
+   "ligne": "DE PAUVRES"
+  }
+ ],
+ "halo": "#9F80FF (colonne violette du plateau LCI)",
+ "video": [
+  {
+   "id": "A1",
+   "clip": "G4_A1.mov",
+   "folder": "G4",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/G4/out/G4_A1.mov",
+   "s": 0,
+   "e": 88,
+   "clip_fps": 30,
+   "rec": 0,
+   "dur": 88,
+   "track": 1,
+   "note": "phrase : gros plan LCI pris +5,10 s (« C'est ça que les gens ne supportent pas », lèvres raccord), cadre fixe (visage trop grand pour pousser)",
+   "source": {
+    "fichier": "lot3/sources/G4-obono-lci-2026-09-24-a.mp4",
+    "in_s": 144.98,
+    "out_s": 147.913,
+    "youtube": "wn6qL6YseFY 1544.98-1547.91 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo ni bandeau), glow couleur violet, texte cuit",
+   "frappe_s": 0.0,
+   "poussee": "x1.00 -> x1.00, du kick 0.000 s au kick 2.944 s (temps timeline)"
+  },
+  {
+   "id": "A2",
+   "clip": "G4_A2.mov",
+   "folder": "G4",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/G4/out/G4_A2.mov",
+   "s": 0,
+   "e": 70,
+   "clip_fps": 30,
+   "rec": 88,
+   "dur": 70,
+   "track": 1,
+   "note": "suite de la phrase en synchro exacte, flash doux sur la coupe (même caméra que A1)",
+   "source": {
+    "fichier": "lot3/sources/G4-obono-lci-2026-09-24-a.mp4",
+    "in_s": 142.824,
+    "out_s": 145.157,
+    "youtube": "wn6qL6YseFY 1542.82-1545.16 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo ni bandeau), glow couleur violet, texte cuit",
+   "frappe_s": 2.944,
+   "poussee": "x1.00 -> x1.00, du kick 2.944 s au kick 5.250 s (temps timeline)"
+  },
+  {
+   "id": "B1",
+   "clip": "G4_B1.mov",
+   "folder": "G4",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/G4/out/G4_B1.mov",
+   "s": 0,
+   "e": 27,
+   "clip_fps": 30,
+   "rec": 158,
+   "dur": 27,
+   "track": 1,
+   "note": "drop : flash, BFMTV veste jaune, main levée",
+   "source": {
+    "fichier": "lot3/sources/G4-obono-bfmtv-2026-09-04.mp4",
+    "in_s": 43.2,
+    "out_s": 44.1,
+    "youtube": "XDCpNQsFZWc 1543.20-1544.10 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo ni bandeau), glow couleur violet, flash 0,13 s cuit",
+   "frappe_s": 5.25,
+   "poussee": "x1.00 -> x1.03, du kick 5.250 s au kick 6.178 s (temps timeline)"
+  },
+  {
+   "id": "B2",
+   "clip": "G4_B2.mov",
+   "folder": "G4",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/G4/out/G4_B2.mov",
+   "s": 0,
+   "e": 28,
+   "clip_fps": 30,
+   "rec": 185,
+   "dur": 28,
+   "track": 1,
+   "note": "gros plan LCI, regard intense (sans bandeau nom)",
+   "source": {
+    "fichier": "lot3/sources/G4-obono-lci-2026-09-24-a.mp4",
+    "in_s": 53.0,
+    "out_s": 53.933,
+    "youtube": "wn6qL6YseFY 1453.00-1453.93 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo ni bandeau), glow couleur violet",
+   "frappe_s": 6.178,
+   "poussee": "x1.00 -> x1.02, du kick 6.178 s au kick 7.096 s (temps timeline)"
+  },
+  {
+   "id": "B3",
+   "clip": "G4_B3.mov",
+   "folder": "G4",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/G4/out/G4_B3.mov",
+   "s": 0,
+   "e": 28,
+   "clip_fps": 30,
+   "rec": 213,
+   "dur": 28,
+   "track": 1,
+   "note": "gros plan LCI (ralenti) ; plan moyen écarté : nom de l'émission sur le décor",
+   "source": {
+    "fichier": "lot3/sources/G4-obono-lci-2026-09-24-a.mp4",
+    "in_s": 76.0,
+    "out_s": 76.467,
+    "youtube": "wn6qL6YseFY 1476.00-1476.47 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo ni bandeau), glow couleur violet",
+   "frappe_s": 7.096,
+   "poussee": "x1.00 -> x1.02, du kick 7.096 s au kick 8.021 s (temps timeline)",
+   "speed_pct": 50.0,
+   "retime": "optical_flow",
+   "ralenti": "50 % : clip 30 i/s à vitesse normale, Resolve à 50 % (Optical Flow, Speed Warp better)"
+  },
+  {
+   "id": "B4",
+   "clip": "G4_B4.mov",
+   "folder": "G4",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/G4/out/G4_B4.mov",
+   "s": 0,
+   "e": 27,
+   "clip_fps": 30,
+   "rec": 241,
+   "dur": 27,
+   "track": 1,
+   "note": "gros plan LCI, elle répond",
+   "source": {
+    "fichier": "lot3/sources/G4-obono-lci-2026-09-24-b.mp4",
+    "in_s": 68.5,
+    "out_s": 69.4,
+    "youtube": "wn6qL6YseFY 938.50-939.40 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo ni bandeau), glow couleur violet",
+   "frappe_s": 8.021,
+   "poussee": "x1.00 -> x1.02, du kick 8.021 s au kick 8.943 s (temps timeline)"
+  },
+  {
+   "id": "B5",
+   "clip": "G4_B5.mov",
+   "folder": "G4",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/G4/out/G4_B5.mov",
+   "s": 0,
+   "e": 28,
+   "clip_fps": 30,
+   "rec": 268,
+   "dur": 28,
+   "track": 1,
+   "note": "BFMTV gros plan, regard de côté",
+   "source": {
+    "fichier": "lot3/sources/G4-obono-bfmtv-2026-09-04.mp4",
+    "in_s": 154.5,
+    "out_s": 155.433,
+    "youtube": "XDCpNQsFZWc 1654.50-1655.43 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo ni bandeau), glow couleur violet",
+   "frappe_s": 8.943,
+   "poussee": "x1.00 -> x1.03, du kick 8.943 s au kick 9.868 s (temps timeline)"
+  },
+  {
+   "id": "B6",
+   "clip": "G4_B6.mov",
+   "folder": "G4",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/G4/out/G4_B6.mov",
+   "s": 0,
+   "e": 28,
+   "clip_fps": 30,
+   "rec": 296,
+   "dur": 28,
+   "track": 1,
+   "note": "gros plan LCI, elle parle",
+   "source": {
+    "fichier": "lot3/sources/G4-obono-lci-2026-09-24-a.mp4",
+    "in_s": 49.0,
+    "out_s": 49.933,
+    "youtube": "wn6qL6YseFY 1449.00-1449.93 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo ni bandeau), glow couleur violet",
+   "frappe_s": 9.868,
+   "poussee": "x1.00 -> x1.02, du kick 9.868 s au kick 10.791 s (temps timeline)"
+  },
+  {
+   "id": "B7",
+   "clip": "G4_B7.mov",
+   "folder": "G4",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/G4/out/G4_B7.mov",
+   "s": 0,
+   "e": 27,
+   "clip_fps": 30,
+   "rec": 324,
+   "dur": 27,
+   "track": 1,
+   "note": "BFMTV gros plan (ralenti)",
+   "source": {
+    "fichier": "lot3/sources/G4-obono-bfmtv-2026-09-04.mp4",
+    "in_s": 155.6,
+    "out_s": 156.05,
+    "youtube": "XDCpNQsFZWc 1655.60-1656.05 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo ni bandeau), glow couleur violet",
+   "frappe_s": 10.791,
+   "poussee": "x1.00 -> x1.03, du kick 10.791 s au kick 11.713 s (temps timeline)",
+   "speed_pct": 50.0,
+   "retime": "optical_flow",
+   "ralenti": "50 % : clip 30 i/s à vitesse normale, Resolve à 50 % (Optical Flow, Speed Warp better)"
+  },
+  {
+   "id": "B8",
+   "clip": "G4_B8.mov",
+   "folder": "G4",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/G4/out/G4_B8.mov",
+   "s": 0,
+   "e": 28,
+   "clip_fps": 30,
+   "rec": 351,
+   "dur": 28,
+   "track": 1,
+   "note": "BFMTV gros plan",
+   "source": {
+    "fichier": "lot3/sources/G4-obono-bfmtv-2026-09-04.mp4",
+    "in_s": 158.7,
+    "out_s": 159.633,
+    "youtube": "XDCpNQsFZWc 1658.70-1659.63 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo ni bandeau), glow couleur violet",
+   "frappe_s": 11.713,
+   "poussee": "x1.00 -> x1.03, du kick 11.713 s au kick 12.634 s (temps timeline)"
+  },
+  {
+   "id": "B9",
+   "clip": "G4_B9.mov",
+   "folder": "G4",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/G4/out/G4_B9.mov",
+   "s": 0,
+   "e": 28,
+   "clip_fps": 30,
+   "rec": 379,
+   "dur": 28,
+   "track": 1,
+   "note": "gros plan LCI, main levée",
+   "source": {
+    "fichier": "lot3/sources/G4-obono-lci-2026-09-24-a.mp4",
+    "in_s": 70.0,
+    "out_s": 70.933,
+    "youtube": "wn6qL6YseFY 1470.00-1470.93 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo ni bandeau), glow couleur violet",
+   "frappe_s": 12.634,
+   "poussee": "x1.00 -> x1.02, du kick 12.634 s au kick 13.563 s (temps timeline)"
+  },
+  {
+   "id": "B10",
+   "clip": "G4_B10.mov",
+   "folder": "G4",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/G4/out/G4_B10.mov",
+   "s": 0,
+   "e": 40,
+   "clip_fps": 30,
+   "rec": 407,
+   "dur": 40,
+   "track": 1,
+   "note": "BFMTV gros plan (ralenti), fondu au noir 0,6 s",
+   "source": {
+    "fichier": "lot3/sources/G4-obono-bfmtv-2026-09-04.mp4",
+    "in_s": 41.4,
+    "out_s": 42.067,
+    "youtube": "XDCpNQsFZWc 1541.40-1542.07 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo ni bandeau), glow couleur violet, fondu au noir 0,6 s cuit",
+   "frappe_s": 13.563,
+   "poussee": "x1.00 -> x1.04, du kick 13.563 s au kick 14.900 s (temps timeline)",
+   "speed_pct": 50.0,
+   "retime": "optical_flow",
+   "ralenti": "50 % : clip 30 i/s à vitesse normale, Resolve à 50 % (Optical Flow, Speed Warp better)"
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "G4-mix.wav",
+   "folder": "G4",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/G4/out/G4-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix final -14 LUFS : voix 0.18-4.98 s, Dark Beach étouffé dessous puis plein au palier 5.25 s, fondu de fin"
+  }
+ ]
+}

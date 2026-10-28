@@ -1,0 +1,480 @@
+{
+ "name": "K3 - Karaoké discours - Guetté",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 19.633,
+ "note": "Plans ProRes 1080x1920 30 i/s prêts (recadrés, étalonnés, sous-titres cuits). Aucun ralenti. Générateur : lot5/_claude/gen/K3/genK3.py ; calage : timing.py",
+ "phrase": {
+  "texte": "Ce sont les riches qui dessinent la ville, ce sont les pauvres qui construisent la ville, ce sont les riches qui privatisent les réseaux et ce sont les pauvres qui subissent les pollutions de ces réseaux. Et il est temps que ça change.",
+  "source_url": "https://www.youtube.com/watch?v=9Cgr6La_XaE",
+  "in_s_url": 241.88,
+  "out_s_url": 254.82,
+  "chaine": "Clémence Guetté (chaîne officielle)",
+  "date": "2026-02-13",
+  "blocs_voix_timeline": [
+   {
+    "url_in": 241.83,
+    "url_out": 254.92,
+    "timeline_in": 0.755
+   }
+  ]
+ },
+ "textes": {
+  "police": "Avenir Next Heavy Italic",
+  "couleur": "#FFD700",
+  "taille": "jusqu'à 150 px (1 à 3 lignes), bloc ≤ 60 % de large",
+  "position": "bas-centre, bas du bloc à 71,5 % (zone sûre TikTok)",
+  "contour": "sombre net + ombre douce, pas de fond",
+  "guillemets": "aucun",
+  "fragments": [
+   {
+    "t0": 0.805,
+    "t1": 1.845,
+    "texte": "Ce sont les riches"
+   },
+   {
+    "t0": 1.845,
+    "t1": 3.605,
+    "texte": "qui dessinent la ville"
+   },
+   {
+    "t0": 3.605,
+    "t1": 4.485,
+    "texte": "ce sont les pauvres"
+   },
+   {
+    "t0": 4.485,
+    "t1": 6.022,
+    "texte": "qui construisent la ville"
+   },
+   {
+    "t0": 6.022,
+    "t1": 6.795,
+    "texte": "ce sont les riches"
+   },
+   {
+    "t0": 6.795,
+    "t1": 8.421,
+    "texte": "qui privatisent les réseaux"
+   },
+   {
+    "t0": 8.421,
+    "t1": 9.622,
+    "texte": "et ce sont les pauvres"
+   },
+   {
+    "t0": 9.622,
+    "t1": 11.224,
+    "texte": "qui subissent les pollutions"
+   },
+   {
+    "t0": 11.224,
+    "t1": 12.022,
+    "texte": "de ces réseaux"
+   },
+   {
+    "t0": 12.022,
+    "t1": 14.043,
+    "texte": "Et il est temps que ça change"
+   }
+  ]
+ },
+ "video": [
+  {
+   "id": "O1",
+   "clip": "K3_O1.mov",
+   "folder": "genK3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/K3/out/K3_O1.mov",
+   "s": 0,
+   "e": 181,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 0,
+   "dur": 181,
+   "track": 1,
+   "note": "ouverture longue synchro : Guetté au pupitre de Bezons, Ce sont les riches qui dessinent la ville, ce sont les pauvres qui construisent la ville",
+   "source": {
+    "fichier": "lot5/sources/K3-guette-bezons-riches.mp4",
+    "in_s": 9.075,
+    "out_s": 15.108,
+    "url": "https://www.youtube.com/watch?v=9Cgr6La_XaE",
+    "chaine": "Clémence Guetté (meeting de Bezons)",
+    "date": "2026-02-13",
+    "temps_url_s": 241.07
+   },
+   "effets": "recadrage 9:16 (suivi du visage, bornes [300, 0, 1620, 845]), poussée lente 1.00->1.10, étalonnage couleur doux + vignette + grain, sous-titres cuits",
+   "vues_debut_fin": [
+    [
+     907.7,
+     422.5,
+     845.0
+    ],
+    [
+     929.6,
+     428.7,
+     768.2
+    ]
+   ]
+  },
+  {
+   "id": "F2",
+   "clip": "K3_F2.mov",
+   "folder": "genK3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/K3/out/K3_F2.mov",
+   "s": 0,
+   "e": 23,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 181,
+   "dur": 23,
+   "track": 1,
+   "note": "ce sont les riches : le public de Meaux (personne ne parle, Guetté hors champ)",
+   "source": {
+    "fichier": "lot2/sources/C1-guette-meaux-08.mp4",
+    "in_s": 0.5,
+    "out_s": 1.267,
+    "url": "https://www.youtube.com/watch?v=Cse3O99mlR0",
+    "chaine": "Clémence Guetté (meeting de Meaux)",
+    "date": "2026-03-10",
+    "temps_url_s": "extrait lot2 (voir lot2/_claude/derush-C.json)"
+   },
+   "effets": "recadrage 9:16 (centre fixe sans visage coupé, bornes [560, 0, 1620, 1080]), poussée lente 1.00->1.03, étalonnage couleur doux + vignette + grain, sous-titres cuits",
+   "vues_debut_fin": [
+    [
+     1151.8,
+     540.0,
+     1080.0
+    ],
+    [
+     1151.8,
+     540.0,
+     1048.5
+    ]
+   ]
+  },
+  {
+   "id": "F3",
+   "clip": "K3_F3.mov",
+   "folder": "genK3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/K3/out/K3_F3.mov",
+   "s": 0,
+   "e": 49,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 204,
+   "dur": 49,
+   "track": 1,
+   "note": "qui privatisent les réseaux : synchro (même source, même moment), gros plan",
+   "source": {
+    "fichier": "lot5/sources/K3-guette-bezons-riches.mp4",
+    "in_s": 15.87,
+    "out_s": 17.503,
+    "url": "https://www.youtube.com/watch?v=9Cgr6La_XaE",
+    "chaine": "Clémence Guetté (meeting de Bezons)",
+    "date": "2026-02-13",
+    "temps_url_s": 247.87
+   },
+   "effets": "recadrage 9:16 (suivi du visage, bornes [300, 0, 1620, 845]), poussée lente 1.32->1.40, étalonnage couleur doux + vignette + grain, sous-titres cuits",
+   "vues_debut_fin": [
+    [
+     927.7,
+     320.1,
+     640.2
+    ],
+    [
+     865.6,
+     348.8,
+     603.9
+    ]
+   ]
+  },
+  {
+   "id": "F4",
+   "clip": "K3_F4.mov",
+   "folder": "genK3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/K3/out/K3_F4.mov",
+   "s": 0,
+   "e": 36,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 253,
+   "dur": 36,
+   "track": 1,
+   "note": "et ce sont les pauvres : le public populaire du premier rang à Meaux (bouches fermées)",
+   "source": {
+    "fichier": "lot2/sources/C1-guette-meaux-03.mp4",
+    "in_s": 1.0,
+    "out_s": 2.2,
+    "url": "https://www.youtube.com/watch?v=Cse3O99mlR0",
+    "chaine": "Clémence Guetté (meeting de Meaux)",
+    "date": "2026-03-10",
+    "temps_url_s": "extrait lot2 (voir lot2/_claude/derush-C.json)"
+   },
+   "effets": "recadrage 9:16 (centre fixe sans visage coupé, bornes [600, 0, 1620, 1080]), poussée lente 1.00->1.06, étalonnage couleur doux + vignette + grain, sous-titres cuits",
+   "vues_debut_fin": [
+    [
+     1035.8,
+     540.0,
+     1080.0
+    ],
+    [
+     1035.8,
+     540.0,
+     1018.9
+    ]
+   ]
+  },
+  {
+   "id": "F5",
+   "clip": "K3_F5.mov",
+   "folder": "genK3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/K3/out/K3_F5.mov",
+   "s": 0,
+   "e": 48,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 289,
+   "dur": 48,
+   "track": 1,
+   "note": "qui subissent les pollutions : AMFIS 2026, la foule de dos",
+   "source": {
+    "fichier": "lot2/sources/C1-guette-amfis-01.mp4",
+    "in_s": 3.5,
+    "out_s": 5.1,
+    "url": "https://www.youtube.com/watch?v=HW03wZDi6Tk",
+    "chaine": "La France insoumise (AMFIS 2026)",
+    "date": "2026-08-20",
+    "temps_url_s": "extrait lot2 (voir lot2/_claude/derush-C.json)"
+   },
+   "effets": "recadrage 9:16 (centre fixe sans visage coupé, bornes [160, 0, 1620, 1080]), poussée lente 1.00->1.03, étalonnage couleur doux + vignette + grain, sous-titres cuits",
+   "vues_debut_fin": [
+    [
+     895.8,
+     540.0,
+     1080.0
+    ],
+    [
+     895.8,
+     540.0,
+     1048.5
+    ]
+   ]
+  },
+  {
+   "id": "F6",
+   "clip": "K3_F6.mov",
+   "folder": "genK3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/K3/out/K3_F6.mov",
+   "s": 0,
+   "e": 24,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 337,
+   "dur": 24,
+   "track": 1,
+   "note": "de ces réseaux : synchro (même source, même moment), plan moyen avant le resserrement sur Et il est temps",
+   "source": {
+    "fichier": "lot5/sources/K3-guette-bezons-riches.mp4",
+    "in_s": 20.299,
+    "out_s": 21.099,
+    "url": "https://www.youtube.com/watch?v=9Cgr6La_XaE",
+    "chaine": "Clémence Guetté (meeting de Bezons)",
+    "date": "2026-02-13",
+    "temps_url_s": 252.3
+   },
+   "effets": "recadrage 9:16 (suivi du visage, bornes [300, 0, 1620, 845]), poussée lente 1.00->1.04, étalonnage couleur doux + vignette + grain, sous-titres cuits",
+   "vues_debut_fin": [
+    [
+     889.1,
+     422.5,
+     845.0
+    ],
+    [
+     895.2,
+     406.2,
+     812.5
+    ]
+   ]
+  },
+  {
+   "id": "F7",
+   "clip": "K3_F7.mov",
+   "folder": "genK3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/K3/out/K3_F7.mov",
+   "s": 0,
+   "e": 60,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 361,
+   "dur": 60,
+   "track": 1,
+   "note": "Et il est temps que ça change : retour synchro, plus serré",
+   "source": {
+    "fichier": "lot5/sources/K3-guette-bezons-riches.mp4",
+    "in_s": 21.097,
+    "out_s": 23.097,
+    "url": "https://www.youtube.com/watch?v=9Cgr6La_XaE",
+    "chaine": "Clémence Guetté (meeting de Bezons)",
+    "date": "2026-02-13",
+    "temps_url_s": 253.1
+   },
+   "effets": "recadrage 9:16 (suivi du visage, bornes [300, 0, 1620, 845]), poussée lente 1.18->1.25, étalonnage couleur doux + vignette + grain, sous-titres cuits",
+   "vues_debut_fin": [
+    [
+     898.1,
+     358.1,
+     716.1
+    ],
+    [
+     923.7,
+     337.8,
+     675.6
+    ]
+   ]
+  },
+  {
+   "id": "R1",
+   "clip": "K3_R1.mov",
+   "folder": "genK3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/K3/out/K3_R1.mov",
+   "s": 0,
+   "e": 12,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 421,
+   "dur": 12,
+   "track": 1,
+   "note": "drop Bitch (musique seule) : Bezons, penchée sur le pupitre, regard dur",
+   "source": {
+    "fichier": "lot2/sources/C1-guette-bezons-01.mp4",
+    "in_s": 1.0,
+    "out_s": 1.4,
+    "url": "https://www.youtube.com/watch?v=9Cgr6La_XaE",
+    "chaine": "Clémence Guetté (meeting de Bezons)",
+    "date": "2026-02-13",
+    "temps_url_s": "extrait lot2 (voir lot2/_claude/derush-C.json)"
+   },
+   "effets": "recadrage 9:16 (suivi du visage, bornes [0, 0, 1620, 800]), poussée lente 1.05->1.11, étalonnage couleur doux + vignette + grain",
+   "vues_debut_fin": [
+    [
+     922.1,
+     381.0,
+     761.9
+    ],
+    [
+     924.8,
+     359.4,
+     718.8
+    ]
+   ]
+  },
+  {
+   "id": "R2",
+   "clip": "K3_R2.mov",
+   "folder": "genK3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/K3/out/K3_R2.mov",
+   "s": 0,
+   "e": 12,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 433,
+   "dur": 12,
+   "track": 1,
+   "note": "rafale be (musique seule) : Meaux, tête levée vers la salle, rampe rouge",
+   "source": {
+    "fichier": "lot2/sources/C1-guette-meaux-07.mp4",
+    "in_s": 4.0,
+    "out_s": 4.4,
+    "url": "https://www.youtube.com/watch?v=Cse3O99mlR0",
+    "chaine": "Clémence Guetté (meeting de Meaux)",
+    "date": "2026-03-10",
+    "temps_url_s": "extrait lot2 (voir lot2/_claude/derush-C.json)"
+   },
+   "effets": "recadrage 9:16 (centre fixe sans visage coupé, bornes [0, 0, 1620, 850]), poussée lente 1.00->1.03, étalonnage couleur doux + vignette + grain",
+   "vues_debut_fin": [
+    [
+     750,
+     425,
+     850.0
+    ],
+    [
+     750,
+     425,
+     825.2
+    ]
+   ]
+  },
+  {
+   "id": "R3",
+   "clip": "K3_R3.mov",
+   "folder": "genK3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/K3/out/K3_R3.mov",
+   "s": 0,
+   "e": 24,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 445,
+   "dur": 24,
+   "track": 1,
+   "note": "humble (musique seule) : Meaux, Guetté seule dans le noir, rampe rouge",
+   "source": {
+    "fichier": "lot2/sources/C1-guette-meaux-04.mp4",
+    "in_s": 1.5,
+    "out_s": 2.3,
+    "url": "https://www.youtube.com/watch?v=Cse3O99mlR0",
+    "chaine": "Clémence Guetté (meeting de Meaux)",
+    "date": "2026-03-10",
+    "temps_url_s": "extrait lot2 (voir lot2/_claude/derush-C.json)"
+   },
+   "effets": "recadrage 9:16 (suivi du visage, bornes [0, 0, 1620, 850]), poussée lente 1.00->1.06, étalonnage couleur doux + vignette + grain",
+   "vues_debut_fin": [
+    [
+     819.0,
+     425.0,
+     850.0
+    ],
+    [
+     803.0,
+     439.2,
+     801.9
+    ]
+   ]
+  },
+  {
+   "id": "DOC",
+   "clip": "K3_DOC.mov",
+   "folder": "genK3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/K3/out/K3_DOC.mov",
+   "s": 0,
+   "e": 120,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 469,
+   "dur": 120,
+   "track": 1,
+   "note": "sit down : document d'époque plein écran, RMC Story 08/10/2026, UNE VICTOIRE DE LFI FERAIT FUIR LE PRÉSIDENT DU MEDEF",
+   "source": {
+    "fichier": "lot4/sources/G6-guette-bfmtv-2026-10-08.mp4",
+    "in_s": 549.0,
+    "out_s": 553.0,
+    "url": "https://www.youtube.com/watch?v=YTteQi-qY9w",
+    "chaine": "RMC Story, Apolline Matin (interview de Clémence Guetté)",
+    "date": "2026-10-08",
+    "temps_url_s": 549.0
+   },
+   "effets": "capture plein écran 9:16 : image recadrée sur Guetté (suivi horizontal du visage, sans logos RMC ni bandeau météo) + titre du bandeau en 2 lignes UNE VICTOIRE DE LFI FERAIT / FUIR LE PRÉSIDENT DU MEDEF (guillemets d'origine retirés par découpe), bloc dans la zone sûre TikTok (x 0,19-0,81, y ≤ 0,735), poussée 1,00->1,03, fondu au noir 0.3 s"
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "K3-mix.wav",
+   "folder": "genK3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/K3/out/K3-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS : musique seule 0.81 s, voix 0.81-13.74 s avec musique -12 dB dessous, remontée jusqu'au drop 14.043 s (Bitch, be humble), fondu 0.3 s"
+  }
+ ]
+}

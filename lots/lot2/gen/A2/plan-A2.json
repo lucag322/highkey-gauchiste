@@ -1,0 +1,365 @@
+{
+ "name": "A2 - Aura N&B - Manuel Bompard",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 14.97,
+ "note": "Plans 9:16 recadrés + étalonnés N&B (gen/A2/out). s/e en images du clip (30 i/s), rec en images timeline 30 i/s. speed_pct : ralenti Resolve Optical Flow + Speed Warp (e - s = durée timeline à vitesse normale). Coupes sur les frappes réelles de Kaaris - Zoo mesurées dans la musique posée (out/A2-frappes.json) : drop = 1er kick de la prod lourde (clic du kick à 50,22 s du complet = 3,808 s timeline, image 114), extrait continu du morceau (rap dès 51,50 s du complet = 5,09 s timeline, aucun raccord) ; temps = 0,476 s (126 BPM) ; aucun plan < 1 temps ; zooms terminés sur la frappe de sortie.",
+ "phrase": "Oui, nous sommes candidats au pouvoir.",
+ "video": [
+  {
+   "id": "hook",
+   "clip": "A2_aura_intro.mov",
+   "folder": "genA2",
+   "s": 0,
+   "e": 38,
+   "rec": 0,
+   "track": 1,
+   "kind": "card"
+  },
+  {
+   "id": "long",
+   "clip": "A2_long.mov",
+   "folder": "genA2",
+   "s": 0,
+   "e": 76,
+   "rec": 38,
+   "track": 1,
+   "kind": "shot",
+   "source": "A2-bompard-convention-a.mp4 @ 44.40 s",
+   "texte": "OUI, NOUS SOMMES / CANDIDATS · AU / POUVOIR (rouge)"
+  },
+  {
+   "id": "poing_b_114",
+   "clip": "A2_poing_b_drop.mov",
+   "folder": "genA2",
+   "s": 0,
+   "e": 29,
+   "rec": 114,
+   "track": 1,
+   "kind": "shot",
+   "source": "A2-bompard-convention-b.mp4 @ 10.90 s",
+   "effet": "drop",
+   "temps": 2.0
+  },
+  {
+   "id": "doigt_143",
+   "clip": "A2_doigt_whip.mov",
+   "folder": "genA2",
+   "s": 0,
+   "e": 43,
+   "rec": 143,
+   "track": 1,
+   "kind": "shot",
+   "source": "A2-bompard-convention-a.mp4 @ 5.85 s",
+   "effet": "whip",
+   "temps": 3.0
+  },
+  {
+   "id": "cote_186",
+   "clip": "A2_cote_whip.mov",
+   "folder": "genA2",
+   "s": 0,
+   "e": 14,
+   "rec": 186,
+   "track": 1,
+   "kind": "shot",
+   "source": "A2-bompard-convention-a.mp4 @ 25.40 s",
+   "effet": "whip",
+   "temps": 1.0
+  },
+  {
+   "id": "poing_200",
+   "clip": "A2_poing_whip.mov",
+   "folder": "genA2",
+   "s": 0,
+   "e": 21,
+   "rec": 200,
+   "track": 1,
+   "kind": "shot",
+   "source": "A2-bompard-convention-a.mp4 @ 37.40 s",
+   "effet": "whip",
+   "temps": 1.5
+  },
+  {
+   "id": "cri_221",
+   "clip": "A2_cri_drop.mov",
+   "folder": "genA2",
+   "s": 0,
+   "e": 22,
+   "rec": 221,
+   "track": 1,
+   "kind": "shot",
+   "source": "A2-bompard-convention-a.mp4 @ 7.55 s",
+   "effet": "drop",
+   "temps": 1.5
+  },
+  {
+   "id": "mains_243",
+   "clip": "A2_mains_whip.mov",
+   "folder": "genA2",
+   "s": 0,
+   "e": 14,
+   "rec": 243,
+   "track": 1,
+   "kind": "shot",
+   "source": "A2-bompard-convention-b.mp4 @ 25.90 s",
+   "effet": "whip",
+   "temps": 1.0
+  },
+  {
+   "id": "audience_257",
+   "clip": "A2_audience.mov",
+   "folder": "genA2",
+   "s": 0,
+   "e": 43,
+   "rec": 257,
+   "track": 1,
+   "kind": "shot",
+   "source": "A2-bompard-convention-a.mp4 @ 82.60 s",
+   "effet": "cut",
+   "temps": 3.0,
+   "speed_pct": 60,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "aura_300",
+   "clip": "A2_aura.mov",
+   "folder": "genA2",
+   "s": 0,
+   "e": 14,
+   "rec": 300,
+   "track": 1,
+   "kind": "card"
+  },
+  {
+   "id": "regard_314",
+   "clip": "A2_regard_whip.mov",
+   "folder": "genA2",
+   "s": 0,
+   "e": 21,
+   "rec": 314,
+   "track": 1,
+   "kind": "shot",
+   "source": "A2-bompard-convention-a.mp4 @ 58.90 s",
+   "effet": "whip",
+   "temps": 1.5
+  },
+  {
+   "id": "doigt2_335",
+   "clip": "A2_doigt2_drop.mov",
+   "folder": "genA2",
+   "s": 0,
+   "e": 22,
+   "rec": 335,
+   "track": 1,
+   "kind": "shot",
+   "source": "A2-bompard-convention-a.mp4 @ 11.90 s",
+   "effet": "drop",
+   "temps": 1.5
+  },
+  {
+   "id": "index_357",
+   "clip": "A2_index_whip.mov",
+   "folder": "genA2",
+   "s": 0,
+   "e": 14,
+   "rec": 357,
+   "track": 1,
+   "kind": "shot",
+   "source": "A2-bompard-convention-a.mp4 @ 88.50 s",
+   "effet": "whip",
+   "temps": 1.0
+  },
+  {
+   "id": "pupitre_371",
+   "clip": "A2_pupitre.mov",
+   "folder": "genA2",
+   "s": 0,
+   "e": 43,
+   "rec": 371,
+   "track": 1,
+   "kind": "shot",
+   "source": "A2-bompard-convention-a.mp4 @ 27.60 s",
+   "effet": "cut",
+   "temps": 3.0,
+   "speed_pct": 60,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "fin",
+   "clip": "A2_aura_fin.mov",
+   "folder": "genA2",
+   "s": 0,
+   "e": 35,
+   "rec": 414,
+   "track": 1,
+   "kind": "card"
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "A2-mix.wav",
+   "folder": "genA2",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS : voix synchrone 1,47-3,85 s + musique de 0 à la fin (complet lu dès 46.412 s, ducking -7 dB sous la voix)"
+  }
+ ],
+ "stems": [
+  "lot2/_claude/gen/A2/out/A2-voix.wav",
+  "lot2/_claude/gen/A2/out/A2-musique.wav"
+ ],
+ "musique": {
+  "fichier": "lot2/sons/A2-kaaris-zoo_complet.wav",
+  "frappes_timeline_s": [
+   3.808,
+   4.0456,
+   4.2837,
+   4.7545,
+   5.4102,
+   5.5186,
+   5.834,
+   6.0998,
+   6.1912,
+   6.2967,
+   6.4234,
+   6.4269,
+   6.6571,
+   7.0073,
+   7.1239,
+   7.3746,
+   7.4992,
+   7.6211,
+   7.8507,
+   8.0893,
+   8.5602,
+   8.9169,
+   9.1591,
+   9.2733,
+   9.2792,
+   9.6948,
+   9.9181,
+   9.9934,
+   10.1145,
+   10.2326,
+   10.3049,
+   10.4631,
+   10.623,
+   10.9187,
+   11.1286,
+   11.1808,
+   11.3046,
+   11.4221,
+   11.6595,
+   11.8952,
+   12.3637,
+   13.0399,
+   13.1902,
+   13.7007,
+   13.7971,
+   14.0352,
+   14.05,
+   14.2686,
+   14.722,
+   14.7497,
+   14.9861
+  ],
+  "coupes_frappes_s": [
+   3.808,
+   4.7545,
+   6.1912,
+   6.6571,
+   7.3746,
+   8.0893,
+   8.5602,
+   9.9934,
+   10.4631,
+   11.1808,
+   11.8952,
+   12.3637,
+   13.7971
+  ],
+  "extrait": "continu",
+  "titre": "Kaaris - Zoo",
+  "debut_complet_s": 46.4118,
+  "gain_db": -5.7
+ },
+ "sources": {
+  "long": {
+   "fichier": "lot2/sources/A2-bompard-convention-a.mp4",
+   "t": 44.4,
+   "pourquoi": "plan large salle, phrase « Oui, nous sommes candidats au pouvoir. » (synchrone)"
+  },
+  "poing_b": {
+   "fichier": "lot2/sources/A2-bompard-convention-b.mp4",
+   "t": 10.9,
+   "pourquoi": "gros plan fond orange, poing serré"
+  },
+  "doigt": {
+   "fichier": "lot2/sources/A2-bompard-convention-a.mp4",
+   "t": 5.85,
+   "pourquoi": "gros plan fond vert, doigt levé"
+  },
+  "cote": {
+   "fichier": "lot2/sources/A2-bompard-convention-a.mp4",
+   "t": 25.4,
+   "pourquoi": "au pupitre vu de côté, bras tendu, fond multicolore"
+  },
+  "poing": {
+   "fichier": "lot2/sources/A2-bompard-convention-a.mp4",
+   "t": 37.4,
+   "pourquoi": "gros plan, poing serré, voix forte"
+  },
+  "audience": {
+   "fichier": "lot2/sources/A2-bompard-convention-a.mp4",
+   "t": 82.6,
+   "pourquoi": "depuis le public, silhouettes, Bompard au pupitre"
+  },
+  "cri": {
+   "fichier": "lot2/sources/A2-bompard-convention-a.mp4",
+   "t": 7.55,
+   "pourquoi": "gros plan, poing levé"
+  },
+  "mains": {
+   "fichier": "lot2/sources/A2-bompard-convention-b.mp4",
+   "t": 25.9,
+   "pourquoi": "gros plan, mains ouvertes"
+  },
+  "regard": {
+   "fichier": "lot2/sources/A2-bompard-convention-a.mp4",
+   "t": 58.9,
+   "pourquoi": "gros plan, regard droit"
+  },
+  "orange": {
+   "fichier": "lot2/sources/A2-bompard-convention-b.mp4",
+   "t": 7.0,
+   "pourquoi": "gros plan fond orange, voix forte"
+  },
+  "doigt2": {
+   "fichier": "lot2/sources/A2-bompard-convention-a.mp4",
+   "t": 11.9,
+   "pourquoi": "gros plan, doigt levé"
+  },
+  "index": {
+   "fichier": "lot2/sources/A2-bompard-convention-a.mp4",
+   "t": 88.5,
+   "pourquoi": "gros plan, index levé"
+  },
+  "poing2": {
+   "fichier": "lot2/sources/A2-bompard-convention-a.mp4",
+   "t": 39.2,
+   "pourquoi": "gros plan, poing levé"
+  },
+  "pupitre": {
+   "fichier": "lot2/sources/A2-bompard-convention-a.mp4",
+   "t": 27.6,
+   "pourquoi": "au pupitre vu de côté (fin)"
+  }
+ },
+ "sources_url": {
+  "A2-bompard-convention-a.mp4": "youtube tknIilnZnYI (chaîne Manuel Bompard, Convention municipales LFI), offset_yt 440 s",
+  "A2-bompard-convention-b.mp4": "youtube tknIilnZnYI, offset_yt 105 s"
+ }
+}

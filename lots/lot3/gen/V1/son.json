@@ -1,0 +1,31 @@
+{
+ "titre": "Santé",
+ "artiste": "Stromae",
+ "url": "https://youtu.be/P3QS83ubhHE",
+ "chaine": "Stromae (clip officiel)",
+ "fichier_complet": "lot3/sons/V1-stromae-sante_complet.wav",
+ "fichier_extrait": "lot3/sons/V1-stromae-sante.wav",
+ "extrait_debut_s": 32.945,
+ "extrait_fin_s": 47.345,
+ "bpm": 92,
+ "refrain_morceau_s": 38.875,
+ "refrain_timeline_s": 5.93,
+ "paroles_audibles": "sous la voix (bas, qui monte) : « …des vestes aux vestiaires / Arlette, arrête, toi la fête tu la passes aux toilettes » ; refrain plein : « Et si on célébrait ceux qui ne célèbrent pas / Pour une fois j'aimerais lever mon verre à ceux qui n'en ont pas »",
+ "frappes_coupes_timeline_s": [
+  5.93,
+  6.574,
+  7.246,
+  7.881,
+  8.546,
+  9.181,
+  9.849,
+  10.508,
+  11.143,
+  11.791,
+  12.469,
+  13.111,
+  13.759,
+  14.393
+ ],
+ "note": "frappes détaillées dans frappes.json"
+}

@@ -1,0 +1,31 @@
+{
+ "titre": "Balance ton quoi",
+ "artiste": "Angèle",
+ "url": "https://youtu.be/Hi7Rx3En7-k",
+ "fichier": "lot3/sons/C4-angele-balance-ton-quoi_complet.wav",
+ "extrait_debut_s": 101.21,
+ "extrait_fin_s": 119.635,
+ "bpm": 116.0,
+ "drop_s": 113.435,
+ "drop_timeline_s": 12.225,
+ "frappes_s": [
+  113.435,
+  114.475,
+  115.51,
+  116.8,
+  118.605,
+  119.635
+ ],
+ "frappes_timeline_s": [
+  12.225,
+  13.265,
+  14.3,
+  15.59,
+  17.395,
+  18.425
+ ],
+ "paroles_audibles": [
+  "(sous la voix, -8 dB) Balance ton quoi / Un jour peut-être ça changera / Y'a plus d'respect dans la rue / Tu sais très bien quand t'abuses",
+  "Balance ton quoi ? (x2, refrain après le drop)"
+ ]
+}

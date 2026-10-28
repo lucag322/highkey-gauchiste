@@ -1,0 +1,253 @@
+{
+ "name": "G2 - Glow - Manon Aubry",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 14.55,
+ "note": "Plans ProRes 9:16 prêts (recadrés au-dessus du pupitre, étalonnés, cartons cuits sur A1/A2). Ralentis à faire dans Resolve : speed_pct + Optical Flow ; e-s = images source à vitesse normale. Générateur : lot2/_claude/gen/G2/genG2.py",
+ "phrase": {
+  "texte": "Pendant ce temps-là, les milliardaires, eux, continuent de se gaver. Voilà l'état de votre Union Européenne, Madame von der Leyen.",
+  "fichier": "lot2/sources/G2-aubry-sotEU-2026.mp4",
+  "in_s": 20.1,
+  "out_s": 28.03,
+  "url": "https://www.youtube.com/watch?v=nwc4Hd8pO8o"
+ },
+ "texte_style": {
+  "police": "Avenir Next Bold Italic",
+  "couleur": "#FFFFFF (tout le texte)",
+  "halo": "#6098FF",
+  "halo_source": "mur bleu nuit de l'hémicycle (moyenne RGB [2, 20, 54], éclairci)",
+  "contour": "bleu-noir 2 px",
+  "position": "calé à gauche x=0.065, ligne de base y=0.655"
+ },
+ "musique": {
+  "fichier": "lot2/sons/G2-the-marias-sienna_complet.wav",
+  "debut_dans_complet_s": 18.11,
+  "drop_timeline_s": 7.93,
+  "temps_s": 0.8275,
+  "coupes_timeline_s": [
+   7.93,
+   8.758,
+   9.585,
+   10.413,
+   11.24,
+   12.067,
+   12.895,
+   13.723,
+   14.55
+  ]
+ },
+ "textes": [
+  {
+   "t0": 0.1,
+   "t1": 0.44,
+   "texte": "PENDANT CE"
+  },
+  {
+   "t0": 0.44,
+   "t1": 0.94,
+   "texte": "TEMPS-LÀ"
+  },
+  {
+   "t0": 0.94,
+   "t1": 1.22,
+   "texte": "LES"
+  },
+  {
+   "t0": 1.22,
+   "t1": 1.8,
+   "texte": "MILLIARDAIRES"
+  },
+  {
+   "t0": 1.8,
+   "t1": 2.46,
+   "texte": "EUX"
+  },
+  {
+   "t0": 2.46,
+   "t1": 2.84,
+   "texte": "CONTINUENT"
+  },
+  {
+   "t0": 2.84,
+   "t1": 3.9,
+   "texte": "DE SE GAVER"
+  },
+  {
+   "t0": 3.9,
+   "t1": 4.74,
+   "texte": "VOILÀ L’ÉTAT"
+  },
+  {
+   "t0": 4.74,
+   "t1": 5.44,
+   "texte": "DE VOTRE"
+  },
+  {
+   "t0": 5.44,
+   "t1": 5.96,
+   "texte": "UNION"
+  },
+  {
+   "t0": 5.96,
+   "t1": 6.9,
+   "texte": "EUROPÉENNE"
+  },
+  {
+   "t0": 6.9,
+   "t1": 7.93,
+   "texte": "MADAME / VON DER LEYEN"
+  }
+ ],
+ "video": [
+  {
+   "id": "A",
+   "clip": "G2_A.mov",
+   "folder": "genG2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/G2/out/G2_A.mov",
+   "s": 0,
+   "e": 198,
+   "clip_fps": 25,
+   "rec": 0,
+   "dur": 238,
+   "track": 1,
+   "note": "Aubry au pupitre face à von der Leyen, synchro, poussée lente (un seul plan comme le test 4)",
+   "source": {
+    "fichier": "lot2/sources/G2-aubry-sotEU-2026.mp4",
+    "in_s": 20.1,
+    "out_s": 28.02
+   },
+   "effets": "recadrage 9:16 suivi visage (bornes [200, 0, 1720, 752], pupitre et logo exclus), poussée 1.00->1.05, glow doux, cartons cuits"
+  },
+  {
+   "id": "B1",
+   "clip": "G2_B1.mov",
+   "folder": "genG2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/G2/out/G2_B1.mov",
+   "s": 0,
+   "e": 21,
+   "clip_fps": 25,
+   "rec": 238,
+   "dur": 25,
+   "track": 1,
+   "note": "boom : N&B, voix ferme, bouche ouverte",
+   "source": {
+    "fichier": "lot2/sources/G2-aubry-sotEU-2026.mp4",
+    "in_s": 99.4,
+    "out_s": 100.24
+   },
+   "effets": "recadrage 9:16 suivi visage (bornes [200, 0, 1720, 752], pupitre et logo exclus), poussée 1.03->1.07, glow doux, N&B"
+  },
+  {
+   "id": "B2",
+   "clip": "G2_B2.mov",
+   "folder": "genG2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/G2/out/G2_B2.mov",
+   "s": 0,
+   "e": 41,
+   "clip_fps": 25,
+   "rec": 263,
+   "dur": 49,
+   "track": 1,
+   "note": "plénière 2025 (veste blanche) : regard levé, elle attaque",
+   "source": {
+    "fichier": "lot2/sources/G2-aubry-plenaire-2025-10.mp4",
+    "in_s": 124.75,
+    "out_s": 125.57
+   },
+   "effets": "recadrage 9:16 suivi visage (bornes [200, 0, 1720, 788], pupitre et logo exclus), poussée 1.00->1.06, glow doux",
+   "speed_pct": 50,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B3",
+   "clip": "G2_B3.mov",
+   "folder": "genG2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/G2/out/G2_B3.mov",
+   "s": 0,
+   "e": 21,
+   "clip_fps": 25,
+   "rec": 312,
+   "dur": 25,
+   "track": 1,
+   "note": "bouche ouverte, regard vers la présidente",
+   "source": {
+    "fichier": "lot2/sources/G2-aubry-sotEU-2026.mp4",
+    "in_s": 102.25,
+    "out_s": 103.09
+   },
+   "effets": "recadrage 9:16 suivi visage (bornes [200, 0, 1720, 752], pupitre et logo exclus), poussée 1.03->1.07, glow doux"
+  },
+  {
+   "id": "B4",
+   "clip": "G2_B4.mov",
+   "folder": "genG2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/G2/out/G2_B4.mov",
+   "s": 0,
+   "e": 21,
+   "clip_fps": 25,
+   "rec": 337,
+   "dur": 25,
+   "track": 1,
+   "note": "regard franc, conclusion",
+   "source": {
+    "fichier": "lot2/sources/G2-aubry-plenaire-2025-10.mp4",
+    "in_s": 194.6,
+    "out_s": 195.44
+   },
+   "effets": "recadrage 9:16 suivi visage (bornes [200, 0, 1720, 788], pupitre et logo exclus), poussée 1.03->1.07, glow doux"
+  },
+  {
+   "id": "B5",
+   "clip": "G2_B5.mov",
+   "folder": "genG2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/G2/out/G2_B5.mov",
+   "s": 0,
+   "e": 21,
+   "clip_fps": 25,
+   "rec": 362,
+   "dur": 25,
+   "track": 1,
+   "note": "face caméra, elle parle",
+   "source": {
+    "fichier": "lot2/sources/G2-aubry-sotEU-2026.mp4",
+    "in_s": 125.85,
+    "out_s": 126.69
+   },
+   "effets": "recadrage 9:16 suivi visage (bornes [200, 0, 1720, 752], pupitre et logo exclus), poussée 1.03->1.07, glow doux"
+  },
+  {
+   "id": "B6",
+   "clip": "G2_B6.mov",
+   "folder": "genG2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/G2/out/G2_B6.mov",
+   "s": 0,
+   "e": 41,
+   "clip_fps": 25,
+   "rec": 387,
+   "dur": 49,
+   "track": 1,
+   "note": "doigt pointé, ralenti, fondu au noir",
+   "source": {
+    "fichier": "lot2/sources/G2-aubry-plenaire-2025-10.mp4",
+    "in_s": 127.9,
+    "out_s": 128.72
+   },
+   "effets": "recadrage 9:16 suivi visage (bornes [200, 0, 1720, 788], pupitre et logo exclus), poussée 1.00->1.08, glow doux",
+   "speed_pct": 50,
+   "retime": "optical_flow",
+   "fade_out_s": 0.45
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "G2-mix.wav",
+   "folder": "genG2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/G2/out/G2-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS : voix SOT 20.10-28.03 s + Sienna complet 18.11-32.66 s, intro -9 dB sous la voix, boom à 7.93 s, fondu de fin 0,6 s"
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "id": "R5",
+ "titre": "D.A.N.C.E.",
+ "artiste": "Justice",
+ "url": "https://www.youtube.com/watch?v=tCnBrrnOefs",
+ "chaine": "Justice (officielle, certifiée, « Justice - D.A.N.C.E. - † (Official Audio) »)",
+ "fichier": "lot6/sons/R5-justice-dance_complet.wav",
+ "extrait_complet_s": {
+  "debut": 25.539,
+  "fin": 44.439
+ },
+ "paroles_audibles": "sous la phrase (filtré) : fin du 2e refrain des enfants (« You are such a P.Y.T. … just easy as A.B.C. ») ; au drop : « Do the D.A.N.C.E. » avec le beat plein, puis « Do the dance » (break sans kick)",
+ "bpm": 112.35,
+ "temps_s": 0.534,
+ "drop": {
+  "complet_s": 34.2839,
+  "timeline_s": 8.7449,
+  "nature": "entrée du beat plein (kick + basse) sur le refrain « Do the D.A.N.C.E. »"
+ },
+ "frappes_timeline_s": [
+  1.3178,
+  2.4009,
+  3.4711,
+  4.534,
+  5.6002,
+  6.6766,
+  7.7371,
+  8.7449,
+  9.3205,
+  9.8126,
+  10.3417,
+  10.9198,
+  11.45,
+  11.9405,
+  12.4766,
+  13.0016,
+  13.571,
+  14.1037,
+  14.6276,
+  15.127,
+  15.6875,
+  16.2215,
+  16.7556,
+  17.2901,
+  17.827,
+  18.353,
+  18.8918
+ ],
+ "coupes_sur_frappes_s": [
+  2.4009,
+  4.534,
+  6.6766,
+  8.7449,
+  9.8126,
+  10.9198,
+  11.9405,
+  13.0016,
+  14.1037,
+  15.127,
+  17.2901
+ ],
+ "mix": "lot6/_claude/gen/R5/out/R5-mix.wav"
+}

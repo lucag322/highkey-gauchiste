@@ -1,0 +1,634 @@
+{
+ "name": "R4 - Collage ransom-note tract brat - Jean-Luc Mélenchon",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 16.023600000000002,
+ "note": "Plans ProRes 9:16 composés en Python (lot6/_claude/gen/R4/out) : papier vert brat / noir / journal + grain et fibres, Mélenchon détouré (segment/Vision), silhouette blanche au drop, photos vivantes N&B et duotone vert, coupures de journal, scotch, textes ransom-note cuits. s/e en images du clip (30 i/s), rec en images timeline. Coupes sur les frappes réelles de 360 (out/R4-frappes.json). Aucun ralenti. Générateur : lot6/_claude/gen/R4/genR4.py",
+ "phrase": {
+  "texte": "Le but reste l'abrogation de la réforme des retraites à 64 ans, puis le retour à 60 ans.",
+  "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I",
+  "source": "lot1/sources/5-melenchon-saintdenis-smic.mp4",
+  "in_s": 123.45,
+  "out_s": 135.62,
+  "youtube_s": [
+   3123.45,
+   3135.62
+  ],
+  "morceaux_voix": [
+   {
+    "source_s": [
+     123.36,
+     124.32
+    ],
+    "youtube_s": [
+     3123.36,
+     3124.32
+    ],
+    "timeline_s": [
+     0.3,
+     1.26
+    ]
+   },
+   {
+    "source_s": [
+     126.46,
+     130.22
+    ],
+    "youtube_s": [
+     3126.46,
+     3130.22
+    ],
+    "timeline_s": [
+     1.27,
+     5.03
+    ]
+   },
+   {
+    "source_s": [
+     132.24,
+     135.66
+    ],
+    "youtube_s": [
+     3132.24,
+     3135.66
+    ],
+    "timeline_s": [
+     5.27,
+     8.69
+    ]
+   }
+  ],
+  "voix": "son direct ; silence (124,32-126,46) et applaudissements (130,22-132,24) raccourcis entre les membres de phrase, aucun mot coupé. Images sous la voix : plan large de dos synchro (P1, P2), foule (P3a), gros plan synchro (P3b)",
+  "mesures_tract": {
+   "SMIC À 1 700 €": "« le SMIC passera à 1 700 euros », même discours 105,48-107,90 s",
+   "SÉCURITÉ SOCIALE INTÉGRALE": "« une sécurité sociale intégrale », même discours 111,94-115,42 s",
+   "RETRAITE À 60 ANS": "phrase entendue"
+  }
+ },
+ "musique": {
+  "fichier": "lot6/sons/R4-charlixcx-360_complet.wav",
+  "titre": "Charli xcx - 360",
+  "url": "https://www.youtube.com/watch?v=O_HoOpJ60C0",
+  "debut_complet_s": 40.1874,
+  "fin_complet_s": 56.211,
+  "drop_timeline_s": 9.308,
+  "coupes_frappes_s": [
+   1.3084,
+   3.0592,
+   5.0589,
+   6.3092,
+   9.308,
+   10.3094,
+   11.558,
+   12.5674,
+   13.5674,
+   14.5673
+  ],
+  "coupes_images": [
+   39,
+   92,
+   152,
+   189,
+   279,
+   309,
+   347,
+   377,
+   407,
+   437
+  ]
+ },
+ "textes": [
+  {
+   "plan": "P1",
+   "texte": "LE BUT"
+  },
+  {
+   "plan": "P1",
+   "texte": "RESTE"
+  },
+  {
+   "plan": "P2a",
+   "texte": "L'ABROGATION"
+  },
+  {
+   "plan": "P2a",
+   "texte": "DE LA"
+  },
+  {
+   "plan": "P2a",
+   "texte": "RÉFORME"
+  },
+  {
+   "plan": "P2b",
+   "texte": "DES RETRAITES"
+  },
+  {
+   "plan": "P2b",
+   "texte": "À 64 ANS"
+  },
+  {
+   "plan": "P3a",
+   "texte": "PUIS"
+  },
+  {
+   "plan": "P3b",
+   "texte": "LE RETOUR"
+  },
+  {
+   "plan": "P3b",
+   "texte": "À 60 ANS"
+  },
+  {
+   "plan": "D1",
+   "texte": "LE RETOUR"
+  },
+  {
+   "plan": "D1",
+   "texte": "À 60 ANS"
+  },
+  {
+   "plan": "D2",
+   "texte": "LE SMIC"
+  },
+  {
+   "plan": "D2",
+   "texte": "À 1 700 €"
+  },
+  {
+   "plan": "D4",
+   "texte": "LA SÉCURITÉ"
+  },
+  {
+   "plan": "D4",
+   "texte": "SOCIALE"
+  },
+  {
+   "plan": "D4",
+   "texte": "INTÉGRALE"
+  },
+  {
+   "plan": "FIN",
+   "texte": "JEAN-LUC"
+  },
+  {
+   "plan": "FIN",
+   "texte": "MÉLENCHON"
+  },
+  {
+   "plan": "FIN",
+   "texte": "2027"
+  }
+ ],
+ "video": [
+  {
+   "id": "P1",
+   "clip": "R4_P1.mov",
+   "folder": "genR4",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R4/out/R4_P1.mov",
+   "s": 0,
+   "e": 39,
+   "rec": 0,
+   "dur": 39,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — Saint-Denis, plan large de dos synchro (« Le but reste »), Mélenchon face à la foule, N&B plein cadre collé, bords de papier journal",
+   "kind": "full",
+   "temps": 2.6,
+   "source": {
+    "fichier": "lot1/sources/5-melenchon-saintdenis-smic.mp4",
+    "in_s": 123.06,
+    "out_s": 124.36,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I",
+    "contexte": "meeting de Saint-Denis, 07/06/2026 (chaîne JEAN-LUC MÉLENCHON), extrait 50:00-54:00",
+    "youtube_s": [
+     3123.06,
+     3124.36
+    ]
+   }
+  },
+  {
+   "id": "P2a",
+   "clip": "R4_P2a.mov",
+   "folder": "genR4",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R4/out/R4_P2a.mov",
+   "s": 0,
+   "e": 53,
+   "rec": 39,
+   "dur": 53,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "plan large de dos synchro en photo N&B vivante (« l'abrogation de la réforme des ») + foule aux drapeaux en duotone vert, sur vert brat",
+   "kind": "collage",
+   "temps": 3.53,
+   "photos": [
+    {
+     "fichier": "lot1/sources/5-melenchon-saintdenis-smic.mp4",
+     "in_s": 126.49,
+     "out_s": 128.26,
+     "cadre_source": [
+      560,
+      330,
+      1420,
+      1080
+     ],
+     "ton": "bw",
+     "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I"
+    },
+    {
+     "fichier": "lot3/sources/C4-melenchon-stdenis-04.mp4",
+     "in_s": 3.6,
+     "out_s": 5.37,
+     "cadre_source": [
+      0,
+      300,
+      1300,
+      1080
+     ],
+     "ton": "duo",
+     "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I"
+    }
+   ]
+  },
+  {
+   "id": "P2b",
+   "clip": "R4_P2b.mov",
+   "folder": "genR4",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R4/out/R4_P2b.mov",
+   "s": 0,
+   "e": 60,
+   "rec": 92,
+   "dur": 60,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "même plan de dos synchro, plus serré, en duotone (« retraites à 64 ans ») + foule poings levés N&B, sur noir",
+   "kind": "collage",
+   "temps": 4.0,
+   "photos": [
+    {
+     "fichier": "lot1/sources/5-melenchon-saintdenis-smic.mp4",
+     "in_s": 128.257,
+     "out_s": 130.26,
+     "cadre_source": [
+      720,
+      360,
+      1240,
+      1000
+     ],
+     "ton": "duo",
+     "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I"
+    },
+    {
+     "fichier": "lot3/sources/C4-melenchon-stdenis-08.mp4",
+     "in_s": 14.0,
+     "out_s": 16.0,
+     "cadre_source": [
+      0,
+      260,
+      1500,
+      1080
+     ],
+     "ton": "bw",
+     "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I"
+    }
+   ]
+  },
+  {
+   "id": "P3a",
+   "clip": "R4_P3a.mov",
+   "folder": "genR4",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R4/out/R4_P3a.mov",
+   "s": 0,
+   "e": 37,
+   "rec": 152,
+   "dur": 37,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "foule de Saint-Denis (pas de visage qui parle sous « puis »), papier journal, photos duotone et N&B",
+   "kind": "collage",
+   "temps": 2.47,
+   "photos": [
+    {
+     "fichier": "lot1/sources/5-melenchon-saintdenis-smic.mp4",
+     "in_s": 102.0,
+     "out_s": 103.23,
+     "cadre_source": [
+      0,
+      310,
+      1350,
+      1080
+     ],
+     "ton": "duo",
+     "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I"
+    },
+    {
+     "fichier": "lot3/sources/C4-melenchon-stdenis-04.mp4",
+     "in_s": 2.4,
+     "out_s": 3.63,
+     "cadre_source": [
+      0,
+      300,
+      1300,
+      1080
+     ],
+     "ton": "bw",
+     "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I"
+    }
+   ]
+  },
+  {
+   "id": "P3b",
+   "clip": "R4_P3b.mov",
+   "folder": "genR4",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R4/out/R4_P3b.mov",
+   "s": 0,
+   "e": 90,
+   "rec": 189,
+   "dur": 90,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — Saint-Denis, gros plan synchro « le retour à 60 ans », Mélenchon détouré (contour autocollant) sur vert brat, coupé au bord du pupitre",
+   "kind": "cut",
+   "temps": 6.0,
+   "source": {
+    "fichier": "lot1/sources/5-melenchon-saintdenis-smic.mp4",
+    "in_s": 133.27,
+    "out_s": 136.27,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I",
+    "contexte": "meeting de Saint-Denis, 07/06/2026 (chaîne JEAN-LUC MÉLENCHON), extrait 50:00-54:00",
+    "youtube_s": [
+     3133.27,
+     3136.27
+    ]
+   },
+   "photos": [
+    {
+     "fichier": "lot3/sources/C4-melenchon-stdenis-08.mp4",
+     "in_s": 18.0,
+     "out_s": 21.0,
+     "cadre_source": [
+      0,
+      260,
+      1500,
+      1080
+     ],
+     "ton": "duo",
+     "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I"
+    },
+    {
+     "fichier": "lot1/sources/5-melenchon-saintdenis-smic.mp4",
+     "in_s": 101.0,
+     "out_s": 104.0,
+     "cadre_source": [
+      0,
+      310,
+      1350,
+      1080
+     ],
+     "ton": "bw",
+     "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I"
+    }
+   ]
+  },
+  {
+   "id": "D1",
+   "clip": "R4_D1.mov",
+   "folder": "genR4",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R4/out/R4_D1.mov",
+   "s": 0,
+   "e": 30,
+   "rec": 279,
+   "dur": 30,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "DROP — Saint-Denis, bras grands ouverts : silhouette blanche 3 images (flash) puis Mélenchon détouré en couleur sur noir, bras qui sortent du cadre",
+   "kind": "sil",
+   "temps": 2.0,
+   "source": {
+    "fichier": "lot3/sources/C4-melenchon-stdenis-05.mp4",
+    "in_s": 4.1,
+    "out_s": 5.1,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I",
+    "contexte": "meeting de Saint-Denis, 07/06/2026 (chaîne JEAN-LUC MÉLENCHON)"
+   }
+  },
+  {
+   "id": "D2",
+   "clip": "R4_D2.mov",
+   "folder": "genR4",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R4/out/R4_D2.mov",
+   "s": 0,
+   "e": 38,
+   "rec": 309,
+   "dur": 38,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "tract : SMIC à 1 700 euros (dit dans le même discours, 105,5-107,9 s) en lettres découpées, photos de la foule qui s'empilent",
+   "kind": "collage",
+   "temps": 2.53,
+   "photos": [
+    {
+     "fichier": "lot3/sources/C4-melenchon-stdenis-08.mp4",
+     "in_s": 21.0,
+     "out_s": 22.27,
+     "cadre_source": [
+      0,
+      260,
+      1500,
+      1080
+     ],
+     "ton": "bw",
+     "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I"
+    },
+    {
+     "fichier": "lot3/sources/C4-melenchon-stdenis-04.mp4",
+     "in_s": 6.0,
+     "out_s": 7.27,
+     "cadre_source": [
+      0,
+      300,
+      1300,
+      1080
+     ],
+     "ton": "duo",
+     "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I"
+    },
+    {
+     "fichier": "lot1/sources/5-melenchon-saintdenis-smic.mp4",
+     "in_s": 103.5,
+     "out_s": 104.77,
+     "cadre_source": [
+      0,
+      310,
+      1350,
+      1080
+     ],
+     "ton": "bw",
+     "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I"
+    }
+   ]
+  },
+  {
+   "id": "D3",
+   "clip": "R4_D3.mov",
+   "folder": "genR4",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R4/out/R4_D3.mov",
+   "s": 0,
+   "e": 30,
+   "rec": 347,
+   "dur": 30,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — Saint-Denis, mairie, basilique et place noire de monde, plein cadre couleur, bords de papier journal ; sans texte (respiration entre deux mesures)",
+   "kind": "full",
+   "temps": 2.0,
+   "source": {
+    "fichier": "lot3/sources/C4-melenchon-stdenis-02.mp4",
+    "in_s": 3.0,
+    "out_s": 4.0,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I",
+    "contexte": "meeting de Saint-Denis, 07/06/2026 (chaîne JEAN-LUC MÉLENCHON)"
+   }
+  },
+  {
+   "id": "D4",
+   "clip": "R4_D4.mov",
+   "folder": "genR4",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R4/out/R4_D4.mov",
+   "s": 0,
+   "e": 30,
+   "rec": 377,
+   "dur": 30,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "convention 2025, Mélenchon souriant détouré sur vert brat ; sécurité sociale intégrale (dit dans le même discours, 111,9-115,4 s)",
+   "kind": "cut",
+   "temps": 2.0,
+   "source": {
+    "fichier": "lot2/sources/C3-melenchon-convention-03.mp4",
+    "in_s": 2.0,
+    "out_s": 3.0,
+    "fps": 60.0,
+    "url": "https://www.youtube.com/watch?v=Yc46p2zQZxY",
+    "contexte": "convention municipales 2026, 23/11/2025 (fond violet, logos hors détourage)"
+   },
+   "photos": [
+    {
+     "fichier": "lot1/sources/5-melenchon-saintdenis-smic.mp4",
+     "in_s": 104.5,
+     "out_s": 105.5,
+     "cadre_source": [
+      0,
+      310,
+      1350,
+      1080
+     ],
+     "ton": "duo",
+     "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I"
+    }
+   ]
+  },
+  {
+   "id": "D5",
+   "clip": "R4_D5.mov",
+   "folder": "genR4",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R4/out/R4_D5.mov",
+   "s": 0,
+   "e": 30,
+   "rec": 407,
+   "dur": 30,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "le tract se remplit : photos de Saint-Denis collées au demi-temps, sans texte (pas de redite des mesures)",
+   "kind": "collage",
+   "temps": 2.0,
+   "photos": [
+    {
+     "fichier": "lot1/sources/5-melenchon-saintdenis-smic.mp4",
+     "in_s": 98.0,
+     "out_s": 99.0,
+     "cadre_source": [
+      0,
+      310,
+      1350,
+      1080
+     ],
+     "ton": "duo",
+     "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I"
+    },
+    {
+     "fichier": "lot3/sources/C4-melenchon-stdenis-08.mp4",
+     "in_s": 16.0,
+     "out_s": 17.0,
+     "cadre_source": [
+      0,
+      260,
+      1500,
+      1080
+     ],
+     "ton": "bw",
+     "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I"
+    },
+    {
+     "fichier": "lot3/sources/C4-melenchon-stdenis-08.mp4",
+     "in_s": 22.5,
+     "out_s": 23.5,
+     "cadre_source": [
+      0,
+      260,
+      1500,
+      1080
+     ],
+     "ton": "bw",
+     "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I"
+    }
+   ]
+  },
+  {
+   "id": "FIN",
+   "clip": "R4_FIN.mov",
+   "folder": "genR4",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R4/out/R4_FIN.mov",
+   "s": 0,
+   "e": 44,
+   "rec": 437,
+   "dur": 44,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "carton final ransom-note (retour Luca : le carton brat flouté n'était pas beau) : le nom posé en entier, puis 2027 en grand sur la frappe suivante, en lettres découpées serif/sans, penchées, trame, scotch aux bouts des lignes, sur vert brat ; chaque ligne arrive sur une frappe et remplit la zone sûre",
+   "kind": "card",
+   "temps": 2.93
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "R4-mix.wav",
+   "folder": "genR4",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R4/out/R4-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS : voix SD en 3 morceaux (+3 dB) ; 360 dès 40.187 s du complet (pré-refrain / début de refrain -19 dB sous la voix, montée à -10 dB, plein au drop sur « I'm everywhere, I'm so Julia »), fondu de fin 0,35 s"
+  }
+ ],
+ "stems": [
+  "lot6/_claude/gen/R4/out/R4-voix.wav",
+  "lot6/_claude/gen/R4/out/R4-musique.wav"
+ ],
+ "logos_exclus": "Saint-Denis : filigrane MELENCHON2027.fr (haut droite) hors des cadres, pupitre « Meeting Saint-Denis » sous la découpe ; convention : logos hors détourage"
+}

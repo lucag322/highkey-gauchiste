@@ -1,0 +1,302 @@
+{
+ "name": "G3 - Glow - Leaument",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 14.9,
+ "note": "Lot 2, recalé sur les kicks 808 réels (rythme/frappes.json). Plans ProRes 9:16 30 i/s prêts (recadrés, poussées, étalonnés, texte cuit sur A, fondu cuit sur B7) : e = durée timeline, aucun arrondi 25->30. Ralentis : speed_pct (41,6667 sur clip étiqueté 30 i/s = 50 % réel) + Optical Flow + Speed Warp. Générateur : lot2/_claude/gen/G3/genG3.py, halo #FFB84D",
+ "musique": {
+  "fichier": "lot2/sons/G3-josman-tendu.wav",
+  "debut_extrait_s": 0.847,
+  "entree_pleine_timeline_s": 5.408,
+  "bpm_reel": 137.8,
+  "coupes": "sur les kicks 808 réels (rythme/frappes.json), écart <= 1/2 image ; poussées du kick de coupe au kick suivant",
+  "kicks_808_s": [
+   5.408,
+   6.067,
+   6.724,
+   8.045,
+   8.477,
+   8.918,
+   9.572,
+   10.229,
+   12.0,
+   12.443,
+   13.078,
+   13.731
+  ],
+  "sous_la_voix": "morceau passe-bas 420 Hz -7 dB de 0 à 5.41 s, plein ensuite"
+ },
+ "phrase": {
+  "source": "lot2/sources/G3-leaument-an-securite-2026-06.mp4 221,84-226,90 s (YouTube 4CPac_uArQ0, Assemblée 16/06/2026)",
+  "texte": "Vous voulez des policiers qui courent après les manifestants ? Nous voulons des policiers qui déjouent les projets terroristes.",
+  "timeline_s": [
+   0.14,
+   5.2
+  ]
+ },
+ "textes": [
+  {
+   "t0": 0.14,
+   "t1": 0.92,
+   "ligne": "VOUS VOULEZ"
+  },
+  {
+   "t0": 0.92,
+   "t1": 1.44,
+   "ligne": "DES POLICIERS"
+  },
+  {
+   "t0": 1.44,
+   "t1": 1.76,
+   "ligne": "QUI COURENT"
+  },
+  {
+   "t0": 1.76,
+   "t1": 2.08,
+   "ligne": "APRÈS LES"
+  },
+  {
+   "t0": 2.08,
+   "t1": 2.84,
+   "ligne": "MANIFESTANTS ?"
+  },
+  {
+   "t0": 2.84,
+   "t1": 3.28,
+   "ligne": "NOUS VOULONS"
+  },
+  {
+   "t0": 3.28,
+   "t1": 3.8,
+   "ligne": "DES POLICIERS"
+  },
+  {
+   "t0": 3.8,
+   "t1": 4.22,
+   "ligne": "QUI DÉJOUENT"
+  },
+  {
+   "t0": 4.22,
+   "t1": 4.58,
+   "ligne": "LES PROJETS"
+  },
+  {
+   "t0": 4.58,
+   "t1": 5.41,
+   "ligne": "TERRORISTES"
+  }
+ ],
+ "halo": "#FFB84D (or des ornements de l'hémicycle)",
+ "video": [
+  {
+   "id": "A",
+   "clip": "G3k_A.mov",
+   "folder": "G3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/G3/out/G3k_A.mov",
+   "s": 0,
+   "e": 162,
+   "clip_fps": 30,
+   "rec": 0,
+   "dur": 162,
+   "track": 1,
+   "note": "phrase entière, synchro, poussée lente jusqu'au 1er kick, texte cuit",
+   "source": {
+    "fichier": "lot2/sources/G3-leaument-an-securite-2026-06.mp4",
+    "in_s": 221.7,
+    "out_s": 227.1
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo), glow chaud, texte cuit",
+   "frappe_s": 0.0,
+   "poussee": "x1.00 -> x1.10, du kick 0.000 s au kick 5.408 s (temps timeline)"
+  },
+  {
+   "id": "B0",
+   "clip": "G3k_B0.mov",
+   "folder": "G3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/G3/out/G3k_B0.mov",
+   "s": 0,
+   "e": 40,
+   "clip_fps": 30,
+   "rec": 162,
+   "dur": 40,
+   "track": 1,
+   "note": "N&B sur l'entrée du morceau : geste, regard de côté",
+   "source": {
+    "fichier": "lot2/sources/G3-leaument-an-securite-2026-06.mp4",
+    "in_s": 20.4,
+    "out_s": 21.733
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo), glow chaud, N&B",
+   "frappe_s": 5.408,
+   "poussee": "x1.00 -> x1.06, du kick 5.408 s au kick 6.724 s (temps timeline)"
+  },
+  {
+   "id": "B1",
+   "clip": "G3k_B1.mov",
+   "folder": "G3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/G3/out/G3k_B1.mov",
+   "s": 0,
+   "e": 39,
+   "clip_fps": 30,
+   "rec": 202,
+   "dur": 39,
+   "track": 1,
+   "note": "bras tendu vers les bancs (ralenti)",
+   "source": {
+    "fichier": "lot2/sources/G3-leaument-an-securite-2026-06.mp4",
+    "in_s": 193.3,
+    "out_s": 193.95
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo), glow chaud",
+   "frappe_s": 6.724,
+   "poussee": "x1.00 -> x1.06, du kick 6.724 s au kick 8.045 s (temps timeline)",
+   "speed_pct": 41.6667,
+   "retime": "optical_flow",
+   "ralenti": "50 % du temps réel : clip = images source 25 i/s étiquetées 30 i/s, Resolve à 41.6667 %"
+  },
+  {
+   "id": "B2",
+   "clip": "G3k_B2.mov",
+   "folder": "G3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/G3/out/G3k_B2.mov",
+   "s": 0,
+   "e": 27,
+   "clip_fps": 30,
+   "rec": 241,
+   "dur": 27,
+   "track": 1,
+   "note": "index levé puis main à la tête",
+   "source": {
+    "fichier": "lot2/sources/G3-leaument-an-securite-2026-06.mp4",
+    "in_s": 116.45,
+    "out_s": 117.35
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo), glow chaud",
+   "frappe_s": 8.045,
+   "poussee": "x1.00 -> x1.06, du kick 8.045 s au kick 8.918 s (temps timeline)"
+  },
+  {
+   "id": "B3",
+   "clip": "G3k_B3.mov",
+   "folder": "G3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/G3/out/G3k_B3.mov",
+   "s": 0,
+   "e": 39,
+   "clip_fps": 30,
+   "rec": 268,
+   "dur": 39,
+   "track": 1,
+   "note": "LCP QAG avril 2026 : debout, micro, regard droit",
+   "source": {
+    "fichier": "lot2/sources/G3-leaument-lcp-qag-2026-04.mp4",
+    "in_s": 107.0,
+    "out_s": 108.3
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo), glow chaud",
+   "frappe_s": 8.918,
+   "poussee": "x1.00 -> x1.06, du kick 8.918 s au kick 10.229 s (temps timeline)"
+  },
+  {
+   "id": "B4",
+   "clip": "G3k_B4.mov",
+   "folder": "G3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/G3/out/G3k_B4.mov",
+   "s": 0,
+   "e": 53,
+   "clip_fps": 30,
+   "rec": 307,
+   "dur": 53,
+   "track": 1,
+   "note": "tourné vers la droite, assuré (ralenti, sur la nappe de 808)",
+   "source": {
+    "fichier": "lot2/sources/G3-leaument-an-securite-2026-06.mp4",
+    "in_s": 52.0,
+    "out_s": 52.883
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo), glow chaud",
+   "frappe_s": 10.229,
+   "poussee": "x1.00 -> x1.07, du kick 10.229 s au kick 12.000 s (temps timeline)",
+   "speed_pct": 41.6667,
+   "retime": "optical_flow",
+   "ralenti": "50 % du temps réel : clip = images source 25 i/s étiquetées 30 i/s, Resolve à 41.6667 %"
+  },
+  {
+   "id": "B5",
+   "clip": "G3k_B5.mov",
+   "folder": "G3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/G3/out/G3k_B5.mov",
+   "s": 0,
+   "e": 32,
+   "clip_fps": 30,
+   "rec": 360,
+   "dur": 32,
+   "track": 1,
+   "note": "redressé, voix forte",
+   "source": {
+    "fichier": "lot2/sources/G3-leaument-an-securite-2026-06.mp4",
+    "in_s": 268.0,
+    "out_s": 269.067
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo), glow chaud",
+   "frappe_s": 12.0,
+   "poussee": "x1.00 -> x1.06, du kick 12.000 s au kick 13.078 s (temps timeline)"
+  },
+  {
+   "id": "B6",
+   "clip": "G3k_B6.mov",
+   "folder": "G3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/G3/out/G3k_B6.mov",
+   "s": 0,
+   "e": 20,
+   "clip_fps": 30,
+   "rec": 392,
+   "dur": 20,
+   "track": 1,
+   "note": "regard vers la droite",
+   "source": {
+    "fichier": "lot2/sources/G3-leaument-an-securite-2026-06.mp4",
+    "in_s": 142.3,
+    "out_s": 142.967
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo), glow chaud",
+   "frappe_s": 13.078,
+   "poussee": "x1.00 -> x1.05, du kick 13.078 s au kick 13.731 s (temps timeline)"
+  },
+  {
+   "id": "B7",
+   "clip": "G3k_B7.mov",
+   "folder": "G3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/G3/out/G3k_B7.mov",
+   "s": 0,
+   "e": 35,
+   "clip_fps": 30,
+   "rec": 412,
+   "dur": 35,
+   "track": 1,
+   "note": "index levé -> poing (ralenti), fondu au noir 0,6 s",
+   "source": {
+    "fichier": "lot2/sources/G3-leaument-an-securite-2026-06.mp4",
+    "in_s": 195.3,
+    "out_s": 195.883
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo), glow chaud, fondu au noir 0,6 s cuit",
+   "frappe_s": 13.731,
+   "poussee": "x1.00 -> x1.08, du kick 13.731 s au kick 14.900 s (temps timeline)",
+   "speed_pct": 41.6667,
+   "retime": "optical_flow",
+   "ralenti": "50 % du temps réel : clip = images source 25 i/s étiquetées 30 i/s, Resolve à 41.6667 %"
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "G3k-mix.wav",
+   "folder": "G3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/G3/out/G3k-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix final -14 LUFS : voix 0,10-5,28 s, TENDU étouffé dessous puis plein au palier 5.41 s, fondu de fin"
+  }
+ ]
+}

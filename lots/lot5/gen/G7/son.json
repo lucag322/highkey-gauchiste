@@ -1,0 +1,63 @@
+{
+ "titre": "Get Lucky",
+ "artiste": "Daft Punk ft. Pharrell Williams, Nile Rodgers",
+ "url": "https://www.youtube.com/watch?v=5NV6Rdv1a3I",
+ "chaine": "Daft Punk (officielle, vérifiée, 7,2 M abonnés) — « Official Audio »",
+ "fichier": "lot5/sons/G7-daftpunk-get-lucky_complet.wav",
+ "extrait_morceau_s": [
+  135.332,
+  150.232
+ ],
+ "bpm": 116.0,
+ "drop": {
+  "morceau_s": 140.332,
+  "timeline_s": 5.0,
+  "note": "retour du kick et de la basse après le break (124,4-140,3 s sans kick), pic « les plus revus » YouTube 139,4-146,9 s (max 141,9-144,4 s)"
+ },
+ "sous_la_phrase": "break 135,33-140,33 s étouffé (passe-bas 420 Hz, -6 dB) puis le filtre s'ouvre (2,2 kHz, -3 dB) sur les 1,6 s avant le drop",
+ "paroles_audibles": "break : « We're up all night to get lucky » (136,7-140,6 s, étouffé sous la phrase puis révélé par la montée) ; après le drop : « We're up all night to get lucky » en boucle sur le kick (140,3-150,2 s, vérifié à la transcription)",
+ "frappes": "kicks réels (attaque 30-120 Hz) après le drop ; claps réels du break (1,5-5 kHz) avant ; rythme/frappes.json",
+ "coupes_timeline_s": [
+  1.39,
+  2.664,
+  3.956,
+  5.0,
+  6.035,
+  7.061,
+  8.107,
+  9.128,
+  10.165,
+  11.196,
+  12.238,
+  13.267,
+  14.308
+ ],
+ "kicks_timeline_s": [
+  4.733,
+  5.0,
+  5.517,
+  5.776,
+  6.035,
+  6.55,
+  7.061,
+  7.589,
+  7.843,
+  8.107,
+  8.62,
+  9.128,
+  9.645,
+  9.914,
+  10.165,
+  10.679,
+  11.196,
+  11.719,
+  12.238,
+  12.753,
+  13.267,
+  13.785,
+  14.063,
+  14.308,
+  14.613,
+  14.824
+ ]
+}

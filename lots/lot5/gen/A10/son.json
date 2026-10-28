@@ -1,0 +1,49 @@
+{
+ "id": "A10",
+ "titre": "FE!N",
+ "artiste": "Travis Scott ft. Playboi Carti",
+ "url": "https://www.youtube.com/watch?v=B9synWjqBn8",
+ "chaine": "Travis Scott (chaîne officielle certifiée, « Travis Scott - FE!N ft. Playboi Carti », 30/03/2024, clip officiel, lien du brief)",
+ "fichier": "lot5/sons/A10-travisscott-fein_complet.wav",
+ "extrait_complet_s": {
+  "debut": 26.6947,
+  "fin": 41.665
+ },
+ "structure": "intro du clip 0-7,5 / intro « Just come outside for the night » 15,5-22 / montée 22-29,8 / hook FE!N 29,8-42,4 (utilisé) / couplet 43-55 / beat plein 55,5-98 / break 98-110,5 / hook 110,5",
+ "paroles_audibles": "sous la voix de Panot : fin de la montée (ad-libs « yeah », musique -8 dB) ; après le drop : le hook « FE!N » scandé (Whisper n'entend que « yeah » / « do it ») ; aucun mot explicite dans l'extrait",
+ "bpm": 147.7,
+ "temps_s": 0.40625,
+ "note_tempo": "808 forts en motif 3-3-2 par mesure (temps 0, 3, 5, 6) ; coupes sur ces 808 en gardant les plans >= 2 temps (0,81 s)",
+ "drop": {
+  "complet_s": 29.815,
+  "timeline_s": 3.1241,
+  "nature": "1re frappe 808 du hook FE!N (+12 dB d'un coup ; une attaque plus légère à 29,44 s l'annonce)"
+ },
+ "frappes_timeline_s": [
+  3.1241,
+  4.3455,
+  5.1446,
+  6.3662,
+  7.5884,
+  8.3879,
+  9.6104,
+  10.8318,
+  11.631,
+  14.0754
+ ],
+ "coupes_sur_frappes_s": [
+  3.1241,
+  4.3455,
+  5.1446,
+  6.3662,
+  7.5884,
+  8.3879,
+  9.6104,
+  10.8318,
+  11.631,
+  14.0754
+ ],
+ "ecart_max_coupes_frappes_ms": 13.3,
+ "gain_db": 0.0,
+ "mix": "lot5/_claude/gen/A10/out/A10-mix.wav (-14,0 LUFS, TP -1,5 dBTP ; export -14,0 LUFS, TP -1,5 dBTP)"
+}

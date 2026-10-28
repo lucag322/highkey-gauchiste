@@ -1,0 +1,649 @@
+{
+ "name": "R8 - Collage ransom-note - Jean-Luc Mélenchon (The White Stripes - Seven Nation Army)",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 19.733,
+ "note": "Plans ProRes 9:16 composés en Python (lot7/_claude/gen/R8/out) : fonds marine / or / pages de journal crème ou marine, Mélenchon détouré (segment/Vision) en N&B encre marine + écho or décalé, coupures de foule vivantes en bichromie (scotch, bords déchirés), pleins cadres en trichromie marine-or-crème, textes ransom-note cuits. s/e en images du clip (30 i/s), rec en images timeline. Coupes sur les grosses caisses réelles de Seven Nation Army (son.json). Aucun ralenti. Générateur : lot7/_claude/gen/R8/genR8.py",
+ "phrase": {
+  "texte": "Un autre monde est nécessaire, et parce qu'il est nécessaire, alors nous allons le rendre possible.",
+  "url": "https://www.youtube.com/watch?v=Zlwij7ZXLts",
+  "source": "lot7/sources/R8-marche2022-monde.mp4",
+  "in_s": 12.78,
+  "out_s": 19.66,
+  "t_youtube_s": [
+   3226.78,
+   3233.66
+  ],
+  "timeline_s": [
+   0.45,
+   7.33
+  ],
+  "avant": "« …loin d'être inerte et résigné, nous sommes venus dire de toutes nos forces : »",
+  "voix": "son direct synchro (A1a-A1b de face au pupitre, A2a-A2b plan serré bras levés après la coupe caméra d'origine) ; phrase entière, clameur de la place en fondu jusqu'au drop"
+ },
+ "musique": {
+  "fichier": "lot7/sons/R8-whitestripes-seven-nation-army_complet.wav",
+  "titre": "The White Stripes - Seven Nation Army",
+  "url": "https://www.youtube.com/watch?v=0J2QdDbelmY",
+  "debut_complet_s": 47.7302,
+  "fin_complet_s": 67.464,
+  "drop_timeline_s": 7.9872,
+  "coupes_s": [
+   1.4659,
+   4.0056,
+   6.0287,
+   7.9872,
+   8.9465,
+   9.9216,
+   10.9221,
+   11.9007,
+   13.8353,
+   14.8123,
+   15.795,
+   16.7778,
+   17.742
+  ],
+  "coupes_images": [
+   44,
+   120,
+   181,
+   240,
+   268,
+   298,
+   328,
+   357,
+   415,
+   444,
+   474,
+   503,
+   532
+  ]
+ },
+ "textes": [
+  {
+   "plan": "A1a",
+   "texte": "UN AUTRE MONDE"
+  },
+  {
+   "plan": "A1b",
+   "texte": "EST NÉCESSAIRE"
+  },
+  {
+   "plan": "A1b",
+   "texte": "ET PARCE QU'IL"
+  },
+  {
+   "plan": "A2a",
+   "texte": "EST NÉCESSAIRE"
+  },
+  {
+   "plan": "A2a",
+   "texte": "ALORS NOUS ALLONS"
+  },
+  {
+   "plan": "A2b",
+   "texte": "LE RENDRE"
+  },
+  {
+   "plan": "A2b",
+   "texte": "POSSIBLE"
+  },
+  {
+   "plan": "C1",
+   "texte": "UN AUTRE MONDE"
+  },
+  {
+   "plan": "C1",
+   "texte": "EST NÉCESSAIRE"
+  },
+  {
+   "plan": "C2",
+   "texte": "UN AUTRE MONDE"
+  },
+  {
+   "plan": "C2",
+   "texte": "EST NÉCESSAIRE"
+  },
+  {
+   "plan": "C4",
+   "texte": "NOUS ALLONS"
+  },
+  {
+   "plan": "C4",
+   "texte": "LE RENDRE"
+  },
+  {
+   "plan": "C4",
+   "texte": "POSSIBLE"
+  },
+  {
+   "plan": "C5",
+   "texte": "NOUS ALLONS"
+  },
+  {
+   "plan": "C5",
+   "texte": "LE RENDRE"
+  },
+  {
+   "plan": "C5",
+   "texte": "POSSIBLE"
+  },
+  {
+   "plan": "FIN",
+   "texte": "JEAN-LUC"
+  },
+  {
+   "plan": "FIN",
+   "texte": "MÉLENCHON"
+  },
+  {
+   "plan": "FIN",
+   "texte": "2027"
+  }
+ ],
+ "video": [
+  {
+   "id": "A1a",
+   "clip": "R8_A1a.mov",
+   "folder": "genR8",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R8/out/R8_A1a.mov",
+   "s": 0,
+   "e": 44,
+   "rec": 0,
+   "dur": 44,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2022 — marche pour la 6e République, de face au pupitre : « Un autre monde… » en son direct, découpé N&B encre marine, écho or décalé, fond marine",
+   "kind": "cut",
+   "temps": 2.99,
+   "source": {
+    "fichier": "lot7/sources/R8-marche2022-monde.mp4",
+    "in_s": 12.333,
+    "out_s": 13.8,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=Zlwij7ZXLts",
+    "t_youtube_s": 3226.33,
+    "contexte": "marche pour la 6e République, place de la République, Paris, 20/3/2022 (chaîne JEAN-LUC MÉLENCHON), extrait 3214-3240 s (la phrase)",
+    "synchro_voix": true
+   }
+  },
+  {
+   "id": "A1b",
+   "clip": "R8_A1b.mov",
+   "folder": "genR8",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R8/out/R8_A1b.mov",
+   "s": 0,
+   "e": 76,
+   "rec": 44,
+   "dur": 76,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "même plan synchro : « …est nécessaire, et parce qu'il… », fond page de journal crème encre marine",
+   "kind": "cut",
+   "temps": 5.17,
+   "source": {
+    "fichier": "lot7/sources/R8-marche2022-monde.mp4",
+    "in_s": 13.8,
+    "out_s": 16.333,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=Zlwij7ZXLts",
+    "t_youtube_s": 3227.8,
+    "contexte": "marche pour la 6e République, place de la République, Paris, 20/3/2022 (chaîne JEAN-LUC MÉLENCHON), extrait 3214-3240 s (la phrase)",
+    "synchro_voix": true
+   }
+  },
+  {
+   "id": "A2a",
+   "clip": "R8_A2a.mov",
+   "folder": "genR8",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R8/out/R8_A2a.mov",
+   "s": 0,
+   "e": 61,
+   "rec": 120,
+   "dur": 61,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "coupe caméra d'origine (même moment) : plan serré bras levés en plein cadre bichromie marine-or, bords de journal déchirés, « …est nécessaire, alors nous allons… » sous le visage",
+   "kind": "full",
+   "temps": 4.15,
+   "source": {
+    "fichier": "lot7/sources/R8-marche2022-monde.mp4",
+    "in_s": 16.333,
+    "out_s": 18.367,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=Zlwij7ZXLts",
+    "t_youtube_s": 3230.33,
+    "contexte": "marche pour la 6e République, place de la République, Paris, 20/3/2022 (chaîne JEAN-LUC MÉLENCHON), extrait 3214-3240 s (la phrase)",
+    "synchro_voix": true
+   }
+  },
+  {
+   "id": "A2b",
+   "clip": "R8_A2b.mov",
+   "folder": "genR8",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R8/out/R8_A2b.mov",
+   "s": 0,
+   "e": 59,
+   "rec": 181,
+   "dur": 59,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "même plan synchro, bichromie marine-crème : « …le rendre possible. » puis la clameur",
+   "kind": "full",
+   "temps": 4.01,
+   "source": {
+    "fichier": "lot7/sources/R8-marche2022-monde.mp4",
+    "in_s": 18.367,
+    "out_s": 20.333,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=Zlwij7ZXLts",
+    "t_youtube_s": 3232.37,
+    "contexte": "marche pour la 6e République, place de la République, Paris, 20/3/2022 (chaîne JEAN-LUC MÉLENCHON), extrait 3214-3240 s (la phrase)",
+    "synchro_voix": true
+   }
+  },
+  {
+   "id": "C1",
+   "clip": "R8_C1.mov",
+   "folder": "genR8",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R8/out/R8_C1.mov",
+   "s": 0,
+   "e": 28,
+   "rec": 240,
+   "dur": 28,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "DROP (entrée du riff saturé) : flash 3 images, silhouette blanche puis Mélenchon qui lève la main vers la foule (fin du discours), fond marine",
+   "kind": "cut",
+   "temps": 1.9,
+   "source": {
+    "fichier": "lot7/sources/R8-marche2022-geste.mp4",
+    "in_s": 5.55,
+    "out_s": 6.483,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=Zlwij7ZXLts",
+    "t_youtube_s": 6017.55,
+    "contexte": "marche pour la 6e République, place de la République, Paris, 20/3/2022 (chaîne JEAN-LUC MÉLENCHON), au pupitre, bras tendu vers la foule",
+    "synchro_voix": false
+   }
+  },
+  {
+   "id": "C2",
+   "clip": "R8_C2.mov",
+   "folder": "genR8",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R8/out/R8_C2.mov",
+   "s": 0,
+   "e": 30,
+   "rec": 268,
+   "dur": 30,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "coupures de journal : foules de la marche qui s'empilent, une par demi-temps (crème, marine-or, marine)",
+   "kind": "collage",
+   "temps": 2.04,
+   "coupures": [
+    {
+     "fichier": "lot7/sources/R8-marche2022-drapeaux-a.mp4",
+     "in_s": 9.5,
+     "out_s": 10.5,
+     "cadre_source": [
+      0,
+      180,
+      1600,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=Zlwij7ZXLts",
+     "t_youtube_s": 37.5,
+     "bichromie": "bleu"
+    },
+    {
+     "fichier": "lot7/sources/R8-marche2022-drapeaux-c.mp4",
+     "in_s": 10.0,
+     "out_s": 11.0,
+     "cadre_source": [
+      0,
+      180,
+      1600,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=Zlwij7ZXLts",
+     "t_youtube_s": 6320.0,
+     "bichromie": "or"
+    },
+    {
+     "fichier": "lot7/sources/R8-marche2022-drapeaux-b.mp4",
+     "in_s": 9.0,
+     "out_s": 10.0,
+     "cadre_source": [
+      0,
+      180,
+      1600,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=Zlwij7ZXLts",
+     "t_youtube_s": 6174.0,
+     "bichromie": "bleu"
+    }
+   ]
+  },
+  {
+   "id": "C3",
+   "clip": "R8_C3.mov",
+   "folder": "genR8",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R8/out/R8_C3.mov",
+   "s": 0,
+   "e": 30,
+   "rec": 298,
+   "dur": 30,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "plein cadre trichromie marine-or-crème : la place de la République noire de monde, bords de journal déchirés, sans texte",
+   "kind": "full",
+   "temps": 2.04,
+   "source": {
+    "fichier": "lot7/sources/R8-marche2022-drapeaux-c.mp4",
+    "in_s": 19.0,
+    "out_s": 20.0,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=Zlwij7ZXLts",
+    "t_youtube_s": 6329.0,
+    "contexte": "marche pour la 6e République, place de la République, Paris, 20/3/2022 (chaîne JEAN-LUC MÉLENCHON), fin : poing levé, mer de drapeaux, la place",
+    "synchro_voix": false
+   }
+  },
+  {
+   "id": "C4",
+   "clip": "R8_C4.mov",
+   "folder": "genR8",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R8/out/R8_C4.mov",
+   "s": 0,
+   "e": 29,
+   "rec": 328,
+   "dur": 29,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "Mélenchon au pupitre, plan serré d'une autre caméra (musique seule), découpé, écho marine, fond or",
+   "kind": "cut",
+   "temps": 1.97,
+   "source": {
+    "fichier": "lot4/sources/Z2-marche2022-3266.mp4",
+    "in_s": 14.0,
+    "out_s": 14.967,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=Zlwij7ZXLts",
+    "t_youtube_s": 3280.0,
+    "contexte": "marche pour la 6e République, place de la République, Paris, 20/3/2022 (chaîne JEAN-LUC MÉLENCHON), plan serré au pupitre",
+    "synchro_voix": false
+   }
+  },
+  {
+   "id": "C5",
+   "clip": "R8_C5.mov",
+   "folder": "genR8",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R8/out/R8_C5.mov",
+   "s": 0,
+   "e": 58,
+   "rec": 357,
+   "dur": 58,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "les foules s'empilent sur 4 frappes : la marche, Toulouse (Capitole), le soir du 1er tour, la marche ; page de journal marine",
+   "kind": "collage",
+   "temps": 3.95,
+   "coupures": [
+    {
+     "fichier": "lot7/sources/R8-marche2022-drapeaux-b.mp4",
+     "in_s": 28.5,
+     "out_s": 30.433,
+     "cadre_source": [
+      0,
+      180,
+      1600,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=Zlwij7ZXLts",
+     "t_youtube_s": 6193.5,
+     "bichromie": "or"
+    },
+    {
+     "fichier": "lot4/sources/Z2-toulouse2022-5692.mp4",
+     "in_s": 3.5,
+     "out_s": 5.433,
+     "cadre_source": [
+      0,
+      150,
+      1600,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=znUyK4s2pNs",
+     "t_youtube_s": 5695.5,
+     "bichromie": "bleu"
+    },
+    {
+     "fichier": "lot4/sources/Z2-premiertour2022-foule-b.mp4",
+     "in_s": 46.0,
+     "out_s": 47.933,
+     "cadre_source": [
+      0,
+      0,
+      1920,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=izCL2pR8UCE",
+     "t_youtube_s": 548.0,
+     "bichromie": "or"
+    },
+    {
+     "fichier": "lot7/sources/R8-marche2022-drapeaux-a.mp4",
+     "in_s": 14.5,
+     "out_s": 16.433,
+     "cadre_source": [
+      0,
+      180,
+      1600,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=Zlwij7ZXLts",
+     "t_youtube_s": 42.5,
+     "bichromie": "bleu"
+    }
+   ]
+  },
+  {
+   "id": "C6",
+   "clip": "R8_C6.mov",
+   "folder": "genR8",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R8/out/R8_C6.mov",
+   "s": 0,
+   "e": 29,
+   "rec": 415,
+   "dur": 29,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "plein cadre trichromie : Mélenchon de dos au pupitre face à la foule et aux drapeaux, sans texte",
+   "kind": "full",
+   "temps": 1.97,
+   "source": {
+    "fichier": "lot7/sources/R8-marche2022-drapeaux-b.mp4",
+    "in_s": 20.6,
+    "out_s": 21.567,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=Zlwij7ZXLts",
+    "t_youtube_s": 6185.6,
+    "contexte": "marche pour la 6e République, place de la République, Paris, 20/3/2022 (chaîne JEAN-LUC MÉLENCHON), fin du discours, foule et Mélenchon de dos",
+    "synchro_voix": false
+   }
+  },
+  {
+   "id": "C7",
+   "clip": "R8_C7.mov",
+   "folder": "genR8",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R8/out/R8_C7.mov",
+   "s": 0,
+   "e": 30,
+   "rec": 444,
+   "dur": 30,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "soir du 1er tour : Mélenchon poing serré (musique seule), découpé, la foule de la soirée collée au-dessus",
+   "kind": "cut",
+   "temps": 2.04,
+   "source": {
+    "fichier": "lot4/sources/Z2-premiertour2022-foule-b.mp4",
+    "in_s": 10.6,
+    "out_s": 11.6,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=izCL2pR8UCE",
+    "t_youtube_s": 512.6,
+    "contexte": "soir du 1er tour, Paris, 10/4/2022 (chaîne JEAN-LUC MÉLENCHON)",
+    "synchro_voix": false
+   },
+   "coupures": [
+    {
+     "fichier": "lot4/sources/Z2-premiertour2022-foule-a.mp4",
+     "in_s": 12.5,
+     "out_s": 13.5,
+     "cadre_source": [
+      0,
+      0,
+      1920,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=izCL2pR8UCE",
+     "t_youtube_s": 12.5,
+     "bichromie": "bleu"
+    }
+   ]
+  },
+  {
+   "id": "C8",
+   "clip": "R8_C8.mov",
+   "folder": "genR8",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R8/out/R8_C8.mov",
+   "s": 0,
+   "e": 29,
+   "rec": 474,
+   "dur": 29,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "collage sans texte : la place vue d'en haut, la foule de la marche, Toulouse",
+   "kind": "collage",
+   "temps": 1.97,
+   "coupures": [
+    {
+     "fichier": "lot7/sources/R8-marche2022-drapeaux-c.mp4",
+     "in_s": 26.5,
+     "out_s": 27.467,
+     "cadre_source": [
+      0,
+      180,
+      1600,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=Zlwij7ZXLts",
+     "t_youtube_s": 6336.5,
+     "bichromie": "or"
+    },
+    {
+     "fichier": "lot7/sources/R8-marche2022-drapeaux-a.mp4",
+     "in_s": 18.5,
+     "out_s": 19.467,
+     "cadre_source": [
+      0,
+      180,
+      1600,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=Zlwij7ZXLts",
+     "t_youtube_s": 46.5,
+     "bichromie": "bleu"
+    },
+    {
+     "fichier": "lot4/sources/Z2-toulouse2022-5692.mp4",
+     "in_s": 13.0,
+     "out_s": 13.967,
+     "cadre_source": [
+      0,
+      150,
+      1600,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=znUyK4s2pNs",
+     "t_youtube_s": 5705.0,
+     "bichromie": "or"
+    }
+   ]
+  },
+  {
+   "id": "C9",
+   "clip": "R8_C9.mov",
+   "folder": "genR8",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R8/out/R8_C9.mov",
+   "s": 0,
+   "e": 29,
+   "rec": 503,
+   "dur": 29,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "plein cadre trichromie : mer de drapeaux tricolores (fin de la marche), sans texte",
+   "kind": "full",
+   "temps": 1.97,
+   "source": {
+    "fichier": "lot7/sources/R8-marche2022-drapeaux-c.mp4",
+    "in_s": 10.4,
+    "out_s": 11.367,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=Zlwij7ZXLts",
+    "t_youtube_s": 6320.4,
+    "contexte": "marche pour la 6e République, place de la République, Paris, 20/3/2022 (chaîne JEAN-LUC MÉLENCHON), fin : poing levé, mer de drapeaux, la place",
+    "synchro_voix": false
+   }
+  },
+  {
+   "id": "FIN",
+   "clip": "R8_FIN.mov",
+   "folder": "genR8",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R8/out/R8_FIN.mov",
+   "s": 0,
+   "e": 60,
+   "rec": 532,
+   "dur": 60,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "carton final propre (feuille crème sur page de journal marine, marine + bande or) : son nom + 2027 (règle Luca pour toutes les vidéos de Mélenchon)",
+   "kind": "card",
+   "temps": 4.08
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "R8-mix.wav",
+   "folder": "genR8",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R8/out/R8-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS : voix MO 12.74-20.30 s (+3 dB, fondu de la clameur 19.70-20.30) à 0.41 s ; Seven Nation Army dès 47.730 s du complet, -19 dB sous la voix, montée sur « and the message… », plein au drop, fondu de fin 0,3 s"
+  }
+ ],
+ "stems": [
+  "lot7/_claude/gen/R8/out/R8-voix.wav",
+  "lot7/_claude/gen/R8/out/R8-musique.wav"
+ ],
+ "logos_exclus": "filigrane « L'UNION POPULAIRE » (haut droite, x > 1600) hors des cadres photo et des détourages ; affiches des pupitres sous les découpes ; décor « L'UNION POPULAIRE » du soir du 1er tour retiré par le détourage"
+}

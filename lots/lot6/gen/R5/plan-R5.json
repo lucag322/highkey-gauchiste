@@ -1,0 +1,608 @@
+{
+ "name": "R5 - Collage ransom-note pop - Antoine Léaument",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 18.9,
+ "note": "Plans ProRes 9:16 composés en Python (lot6/_claude/gen/R5/out) : aplats pop qui changent à chaque frappe + feuille déchirée tramée Ben-Day, Léaument détouré (segment/Vision, plus grande tache), aplat décalé façon sérigraphie, multiples pop (B3), photos bichromie collées, textes ransom-note cuits. s/e en images du clip (30 i/s), rec en images timeline. Coupes sur les kicks réels de D.A.N.C.E. (out/R5-frappes.json). Aucun ralenti. Générateur : lot6/_claude/gen/R5/genR5.py",
+ "phrase": {
+  "texte": "Mais la peur, vous vous en nourrissez. Pire, vous la suscitez et vous l'exploitez pour des motifs politiciens pour une raison simple. Quand la peur règne, on peut gouverner par la force.",
+  "url": "https://www.youtube.com/watch?v=4CPac_uArQ0&t=24",
+  "source": "lot2/sources/G3-leaument-an-securite-2026-06.mp4",
+  "in_s": 24.76,
+  "out_s": 32.96,
+  "timeline_s": [
+   0.36,
+   8.56
+  ],
+  "voix": "son direct synchro (plans A1-A4, même source, même moment) ; phrase complète, rien de coupé"
+ },
+ "musique": {
+  "fichier": "lot6/sons/R5-justice-dance_complet.wav",
+  "titre": "Justice - D.A.N.C.E.",
+  "url": "https://www.youtube.com/watch?v=tCnBrrnOefs",
+  "debut_complet_s": 25.539,
+  "fin_complet_s": 44.439,
+  "drop_timeline_s": 8.7449,
+  "coupes_kicks_s": [
+   2.4009,
+   4.534,
+   6.6766,
+   8.7449,
+   9.8126,
+   10.9198,
+   11.9405,
+   13.0016,
+   14.1037,
+   15.127,
+   17.2901
+  ],
+  "coupes_images": [
+   72,
+   136,
+   200,
+   262,
+   294,
+   328,
+   358,
+   390,
+   423,
+   454,
+   519
+  ]
+ },
+ "textes": [
+  {
+   "plan": "A1",
+   "texte": "MAIS LA"
+  },
+  {
+   "plan": "A1",
+   "texte": "PEUR"
+  },
+  {
+   "plan": "A1",
+   "texte": "VOUS VOUS EN"
+  },
+  {
+   "plan": "A1",
+   "texte": "NOURRISSEZ"
+  },
+  {
+   "plan": "A1",
+   "texte": "PIRE"
+  },
+  {
+   "plan": "A2",
+   "texte": "VOUS LA"
+  },
+  {
+   "plan": "A2",
+   "texte": "SUSCITEZ"
+  },
+  {
+   "plan": "A2",
+   "texte": "ET VOUS"
+  },
+  {
+   "plan": "A2",
+   "texte": "L'EXPLOITEZ"
+  },
+  {
+   "plan": "A2",
+   "texte": "POUR DES"
+  },
+  {
+   "plan": "A3",
+   "texte": "MOTIFS"
+  },
+  {
+   "plan": "A3",
+   "texte": "POLITICIENS"
+  },
+  {
+   "plan": "A3",
+   "texte": "POUR UNE"
+  },
+  {
+   "plan": "A3",
+   "texte": "RAISON SIMPLE"
+  },
+  {
+   "plan": "A4",
+   "texte": "QUAND LA"
+  },
+  {
+   "plan": "A4",
+   "texte": "PEUR RÈGNE"
+  },
+  {
+   "plan": "A4",
+   "texte": "ON PEUT"
+  },
+  {
+   "plan": "A4",
+   "texte": "GOUVERNER"
+  },
+  {
+   "plan": "A4",
+   "texte": "PAR LA FORCE"
+  },
+  {
+   "plan": "B1",
+   "texte": "LA PEUR"
+  },
+  {
+   "plan": "B2",
+   "texte": "VOUS VOUS EN"
+  },
+  {
+   "plan": "B2",
+   "texte": "NOURRISSEZ"
+  },
+  {
+   "plan": "B3",
+   "texte": "PIRE"
+  },
+  {
+   "plan": "B4",
+   "texte": "VOUS LA"
+  },
+  {
+   "plan": "B4",
+   "texte": "SUSCITEZ"
+  },
+  {
+   "plan": "B5",
+   "texte": "QUAND LA PEUR"
+  },
+  {
+   "plan": "B5",
+   "texte": "RÈGNE"
+  },
+  {
+   "plan": "B6",
+   "texte": "ON PEUT"
+  },
+  {
+   "plan": "B6",
+   "texte": "GOUVERNER"
+  },
+  {
+   "plan": "B7",
+   "texte": "PAR LA"
+  },
+  {
+   "plan": "B7",
+   "texte": "FORCE"
+  },
+  {
+   "plan": "FIN",
+   "texte": "ANTOINE"
+  },
+  {
+   "plan": "FIN",
+   "texte": "LÉAUMENT"
+  }
+ ],
+ "video": [
+  {
+   "id": "A1",
+   "clip": "R5_A1.mov",
+   "folder": "genR5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R5/out/R5_A1.mov",
+   "s": 0,
+   "e": 72,
+   "rec": 0,
+   "dur": 72,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — tribune de l'Assemblée : « Mais la peur, vous vous en nourrissez. Pire… » en son direct, Léaument détouré sur aplats pop qui changent à chaque frappe",
+   "kind": "cut",
+   "temps": 4.49,
+   "source": {
+    "fichier": "lot2/sources/G3-leaument-an-securite-2026-06.mp4",
+    "in_s": 24.4,
+    "out_s": 26.8,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=4CPac_uArQ0",
+    "contexte": "tribune de l'Assemblée, loi antiterroriste, 16/06/2026 (chaîne La France insoumise à l'Assemblée nationale)"
+   }
+  },
+  {
+   "id": "A2",
+   "clip": "R5_A2.mov",
+   "folder": "genR5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R5/out/R5_A2.mov",
+   "s": 0,
+   "e": 64,
+   "rec": 72,
+   "dur": 64,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "même plan synchro : « …vous la suscitez et vous l'exploitez », photos bichromie de l'hémicycle (plan large) et de la grève",
+   "kind": "cut",
+   "temps": 3.99,
+   "source": {
+    "fichier": "lot2/sources/G3-leaument-an-securite-2026-06.mp4",
+    "in_s": 26.8,
+    "out_s": 28.933,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=4CPac_uArQ0",
+    "contexte": "tribune de l'Assemblée, loi antiterroriste, 16/06/2026 (chaîne La France insoumise à l'Assemblée nationale)"
+   },
+   "photos_bichromie": [
+    {
+     "fichier": "lot2/sources/G3-leaument-an-securite-2026-06.mp4",
+     "in_s": 4.0,
+     "out_s": 6.13,
+     "cadre_source": [
+      360,
+      170,
+      1700,
+      1000
+     ],
+     "url": "https://www.youtube.com/watch?v=4CPac_uArQ0"
+    },
+    {
+     "fichier": "lot3/sources/P1-leaument-interview-greve-2026-02.mp4",
+     "in_s": 2.0,
+     "out_s": 4.13,
+     "cadre_source": [
+      1420,
+      250,
+      1900,
+      900
+     ],
+     "url": "https://youtu.be/EA4uU-DL4uM"
+    }
+   ]
+  },
+  {
+   "id": "A3",
+   "clip": "R5_A3.mov",
+   "folder": "genR5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R5/out/R5_A3.mov",
+   "s": 0,
+   "e": 64,
+   "rec": 136,
+   "dur": 64,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "même plan synchro : « pour des motifs politiciens pour une raison simple », le collage se remplit",
+   "kind": "cut",
+   "temps": 3.99,
+   "source": {
+    "fichier": "lot2/sources/G3-leaument-an-securite-2026-06.mp4",
+    "in_s": 28.933,
+    "out_s": 31.067,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=4CPac_uArQ0",
+    "contexte": "tribune de l'Assemblée, loi antiterroriste, 16/06/2026 (chaîne La France insoumise à l'Assemblée nationale)"
+   },
+   "photos_bichromie": [
+    {
+     "fichier": "lot2/sources/G3-leaument-lcp-qag-2026-04.mp4",
+     "in_s": 46.25,
+     "out_s": 48.38,
+     "cadre_source": [
+      160,
+      140,
+      1440,
+      860
+     ],
+     "url": "https://www.youtube.com/watch?v=CwaWePGUP8w"
+    },
+    {
+     "fichier": "lot2/sources/G3-leaument-an-securite-2026-06.mp4",
+     "in_s": 7.0,
+     "out_s": 9.13,
+     "cadre_source": [
+      360,
+      170,
+      1700,
+      1000
+     ],
+     "url": "https://www.youtube.com/watch?v=4CPac_uArQ0"
+    }
+   ]
+  },
+  {
+   "id": "A4",
+   "clip": "R5_A4.mov",
+   "folder": "genR5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R5/out/R5_A4.mov",
+   "s": 0,
+   "e": 62,
+   "rec": 200,
+   "dur": 62,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "même plan synchro : « Quand la peur règne, on peut gouverner par la force. », montée jusqu'au drop",
+   "kind": "cut",
+   "temps": 3.87,
+   "source": {
+    "fichier": "lot2/sources/G3-leaument-an-securite-2026-06.mp4",
+    "in_s": 31.067,
+    "out_s": 33.133,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=4CPac_uArQ0",
+    "contexte": "tribune de l'Assemblée, loi antiterroriste, 16/06/2026 (chaîne La France insoumise à l'Assemblée nationale)"
+   },
+   "photos_bichromie": [
+    {
+     "fichier": "lot3/sources/P1-leaument-interview-greve-2026-02.mp4",
+     "in_s": 3.5,
+     "out_s": 5.57,
+     "cadre_source": [
+      1420,
+      250,
+      1900,
+      900
+     ],
+     "url": "https://youtu.be/EA4uU-DL4uM"
+    }
+   ]
+  },
+  {
+   "id": "B1",
+   "clip": "R5_B1.mov",
+   "folder": "genR5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R5/out/R5_B1.mov",
+   "s": 0,
+   "e": 32,
+   "rec": 262,
+   "dur": 32,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — hémicycle (LCP), il pointe du doigt : flash blanc 3 images au drop, silhouette blanche puis découpe couleur, contour autocollant + aplat décalé",
+   "kind": "sil",
+   "temps": 2.0,
+   "source": {
+    "fichier": "lot3/sources/P1-leaument-lcp-chenu-2026-01b.mp4",
+    "in_s": 10.85,
+    "out_s": 11.917,
+    "fps": 23.976,
+    "url": "https://youtu.be/5VJWCXdOKyg",
+    "contexte": "LCP, hémicycle 22/01/2026, debout, réplique au RN (extrait P1, autres images)"
+   }
+  },
+  {
+   "id": "B2",
+   "clip": "R5_B2.mov",
+   "folder": "genR5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R5/out/R5_B2.mov",
+   "s": 0,
+   "e": 34,
+   "rec": 294,
+   "dur": 34,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — grève Ubisoft, écharpe tricolore : découpe sur aplats pop",
+   "kind": "cut",
+   "temps": 2.12,
+   "source": {
+    "fichier": "lot3/sources/P1-leaument-interview-greve-2026-02.mp4",
+    "in_s": 14.85,
+    "out_s": 15.983,
+    "fps": 60.0,
+    "url": "https://youtu.be/EA4uU-DL4uM",
+    "contexte": "Point'n Think, interview pendant la grève Ubisoft 10/02/2026, écharpe tricolore (extrait P1, autres images)"
+   }
+  },
+  {
+   "id": "B3",
+   "clip": "R5_B3.mov",
+   "folder": "genR5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R5/out/R5_B3.mov",
+   "s": 0,
+   "e": 30,
+   "rec": 328,
+   "dur": 30,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — au bureau, bras ouverts : 3 silhouettes en aplats décalés (multiples pop) + la découpe couleur",
+   "kind": "echo",
+   "temps": 1.87,
+   "source": {
+    "fichier": "lot3/sources/P1-leaument-bureau-2026-06.mp4",
+    "in_s": 0.3,
+    "out_s": 1.3,
+    "fps": 23.976,
+    "url": "https://youtu.be/mvSD-5YHhlk",
+    "contexte": "chaîne officielle, « La campagne de la victoire ! » 13/06/2026, face caméra au bureau (extrait P1, autres images)"
+   }
+  },
+  {
+   "id": "B4",
+   "clip": "R5_B4.mov",
+   "folder": "genR5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R5/out/R5_B4.mov",
+   "s": 0,
+   "e": 32,
+   "rec": 358,
+   "dur": 32,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "collage magazine : photos bichromie (tribune, hémicycle LCP, plan large, grève) qui se posent à chaque demi-temps",
+   "kind": "collage",
+   "temps": 2.0,
+   "photos_bichromie": [
+    {
+     "fichier": "lot2/sources/G3-leaument-an-securite-2026-06.mp4",
+     "in_s": 252.4,
+     "out_s": 253.47,
+     "cadre_source": [
+      560,
+      80,
+      1400,
+      900
+     ],
+     "url": "https://www.youtube.com/watch?v=4CPac_uArQ0"
+    },
+    {
+     "fichier": "lot3/sources/P1-leaument-lcp-chenu-2026-01b.mp4",
+     "in_s": 5.05,
+     "out_s": 6.12,
+     "cadre_source": [
+      420,
+      0,
+      1500,
+      1080
+     ],
+     "url": "https://youtu.be/5VJWCXdOKyg"
+    },
+    {
+     "fichier": "lot2/sources/G3-leaument-lcp-qag-2026-04.mp4",
+     "in_s": 48.0,
+     "out_s": 49.07,
+     "cadre_source": [
+      160,
+      140,
+      1440,
+      860
+     ],
+     "url": "https://www.youtube.com/watch?v=CwaWePGUP8w"
+    },
+    {
+     "fichier": "lot3/sources/P1-leaument-interview-greve-2026-02.mp4",
+     "in_s": 16.4,
+     "out_s": 17.47,
+     "cadre_source": [
+      470,
+      0,
+      1650,
+      1080
+     ],
+     "url": "https://youtu.be/EA4uU-DL4uM"
+    }
+   ]
+  },
+  {
+   "id": "B5",
+   "clip": "R5_B5.mov",
+   "folder": "genR5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R5/out/R5_B5.mov",
+   "s": 0,
+   "e": 33,
+   "rec": 390,
+   "dur": 33,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — tribune, autre moment, plein cadre couleur entre deux bords déchirés tramés ; gros texte avec contour",
+   "kind": "full",
+   "temps": 2.06,
+   "source": {
+    "fichier": "lot2/sources/G3-leaument-an-securite-2026-06.mp4",
+    "in_s": 258.4,
+    "out_s": 259.5,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=4CPac_uArQ0",
+    "contexte": "tribune de l'Assemblée, loi antiterroriste, 16/06/2026 (chaîne La France insoumise à l'Assemblée nationale)"
+   }
+  },
+  {
+   "id": "B6",
+   "clip": "R5_B6.mov",
+   "folder": "genR5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R5/out/R5_B6.mov",
+   "s": 0,
+   "e": 31,
+   "rec": 423,
+   "dur": 31,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — tribune (« je le fais donc à cette tribune », sans le son), découpe + aplat décalé, photo du bureau en bichromie",
+   "kind": "cut",
+   "temps": 1.93,
+   "source": {
+    "fichier": "lot2/sources/G3-leaument-an-securite-2026-06.mp4",
+    "in_s": 160.0,
+    "out_s": 161.033,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=4CPac_uArQ0",
+    "contexte": "tribune de l'Assemblée, loi antiterroriste, 16/06/2026 (chaîne La France insoumise à l'Assemblée nationale)"
+   },
+   "photos_bichromie": [
+    {
+     "fichier": "lot3/sources/P1-leaument-bureau-2026-06.mp4",
+     "in_s": 8.0,
+     "out_s": 9.03,
+     "cadre_source": [
+      200,
+      0,
+      1500,
+      1080
+     ],
+     "url": "https://youtu.be/mvSD-5YHhlk"
+    }
+   ]
+  },
+  {
+   "id": "B7",
+   "clip": "R5_B7.mov",
+   "folder": "genR5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R5/out/R5_B7.mov",
+   "s": 0,
+   "e": 65,
+   "rec": 454,
+   "dur": 65,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — au bureau, face caméra : silhouette blanche 3 images puis découpe couleur ; PAR LA FORCE en un seul carton pendant le break « Do the dance »",
+   "kind": "sil",
+   "temps": 4.06,
+   "source": {
+    "fichier": "lot3/sources/P1-leaument-bureau-2026-06.mp4",
+    "in_s": 9.95,
+    "out_s": 12.117,
+    "fps": 23.976,
+    "url": "https://youtu.be/mvSD-5YHhlk",
+    "contexte": "chaîne officielle, « La campagne de la victoire ! » 13/06/2026, face caméra au bureau (extrait P1, autres images)"
+   }
+  },
+  {
+   "id": "FIN",
+   "clip": "R5_FIN.mov",
+   "folder": "genR5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R5/out/R5_FIN.mov",
+   "s": 0,
+   "e": 48,
+   "rec": 519,
+   "dur": 48,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "carton final propre (fond noir, Impact blanc / rose) : son nom seul (aucun groupe de mots répété)",
+   "kind": "card",
+   "temps": 3.0
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "R5-mix.wav",
+   "folder": "genR5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R5/out/R5-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS : voix AN 24.66-33.10 s (+5 dB) à 0.26 s ; D.A.N.C.E. dès 25.539 s du complet, passe-bas 420 Hz -> ouvert et -13 -> -5 dB sous la voix, plein au drop, fondu de fin 0,45 s"
+  }
+ ],
+ "stems": [
+  "lot6/_claude/gen/R5/out/R5-voix.wav",
+  "lot6/_claude/gen/R5/out/R5-musique.wav"
+ ],
+ "logos_exclus": "AN : logo LFI (haut gauche) et logo de l'Assemblée (haut droite) hors détourage et hors cadre (plein cadre recadré) ; LCP : logo, chrono, interprète et bandeau hors cadre photo ; grève : logo Point'n Think hors cadre"
+}

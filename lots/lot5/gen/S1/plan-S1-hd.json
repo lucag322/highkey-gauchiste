@@ -1,0 +1,368 @@
+{
+ "name": "S1 - Arc solidarité Lula 2022 -> Mélenchon (Queen - We Are The Champions)",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 18.641,
+ "note": "Plans 9:16 recadrés + étalonnés couleur pleine, textes cuits (lot5/_claude/gen/S1/out). s/e en images du clip (30 i/s), rec en images timeline. Coupes sur les frappes réelles de la musique posée (out/S1-frappes.json), carton BRAVO, LULA! 1 temps juste avant le drop, drop = « We are the champions ». Aucun ralenti. Recette hazemziadi17 (arc victoire étrangère -> figure française, sous-titre courant Guess who's next?!, date sur le dernier plan).",
+ "phrase": {
+  "texte": "Tentaram me enterrar vivo e eu estou aqui.",
+  "traduction": "Ils ont essayé de m'enterrer vivant, et je suis là.",
+  "source": "https://www.youtube.com/watch?v=Tutjrt27Z6E (chaîne Câmara dos Deputados, 1er discours de Lula élu, São Paulo 30/10/2022), 93.49-96.45 s — fichier lot5/sources/S1-lula-camara-enterrar.mp4 7.49-10.45 s",
+  "timeline_s": [
+   0.28,
+   3.24
+  ]
+ },
+ "video": [
+  {
+   "id": "drapeau_0",
+   "clip": "S1_drapeau.mov",
+   "folder": "genS1",
+   "s": 0,
+   "e": 27,
+   "rec": 0,
+   "track": 1,
+   "kind": "shot",
+   "clip_fps": 30,
+   "dur": 27,
+   "speed_pct": 100,
+   "effet": "coupe franche",
+   "temps": 0.9,
+   "pourquoi": "Avenida Paulista 30/10/2022 : drapeau du Brésil au-dessus de la foule (Tentaram… commence)",
+   "source": "lot5/sources/S1-lula-folha-paulista-a.mp4 @ 4.300 s (https://www.youtube.com/watch?v=5J2ar2UK8OM @ 7.30 s)",
+   "contexte": "Avenida Paulista, nuit de la victoire de Lula, 30/10/2022 (Folha de S.Paulo)",
+   "texte": [
+    "Ils ont essayé / de m'enterrer vivant, / et je suis là. (traduction de la phrase de Lula, pendant qu'elle est dite)"
+   ]
+  },
+  {
+   "id": "foule_27",
+   "clip": "S1_foule.mov",
+   "folder": "genS1",
+   "s": 0,
+   "e": 56,
+   "rec": 27,
+   "track": 1,
+   "kind": "shot",
+   "clip_fps": 30,
+   "dur": 56,
+   "speed_pct": 100,
+   "effet": "coupe franche",
+   "temps": 2.0,
+   "pourquoi": "Avenida Paulista : la foule, bras levés sous les lumières (voix de Lula par-dessus : plan de foule, règle synchro)",
+   "source": "lot5/sources/S1-lula-ninja-paulista-a.mp4 @ 22.350 s (https://www.youtube.com/watch?v=LxNH-ZMXUYY @ 22.35 s)",
+   "contexte": "Avenida Paulista, nuit de la victoire de Lula, 30/10/2022 (Mídia NINJA)",
+   "texte": [
+    "Ils ont essayé / de m'enterrer vivant, / et je suis là. (traduction de la phrase de Lula, pendant qu'elle est dite)"
+   ]
+  },
+  {
+   "id": "fumis_83",
+   "clip": "S1_fumis.mov",
+   "folder": "genS1",
+   "s": 0,
+   "e": 28,
+   "rec": 83,
+   "track": 1,
+   "kind": "shot",
+   "clip_fps": 30,
+   "dur": 28,
+   "speed_pct": 100,
+   "effet": "coupe franche",
+   "temps": 1.0,
+   "pourquoi": "Avenida Paulista : fumigènes rouges, bras levés (ovation)",
+   "source": "lot5/sources/S1-lula-folha-paulista-b.mp4 @ 12.200 s (https://www.youtube.com/watch?v=5J2ar2UK8OM @ 222.20 s)",
+   "contexte": "Avenida Paulista, nuit de la victoire de Lula, 30/10/2022 (Folha de S.Paulo)",
+   "texte": [
+    "Ils ont essayé / de m'enterrer vivant, / et je suis là. (traduction de la phrase de Lula, pendant qu'elle est dite)"
+   ]
+  },
+  {
+   "id": "lula_111",
+   "clip": "S1_lula.mov",
+   "folder": "genS1",
+   "s": 0,
+   "e": 28,
+   "rec": 111,
+   "track": 1,
+   "kind": "shot",
+   "clip_fps": 30,
+   "dur": 28,
+   "speed_pct": 100,
+   "effet": "coupe franche",
+   "temps": 1.0,
+   "pourquoi": "Lula (à gauche) sur le camion de l'Avenida Paulista, mains levées avec Haddad et Alckmin (il ne parle pas)",
+   "source": "lot5/sources/S1-lula-folha-paulista-a.mp4 @ 8.000 s (https://www.youtube.com/watch?v=5J2ar2UK8OM @ 11.00 s)",
+   "contexte": "Avenida Paulista, nuit de la victoire de Lula, 30/10/2022 (Folha de S.Paulo)"
+  },
+  {
+   "id": "carton_139",
+   "clip": "S1_carton.mov",
+   "folder": "genS1",
+   "s": 0,
+   "e": 29,
+   "rec": 139,
+   "track": 1,
+   "kind": "carton",
+   "clip_fps": 30,
+   "dur": 29,
+   "speed_pct": 100,
+   "effet": "coupe franche",
+   "temps": 1.0,
+   "pourquoi": "charnière : carton plein écran rouge #E4002B, BRAVO, LULA! en blanc (recette hazemziadi17)",
+   "source": "généré (genS1.py card_frames)",
+   "contexte": "carton BRAVO, LULA! rouge #E4002B"
+  },
+  {
+   "id": "doigt_168",
+   "clip": "S1_doigt.mov",
+   "folder": "genS1",
+   "s": 0,
+   "e": 57,
+   "rec": 168,
+   "track": 1,
+   "kind": "shot",
+   "clip_fps": 30,
+   "dur": 57,
+   "speed_pct": 100,
+   "effet": "coupe franche",
+   "temps": 2.0,
+   "pourquoi": "DROP « We are the champions » : Clermont 2026, index levé puis bras tendu vers la salle",
+   "source": "lot2/sources/C3-melenchon-clermont-03.mp4 @ 1.300 s (https://www.youtube.com/watch?v=sBvVfHxcJp4 @ 2219.80 s)",
+   "contexte": "meeting de Clermont-Ferrand, 11/10/2026 (chaîne JEAN-LUC MÉLENCHON)",
+   "texte": [
+    "Guess who's next?!"
+   ]
+  },
+  {
+   "id": "salle_225",
+   "clip": "S1_salle.mov",
+   "folder": "genS1",
+   "s": 0,
+   "e": 29,
+   "rec": 225,
+   "track": 1,
+   "kind": "shot",
+   "clip_fps": 30,
+   "dur": 29,
+   "speed_pct": 100,
+   "effet": "coupe franche",
+   "temps": 1.0,
+   "pourquoi": "Clermont 2026 : la salle agite les drapeaux",
+   "source": "lot3/sources/A6-melenchon-clermont-entree.mp4 @ 8.400 s (https://www.youtube.com/watch?v=sBvVfHxcJp4 @ 1478.40 s)",
+   "contexte": "meeting de Clermont-Ferrand, 11/10/2026 (chaîne JEAN-LUC MÉLENCHON)",
+   "texte": [
+    "Guess who's next?!"
+   ]
+  },
+  {
+   "id": "poing_254",
+   "clip": "S1_poing.mov",
+   "folder": "genS1",
+   "s": 0,
+   "e": 29,
+   "rec": 254,
+   "track": 1,
+   "kind": "shot",
+   "clip_fps": 30,
+   "dur": 29,
+   "speed_pct": 100,
+   "effet": "coupe franche",
+   "temps": 1.0,
+   "pourquoi": "convention 2025 : poing levé",
+   "source": "lot2/sources/C3-melenchon-convention-01.mp4 @ 5.000 s (https://www.youtube.com/watch?v=Yc46p2zQZxY @ 29.50 s)",
+   "contexte": "convention LFI, 23/11/2025 (chaîne JEAN-LUC MÉLENCHON)",
+   "texte": [
+    "Guess who's next?!"
+   ]
+  },
+  {
+   "id": "marche_283",
+   "clip": "S1_marche.mov",
+   "folder": "genS1",
+   "s": 0,
+   "e": 55,
+   "rec": 283,
+   "track": 1,
+   "kind": "shot",
+   "clip_fps": 30,
+   "dur": 55,
+   "speed_pct": 100,
+   "effet": "coupe franche",
+   "temps": 1.9,
+   "pourquoi": "marche pour la 6e République 2022 : à la tribune, drapeaux devant",
+   "source": "lot4/sources/Z2-marche2022-4018.mp4 @ 5.200 s (https://www.youtube.com/watch?v=Zlwij7ZXLts @ 4023.20 s)",
+   "contexte": "marche pour la 6e République, Paris, 20/3/2022 (chaîne JEAN-LUC MÉLENCHON)",
+   "texte": [
+    "Guess who's next?!"
+   ]
+  },
+  {
+   "id": "flags_338",
+   "clip": "S1_flags.mov",
+   "folder": "genS1",
+   "s": 0,
+   "e": 30,
+   "rec": 338,
+   "track": 1,
+   "kind": "shot",
+   "clip_fps": 30,
+   "dur": 30,
+   "speed_pct": 100,
+   "effet": "coupe franche",
+   "temps": 1.1,
+   "pourquoi": "marche 2022 : marée de drapeaux",
+   "source": "lot4/sources/Z2-marche2022-4895.mp4 @ 5.500 s (https://www.youtube.com/watch?v=Zlwij7ZXLts @ 4900.50 s)",
+   "contexte": "marche pour la 6e République, Paris, 20/3/2022 (chaîne JEAN-LUC MÉLENCHON)",
+   "texte": [
+    "Guess who's next?!"
+   ]
+  },
+  {
+   "id": "parle_368",
+   "clip": "S1_parle.mov",
+   "folder": "genS1",
+   "s": 0,
+   "e": 28,
+   "rec": 368,
+   "track": 1,
+   "kind": "shot",
+   "clip_fps": 30,
+   "dur": 28,
+   "speed_pct": 100,
+   "effet": "coupe franche",
+   "temps": 1.0,
+   "pourquoi": "convention 2025 : gros plan",
+   "source": "lot2/sources/C3-melenchon-convention-02.mp4 @ 5.000 s (https://www.youtube.com/watch?v=Yc46p2zQZxY @ 122.50 s)",
+   "contexte": "convention LFI, 23/11/2025 (chaîne JEAN-LUC MÉLENCHON)",
+   "texte": [
+    "Guess who's next?!"
+   ]
+  },
+  {
+   "id": "liesse_396",
+   "clip": "S1_liesse.mov",
+   "folder": "genS1",
+   "s": 0,
+   "e": 29,
+   "rec": 396,
+   "track": 1,
+   "kind": "shot",
+   "clip_fps": 30,
+   "dur": 29,
+   "speed_pct": 100,
+   "effet": "coupe franche",
+   "temps": 1.0,
+   "pourquoi": "Clermont 2026 : la salle en liesse, drapeaux",
+   "source": "lot3/sources/A6-melenchon-clermont-entree.mp4 @ 40.500 s (https://www.youtube.com/watch?v=sBvVfHxcJp4 @ 1510.50 s)",
+   "contexte": "meeting de Clermont-Ferrand, 11/10/2026 (chaîne JEAN-LUC MÉLENCHON)",
+   "texte": [
+    "Guess who's next?!"
+   ]
+  },
+  {
+   "id": "sourire_425",
+   "clip": "S1_sourire.mov",
+   "folder": "genS1",
+   "s": 0,
+   "e": 28,
+   "rec": 425,
+   "track": 1,
+   "kind": "shot",
+   "clip_fps": 30,
+   "dur": 28,
+   "speed_pct": 100,
+   "effet": "coupe franche",
+   "temps": 1.0,
+   "pourquoi": "convention 2025 : il sourit",
+   "source": "lot2/sources/C3-melenchon-convention-03.mp4 @ 6.000 s (https://www.youtube.com/watch?v=Yc46p2zQZxY @ 495.50 s)",
+   "contexte": "convention LFI, 23/11/2025 (chaîne JEAN-LUC MÉLENCHON)",
+   "texte": [
+    "Guess who's next?!"
+   ]
+  },
+  {
+   "id": "arene_453",
+   "clip": "S1_arene.mov",
+   "folder": "genS1",
+   "s": 0,
+   "e": 57,
+   "rec": 453,
+   "track": 1,
+   "kind": "shot",
+   "clip_fps": 30,
+   "dur": 57,
+   "speed_pct": 100,
+   "effet": "coupe franche",
+   "temps": 2.0,
+   "pourquoi": "Clermont 2026 : l'arène pleine",
+   "source": "lot2/sources/C3-melenchon-clermont-01.mp4 @ 5.600 s (https://www.youtube.com/watch?v=sBvVfHxcJp4 @ 559.10 s)",
+   "contexte": "meeting de Clermont-Ferrand, 11/10/2026 (chaîne JEAN-LUC MÉLENCHON)",
+   "texte": [
+    "Guess who's next?!"
+   ]
+  },
+  {
+   "id": "fin_510",
+   "clip": "S1_fin.mov",
+   "folder": "genS1",
+   "s": 0,
+   "e": 49,
+   "rec": 510,
+   "track": 1,
+   "kind": "shot",
+   "clip_fps": 30,
+   "dur": 49,
+   "speed_pct": 100,
+   "effet": "coupe franche",
+   "temps": 1.7,
+   "pourquoi": "Clermont-Ferrand 11/10/2026 : il sourit à la tribune (date posée)",
+   "source": "lot3/sources/A6-melenchon-clermont-entree.mp4 @ 57.000 s (https://www.youtube.com/watch?v=sBvVfHxcJp4 @ 1527.00 s)",
+   "contexte": "meeting de Clermont-Ferrand, 11/10/2026 (chaîne JEAN-LUC MÉLENCHON)",
+   "texte": [
+    "Guess who's next?!",
+    "11 octobre ♥ (date du meeting de Clermont-Ferrand)"
+   ]
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "S1-mix.wav",
+   "folder": "genS1",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS, TP <= -1 dBTP"
+  }
+ ],
+ "stems": [
+  "lot5/_claude/gen/S1/out/S1-voix.wav",
+  "lot5/_claude/gen/S1/out/S1-musique.wav"
+ ],
+ "musique": {
+  "fichier": "lot5/sons/S1-queen-champions_complet.wav",
+  "titre": "Queen - We Are The Champions",
+  "url": "https://www.youtube.com/watch?v=04854XqcfCY",
+  "debut_complet_s": 31.033,
+  "fin_complet_s": 49.674,
+  "coupes_timeline_s": [
+   0.911,
+   2.7613,
+   3.7071,
+   4.6224,
+   5.607,
+   7.4928,
+   8.4712,
+   9.4186,
+   11.2809,
+   12.27,
+   13.1884,
+   14.1645,
+   15.1012,
+   16.9942
+  ],
+  "drop_timeline_s": 5.607
+ },
+ "logos_exclus": "logo TV Câmara, bandeau et interprète hors fenêtre ; filigranes MELENCHON2027 et pupitre Clermont-Ferrand hors fenêtre ; logo convention hors fenêtre"
+}

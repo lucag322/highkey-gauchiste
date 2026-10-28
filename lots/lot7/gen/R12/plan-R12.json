@@ -1,0 +1,714 @@
+{
+ "name": "R12 - Collage ransom-note Marseille - Manuel Bompard",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 19.62,
+ "note": "Plans ProRes 9:16 composés en Python (lot7/_claude/gen/R12/out) : fonds papier froissé ciel / azur / blanc + feuille déchirée, Bompard détouré seul (_claude/outils/decoupe.py : ni pupitre ni micro, bas du buste posé sur le bas du cadre), double tirage tramé, silhouette blanche 3 images au drop, photos de Marseille en couleur (polaroids scotchés), textes ransom-note cuits. s/e en images du clip (30 i/s), rec en images timeline. Coupes sur les kicks réels de Bande organisée (out/R12-frappes.json). Aucun ralenti. Générateur : lot7/_claude/gen/R12/genR12.py",
+ "phrase": {
+  "texte": "Assez de cette islamophobie, assez de ces discours qui stigmatisent une partie de la population.",
+  "url": "https://www.youtube.com/watch?v=7FBfSi-UjCA&t=424",
+  "source": "lot7/sources/R12-bompard-marseille-meeting.mp4",
+  "in_s": 424.04,
+  "out_s": 429.42,
+  "timeline_s": [
+   0.15,
+   5.53
+  ],
+  "voix": "son direct, plans A1-A3 synchro (même source, même moment, plan pupitre de la régie)",
+  "contexte": "dite juste après « …ne seraient pas vraiment loyaux à la République » (sondage IFOP sur les musulmans), non gardé"
+ },
+ "musique": {
+  "fichier": "lot7/sons/R12-bande-organisee_complet.wav",
+  "titre": "13'Organisé - Bande organisée",
+  "url": "https://www.youtube.com/watch?v=-CVn3-3g_BI",
+  "debut_complet_s": 202.091,
+  "fin_complet_s": 221.711,
+  "drop_timeline_s": 6.042,
+  "coupes_frappes_s": [
+   2.2777,
+   3.9371,
+   6.042,
+   7.7322,
+   9.4108,
+   11.0889,
+   12.7674,
+   14.4435,
+   16.1239,
+   16.9613
+  ],
+  "coupes_images": [
+   68,
+   118,
+   181,
+   232,
+   282,
+   333,
+   383,
+   433,
+   484,
+   509
+  ]
+ },
+ "textes": [
+  {
+   "plan": "A1",
+   "texte": "ASSEZ DE CETTE"
+  },
+  {
+   "plan": "A1",
+   "texte": "ISLAMOPHOBIE,"
+  },
+  {
+   "plan": "A2",
+   "texte": "ASSEZ DE CES"
+  },
+  {
+   "plan": "A2",
+   "texte": "DISCOURS QUI"
+  },
+  {
+   "plan": "A2",
+   "texte": "STIGMATISENT"
+  },
+  {
+   "plan": "A3",
+   "texte": "UNE PARTIE"
+  },
+  {
+   "plan": "A3",
+   "texte": "DE LA"
+  },
+  {
+   "plan": "A3",
+   "texte": "POPULATION."
+  },
+  {
+   "plan": "B1",
+   "texte": "ASSEZ DE CETTE ISLAMOPHOBIE."
+  },
+  {
+   "plan": "B3",
+   "texte": "ASSEZ DE CES DISCOURS QUI STIGMATISENT."
+  },
+  {
+   "plan": "FIN",
+   "texte": "MANUEL BOMPARD"
+  }
+ ],
+ "video": [
+  {
+   "id": "A1",
+   "clip": "R12_A1.mov",
+   "folder": "genR12",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R12/out/R12_A1.mov",
+   "s": 0,
+   "e": 68,
+   "rec": 0,
+   "dur": 68,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "SYNCHRO (régie d'origine) : « Assez de cette islamophobie, », index levé ; Vieux-Port et Notre-Dame-de-la-Garde en polaroid couleur",
+   "kind": "cut",
+   "temps": 5.4,
+   "source": {
+    "fichier": "lot7/sources/R12-bompard-marseille-meeting.mp4",
+    "in_s": 423.89,
+    "out_s": 426.157,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=7FBfSi-UjCA",
+    "contexte": "meeting de lancement de la campagne municipale, Marseille, 06/12/2025 (chaîne Manuel Bompard)",
+    "youtube_t": 423.9
+   },
+   "photos": [
+    {
+     "fichier": "lot7/sources/R12-photo-vieuxport-2.jpg",
+     "in_s": 0.0,
+     "out_s": 2.27,
+     "cadre_source": [
+      0,
+      160,
+      1920,
+      1300
+     ],
+     "bichromie": "couleur",
+     "url": "https://commons.wikimedia.org/wiki/File:Marseille_le_vieux_port.jpg",
+     "polaroid": false
+    }
+   ]
+  },
+  {
+   "id": "A2",
+   "clip": "R12_A2.mov",
+   "folder": "genR12",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R12/out/R12_A2.mov",
+   "s": 0,
+   "e": 50,
+   "rec": 68,
+   "dur": 50,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "SYNCHRO : « assez de ces discours qui stigmatisent », sur papier blanc + bande noire déchirée, ruelle du Panier",
+   "kind": "cut",
+   "temps": 3.97,
+   "source": {
+    "fichier": "lot7/sources/R12-bompard-marseille-meeting.mp4",
+    "in_s": 426.157,
+    "out_s": 427.823,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=7FBfSi-UjCA",
+    "contexte": "meeting de lancement de la campagne municipale, Marseille, 06/12/2025 (chaîne Manuel Bompard)",
+    "youtube_t": 426.2
+   },
+   "photos": [
+    {
+     "fichier": "lot7/sources/R12-photo-panier-rue.jpg",
+     "in_s": 0.0,
+     "out_s": 1.67,
+     "cadre_source": [
+      0,
+      250,
+      1920,
+      2560
+     ],
+     "bichromie": "couleur",
+     "url": "https://commons.wikimedia.org/wiki/File:Street_in_Marseille_-_Panier.jpg",
+     "polaroid": false
+    }
+   ]
+  },
+  {
+   "id": "A3",
+   "clip": "R12_A3.mov",
+   "folder": "genR12",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R12/out/R12_A3.mov",
+   "s": 0,
+   "e": 63,
+   "rec": 118,
+   "dur": 63,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "SYNCHRO : « une partie de la population. » pendant le break ; fond noir, foule du Vieux-Port 2017 et virage du Vélodrome en couleur",
+   "kind": "cut",
+   "temps": 5.0,
+   "source": {
+    "fichier": "lot7/sources/R12-bompard-marseille-meeting.mp4",
+    "in_s": 427.823,
+    "out_s": 429.923,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=7FBfSi-UjCA",
+    "contexte": "meeting de lancement de la campagne municipale, Marseille, 06/12/2025 (chaîne Manuel Bompard)",
+    "youtube_t": 427.8
+   },
+   "photos": [
+    {
+     "fichier": "lot3/sources/Z1-marseille2017-debut.mp4",
+     "in_s": 1.0,
+     "out_s": 3.1,
+     "cadre_source": [
+      0,
+      80,
+      1920,
+      1080
+     ],
+     "bichromie": "couleur",
+     "url": "https://www.youtube.com/watch?v=yrjWwsV4zS4",
+     "polaroid": true
+    },
+    {
+     "fichier": "lot7/sources/R12-photo-velodrome-virage-nord.jpg",
+     "in_s": 0.0,
+     "out_s": 2.1,
+     "cadre_source": [
+      0,
+      445,
+      1280,
+      640
+     ],
+     "bichromie": "couleur",
+     "url": "https://commons.wikimedia.org/wiki/File:Stade_Vélodrome_Virage_Nord_OM_Lille.jpg",
+     "polaroid": false
+    }
+   ]
+  },
+  {
+   "id": "B1",
+   "clip": "R12_B1.mov",
+   "folder": "genR12",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R12/out/R12_B1.mov",
+   "s": 0,
+   "e": 51,
+   "rec": 181,
+   "dur": 51,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "drop : silhouette blanche 3 images puis Bompard détouré en couleur, bras levé vers la salle (musique seule)",
+   "kind": "sil",
+   "temps": 4.05,
+   "source": {
+    "fichier": "lot7/sources/R12-bompard-marseille-meeting.mp4",
+    "in_s": 500.9,
+    "out_s": 502.6,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=7FBfSi-UjCA",
+    "contexte": "meeting de lancement de la campagne municipale, Marseille, 06/12/2025 (chaîne Manuel Bompard)",
+    "youtube_t": 500.9
+   },
+   "photos": [
+    {
+     "fichier": "lot7/sources/R12-photo-ndg-2024.jpg",
+     "in_s": 0.0,
+     "out_s": 1.7,
+     "cadre_source": [
+      0,
+      0,
+      1920,
+      2200
+     ],
+     "bichromie": "couleur",
+     "url": "https://commons.wikimedia.org/wiki/File:Notre-Dame_de_la_Garde_Marseille_2024.jpg",
+     "polaroid": false
+    }
+   ]
+  },
+  {
+   "id": "B2",
+   "clip": "R12_B2.mov",
+   "folder": "genR12",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R12/out/R12_B2.mov",
+   "s": 0,
+   "e": 50,
+   "rec": 232,
+   "dur": 50,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "collage Marseille en couleur, une photo par temps : Vieux-Port et la Bonne Mère, la salle du meeting 2025, le virage du Vélodrome",
+   "kind": "collage",
+   "temps": 3.97,
+   "photos": [
+    {
+     "fichier": "lot7/sources/R12-photo-vieuxport-2.jpg",
+     "in_s": 0.0,
+     "out_s": 1.67,
+     "cadre_source": [
+      0,
+      160,
+      1920,
+      1300
+     ],
+     "bichromie": "couleur",
+     "url": "https://commons.wikimedia.org/wiki/File:Marseille_le_vieux_port.jpg",
+     "polaroid": false
+    },
+    {
+     "fichier": "lot7/sources/R12-bompard-marseille-meeting.mp4",
+     "in_s": 210.5,
+     "out_s": 212.17,
+     "cadre_source": [
+      200,
+      370,
+      1700,
+      1080
+     ],
+     "bichromie": "couleur",
+     "url": "https://www.youtube.com/watch?v=7FBfSi-UjCA",
+     "polaroid": false
+    },
+    {
+     "fichier": "lot7/sources/R12-photo-velodrome-virage-nord.jpg",
+     "in_s": 0.0,
+     "out_s": 1.67,
+     "cadre_source": [
+      0,
+      445,
+      1280,
+      640
+     ],
+     "bichromie": "couleur",
+     "url": "https://commons.wikimedia.org/wiki/File:Stade_Vélodrome_Virage_Nord_OM_Lille.jpg",
+     "polaroid": false
+    }
+   ]
+  },
+  {
+   "id": "B3",
+   "clip": "R12_B3.mov",
+   "folder": "genR12",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R12/out/R12_B3.mov",
+   "s": 0,
+   "e": 51,
+   "rec": 282,
+   "dur": 51,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "Bompard qui pointe la salle (musique seule), panorama du port et de Notre-Dame-de-la-Garde derrière",
+   "kind": "cut",
+   "temps": 4.05,
+   "source": {
+    "fichier": "lot7/sources/R12-bompard-marseille-meeting.mp4",
+    "in_s": 451.5,
+    "out_s": 453.2,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=7FBfSi-UjCA",
+    "contexte": "meeting de lancement de la campagne municipale, Marseille, 06/12/2025 (chaîne Manuel Bompard)",
+    "youtube_t": 451.5
+   },
+   "photos": [
+    {
+     "fichier": "lot7/sources/R12-photo-port-ndg-pano.jpg",
+     "in_s": 0.0,
+     "out_s": 1.7,
+     "cadre_source": [
+      0,
+      0,
+      1920,
+      667
+     ],
+     "bichromie": "couleur",
+     "url": "https://commons.wikimedia.org/wiki/File:Hafen_von_Marseille-Notre_Dame_de_la_Garde.jpg",
+     "polaroid": false
+    }
+   ]
+  },
+  {
+   "id": "B4",
+   "clip": "R12_B4.mov",
+   "folder": "genR12",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R12/out/R12_B4.mov",
+   "s": 0,
+   "e": 50,
+   "rec": 333,
+   "dur": 50,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "collage sur fond noir qui se remplit à chaque temps : Panier, Vieux-Port 2017 et grande roue, la Bonne Mère, la salle 2025",
+   "kind": "collage",
+   "temps": 3.97,
+   "photos": [
+    {
+     "fichier": "lot7/sources/R12-photo-panier-rue.jpg",
+     "in_s": 0.0,
+     "out_s": 1.67,
+     "cadre_source": [
+      0,
+      250,
+      1920,
+      2560
+     ],
+     "bichromie": "couleur",
+     "url": "https://commons.wikimedia.org/wiki/File:Street_in_Marseille_-_Panier.jpg",
+     "polaroid": false
+    },
+    {
+     "fichier": "lot3/sources/Z1-marseille2017-debut.mp4",
+     "in_s": 19.0,
+     "out_s": 20.67,
+     "cadre_source": [
+      0,
+      80,
+      1920,
+      1080
+     ],
+     "bichromie": "couleur",
+     "url": "https://www.youtube.com/watch?v=yrjWwsV4zS4",
+     "polaroid": true
+    },
+    {
+     "fichier": "lot7/sources/R12-photo-ndg-2024.jpg",
+     "in_s": 0.0,
+     "out_s": 1.67,
+     "cadre_source": [
+      0,
+      0,
+      1920,
+      2200
+     ],
+     "bichromie": "couleur",
+     "url": "https://commons.wikimedia.org/wiki/File:Notre-Dame_de_la_Garde_Marseille_2024.jpg",
+     "polaroid": false
+    },
+    {
+     "fichier": "lot7/sources/R12-bompard-marseille-meeting.mp4",
+     "in_s": 367.0,
+     "out_s": 368.67,
+     "cadre_source": [
+      200,
+      370,
+      1700,
+      1080
+     ],
+     "bichromie": "couleur",
+     "url": "https://www.youtube.com/watch?v=7FBfSi-UjCA",
+     "polaroid": false
+    }
+   ]
+  },
+  {
+   "id": "B5",
+   "clip": "R12_B5.mov",
+   "folder": "genR12",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R12/out/R12_B5.mov",
+   "s": 0,
+   "e": 50,
+   "rec": 383,
+   "dur": 50,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "Bompard index levé (musique seule), quai du Vieux-Port et salle en photos",
+   "kind": "cut",
+   "temps": 3.97,
+   "source": {
+    "fichier": "lot7/sources/R12-bompard-marseille-meeting.mp4",
+    "in_s": 360.0,
+    "out_s": 361.667,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=7FBfSi-UjCA",
+    "contexte": "meeting de lancement de la campagne municipale, Marseille, 06/12/2025 (chaîne Manuel Bompard)",
+    "youtube_t": 360.0
+   },
+   "photos": [
+    {
+     "fichier": "lot7/sources/R12-photo-vieuxport-cc0.jpg",
+     "in_s": 0.0,
+     "out_s": 1.67,
+     "cadre_source": [
+      0,
+      300,
+      1920,
+      1440
+     ],
+     "bichromie": "couleur",
+     "url": "https://commons.wikimedia.org/wiki/File:Vieux-Port_Marseille.jpg",
+     "polaroid": false
+    },
+    {
+     "fichier": "lot7/sources/R12-bompard-marseille-meeting.mp4",
+     "in_s": 212.5,
+     "out_s": 214.17,
+     "cadre_source": [
+      200,
+      370,
+      1700,
+      1080
+     ],
+     "bichromie": "couleur",
+     "url": "https://www.youtube.com/watch?v=7FBfSi-UjCA",
+     "polaroid": false
+    }
+   ]
+  },
+  {
+   "id": "B6",
+   "clip": "R12_B6.mov",
+   "folder": "genR12",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R12/out/R12_B6.mov",
+   "s": 0,
+   "e": 51,
+   "rec": 433,
+   "dur": 51,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "foule aux drapeaux devant le port (2017), le Panier, la ville vue de la Bonne Mère",
+   "kind": "collage",
+   "temps": 4.05,
+   "photos": [
+    {
+     "fichier": "lot3/sources/Z1-marseille2017-debut.mp4",
+     "in_s": 47.5,
+     "out_s": 49.2,
+     "cadre_source": [
+      0,
+      80,
+      1920,
+      1080
+     ],
+     "bichromie": "couleur",
+     "url": "https://www.youtube.com/watch?v=yrjWwsV4zS4",
+     "polaroid": true
+    },
+    {
+     "fichier": "lot7/sources/R12-photo-panier.jpg",
+     "in_s": 0.0,
+     "out_s": 1.7,
+     "cadre_source": [
+      0,
+      300,
+      1920,
+      2560
+     ],
+     "bichromie": "couleur",
+     "url": "https://commons.wikimedia.org/wiki/File:Marseille_-_Le_Panier.JPG",
+     "polaroid": false
+    },
+    {
+     "fichier": "lot7/sources/R12-photo-port-ndg-pano.jpg",
+     "in_s": 0.0,
+     "out_s": 1.7,
+     "cadre_source": [
+      0,
+      0,
+      1920,
+      667
+     ],
+     "bichromie": "couleur",
+     "url": "https://commons.wikimedia.org/wiki/File:Hafen_von_Marseille-Notre_Dame_de_la_Garde.jpg",
+     "polaroid": false
+    }
+   ]
+  },
+  {
+   "id": "B7",
+   "clip": "R12_B7.mov",
+   "folder": "genR12",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R12/out/R12_B7.mov",
+   "s": 0,
+   "e": 25,
+   "rec": 484,
+   "dur": 25,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "respiration 2 temps : la salle du meeting en couleur",
+   "kind": "collage",
+   "temps": 1.98,
+   "photos": [
+    {
+     "fichier": "lot7/sources/R12-bompard-marseille-meeting.mp4",
+     "in_s": 370.0,
+     "out_s": 370.83,
+     "cadre_source": [
+      200,
+      370,
+      1700,
+      1080
+     ],
+     "bichromie": "couleur",
+     "url": "https://www.youtube.com/watch?v=7FBfSi-UjCA",
+     "polaroid": false
+    },
+    {
+     "fichier": "lot7/sources/R12-photo-vieuxport-2.jpg",
+     "in_s": 0.0,
+     "out_s": 0.83,
+     "cadre_source": [
+      0,
+      160,
+      1920,
+      1300
+     ],
+     "bichromie": "couleur",
+     "url": "https://commons.wikimedia.org/wiki/File:Marseille_le_vieux_port.jpg",
+     "polaroid": false
+    }
+   ]
+  },
+  {
+   "id": "FIN",
+   "clip": "R12_FIN.mov",
+   "folder": "genR12",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R12/out/R12_FIN.mov",
+   "s": 0,
+   "e": 80,
+   "rec": 509,
+   "dur": 80,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "carton final : MANUEL BOMPARD en grandes lettres découpées (noir / blanc / ciel), polaroid du Vieux-Port, pas de CTA",
+   "kind": "card",
+   "temps": 6.35,
+   "photos": [
+    {
+     "fichier": "lot7/sources/R12-photo-vieuxport-2.jpg",
+     "in_s": 0.0,
+     "out_s": 2.67,
+     "cadre_source": [
+      0,
+      160,
+      1920,
+      1300
+     ],
+     "bichromie": "couleur",
+     "url": "https://commons.wikimedia.org/wiki/File:Marseille_le_vieux_port.jpg",
+     "polaroid": false
+    }
+   ]
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "R12-mix.wav",
+   "folder": "genR12",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R12/out/R12-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS : voix 423.95-429.75 s (+16 dB) à 0.06 s ; Bande organisée dès 202.091 s du complet, couplet passe-bas 520 Hz baissé sous la voix, filtre qui s'ouvre dans le break, plein au drop (refrain), fondu de fin 0,4 s"
+  }
+ ],
+ "stems": [
+  "lot7/_claude/gen/R12/out/R12-voix.wav",
+  "lot7/_claude/gen/R12/out/R12-musique.wav"
+ ],
+ "logos_exclus": "meeting 2025 : logo LFI (haut droite), écran « La force de tout changer » et bandeau « élections municipales » supprimés par le détourage ou hors des cadres photo ; Vieux-Port 2017 : aucun logo ; Vélodrome : bandeaux sponsors hors cadre",
+ "photos_libres": "lot7/_claude/gen/R12/photos-licences.json (Wikimedia Commons ; CC BY / CC BY-SA : créditer les auteurs dans la légende)",
+ "controle_decoupes": {
+  "A1_M_423.89_68": {
+   "gauche": 0.0,
+   "droite": 0.0,
+   "haut": 0.0,
+   "morceaux": 1,
+   "bas_net": 0.283,
+   "bas_px": 612
+  },
+  "A2_M_426.16_50": {
+   "gauche": 0.0,
+   "droite": 0.0,
+   "haut": 0.0,
+   "morceaux": 1,
+   "bas_net": 0.312,
+   "bas_px": 612
+  },
+  "A3_M_427.82_63": {
+   "gauche": 0.0,
+   "droite": 0.0,
+   "haut": 0.0,
+   "morceaux": 1,
+   "bas_net": 0.395,
+   "bas_px": 614
+  },
+  "B1_M_500.90_51": {
+   "gauche": 0.0,
+   "droite": 0.0,
+   "haut": 0.0,
+   "morceaux": 1,
+   "bas_net": 0.448,
+   "bas_px": 613
+  },
+  "B3_M_451.50_51": {
+   "gauche": 0.0,
+   "droite": 0.0,
+   "haut": 0.0,
+   "morceaux": 1,
+   "bas_net": 0.471,
+   "bas_px": 616
+  },
+  "B5_M_360.00_50": {
+   "gauche": 0.0,
+   "droite": 0.0,
+   "haut": 0.0,
+   "morceaux": 1,
+   "bas_net": 0.304,
+   "bas_px": 613
+  }
+ }
+}

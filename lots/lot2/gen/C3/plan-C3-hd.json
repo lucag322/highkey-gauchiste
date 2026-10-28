@@ -1,0 +1,540 @@
+{
+ "name": "C3 - Citation cine Melenchon convention",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 31.102,
+ "citation": "la longue marche des insoumis va franchir une étape décisive. Alors, chacun à son poste de combat.",
+ "source_citation": "lot2/sources/C3-melenchon-convention-citation.mp4 7.50-17.40 s (discours 23/11/2025, YouTube Yc46p2zQZxY ~1640 s)",
+ "note": "Plans ProRes 9:16 (recadrés, étalonnés, texte cuit), sources 60 i/s. Ralentis à faire dans Resolve : speed_pct + Optical Flow ; e-s = images source à vitesse normale. Générateur : lot2/_claude/gen/C3/genC3.py",
+ "musique": {
+  "fichier": "lot2/sons/C3-voj-narvent-memory-reboot_complet.wav",
+  "titre": "VØJ & Narvent - Memory Reboot",
+  "depart_dans_complet_s": 4.71,
+  "depart_dans_extrait_s": 2.46,
+  "drop_timeline_s": 10.303,
+  "bpm": 72.1,
+  "beats_timeline_s": [
+   10.303,
+   11.135,
+   11.967,
+   12.799,
+   13.631,
+   14.463,
+   15.295,
+   16.127,
+   16.959,
+   17.79,
+   18.622,
+   19.454,
+   20.286,
+   21.118,
+   21.95,
+   22.782,
+   23.614,
+   24.446,
+   25.278,
+   26.11,
+   26.942,
+   27.774,
+   28.606,
+   29.438,
+   30.27,
+   31.102
+  ]
+ },
+ "textes": [
+  {
+   "t0": 0.46,
+   "t1": 1.52,
+   "lignes": [
+    "LA",
+    "LONGUE MARCHE"
+   ],
+   "rouge": []
+  },
+  {
+   "t0": 1.52,
+   "t1": 2.36,
+   "lignes": [
+    "DES",
+    "INSOUMIS"
+   ],
+   "rouge": [
+    "INSOUMIS"
+   ]
+  },
+  {
+   "t0": 2.36,
+   "t1": 4.14,
+   "lignes": [
+    "VA",
+    "FRANCHIR"
+   ],
+   "rouge": []
+  },
+  {
+   "t0": 4.14,
+   "t1": 5.16,
+   "lignes": [
+    "UNE",
+    "ÉTAPE"
+   ],
+   "rouge": []
+  },
+  {
+   "t0": 5.16,
+   "t1": 7.18,
+   "lignes": [
+    "DÉCISIVE"
+   ],
+   "rouge": [
+    "DÉCISIVE"
+   ]
+  },
+  {
+   "t0": 7.18,
+   "t1": 7.96,
+   "lignes": [
+    "ALORS"
+   ],
+   "rouge": []
+  },
+  {
+   "t0": 7.96,
+   "t1": 9.5,
+   "lignes": [
+    "CHACUN",
+    "À SON POSTE"
+   ],
+   "rouge": []
+  },
+  {
+   "t0": 9.5,
+   "t1": 10.3,
+   "lignes": [
+    "DE",
+    "COMBAT"
+   ],
+   "rouge": [
+    "COMBAT"
+   ]
+  }
+ ],
+ "video": [
+  {
+   "id": "Q1",
+   "clip": "C3_Q1.mov",
+   "folder": "genC3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C3/out/C3_Q1.mov",
+   "s": 0,
+   "e": 46,
+   "clip_fps": 30,
+   "rec": 0,
+   "dur": 46,
+   "track": 1,
+   "note": "LA LONGUE MARCHE sur noir",
+   "effets": "noir + grain, texte cuit (Baskerville SemiBold approche 0,20 em ; mot rouge CaslonGraphique-Opti)"
+  },
+  {
+   "id": "Q2",
+   "clip": "C3_Q2_30.mov",
+   "folder": "genC3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C3/out/C3_Q2_30.mov",
+   "s": 0,
+   "e": 109,
+   "clip_fps": 30,
+   "rec": 46,
+   "dur": 109,
+   "track": 1,
+   "note": "gros plan convention, synchro labiale (des insoumis va franchir une étape)",
+   "source": {
+    "fichier": "lot2/sources/C3-melenchon-convention-citation.mp4",
+    "in_s": 8.66,
+    "out_s": 12.293
+   },
+   "effets": "recadrage 9:16 suivi visage, zoom 1.14->1.22, sépia lavé + vignette + grain, texte cuit"
+  },
+  {
+   "id": "Q3",
+   "clip": "C3_Q3.mov",
+   "folder": "genC3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C3/out/C3_Q3.mov",
+   "s": 0,
+   "e": 60,
+   "clip_fps": 30,
+   "rec": 155,
+   "dur": 60,
+   "track": 1,
+   "note": "DÉCISIVE rouge sur noir",
+   "effets": "noir + grain, texte cuit (Baskerville SemiBold approche 0,20 em ; mot rouge CaslonGraphique-Opti)"
+  },
+  {
+   "id": "Q4",
+   "clip": "C3_Q4_30.mov",
+   "folder": "genC3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C3/out/C3_Q4_30.mov",
+   "s": 0,
+   "e": 94,
+   "clip_fps": 30,
+   "rec": 215,
+   "dur": 94,
+   "track": 1,
+   "note": "gros plan serré, synchro (alors, chacun à son poste de combat)",
+   "source": {
+    "fichier": "lot2/sources/C3-melenchon-convention-citation.mp4",
+    "in_s": 14.32,
+    "out_s": 17.453
+   },
+   "effets": "recadrage 9:16 suivi visage, zoom 1.22->1.32, sépia lavé + vignette + grain, texte cuit"
+  },
+  {
+   "id": "B01",
+   "clip": "C3_B01_30.mov",
+   "folder": "genC3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C3/out/C3_B01_30.mov",
+   "s": 0,
+   "e": 50,
+   "clip_fps": 30,
+   "rec": 309,
+   "dur": 50,
+   "track": 1,
+   "note": "Clermont, arena pleine vue aérienne, projecteurs",
+   "source": {
+    "fichier": "lot2/sources/C3-melenchon-clermont-02.mp4",
+    "in_s": 0.6,
+    "out_s": 1.433
+   },
+   "effets": "recadrage 9:16 fixe, zoom 1.00->1.06, sépia lavé + vignette + grain",
+   "speed_pct": 100.0,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B02",
+   "clip": "C3_B02_30.mov",
+   "folder": "genC3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C3/out/C3_B02_30.mov",
+   "s": 0,
+   "e": 25,
+   "clip_fps": 30,
+   "rec": 359,
+   "dur": 25,
+   "track": 1,
+   "note": "Convention, Mélenchon lève le bras",
+   "source": {
+    "fichier": "lot2/sources/C3-melenchon-convention-01.mp4",
+    "in_s": 4.4,
+    "out_s": 4.817
+   },
+   "effets": "recadrage 9:16 suivi visage, zoom 1.05->1.10, sépia lavé + vignette + grain",
+   "speed_pct": 100.0,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B03",
+   "clip": "C3_B03_30.mov",
+   "folder": "genC3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C3/out/C3_B03_30.mov",
+   "s": 0,
+   "e": 50,
+   "clip_fps": 30,
+   "rec": 384,
+   "dur": 50,
+   "track": 1,
+   "note": "Clermont, tribunes pleines en plongée",
+   "source": {
+    "fichier": "lot2/sources/C3-melenchon-clermont-01.mp4",
+    "in_s": 1.0,
+    "out_s": 1.833
+   },
+   "effets": "recadrage 9:16 fixe, zoom 1.00->1.06, sépia lavé + vignette + grain",
+   "speed_pct": 100.0,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B04",
+   "clip": "C3_B04_30.mov",
+   "folder": "genC3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C3/out/C3_B04_30.mov",
+   "s": 0,
+   "e": 25,
+   "clip_fps": 30,
+   "rec": 434,
+   "dur": 25,
+   "track": 1,
+   "note": "Clermont, Mélenchon au pupitre poing levé",
+   "source": {
+    "fichier": "lot2/sources/C3-melenchon-clermont-03.mp4",
+    "in_s": 0.8,
+    "out_s": 1.217
+   },
+   "effets": "recadrage 9:16 suivi visage, zoom 1.05->1.10, sépia lavé + vignette + grain",
+   "speed_pct": 100.0,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B05",
+   "clip": "C3_B05_30.mov",
+   "folder": "genC3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C3/out/C3_B05_30.mov",
+   "s": 0,
+   "e": 50,
+   "clip_fps": 30,
+   "rec": 459,
+   "dur": 50,
+   "track": 1,
+   "note": "Convention, salle immense vue du fond",
+   "source": {
+    "fichier": "lot2/sources/C3-melenchon-convention-05.mp4",
+    "in_s": 1.0,
+    "out_s": 1.833
+   },
+   "effets": "recadrage 9:16 fixe, zoom 1.00->1.06, sépia lavé + vignette + grain",
+   "speed_pct": 100.0,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B06",
+   "clip": "C3_B06_30.mov",
+   "folder": "genC3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C3/out/C3_B06_30.mov",
+   "s": 0,
+   "e": 25,
+   "clip_fps": 30,
+   "rec": 509,
+   "dur": 25,
+   "track": 1,
+   "note": "Clermont, arena pleine vue aérienne, côté gauche (remplace les jeunes : visages au bord)",
+   "source": {
+    "fichier": "lot2/sources/C3-melenchon-clermont-02.mp4",
+    "in_s": 2.6,
+    "out_s": 3.017
+   },
+   "effets": "recadrage 9:16 fixe, zoom 1.00->1.05, sépia lavé + vignette + grain",
+   "speed_pct": 100.0,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B07",
+   "clip": "C3_B07_30.mov",
+   "folder": "genC3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C3/out/C3_B07_30.mov",
+   "s": 0,
+   "e": 50,
+   "clip_fps": 30,
+   "rec": 534,
+   "dur": 50,
+   "track": 1,
+   "note": "Convention, scène large, militants debout",
+   "source": {
+    "fichier": "lot2/sources/C3-melenchon-convention-04.mp4",
+    "in_s": 1.0,
+    "out_s": 1.833
+   },
+   "effets": "recadrage 9:16 fixe, zoom 1.00->1.06, sépia lavé + vignette + grain",
+   "speed_pct": 100.0,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B08",
+   "clip": "C3_B08_30.mov",
+   "folder": "genC3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C3/out/C3_B08_30.mov",
+   "s": 0,
+   "e": 25,
+   "clip_fps": 30,
+   "rec": 584,
+   "dur": 25,
+   "track": 1,
+   "note": "Clermont, Mélenchon sourit au pupitre",
+   "source": {
+    "fichier": "lot2/sources/C3-melenchon-clermont-04.mp4",
+    "in_s": 2.0,
+    "out_s": 2.417
+   },
+   "effets": "recadrage 9:16 suivi visage, zoom 1.08->1.12, sépia lavé + vignette + grain",
+   "speed_pct": 100.0,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B09",
+   "clip": "C3_B09_30.mov",
+   "folder": "genC3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C3/out/C3_B09_30.mov",
+   "s": 0,
+   "e": 50,
+   "clip_fps": 30,
+   "rec": 609,
+   "dur": 50,
+   "track": 1,
+   "note": "Clermont, tribunes pleines, autre zone (remplace la foule de près : visages au bord)",
+   "source": {
+    "fichier": "lot2/sources/C3-melenchon-clermont-01.mp4",
+    "in_s": 4.0,
+    "out_s": 4.833
+   },
+   "effets": "recadrage 9:16 fixe, zoom 1.00->1.06, sépia lavé + vignette + grain",
+   "speed_pct": 100.0,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B10",
+   "clip": "C3_B10_30.mov",
+   "folder": "genC3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C3/out/C3_B10_30.mov",
+   "s": 0,
+   "e": 24,
+   "clip_fps": 30,
+   "rec": 659,
+   "dur": 24,
+   "track": 1,
+   "note": "Convention, Mélenchon parle",
+   "source": {
+    "fichier": "lot2/sources/C3-melenchon-convention-02.mp4",
+    "in_s": 2.0,
+    "out_s": 2.4
+   },
+   "effets": "recadrage 9:16 suivi visage, zoom 1.08->1.12, sépia lavé + vignette + grain",
+   "speed_pct": 100.0,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B11",
+   "clip": "C3_B11_30.mov",
+   "folder": "genC3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C3/out/C3_B11_30.mov",
+   "s": 0,
+   "e": 50,
+   "clip_fps": 30,
+   "rec": 683,
+   "dur": 50,
+   "track": 1,
+   "note": "Clermont, scène CLERMONT-FERRAND, public au premier plan",
+   "source": {
+    "fichier": "lot2/sources/C3-melenchon-clermont-06.mp4",
+    "in_s": 1.0,
+    "out_s": 1.833
+   },
+   "effets": "recadrage 9:16 fixe, zoom 1.00->1.05, sépia lavé + vignette + grain",
+   "speed_pct": 100.0,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B12",
+   "clip": "C3_B12_30.mov",
+   "folder": "genC3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C3/out/C3_B12_30.mov",
+   "s": 0,
+   "e": 25,
+   "clip_fps": 30,
+   "rec": 733,
+   "dur": 25,
+   "track": 1,
+   "note": "Convention, Mélenchon au pupitre, militants qui applaudissent",
+   "source": {
+    "fichier": "lot2/sources/C3-melenchon-convention-citation.mp4",
+    "in_s": 0.8,
+    "out_s": 1.217
+   },
+   "effets": "recadrage 9:16 suivi visage, zoom 1.00->1.04, sépia lavé + vignette + grain",
+   "speed_pct": 100.0,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B13",
+   "clip": "C3_B13_30.mov",
+   "folder": "genC3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C3/out/C3_B13_30.mov",
+   "s": 0,
+   "e": 50,
+   "clip_fps": 30,
+   "rec": 758,
+   "dur": 50,
+   "track": 1,
+   "note": "Convention, salle pleine de côté (remplace équipe + foule : visages au bord)",
+   "source": {
+    "fichier": "lot2/sources/C3-melenchon-convention-citation.mp4",
+    "in_s": 4.5,
+    "out_s": 5.333
+   },
+   "effets": "recadrage 9:16 fixe, zoom 1.00->1.06, sépia lavé + vignette + grain",
+   "speed_pct": 100.0,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B14",
+   "clip": "C3_B14_30.mov",
+   "folder": "genC3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C3/out/C3_B14_30.mov",
+   "s": 0,
+   "e": 25,
+   "clip_fps": 30,
+   "rec": 808,
+   "dur": 25,
+   "track": 1,
+   "note": "Clermont, Mélenchon poing serré",
+   "source": {
+    "fichier": "lot2/sources/C3-melenchon-clermont-03.mp4",
+    "in_s": 3.5,
+    "out_s": 3.917
+   },
+   "effets": "recadrage 9:16 suivi visage, zoom 1.08->1.12, sépia lavé + vignette + grain",
+   "speed_pct": 100.0,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B15",
+   "clip": "C3_B15_30.mov",
+   "folder": "genC3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C3/out/C3_B15_30.mov",
+   "s": 0,
+   "e": 25,
+   "clip_fps": 30,
+   "rec": 833,
+   "dur": 25,
+   "track": 1,
+   "note": "Convention, Mélenchon doigt levé",
+   "source": {
+    "fichier": "lot2/sources/C3-melenchon-convention-01.mp4",
+    "in_s": 1.0,
+    "out_s": 1.417
+   },
+   "effets": "recadrage 9:16 suivi visage, zoom 1.05->1.09, sépia lavé + vignette + grain",
+   "speed_pct": 100.0,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B16",
+   "clip": "C3_B16_30.mov",
+   "folder": "genC3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C3/out/C3_B16_30.mov",
+   "s": 0,
+   "e": 75,
+   "clip_fps": 30,
+   "rec": 858,
+   "dur": 75,
+   "track": 1,
+   "note": "Convention, Mélenchon au pupitre, militants qui applaudissent, fondu au noir (remplace l'équipe : visages au bord)",
+   "source": {
+    "fichier": "lot2/sources/C3-melenchon-convention-citation.mp4",
+    "in_s": 1.6,
+    "out_s": 2.85
+   },
+   "effets": "recadrage 9:16 suivi visage, zoom 1.00->1.08, sépia lavé + vignette + grain",
+   "speed_pct": 100.0,
+   "retime": "optical_flow",
+   "fade_out_s": 0.7
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "C3-mix.wav",
+   "folder": "genC3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C3/out/C3-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS : voix 7.50-17.40 s du fichier citation à 0.36 s timeline, musique passe-bas -10 dB sous la voix, pleine au drop 10.30 s, fondu 1,1 s"
+  }
+ ]
+}

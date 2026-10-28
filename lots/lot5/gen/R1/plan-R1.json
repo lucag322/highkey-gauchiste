@@ -1,0 +1,632 @@
+{
+ "name": "R1 - Collage ransom-note - Manon Aubry",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 17.2,
+ "note": "Plans ProRes 9:16 composés en Python (lot5/_claude/gen/R1/out) : fonds unis + grain papier, Aubry détourée (segment/Vision), silhouettes en aplat blanc, photos N&B vivantes collées, textes ransom-note cuits. s/e en images du clip (30 i/s), rec en images timeline. Coupes sur les kicks réels de One More Time (out/R1-frappes.json). Aucun ralenti. Générateur : lot5/_claude/gen/R1/genR1.py",
+ "phrase": {
+  "texte": "Bientôt, quand le vent aura tourné et que nous serons au pouvoir, nous assumerons de taxer les riches, de bloquer les prix des produits essentiels",
+  "url": "https://www.youtube.com/watch?v=nwc4Hd8pO8o",
+  "source": "lot2/sources/G2-aubry-sotEU-2026.mp4",
+  "in_s": 71.08,
+  "out_s": 78.24,
+  "timeline_s": [
+   0.38,
+   7.54
+  ],
+  "voix": "son direct synchro (plans A1-A3) ; la phrase continue dans la source (« de geler la dette… ») : coupure après « essentiels », sens intact"
+ },
+ "musique": {
+  "fichier": "lot5/sons/R1-daftpunk-one-more-time_complet.wav",
+  "titre": "Daft Punk - One More Time",
+  "url": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+  "debut_complet_s": 55.669,
+  "fin_complet_s": 72.869,
+  "drop_timeline_s": 7.9213000000000005,
+  "coupes_kicks_s": [
+   2.0625,
+   3.5271,
+   7.9213000000000005,
+   8.899600000000001,
+   9.8749,
+   10.8506,
+   11.8285,
+   12.8008,
+   13.793700000000001,
+   14.7592
+  ],
+  "coupes_images": [
+   62,
+   106,
+   238,
+   267,
+   296,
+   326,
+   355,
+   384,
+   414,
+   443
+  ]
+ },
+ "textes": [
+  {
+   "plan": "A1",
+   "texte": "BIENTÔT"
+  },
+  {
+   "plan": "A1",
+   "texte": "QUAND LE"
+  },
+  {
+   "plan": "A1",
+   "texte": "VENT AURA"
+  },
+  {
+   "plan": "A1",
+   "texte": "TOURNÉ"
+  },
+  {
+   "plan": "A2",
+   "texte": "ET QUE"
+  },
+  {
+   "plan": "A2",
+   "texte": "NOUS"
+  },
+  {
+   "plan": "A2",
+   "texte": "SERONS AU"
+  },
+  {
+   "plan": "A2",
+   "texte": "POUVOIR"
+  },
+  {
+   "plan": "A3",
+   "texte": "NOUS"
+  },
+  {
+   "plan": "A3",
+   "texte": "ASSUMERONS"
+  },
+  {
+   "plan": "A3",
+   "texte": "DE TAXER"
+  },
+  {
+   "plan": "A3",
+   "texte": "LES RICHES"
+  },
+  {
+   "plan": "A3",
+   "texte": "DE BLOQUER"
+  },
+  {
+   "plan": "A3",
+   "texte": "LES PRIX"
+  },
+  {
+   "plan": "A3",
+   "texte": "DES PRODUITS"
+  },
+  {
+   "plan": "A3",
+   "texte": "ESSENTIELS"
+  },
+  {
+   "plan": "B1",
+   "texte": "TAXER"
+  },
+  {
+   "plan": "B1",
+   "texte": "LES"
+  },
+  {
+   "plan": "B1",
+   "texte": "RICHES"
+  },
+  {
+   "plan": "B2",
+   "texte": "BLOQUER"
+  },
+  {
+   "plan": "B2",
+   "texte": "LES PRIX"
+  },
+  {
+   "plan": "B3",
+   "texte": "AU"
+  },
+  {
+   "plan": "B3",
+   "texte": "POUVOIR"
+  },
+  {
+   "plan": "B4",
+   "texte": "NOUS"
+  },
+  {
+   "plan": "B4",
+   "texte": "ASSUMERONS"
+  },
+  {
+   "plan": "B5",
+   "texte": "LE VENT"
+  },
+  {
+   "plan": "B5",
+   "texte": "AURA"
+  },
+  {
+   "plan": "B5",
+   "texte": "TOURNÉ"
+  },
+  {
+   "plan": "B7",
+   "texte": "BIENTÔT"
+  },
+  {
+   "plan": "FIN",
+   "texte": "MANON"
+  },
+  {
+   "plan": "FIN",
+   "texte": "AUBRY"
+  },
+  {
+   "plan": "FIN",
+   "texte": "TAXER LES RICHES"
+  }
+ ],
+ "video": [
+  {
+   "id": "A1",
+   "clip": "R1_A1.mov",
+   "folder": "genR1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/R1/out/R1_A1.mov",
+   "s": 0,
+   "e": 62,
+   "rec": 0,
+   "dur": 62,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — plénière, état de l'Union : « Bientôt, quand le vent aura tourné… » en son direct, Aubry détourée sur fond violet uni",
+   "kind": "cut",
+   "temps": 4.24,
+   "source": {
+    "fichier": "lot2/sources/G2-aubry-sotEU-2026.mp4",
+    "in_s": 70.7,
+    "out_s": 72.767,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=nwc4Hd8pO8o",
+    "contexte": "plénière de Strasbourg, débat sur l'état de l'Union, 16/09/2026 (chaîne Manon Aubry)"
+   }
+  },
+  {
+   "id": "A2",
+   "clip": "R1_A2.mov",
+   "folder": "genR1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/R1/out/R1_A2.mov",
+   "s": 0,
+   "e": 44,
+   "rec": 62,
+   "dur": 44,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "même plan synchro : « …et que nous serons au pouvoir », fond bleu + photos N&B du meeting de Strasbourg et de la soirée 2024",
+   "kind": "cut",
+   "temps": 3.01,
+   "source": {
+    "fichier": "lot2/sources/G2-aubry-sotEU-2026.mp4",
+    "in_s": 72.767,
+    "out_s": 74.233,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=nwc4Hd8pO8o",
+    "contexte": "plénière de Strasbourg, débat sur l'état de l'Union, 16/09/2026 (chaîne Manon Aubry)"
+   },
+   "photos_nb": [
+    {
+     "fichier": "lot3/sources/V1-aubry-strasbourg-a.mp4",
+     "in_s": 0.3,
+     "out_s": 1.77,
+     "cadre_source": [
+      0,
+      120,
+      1560,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=c-KnJoiz928"
+    },
+    {
+     "fichier": "lot4/sources/M2-aubry-soiree2024-c.mp4",
+     "in_s": 10.5,
+     "out_s": 11.97,
+     "cadre_source": [
+      500,
+      140,
+      1420,
+      450
+     ],
+     "url": "https://www.youtube.com/watch?v=KnUCA72LZAY"
+    }
+   ]
+  },
+  {
+   "id": "A3",
+   "clip": "R1_A3.mov",
+   "folder": "genR1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/R1/out/R1_A3.mov",
+   "s": 0,
+   "e": 132,
+   "rec": 106,
+   "dur": 132,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "même plan synchro : « nous assumerons de taxer les riches, de bloquer les prix des produits essentiels » ; les slogans s'accumulent, scrapbook qui se remplit pendant le break",
+   "kind": "cut",
+   "temps": 9.02,
+   "source": {
+    "fichier": "lot2/sources/G2-aubry-sotEU-2026.mp4",
+    "in_s": 74.233,
+    "out_s": 78.633,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=nwc4Hd8pO8o",
+    "contexte": "plénière de Strasbourg, débat sur l'état de l'Union, 16/09/2026 (chaîne Manon Aubry)"
+   },
+   "photos_nb": [
+    {
+     "fichier": "lot3/sources/V1-aubry-strasbourg-b.mp4",
+     "in_s": 21.0,
+     "out_s": 25.4,
+     "cadre_source": [
+      0,
+      100,
+      1560,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=c-KnJoiz928"
+    },
+    {
+     "fichier": "lot3/sources/V1-aubry-strasbourg-a.mp4",
+     "in_s": 12.5,
+     "out_s": 16.9,
+     "cadre_source": [
+      0,
+      140,
+      1560,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=c-KnJoiz928"
+    },
+    {
+     "fichier": "lot3/sources/V1-aubry-strasbourg-c.mp4",
+     "in_s": 36.0,
+     "out_s": 40.4,
+     "cadre_source": [
+      0,
+      140,
+      1560,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=c-KnJoiz928"
+    }
+   ]
+  },
+  {
+   "id": "B1",
+   "clip": "R1_B1.mov",
+   "folder": "genR1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/R1/out/R1_B1.mov",
+   "s": 0,
+   "e": 29,
+   "rec": 238,
+   "dur": 29,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — meeting de Strasbourg, bras levé : silhouette blanche 3 images (flash du drop) puis Aubry détourée en couleur, contour autocollant, sur fond sombre",
+   "kind": "sil",
+   "temps": 1.98,
+   "source": {
+    "fichier": "lot3/sources/V1-aubry-strasbourg-c.mp4",
+    "in_s": 13.0,
+    "out_s": 13.967,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=c-KnJoiz928",
+    "contexte": "meeting « Justice pour la Palestine », Strasbourg, 17/06/2026 (chaîne Manon Aubry)"
+   }
+  },
+  {
+   "id": "B2",
+   "clip": "R1_B2.mov",
+   "folder": "genR1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/R1/out/R1_B2.mov",
+   "s": 0,
+   "e": 29,
+   "rec": 267,
+   "dur": 29,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "collage : photos N&B (salle de Strasbourg mains levées, Aubry en gros plan, scène de la soirée 2024) collées sur fond violet",
+   "kind": "collage",
+   "temps": 1.98,
+   "photos_nb": [
+    {
+     "fichier": "lot3/sources/V1-aubry-strasbourg-a.mp4",
+     "in_s": 0.3,
+     "out_s": 1.27,
+     "cadre_source": [
+      0,
+      120,
+      1560,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=c-KnJoiz928"
+    },
+    {
+     "fichier": "lot3/sources/V1-aubry-strasbourg-a.mp4",
+     "in_s": 27.5,
+     "out_s": 28.47,
+     "cadre_source": [
+      560,
+      0,
+      1440,
+      1000
+     ],
+     "url": "https://www.youtube.com/watch?v=c-KnJoiz928"
+    },
+    {
+     "fichier": "lot4/sources/M2-aubry-soiree2024-c.mp4",
+     "in_s": 11.0,
+     "out_s": 11.97,
+     "cadre_source": [
+      500,
+      140,
+      1420,
+      450
+     ],
+     "url": "https://www.youtube.com/watch?v=KnUCA72LZAY"
+    }
+   ]
+  },
+  {
+   "id": "B3",
+   "clip": "R1_B3.mov",
+   "folder": "genR1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/R1/out/R1_B3.mov",
+   "s": 0,
+   "e": 30,
+   "rec": 296,
+   "dur": 30,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — meeting de Strasbourg, plein cadre couleur, bras ouverts face à la salle ; gros texte blanc avec contour (lisible sur fond variable)",
+   "kind": "full",
+   "temps": 2.05,
+   "source": {
+    "fichier": "lot3/sources/V1-aubry-strasbourg-b.mp4",
+    "in_s": 30.4,
+    "out_s": 31.4,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=c-KnJoiz928",
+    "contexte": "meeting « Justice pour la Palestine », Strasbourg, 17/06/2026 (chaîne Manon Aubry)"
+   }
+  },
+  {
+   "id": "B4",
+   "clip": "R1_B4.mov",
+   "folder": "genR1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/R1/out/R1_B4.mov",
+   "s": 0,
+   "e": 29,
+   "rec": 326,
+   "dur": 29,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — plénière (autre moment, sans le son), Aubry détourée sur fond rouge + photos N&B de la salle",
+   "kind": "cut",
+   "temps": 1.98,
+   "source": {
+    "fichier": "lot2/sources/G2-aubry-sotEU-2026.mp4",
+    "in_s": 79.0,
+    "out_s": 79.967,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=nwc4Hd8pO8o",
+    "contexte": "plénière de Strasbourg, débat sur l'état de l'Union, 16/09/2026 (chaîne Manon Aubry)"
+   },
+   "photos_nb": [
+    {
+     "fichier": "lot3/sources/V1-aubry-strasbourg-b.mp4",
+     "in_s": 21.5,
+     "out_s": 22.47,
+     "cadre_source": [
+      0,
+      100,
+      1560,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=c-KnJoiz928"
+    },
+    {
+     "fichier": "lot3/sources/V1-aubry-strasbourg-a.mp4",
+     "in_s": 13.0,
+     "out_s": 13.97,
+     "cadre_source": [
+      0,
+      140,
+      1560,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=c-KnJoiz928"
+    }
+   ]
+  },
+  {
+   "id": "B5",
+   "clip": "R1_B5.mov",
+   "folder": "genR1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/R1/out/R1_B5.mov",
+   "s": 0,
+   "e": 29,
+   "rec": 355,
+   "dur": 29,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — meeting de Strasbourg, Aubry détourée en couleur sur fond bleu, photo N&B de la soirée 2024 derrière",
+   "kind": "cut",
+   "temps": 1.98,
+   "source": {
+    "fichier": "lot3/sources/V1-aubry-strasbourg-c.mp4",
+    "in_s": 16.2,
+    "out_s": 17.167,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=c-KnJoiz928",
+    "contexte": "meeting « Justice pour la Palestine », Strasbourg, 17/06/2026 (chaîne Manon Aubry)"
+   },
+   "photos_nb": [
+    {
+     "fichier": "lot4/sources/M2-aubry-soiree2024-c.mp4",
+     "in_s": 12.0,
+     "out_s": 12.97,
+     "cadre_source": [
+      500,
+      140,
+      1420,
+      450
+     ],
+     "url": "https://www.youtube.com/watch?v=KnUCA72LZAY"
+    }
+   ]
+  },
+  {
+   "id": "B6",
+   "clip": "R1_B6.mov",
+   "folder": "genR1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/R1/out/R1_B6.mov",
+   "s": 0,
+   "e": 30,
+   "rec": 384,
+   "dur": 30,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "collage qui se remplit photo après photo (demi-temps) : salle, Aubry, scène 2024 — sans texte",
+   "kind": "collage",
+   "temps": 2.05,
+   "photos_nb": [
+    {
+     "fichier": "lot3/sources/V1-aubry-strasbourg-c.mp4",
+     "in_s": 40.0,
+     "out_s": 41.0,
+     "cadre_source": [
+      0,
+      140,
+      1560,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=c-KnJoiz928"
+    },
+    {
+     "fichier": "lot3/sources/V1-aubry-strasbourg-b.mp4",
+     "in_s": 33.0,
+     "out_s": 34.0,
+     "cadre_source": [
+      520,
+      0,
+      1400,
+      1000
+     ],
+     "url": "https://www.youtube.com/watch?v=c-KnJoiz928"
+    },
+    {
+     "fichier": "lot4/sources/M2-aubry-soiree2024-c.mp4",
+     "in_s": 9.0,
+     "out_s": 10.0,
+     "cadre_source": [
+      500,
+      140,
+      1420,
+      450
+     ],
+     "url": "https://www.youtube.com/watch?v=KnUCA72LZAY"
+    },
+    {
+     "fichier": "lot3/sources/V1-aubry-strasbourg-a.mp4",
+     "in_s": 28.5,
+     "out_s": 29.5,
+     "cadre_source": [
+      560,
+      0,
+      1440,
+      1000
+     ],
+     "url": "https://www.youtube.com/watch?v=c-KnJoiz928"
+    }
+   ]
+  },
+  {
+   "id": "B7",
+   "clip": "R1_B7.mov",
+   "folder": "genR1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/R1/out/R1_B7.mov",
+   "s": 0,
+   "e": 29,
+   "rec": 414,
+   "dur": 29,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — meeting de Strasbourg, de profil, bras tendu vers la salle : silhouette blanche 3 images puis Aubry en couleur, contour autocollant, sur fond violet",
+   "kind": "sil",
+   "temps": 1.98,
+   "source": {
+    "fichier": "lot3/sources/V1-aubry-strasbourg-c.mp4",
+    "in_s": 9.2,
+    "out_s": 10.167,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=c-KnJoiz928",
+    "contexte": "meeting « Justice pour la Palestine », Strasbourg, 17/06/2026 (chaîne Manon Aubry)"
+   }
+  },
+  {
+   "id": "FIN",
+   "clip": "R1_FIN.mov",
+   "folder": "genR1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/R1/out/R1_FIN.mov",
+   "s": 0,
+   "e": 73,
+   "rec": 443,
+   "dur": 73,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "carton final propre (fond crème, bold bleu + rouge) : son nom et ses mots, pas de CTA de vote",
+   "kind": "card",
+   "temps": 4.99
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "R1-mix.wav",
+   "folder": "genR1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/R1/out/R1-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS : voix SOT 71.00-78.36 s (+4 dB) à 0.30 s ; One More Time dès 55.669 s du complet, -17 dB sous la voix, montée dans le break, plein au drop, fondu de fin 0,45 s"
+  }
+ ],
+ "stems": [
+  "lot5/_claude/gen/R1/out/R1-voix.wav",
+  "lot5/_claude/gen/R1/out/R1-musique.wav"
+ ],
+ "logos_exclus": "SOT : pupitre (logo du Parlement, drapeau UE) sous la découpe ; Strasbourg : logo ELA hors des cadres photo et hors des détourages ; soirée 2024 : logo LFI, bandeau et pancarte hors cadre photo"
+}

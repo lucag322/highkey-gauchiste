@@ -1,0 +1,133 @@
+{
+ "name": "P1 - Portrait couloir - Leaument",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 15.0,
+ "note": "Lot 3, recette caiden.agr (portrait couloir) : hook plan-séquence caméra épaule (interview grève) avec voix diégétique, puis tribune / bureau / terrain en coupes sèches sur les frappes réelles, aucun texte. Plans ProRes 9:16 30 i/s prêts, aucun ralenti (speed_pct 100). Générateur : lot3/_claude/gen/P1/genP1.py",
+ "musique": {
+  "fichier": "lot3/sons/P1-mxzi-montagem-tomada_complet.wav",
+  "debut_extrait_s": 36.232,
+  "fin_extrait_s": 51.232,
+  "drop_timeline_s": 8.096,
+  "coupes_timeline_s": [
+   8.096,
+   9.942,
+   11.788
+  ],
+  "sous_la_voix": "ducking : passe-bas 450 Hz -9 dB jusqu'au drop"
+ },
+ "phrase": {
+  "source": "https://youtu.be/EA4uU-DL4uM?t=67 (67,4-75,1 s)",
+  "texte": "Et ça, c'est ce que les gros bonnets des boîtes comme Ubisoft n'ont pas l'air de comprendre, c'est que la richesse de leur entreprise, c'est pas eux, c'est pas le capital, c'est les salariés.",
+  "timeline_s": [
+   0.12,
+   7.84
+  ]
+ },
+ "video": [
+  {
+   "id": "A",
+   "clip": "P1_A.mov",
+   "folder": "P1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/P1/out/P1_A.mov",
+   "s": 0,
+   "e": 243,
+   "clip_fps": 30,
+   "rec": 0,
+   "dur": 243,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "hook : plan-séquence caméra épaule sans coupe (interview à la grève), phrase entière en voix synchro, poussée très lente",
+   "source": {
+    "fichier": "lot3/sources/P1-leaument-interview-greve-2026-02.mp4",
+    "in_s": 5.28,
+    "out_s": 13.38,
+    "youtube": "https://youtu.be/EA4uU-DL4uM?t=67",
+    "desc": "Point'n Think, « Interview de Antoine Léaument, député insoumis » (grève Ubisoft, 10/02/2026), caméra épaule"
+   },
+   "effets": "recadrage 9:16 suivi visage, poussée x1.00 -> x1.08, étalonnage naturel chaud",
+   "coupe_sur_frappe_s": 0.0
+  },
+  {
+   "id": "B",
+   "clip": "P1_B.mov",
+   "folder": "P1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/P1/out/P1_B.mov",
+   "s": 0,
+   "e": 55,
+   "clip_fps": 30,
+   "rec": 243,
+   "dur": 55,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "drop : seul debout dans l'hémicycle, il tient tête (22/01/2026)",
+   "source": {
+    "fichier": "lot3/sources/P1-leaument-lcp-chenu-2026-01b.mp4",
+    "in_s": 3.1,
+    "out_s": 4.933,
+    "youtube": "https://youtu.be/5VJWCXdOKyg?t=109",
+    "desc": "LCP, hémicycle 22/01/2026 (altercation avec Sébastien Chenu, RN), seul debout devant les bancs rouges"
+   },
+   "effets": "recadrage 9:16 suivi visage, poussée x1.00 -> x1.05, étalonnage naturel chaud",
+   "coupe_sur_frappe_s": 8.096
+  },
+  {
+   "id": "C",
+   "clip": "P1_C.mov",
+   "folder": "P1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/P1/out/P1_C.mov",
+   "s": 0,
+   "e": 56,
+   "clip_fps": 30,
+   "rec": 298,
+   "dur": 56,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "debout dans l'hémicycle, micro, regard relevé (QAG 28/04/2026)",
+   "source": {
+    "fichier": "lot3/sources/P1-leaument-lcp-qag-2026-04.mp4",
+    "in_s": 13.0,
+    "out_s": 14.867,
+    "youtube": "https://youtu.be/CwaWePGUP8w?t=111",
+    "desc": "LCP, questions au gouvernement 28/04/2026, debout dans l'hémicycle"
+   },
+   "effets": "recadrage 9:16 suivi visage, poussée x1.00 -> x1.04, étalonnage naturel chaud",
+   "coupe_sur_frappe_s": 9.942
+  },
+  {
+   "id": "D",
+   "clip": "P1_D.mov",
+   "folder": "P1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/P1/out/P1_D.mov",
+   "s": 0,
+   "e": 96,
+   "clip_fps": 30,
+   "rec": 354,
+   "dur": 96,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "face caméra au bureau, geste de la main ; fondu au noir 0,6 s",
+   "source": {
+    "fichier": "lot3/sources/P1-leaument-bureau-2026-06.mp4",
+    "in_s": 12.4,
+    "out_s": 15.6,
+    "youtube": "https://youtu.be/mvSD-5YHhlk?t=498",
+    "desc": "chaîne officielle, « La campagne de la victoire ! » (13/06/2026), face caméra au bureau"
+   },
+   "effets": "recadrage 9:16 suivi visage, poussée x1.00 -> x1.05, étalonnage naturel chaud, fondu au noir 0,6 s cuit",
+   "coupe_sur_frappe_s": 11.788
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "P1-mix.wav",
+   "folder": "P1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/P1/out/P1-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix final -14 LUFS : voix 0,12-7,84 s sur le break baissé (ducking), morceau plein au drop 8.096 s, fondu de fin"
+  }
+ ]
+}

@@ -1,0 +1,348 @@
+{
+ "name": "A4 - Aura N&B - David Guiraud",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 15.0,
+ "note": "Aperçu lot 2. Plans 9:16 recadrés + N&B (lot2/_claude/gen/A4/out), texte cuit sur profil/face/serre. s/e en images du clip, rec en images timeline 30 i/s. speed_pct : ralenti Resolve Optical Flow (e - s = durée timeline à vitesse normale). Coupes sur les temps (91,6 BPM, drop 6,009 s) ; aucun plan < 1 temps. Générateur : lot2/_claude/gen/A4/genA4.py",
+ "phrase": {
+  "source": "lot2/sources/A4-guiraud-roubaix-meeting-a.mp4 48,94-53,56 s (YouTube o-1R3UFtXiQ, +1640 s), timeline = source - 47.800 s",
+  "texte": "alors cette population devient invincible et rien, ni personne, ne peut l'arrêter.",
+  "cartons": [
+   [
+    "ALORS CETTE",
+    "POPULATION"
+   ],
+   [
+    "DEVIENT",
+    "INVINCIBLE"
+   ],
+   [
+    "ET RIEN",
+    "NI",
+    "PERSONNE"
+   ],
+   [
+    "NE PEUT",
+    "L’ARRÊTER"
+   ]
+  ],
+  "rouge": [
+   "INVINCIBLE"
+  ]
+ },
+ "musique": {
+  "fichier": "lot2/sons/A4-hensonn-sahara-slowed.wav",
+  "titre": "Hensonn - Sahara (Slowed)",
+  "rec": 0,
+  "gain_db": -7.9,
+  "duck_db_sous_voix": -12.0,
+  "drop_timeline_s": 6.0,
+  "bpm": 91.6
+ },
+ "video": [
+  {
+   "id": "hook",
+   "clip": "A4_aura_intro.mov",
+   "folder": "genA4",
+   "s": 0,
+   "e": 23,
+   "rec": 0,
+   "dur": 23,
+   "track": 1,
+   "kind": "card"
+  },
+  {
+   "id": "profil",
+   "clip": "A4_profil.mov",
+   "folder": "genA4",
+   "s": 0,
+   "e": 20,
+   "rec": 23,
+   "dur": 20,
+   "track": 1,
+   "kind": "shot",
+   "source": "lot2/sources/A4-guiraud-roubaix-meeting-a.mp4 @ 48.57 s",
+   "son": "synchrone"
+  },
+  {
+   "id": "face",
+   "clip": "A4_face.mov",
+   "folder": "genA4",
+   "s": 0,
+   "e": 59,
+   "rec": 43,
+   "dur": 59,
+   "track": 1,
+   "kind": "shot",
+   "source": "lot2/sources/A4-guiraud-roubaix-meeting-a.mp4 @ 49.23 s",
+   "son": "synchrone"
+  },
+  {
+   "id": "serre",
+   "clip": "A4_serre.mov",
+   "folder": "genA4",
+   "s": 0,
+   "e": 78,
+   "rec": 102,
+   "dur": 78,
+   "track": 1,
+   "kind": "shot",
+   "source": "lot2/sources/A4-guiraud-roubaix-meeting-a.mp4 @ 51.20 s",
+   "son": "synchrone"
+  },
+  {
+   "id": "index_180",
+   "clip": "A4_index_drop.mov",
+   "folder": "genA4",
+   "s": 0,
+   "e": 20,
+   "rec": 180,
+   "dur": 20,
+   "track": 1,
+   "kind": "shot",
+   "source": "lot2/sources/A4-guiraud-roubaix-meeting-c.mp4 @ 26.73 s",
+   "effet": "drop",
+   "temps": 1
+  },
+  {
+   "id": "mer_200",
+   "clip": "A4_mer_whip.mov",
+   "folder": "genA4",
+   "s": 0,
+   "e": 20,
+   "rec": 200,
+   "dur": 20,
+   "track": 1,
+   "kind": "shot",
+   "source": "lot2/sources/A4-guiraud-roubaix-meeting-b.mp4 @ 36.00 s",
+   "effet": "whip",
+   "temps": 1
+  },
+  {
+   "id": "visage_220",
+   "clip": "A4_visage_whip.mov",
+   "folder": "genA4",
+   "s": 0,
+   "e": 19,
+   "rec": 220,
+   "dur": 19,
+   "track": 1,
+   "kind": "shot",
+   "source": "lot2/sources/A4-guiraud-roubaix-meeting-c.mp4 @ 10.00 s",
+   "effet": "whip",
+   "temps": 1
+  },
+  {
+   "id": "drapeaux_239",
+   "clip": "A4_drapeaux_whip.mov",
+   "folder": "genA4",
+   "s": 0,
+   "e": 20,
+   "rec": 239,
+   "dur": 20,
+   "track": 1,
+   "kind": "shot",
+   "source": "lot2/sources/A4-guiraud-roubaix-meeting-a.mp4 @ 4.00 s",
+   "effet": "whip",
+   "temps": 1
+  },
+  {
+   "id": "couloir_259",
+   "clip": "A4_couloir.mov",
+   "folder": "genA4",
+   "s": 0,
+   "e": 39,
+   "rec": 259,
+   "dur": 39,
+   "track": 1,
+   "kind": "shot",
+   "source": "lot2/sources/A4-guiraud-roubaix-meeting-b.mp4 @ 18.20 s",
+   "effet": "cut",
+   "temps": 2,
+   "speed_pct": 60,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "foule_298",
+   "clip": "A4_foule.mov",
+   "folder": "genA4",
+   "s": 0,
+   "e": 20,
+   "rec": 298,
+   "dur": 20,
+   "track": 1,
+   "kind": "shot",
+   "source": "lot2/sources/A4-guiraud-roubaix-meeting-a.mp4 @ 55.00 s",
+   "effet": "cut",
+   "temps": 1,
+   "speed_pct": 60,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "aura_318",
+   "clip": "A4_aura.mov",
+   "folder": "genA4",
+   "s": 0,
+   "e": 19,
+   "rec": 318,
+   "dur": 19,
+   "track": 1,
+   "kind": "card"
+  },
+  {
+   "id": "geste_337",
+   "clip": "A4_geste_drop.mov",
+   "folder": "genA4",
+   "s": 0,
+   "e": 20,
+   "rec": 337,
+   "dur": 20,
+   "track": 1,
+   "kind": "shot",
+   "source": "lot2/sources/A4-guiraud-roubaix-meeting-c.mp4 @ 17.20 s",
+   "effet": "drop",
+   "temps": 1
+  },
+  {
+   "id": "drapeaux2_357",
+   "clip": "A4_drapeaux2_whip.mov",
+   "folder": "genA4",
+   "s": 0,
+   "e": 20,
+   "rec": 357,
+   "dur": 20,
+   "track": 1,
+   "kind": "shot",
+   "source": "lot2/sources/A4-guiraud-roubaix-meeting-b.mp4 @ 38.70 s",
+   "effet": "whip",
+   "temps": 1
+  },
+  {
+   "id": "victoire_377",
+   "clip": "A4_victoire_whip.mov",
+   "folder": "genA4",
+   "s": 0,
+   "e": 19,
+   "rec": 377,
+   "dur": 19,
+   "track": 1,
+   "kind": "shot",
+   "source": "lot2/sources/A4-guiraud-roubaix-1ertour.mp4 @ 17.20 s",
+   "effet": "whip",
+   "temps": 1
+  },
+  {
+   "id": "mains_396",
+   "clip": "A4_mains_whip.mov",
+   "folder": "genA4",
+   "s": 0,
+   "e": 20,
+   "rec": 396,
+   "dur": 20,
+   "track": 1,
+   "kind": "shot",
+   "source": "lot2/sources/A4-guiraud-roubaix-meeting-c.mp4 @ 29.60 s",
+   "effet": "whip",
+   "temps": 1
+  },
+  {
+   "id": "fin",
+   "clip": "A4_aura_fin.mov",
+   "folder": "genA4",
+   "s": 0,
+   "e": 34,
+   "rec": 416,
+   "dur": 34,
+   "track": 1,
+   "kind": "card"
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "A4-mix.wav",
+   "folder": "genA4",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS (musique dès 0 s, voix synchrone 0,77-6,4 s)"
+  }
+ ],
+ "stems": [
+  "lot2/_claude/gen/A4/out/A4-voix.wav",
+  "lot2/_claude/gen/A4/out/A4-musique.wav"
+ ],
+ "sources": {
+  "profil": {
+   "fichier": "lot2/sources/A4-guiraud-roubaix-meeting-a.mp4",
+   "t": 48.567,
+   "pourquoi": "profil au pupitre, début de la phrase"
+  },
+  "face": {
+   "fichier": "lot2/sources/A4-guiraud-roubaix-meeting-a.mp4",
+   "t": 49.233,
+   "pourquoi": "face au pupitre ROUBAIX, « population devient invincible »"
+  },
+  "serre": {
+   "fichier": "lot2/sources/A4-guiraud-roubaix-meeting-a.mp4",
+   "t": 51.2,
+   "pourquoi": "même plan plus serré, « rien, ni personne ne peut l'arrêter »"
+  },
+  "index": {
+   "fichier": "lot2/sources/A4-guiraud-roubaix-meeting-c.mp4",
+   "t": 26.733,
+   "pourquoi": "index levé (meeting c)"
+  },
+  "mer": {
+   "fichier": "lot2/sources/A4-guiraud-roubaix-meeting-b.mp4",
+   "t": 36.0,
+   "pourquoi": "mer de drapeaux, lumières jaunes (meeting b)"
+  },
+  "visage": {
+   "fichier": "lot2/sources/A4-guiraud-roubaix-meeting-c.mp4",
+   "t": 10.0,
+   "pourquoi": "gros plan de face, fond noir (meeting c)"
+  },
+  "drapeaux": {
+   "fichier": "lot2/sources/A4-guiraud-roubaix-meeting-a.mp4",
+   "t": 4.0,
+   "pourquoi": "plan large, drapeau LFI au premier plan (meeting a)"
+  },
+  "couloir": {
+   "fichier": "lot2/sources/A4-guiraud-roubaix-meeting-b.mp4",
+   "t": 18.2,
+   "pourquoi": "de dos vers la scène, coulisses (meeting b)"
+  },
+  "foule": {
+   "fichier": "lot2/sources/A4-guiraud-roubaix-meeting-a.mp4",
+   "t": 55.0,
+   "pourquoi": "salle debout, drapeaux (meeting a)"
+  },
+  "geste": {
+   "fichier": "lot2/sources/A4-guiraud-roubaix-meeting-c.mp4",
+   "t": 17.2,
+   "pourquoi": "geste de la main, voix appuyée (meeting c)"
+  },
+  "drapeaux2": {
+   "fichier": "lot2/sources/A4-guiraud-roubaix-meeting-b.mp4",
+   "t": 38.7,
+   "pourquoi": "salle debout, drapeaux LFI (meeting b)"
+  },
+  "victoire": {
+   "fichier": "lot2/sources/A4-guiraud-roubaix-1ertour.mp4",
+   "t": 17.2,
+   "pourquoi": "soir du 1er tour, rire, micro (vertical amateur)"
+  },
+  "mains": {
+   "fichier": "lot2/sources/A4-guiraud-roubaix-meeting-c.mp4",
+   "t": 29.6,
+   "pourquoi": "mains ouvertes, regard salle (meeting c)"
+  }
+ },
+ "sources_url": {
+  "A4-guiraud-roubaix-meeting-a.mp4": "youtube o-1R3UFtXiQ (chaîne JEAN-LUC MÉLENCHON, meeting Roubaix 31/01/2026, +1640 s)",
+  "A4-guiraud-roubaix-meeting-b.mp4": "youtube o-1R3UFtXiQ (+1310 s)",
+  "A4-guiraud-roubaix-meeting-c.mp4": "youtube o-1R3UFtXiQ (+1855 s)",
+  "A4-guiraud-roubaix-1ertour.mp4": "youtube p8W_23AWUVA (chaîne David Guiraud, soir du 1er tour 15/03/2026)"
+ }
+}

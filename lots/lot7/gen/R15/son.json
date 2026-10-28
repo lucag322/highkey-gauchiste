@@ -1,0 +1,63 @@
+{
+ "id": "R15",
+ "titre": "Espresso",
+ "artiste": "Sabrina Carpenter",
+ "url": "https://www.youtube.com/watch?v=51zjlMhdSTE",
+ "chaine": "Sabrina Carpenter (officielle)",
+ "fichier": "lot7/sons/R15-sabrina-espresso_complet.wav",
+ "extrait_complet_s": {
+  "debut": 54.8831,
+  "fin": 73.283
+ },
+ "passages": "sous la phrase (filtré, baissé) : fin du pré-refrain, complet 54.88-63.77 s ; au drop : 2e refrain, complet 63.77-73.28 s (paroles non recopiées, consigne Luca)",
+ "bpm": 104.0,
+ "temps_s": 0.57699,
+ "drop": {
+  "complet_s": 63.7721,
+  "timeline_s": 8.889,
+  "nature": "1er temps du 2e refrain, après le pré-refrain"
+ },
+ "frappes_timeline_s": [
+  0.2335,
+  0.8089,
+  1.8048,
+  1.9666,
+  2.0856,
+  3.3542,
+  4.2701,
+  4.3961,
+  5.4241,
+  6.1723,
+  6.5443,
+  7.732,
+  8.5968,
+  8.889,
+  10.0361,
+  11.0129,
+  11.1387,
+  11.3166,
+  12.2935,
+  12.606,
+  13.24,
+  13.5005,
+  14.5935,
+  15.4202,
+  15.8075,
+  16.8924,
+  17.7354,
+  17.8406,
+  18.0788,
+  19.2651
+ ],
+ "coupes_sur_frappes_s": [
+  4.2701,
+  6.5443,
+  8.889,
+  10.0361,
+  12.2935,
+  13.5005,
+  15.8075,
+  16.8924
+ ],
+ "mix": "lot7/_claude/gen/R15/out/R15-mix.wav"
+}

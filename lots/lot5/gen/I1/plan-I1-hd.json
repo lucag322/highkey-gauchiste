@@ -1,0 +1,467 @@
+{
+ "name": "I1 - Phonk infographie - Melenchon - SMIC 1 700 € - Kordhell Live Another Day",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 14.349,
+ "note": "Plans ProRes 9:16 prêts (recadrés hors filigrane et pupitre, étalonnés, textes et étiquettes cuits). Aucun ralenti. Générateur : lot5/_claude/gen/I1/genI1.py",
+ "phrase": {
+  "texte": "Nous réparerons les dégâts, le SMIC passera à 1 700 euros",
+  "fichier": "lot1/sources/5-melenchon-saintdenis-smic.mp4",
+  "in_s": 102.3,
+  "out_s": 108.1,
+  "source_url": "https://www.youtube.com/watch?v=1dkY_JVFx9I&t=3102",
+  "source_temps_s": [
+   3102.3,
+   3108.1
+  ]
+ },
+ "chiffres": [
+  {
+   "valeur": "1 700 €",
+   "source": "J.-L. Mélenchon, meeting de Saint-Denis, 7/06/2026 (phrase ci-dessus)"
+  },
+  {
+   "valeur": "1 477,93 € (SMIC net mensuel 35 h)",
+   "source": "service-public.gouv.fr/particuliers/vosdroits/F2300 ; arrêté du 22 mai 2026, en vigueur le 1er juin 2026"
+  },
+  {
+   "valeur": "10 millions dans la pauvreté",
+   "source": "J.-L. Mélenchon, même discours, 1dkY_JVFx9I t=3071"
+  },
+  {
+   "valeur": "7 millions à l'aide alimentaire",
+   "source": "J.-L. Mélenchon, même discours, 1dkY_JVFx9I t=3071"
+  }
+ ],
+ "musique": {
+  "fichier": "lot5/sons/I1-kordhell-live-another-day_complet.wav",
+  "debut_dans_complet_s": 44.083,
+  "drop_timeline_s": 6.0,
+  "coupes_timeline_s": [
+   0.789,
+   1.875,
+   2.875,
+   3.363,
+   3.891,
+   4.448,
+   6.0,
+   6.528,
+   7.064,
+   7.568,
+   8.072,
+   9.136,
+   9.659,
+   10.179,
+   10.701,
+   11.744,
+   12.264,
+   12.787,
+   13.309,
+   14.349
+  ]
+ },
+ "video": [
+  {
+   "id": "V1",
+   "clip": "I1_V1.mov",
+   "folder": "genI1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/I1/out/I1_V1.mov",
+   "s": 0,
+   "e": 24,
+   "clip_fps": 30,
+   "rec": 0,
+   "dur": 24,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "Mélenchon au pupitre pendant les applaudissements (muet), NOUS",
+   "source": {
+    "fichier": "lot1/sources/5-melenchon-saintdenis-smic.mp4",
+    "in_s": 96.05,
+    "out_s": 96.85
+   },
+   "effets": "recadrage 9:16 suivi visage (bornes [0, 0, 1570, 800]), poussée 1.00->1.02, couleurs naturelles + grain, sous-titres cuits"
+  },
+  {
+   "id": "V2",
+   "clip": "I1_V2.mov",
+   "folder": "genI1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/I1/out/I1_V2.mov",
+   "s": 0,
+   "e": 32,
+   "clip_fps": 30,
+   "rec": 24,
+   "dur": 32,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "place de Saint-Denis noire de monde, hôtel de ville, RÉPARERONS / LES",
+   "source": {
+    "fichier": "lot1/sources/5-melenchon-saintdenis-smic.mp4",
+    "in_s": 166.0,
+    "out_s": 167.067
+   },
+   "effets": "recadrage 9:16 fixe (bornes [0, 175, 1570, 1080]), poussée 1.00->1.03, couleurs naturelles + grain, sous-titres cuits"
+  },
+  {
+   "id": "V2b",
+   "clip": "I1_V2b.mov",
+   "folder": "genI1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/I1/out/I1_V2b.mov",
+   "s": 0,
+   "e": 30,
+   "clip_fps": 30,
+   "rec": 56,
+   "dur": 30,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "place de Saint-Denis, arbres, foule, DÉGÂTS",
+   "source": {
+    "fichier": "lot3/sources/C4-melenchon-stdenis-03.mp4",
+    "in_s": 1.0,
+    "out_s": 2.0
+   },
+   "effets": "recadrage 9:16 fixe (bornes [0, 175, 1570, 1080]), poussée 1.00->1.03, couleurs naturelles + grain, sous-titres cuits"
+  },
+  {
+   "id": "V3",
+   "clip": "I1_V3.mov",
+   "folder": "genI1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/I1/out/I1_V3.mov",
+   "s": 0,
+   "e": 15,
+   "clip_fps": 30,
+   "rec": 86,
+   "dur": 15,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "Mélenchon de dos face à la foule, LE SMIC",
+   "source": {
+    "fichier": "lot1/sources/5-melenchon-saintdenis-smic.mp4",
+    "in_s": 126.0,
+    "out_s": 126.5
+   },
+   "effets": "recadrage 9:16 fixe (bornes [0, 175, 1570, 1080]), poussée 1.00->1.02, couleurs naturelles + grain, sous-titres cuits"
+  },
+  {
+   "id": "V4",
+   "clip": "I1_V4.mov",
+   "folder": "genI1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/I1/out/I1_V4.mov",
+   "s": 0,
+   "e": 16,
+   "clip_fps": 30,
+   "rec": 101,
+   "dur": 16,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "drapeaux dans la foule (image synchrone de la phrase, 7 s plus loin), PASSERA",
+   "source": {
+    "fichier": "lot1/sources/5-melenchon-saintdenis-smic.mp4",
+    "in_s": 109.0,
+    "out_s": 109.533
+   },
+   "effets": "recadrage 9:16 fixe (bornes [0, 175, 1570, 1080]), poussée 1.00->1.02, couleurs naturelles + grain, sous-titres cuits"
+  },
+  {
+   "id": "V5",
+   "clip": "I1_V5.mov",
+   "folder": "genI1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/I1/out/I1_V5.mov",
+   "s": 0,
+   "e": 16,
+   "clip_fps": 30,
+   "rec": 117,
+   "dur": 16,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "foule, arbres, place de Saint-Denis (pas de plan où il parle sous sa voix), À (début du roulement)",
+   "source": {
+    "fichier": "lot1/sources/5-melenchon-saintdenis-smic.mp4",
+    "in_s": 203.0,
+    "out_s": 203.533
+   },
+   "effets": "recadrage 9:16 fixe (bornes [0, 175, 1570, 1080]), poussée 1.00->1.02, couleurs naturelles + grain, sous-titres cuits"
+  },
+  {
+   "id": "HUD1",
+   "clip": "I1_HUD1.mov",
+   "folder": "genI1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/I1/out/I1_HUD1.mov",
+   "s": 0,
+   "e": 47,
+   "clip_fps": 30,
+   "rec": 133,
+   "dur": 47,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "insert hologramme : pièce € filaire, étiquette SMIC, 1 700 € rouge sur « 1 700 euros »",
+   "effets": "insert hologramme généré (hudI1.py), teal #3FD6D0 + chiffre rouge #E4002B"
+  },
+  {
+   "id": "D1",
+   "clip": "I1_D1.mov",
+   "folder": "genI1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/I1/out/I1_D1.mov",
+   "s": 0,
+   "e": 16,
+   "clip_fps": 30,
+   "rec": 180,
+   "dur": 16,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "DROP : drapeau Union populaire qui balaie l'image",
+   "source": {
+    "fichier": "lot3/sources/C4-melenchon-stdenis-08.mp4",
+    "in_s": 5.0,
+    "out_s": 5.533
+   },
+   "effets": "recadrage 9:16 fixe (bornes [0, 0, 1570, 1080]), poussée 1.00->1.06, couleurs naturelles + grain, décalage RVB 2 images sur la frappe"
+  },
+  {
+   "id": "D2",
+   "clip": "I1_D2.mov",
+   "folder": "genI1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/I1/out/I1_D2.mov",
+   "s": 0,
+   "e": 16,
+   "clip_fps": 30,
+   "rec": 196,
+   "dur": 16,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "Mélenchon main levée",
+   "source": {
+    "fichier": "lot3/sources/C4-melenchon-stdenis-02.mp4",
+    "in_s": 6.2,
+    "out_s": 6.733
+   },
+   "effets": "recadrage 9:16 suivi visage (bornes [0, 0, 1570, 800]), poussée 1.00->1.04, couleurs naturelles + grain, décalage RVB 2 images sur la frappe"
+  },
+  {
+   "id": "D3",
+   "clip": "I1_D3.mov",
+   "folder": "genI1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/I1/out/I1_D3.mov",
+   "s": 0,
+   "e": 15,
+   "clip_fps": 30,
+   "rec": 212,
+   "dur": 15,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "intersyndicale : foule, drapeaux violets",
+   "source": {
+    "fichier": "lot3/sources/C4-melenchon-intersyndicale.mp4",
+    "in_s": 155.0,
+    "out_s": 155.5
+   },
+   "effets": "recadrage 9:16 fixe (bornes [0, 175, 1570, 880]), poussée 1.00->1.05, couleurs naturelles + grain, étiquette « 10 MILLIONS / DANS LA PAUVRETÉ - J.-L. MÉLENCHON, 07/06/2026 », décalage RVB 2 images sur la frappe"
+  },
+  {
+   "id": "D4",
+   "clip": "I1_D4.mov",
+   "folder": "genI1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/I1/out/I1_D4.mov",
+   "s": 0,
+   "e": 15,
+   "clip_fps": 30,
+   "rec": 227,
+   "dur": 15,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "drapeaux tricolores et violets agités",
+   "source": {
+    "fichier": "lot3/sources/C4-melenchon-stdenis-08.mp4",
+    "in_s": 7.3,
+    "out_s": 7.8
+   },
+   "effets": "recadrage 9:16 fixe (bornes [0, 0, 1570, 1080]), poussée 1.00->1.03, couleurs naturelles + grain, décalage RVB 2 images sur la frappe"
+  },
+  {
+   "id": "D5",
+   "clip": "I1_D5.mov",
+   "folder": "genI1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/I1/out/I1_D5.mov",
+   "s": 0,
+   "e": 32,
+   "clip_fps": 30,
+   "rec": 242,
+   "dur": 32,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "basilique de Saint-Denis",
+   "source": {
+    "fichier": "lot3/sources/C4-melenchon-stdenis-02.mp4",
+    "in_s": 11.0,
+    "out_s": 12.067
+   },
+   "effets": "recadrage 9:16 fixe (bornes [0, 175, 1570, 1080]), poussée 1.00->1.05, couleurs naturelles + grain, étiquette « SAINT-DENIS / MEETING - 7 JUIN 2026 », décalage RVB 2 images sur la frappe"
+  },
+  {
+   "id": "D6",
+   "clip": "I1_D6.mov",
+   "folder": "genI1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/I1/out/I1_D6.mov",
+   "s": 0,
+   "e": 16,
+   "clip_fps": 30,
+   "rec": 274,
+   "dur": 16,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "Mélenchon au pupitre, gros plan",
+   "source": {
+    "fichier": "lot3/sources/C4-melenchon-stdenis-03.mp4",
+    "in_s": 29.0,
+    "out_s": 29.533
+   },
+   "effets": "recadrage 9:16 suivi visage (bornes [0, 0, 1570, 800]), poussée 1.00->1.04, couleurs naturelles + grain, décalage RVB 2 images sur la frappe"
+  },
+  {
+   "id": "D7",
+   "clip": "I1_D7.mov",
+   "folder": "genI1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/I1/out/I1_D7.mov",
+   "s": 0,
+   "e": 15,
+   "clip_fps": 30,
+   "rec": 290,
+   "dur": 15,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "place noire de monde devant la basilique",
+   "source": {
+    "fichier": "lot1/sources/5-melenchon-saintdenis-smic.mp4",
+    "in_s": 99.5,
+    "out_s": 100.0
+   },
+   "effets": "recadrage 9:16 fixe (bornes [0, 175, 1570, 1080]), poussée 1.00->1.05, couleurs naturelles + grain, décalage RVB 2 images sur la frappe"
+  },
+  {
+   "id": "D8",
+   "clip": "I1_D8.mov",
+   "folder": "genI1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/I1/out/I1_D8.mov",
+   "s": 0,
+   "e": 16,
+   "clip_fps": 30,
+   "rec": 305,
+   "dur": 16,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "intersyndicale : foule",
+   "source": {
+    "fichier": "lot3/sources/C4-melenchon-intersyndicale.mp4",
+    "in_s": 160.0,
+    "out_s": 160.533
+   },
+   "effets": "recadrage 9:16 fixe (bornes [0, 175, 1570, 880]), poussée 1.00->1.05, couleurs naturelles + grain, étiquette « 7 MILLIONS / À L'AIDE ALIMENTAIRE - J.-L. MÉLENCHON, 07/06/2026 », décalage RVB 2 images sur la frappe"
+  },
+  {
+   "id": "HUD2",
+   "clip": "I1_HUD2.mov",
+   "folder": "genI1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/I1/out/I1_HUD2.mov",
+   "s": 0,
+   "e": 31,
+   "clip_fps": 30,
+   "rec": 321,
+   "dur": 31,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "insert hologramme : colonnes SMIC net 1 477,93 € / 1 700 €",
+   "effets": "insert hologramme généré (hudI1.py), teal #3FD6D0 + chiffre rouge #E4002B"
+  },
+  {
+   "id": "D9",
+   "clip": "I1_D9.mov",
+   "folder": "genI1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/I1/out/I1_D9.mov",
+   "s": 0,
+   "e": 16,
+   "clip_fps": 30,
+   "rec": 352,
+   "dur": 16,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "foule et drapeaux devant la tribune",
+   "source": {
+    "fichier": "lot3/sources/C4-melenchon-stdenis-05.mp4",
+    "in_s": 0.2,
+    "out_s": 0.733
+   },
+   "effets": "recadrage 9:16 fixe (bornes [0, 0, 1570, 1080]), poussée 1.00->1.05, couleurs naturelles + grain, décalage RVB 2 images sur la frappe"
+  },
+  {
+   "id": "D10",
+   "clip": "I1_D10.mov",
+   "folder": "genI1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/I1/out/I1_D10.mov",
+   "s": 0,
+   "e": 16,
+   "clip_fps": 30,
+   "rec": 368,
+   "dur": 16,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "place de Saint-Denis vue large",
+   "source": {
+    "fichier": "lot3/sources/C4-melenchon-stdenis-01.mp4",
+    "in_s": 16.5,
+    "out_s": 17.033
+   },
+   "effets": "recadrage 9:16 fixe (bornes [0, 175, 1570, 1080]), poussée 1.00->1.05, couleurs naturelles + grain, décalage RVB 2 images sur la frappe"
+  },
+  {
+   "id": "D11",
+   "clip": "I1_D11.mov",
+   "folder": "genI1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/I1/out/I1_D11.mov",
+   "s": 0,
+   "e": 15,
+   "clip_fps": 30,
+   "rec": 384,
+   "dur": 15,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "place de l'hôtel de ville noire de monde",
+   "source": {
+    "fichier": "lot1/sources/5-melenchon-saintdenis-smic.mp4",
+    "in_s": 138.5,
+    "out_s": 139.0
+   },
+   "effets": "recadrage 9:16 fixe (bornes [0, 175, 1570, 1080]), poussée 1.00->1.05, couleurs naturelles + grain, décalage RVB 2 images sur la frappe"
+  },
+  {
+   "id": "D12",
+   "clip": "I1_D12.mov",
+   "folder": "genI1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/I1/out/I1_D12.mov",
+   "s": 0,
+   "e": 31,
+   "clip_fps": 30,
+   "rec": 399,
+   "dur": 31,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "FIN : Mélenchon de dos face à la foule immense",
+   "source": {
+    "fichier": "lot1/sources/5-melenchon-saintdenis-smic.mp4",
+    "in_s": 128.5,
+    "out_s": 129.533
+   },
+   "effets": "recadrage 9:16 fixe (bornes [0, 175, 1570, 1080]), poussée 1.00->1.05, couleurs naturelles + grain, étiquette « SMIC À 1 700 € / J.-L. MÉLENCHON - SAINT-DENIS - 07/06/2026 », décalage RVB 2 images sur la frappe"
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "I1-mix.wav",
+   "folder": "genI1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/I1/out/I1-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS : voix 102.30-108.10 s (posée à 0.15 s) + musique complet 44.08-58.43 s, -11 dB sous la voix, montée -11 -> -7 dB sur le roulement, plein au drop, fin 0,35 s"
+  }
+ ]
+}

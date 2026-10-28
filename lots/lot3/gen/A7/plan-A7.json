@@ -1,0 +1,372 @@
+{
+ "name": "A7 - Aura N&B - Rima Hassan",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 14.4,
+ "note": "Aperçu lot 3. Plans ProRes 9:16 recadrés (visage suivi) + N&B A5, texte et effets cuits, vitesse normale. s/e en images du clip (30 i/s), rec en images timeline. speed_pct : ralenti Resolve Optical Flow (aperçu = setpts simple). Coupes sur les vraies frappes (cache/hits.json). Générateur : lot3/_claude/gen/A7/genA7.py",
+ "phrase": {
+  "texte": "Être de gauche, ce n'est pas une étiquette.",
+  "source": "https://youtu.be/lML9ZGssEac?t=2293 (2293.02 s) -> 2296,22 s, meeting LFI de soutien à la Palestine, Strasbourg, 17/06/2026 (chaîne La France insoumise)",
+  "timeline_s": [
+   1.648,
+   4.848
+  ]
+ },
+ "musique": {
+  "fichier": "lot3/sons/A7-billie-jean.wav",
+  "debut_dans_complet_s": 80.395,
+  "fin_dans_complet_s": 94.789,
+  "drop_timeline_s": 6.707,
+  "bpm": 116.72
+ },
+ "video": [
+  {
+   "id": "hook",
+   "clip": "A7_aura_intro.mov",
+   "folder": "A7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/A7/out/A7_aura_intro.mov",
+   "s": 0,
+   "e": 46,
+   "clip_fps": 30,
+   "rec": 0,
+   "dur": 46,
+   "track": 1,
+   "kind": "card",
+   "note": "carte aura. (Helvetica Oblique, halo doux) sur la batterie seule"
+  },
+  {
+   "id": "long_46",
+   "clip": "A7_long.mov",
+   "folder": "A7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/A7/out/A7_long.mov",
+   "s": 0,
+   "e": 109,
+   "clip_fps": 30,
+   "rec": 46,
+   "dur": 109,
+   "track": 1,
+   "kind": "shot",
+   "temps": 7,
+   "effet": "cut",
+   "note": "Être de gauche, ce n'est pas une étiquette. (pupitre JUSTICE POUR LA PALESTINE, Strasbourg 17/06/2026)",
+   "source": {
+    "fichier": "lot3/sources/A7-hassan-strasbourg-phrase.mp4",
+    "in_s": 6.906,
+    "out_s": 10.539,
+    "youtube": "https://youtu.be/lML9ZGssEac?t=2292 (2292.91 s)"
+   },
+   "texte": "ÊTRE DE GAUCHE (GAUCHE rouge) / CE N'EST PAS UNE / ÉTIQUETTE (sur le drop, flash) — mot à mot, Arial Black"
+  },
+  {
+   "id": "geste_155",
+   "clip": "A7_geste.mov",
+   "folder": "A7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/A7/out/A7_geste.mov",
+   "s": 0,
+   "e": 16,
+   "clip_fps": 30,
+   "rec": 155,
+   "dur": 16,
+   "track": 1,
+   "kind": "shot",
+   "temps": 1,
+   "effet": "cut",
+   "note": "au pupitre, geste vers la salle",
+   "source": {
+    "fichier": "lot3/sources/A7-hassan-strasbourg-phrase.mp4",
+    "in_s": 3.0,
+    "out_s": 3.533,
+    "youtube": "https://youtu.be/lML9ZGssEac?t=2289 (2289.00 s)"
+   }
+  },
+  {
+   "id": "sourire_171",
+   "clip": "A7_sourire.mov",
+   "folder": "A7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/A7/out/A7_sourire.mov",
+   "s": 0,
+   "e": 15,
+   "clip_fps": 30,
+   "rec": 171,
+   "dur": 15,
+   "track": 1,
+   "kind": "shot",
+   "temps": 1,
+   "effet": "whip",
+   "note": "sourire au pupitre",
+   "source": {
+    "fichier": "lot3/sources/A7-hassan-strasbourg-a.mp4",
+    "in_s": 5.0,
+    "out_s": 5.5,
+    "youtube": "https://youtu.be/lML9ZGssEac?t=2200 (2200.00 s)"
+   }
+  },
+  {
+   "id": "aura_186",
+   "clip": "A7_aura.mov",
+   "folder": "A7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/A7/out/A7_aura.mov",
+   "s": 0,
+   "e": 15,
+   "clip_fps": 30,
+   "rec": 186,
+   "dur": 15,
+   "track": 1,
+   "kind": "card",
+   "temps": 1
+  },
+  {
+   "id": "dos_201",
+   "clip": "A7_dos.mov",
+   "folder": "A7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/A7/out/A7_dos.mov",
+   "s": 0,
+   "e": 15,
+   "clip_fps": 30,
+   "rec": 201,
+   "dur": 15,
+   "track": 1,
+   "kind": "shot",
+   "temps": 1,
+   "effet": "drop",
+   "note": "de dos au pupitre face à la salle",
+   "source": {
+    "fichier": "lot3/sources/A7-hassan-strasbourg-a.mp4",
+    "in_s": 8.0,
+    "out_s": 8.5,
+    "youtube": "https://youtu.be/lML9ZGssEac?t=2203 (2203.00 s)"
+   }
+  },
+  {
+   "id": "poing_216",
+   "clip": "A7_poing.mov",
+   "folder": "A7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/A7/out/A7_poing.mov",
+   "s": 0,
+   "e": 16,
+   "clip_fps": 30,
+   "rec": 216,
+   "dur": 16,
+   "track": 1,
+   "kind": "shot",
+   "temps": 1,
+   "effet": "whip",
+   "note": "poing levé",
+   "source": {
+    "fichier": "lot3/sources/A7-hassan-strasbourg-b.mp4",
+    "in_s": 43.4,
+    "out_s": 43.933,
+    "youtube": "https://youtu.be/lML9ZGssEac?t=2411 (2411.40 s)"
+   }
+  },
+  {
+   "id": "salle_232",
+   "clip": "A7_salle.mov",
+   "folder": "A7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/A7/out/A7_salle.mov",
+   "s": 0,
+   "e": 14,
+   "clip_fps": 30,
+   "rec": 232,
+   "dur": 14,
+   "track": 1,
+   "kind": "shot",
+   "temps": 1,
+   "effet": "whip",
+   "note": "salle comble debout",
+   "source": {
+    "fichier": "lot3/sources/A7-hassan-strasbourg-a.mp4",
+    "in_s": 33.0,
+    "out_s": 33.467,
+    "youtube": "https://youtu.be/lML9ZGssEac?t=2228 (2228.00 s)"
+   }
+  },
+  {
+   "id": "rire_246",
+   "clip": "A7_rire.mov",
+   "folder": "A7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/A7/out/A7_rire.mov",
+   "s": 0,
+   "e": 16,
+   "clip_fps": 30,
+   "rec": 246,
+   "dur": 16,
+   "track": 1,
+   "kind": "shot",
+   "temps": 1,
+   "effet": "whip",
+   "note": "grand sourire, main levée vers la salle",
+   "source": {
+    "fichier": "lot3/sources/A7-hassan-strasbourg-c.mp4",
+    "in_s": 32.6,
+    "out_s": 33.133,
+    "youtube": "https://youtu.be/lML9ZGssEac?t=2666 (2666.60 s)"
+   }
+  },
+  {
+   "id": "courneuve_262",
+   "clip": "A7_courneuve.mov",
+   "folder": "A7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/A7/out/A7_courneuve.mov",
+   "s": 0,
+   "e": 31,
+   "clip_fps": 30,
+   "rec": 262,
+   "dur": 31,
+   "track": 1,
+   "kind": "shot",
+   "temps": 2,
+   "effet": "cut",
+   "note": "poing levé, meeting de La Courneuve 16/01/2026",
+   "source": {
+    "fichier": "lot3/sources/A7-hassan-courneuve-a.mp4",
+    "in_s": 12.3,
+    "out_s": 13.333,
+    "youtube": "https://youtu.be/bpYEswmz7us?t=937 (937.30 s)"
+   }
+  },
+  {
+   "id": "emotion_293",
+   "clip": "A7_emotion.mov",
+   "folder": "A7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/A7/out/A7_emotion.mov",
+   "s": 0,
+   "e": 16,
+   "clip_fps": 30,
+   "rec": 293,
+   "dur": 16,
+   "track": 1,
+   "kind": "shot",
+   "temps": 1,
+   "effet": "whip",
+   "note": "émue sous les « Rima ! Rima ! »",
+   "source": {
+    "fichier": "lot3/sources/A7-hassan-strasbourg-c.mp4",
+    "in_s": 12.6,
+    "out_s": 13.133,
+    "youtube": "https://youtu.be/lML9ZGssEac?t=2646 (2646.60 s)"
+   }
+  },
+  {
+   "id": "salut_309",
+   "clip": "A7_salut.mov",
+   "folder": "A7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/A7/out/A7_salut.mov",
+   "s": 0,
+   "e": 15,
+   "clip_fps": 30,
+   "rec": 309,
+   "dur": 15,
+   "track": 1,
+   "kind": "shot",
+   "temps": 1,
+   "effet": "whip",
+   "note": "salue la salle",
+   "source": {
+    "fichier": "lot3/sources/A7-hassan-strasbourg-c.mp4",
+    "in_s": 25.3,
+    "out_s": 25.8,
+    "youtube": "https://youtu.be/lML9ZGssEac?t=2659 (2659.30 s)"
+   }
+  },
+  {
+   "id": "main_324",
+   "clip": "A7_main.mov",
+   "folder": "A7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/A7/out/A7_main.mov",
+   "s": 0,
+   "e": 31,
+   "clip_fps": 30,
+   "rec": 324,
+   "dur": 31,
+   "track": 1,
+   "kind": "shot",
+   "temps": 2,
+   "effet": "cut",
+   "note": "sourire, main levée",
+   "source": {
+    "fichier": "lot3/sources/A7-hassan-strasbourg-c.mp4",
+    "in_s": 26.8,
+    "out_s": 27.833,
+    "youtube": "https://youtu.be/lML9ZGssEac?t=2660 (2660.80 s)"
+   },
+   "speed_pct": 60,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "ovation_355",
+   "clip": "A7_ovation.mov",
+   "folder": "A7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/A7/out/A7_ovation.mov",
+   "s": 0,
+   "e": 15,
+   "clip_fps": 30,
+   "rec": 355,
+   "dur": 15,
+   "track": 1,
+   "kind": "shot",
+   "temps": 1,
+   "effet": "whip",
+   "note": "scène debout, ovation",
+   "source": {
+    "fichier": "lot3/sources/A7-hassan-strasbourg-c.mp4",
+    "in_s": 41.0,
+    "out_s": 41.5,
+    "youtube": "https://youtu.be/lML9ZGssEac?t=2675 (2675.00 s)"
+   }
+  },
+  {
+   "id": "eclat_370",
+   "clip": "A7_eclat.mov",
+   "folder": "A7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/A7/out/A7_eclat.mov",
+   "s": 0,
+   "e": 15,
+   "clip_fps": 30,
+   "rec": 370,
+   "dur": 15,
+   "track": 1,
+   "kind": "shot",
+   "temps": 1,
+   "effet": "whip",
+   "note": "éclat de rire",
+   "source": {
+    "fichier": "lot3/sources/A7-hassan-strasbourg-c.mp4",
+    "in_s": 29.0,
+    "out_s": 29.5,
+    "youtube": "https://youtu.be/lML9ZGssEac?t=2663 (2663.00 s)"
+   }
+  },
+  {
+   "id": "fin",
+   "clip": "A7_aura_fin.mov",
+   "folder": "A7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/A7/out/A7_aura_fin.mov",
+   "s": 0,
+   "e": 47,
+   "clip_fps": 30,
+   "rec": 385,
+   "dur": 47,
+   "track": 1,
+   "kind": "card",
+   "note": "carte aura. finale, fondu au noir"
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "A7-mix.wav",
+   "folder": "A7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/A7/out/A7-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS : Billie Jean du début à la fin (fin du pré-refrain puis 1er refrain), voix synchrone de la phrase, musique baissée -9 dB sous la phrase puis reprise, drop sur « Billie Jean » du refrain"
+  }
+ ],
+ "stems": [
+  "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/A7/out/A7-voix.wav",
+  "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/A7/out/A7-musique.wav"
+ ],
+ "logos_exclus": "ELA (haut droite) et logos du bas du pupitre à Strasbourg ; logo LFI et pupitre Aly2026 à La Courneuve"
+}

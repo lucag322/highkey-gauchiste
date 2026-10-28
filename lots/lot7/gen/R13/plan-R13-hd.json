@@ -1,0 +1,766 @@
+{
+ "name": "R13 - Collage ransom-note affiche de meeting - Jean-Luc Mélenchon (Black Eyed Peas - Pump It)",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 19.867,
+ "note": "Plans ProRes 9:16 composés en Python (lot7/_claude/gen/R13/out) : fonds orange / bleu nuit / affiche crème à trame orange, Mélenchon détouré (segment/Vision) en bichromie bleu nuit -> crème (cravate orange) + écho décalé, photos bichromie scotchées, bandes d'affiche déchirées, plein cadre bichromie bleu nuit -> orange -> crème, textes ransom-note cuits (chiffres en lettres découpées). s/e en images du clip (30 i/s), rec en images timeline. Coupes sur les frappes réelles de Pump It (son.json). Aucun ralenti. Générateur : lot7/_claude/gen/R13/genR13.py",
+ "phrase": {
+  "texte": "8 millions de pauvres à l'aide alimentaire, 3 000 personnes à la rue, 11 millions de pauvres que comptent les statistiques officielles, telle est la France dorénavant.",
+  "url": "https://www.youtube.com/watch?v=Yc46p2zQZxY",
+  "source": "lot7/sources/R13-melenchon-convention-pauvres.mp4",
+  "in_s": 12.36,
+  "out_s": 23.98,
+  "t_youtube_s": [
+   802.36,
+   813.98
+  ],
+  "timeline_s": [
+   0.31,
+   11.93
+  ],
+  "avant": "« Je ne signalerai que le plus douloureux du résultat et le plus honteux pour ses auteurs. »",
+  "apres_non_garde": "« Dans les villes de toutes tailles, une gare sur deux a fermé… » (phrase suivante)",
+  "voix": "son direct synchro : A1-A2 plan de dos dans la salle (même moment), B1-B2 gros plan pupitre (même moment ; B1 figé 1 s sur la 1re image du gros plan pendant « la rue », la source étant encore sur le plan de dos), B3 les élus, la salle et l'équipe qui écoutent",
+  "doute": "Whisper (turbo et large-v3) entend « trois mille personnes à la rue » (très probablement 300 000) : le chiffre n'est jamais affiché, seulement « À LA RUE »"
+ },
+ "musique": {
+  "fichier": "lot7/sons/R13-bep-pump-it_complet.wav",
+  "titre": "Black Eyed Peas - Pump It",
+  "url": "https://www.youtube.com/watch?v=_lCXWaTxpXI",
+  "montage": [
+   {
+    "timeline_s": [
+     0.0,
+     5.3619
+    ],
+    "complet_s": [
+     143.0481,
+     148.41
+    ],
+    "partie": "break riff sans basse"
+   },
+   {
+    "timeline_s": [
+     5.3619,
+     19.85
+    ],
+    "complet_s": [
+     0.0,
+     14.4881
+    ],
+    "partie": "intro riff puis entrée du beat (drop)"
+   }
+  ],
+  "drop_timeline_s": 12.241,
+  "coupes_s": [
+   3.1444,
+   4.9797,
+   7.7761,
+   9.123,
+   12.241,
+   12.9765,
+   13.8032,
+   14.6418,
+   15.3643,
+   15.9786,
+   16.9274,
+   17.9211
+  ],
+  "coupes_images": [
+   94,
+   149,
+   233,
+   274,
+   367,
+   389,
+   414,
+   439,
+   461,
+   479,
+   508,
+   538
+  ]
+ },
+ "textes": [
+  {
+   "plan": "A1",
+   "texte": "8 MILLIONS"
+  },
+  {
+   "plan": "A1",
+   "texte": "DE PAUVRES"
+  },
+  {
+   "plan": "A1",
+   "texte": "À L'AIDE"
+  },
+  {
+   "plan": "A1",
+   "texte": "ALIMENTAIRE"
+  },
+  {
+   "plan": "A2",
+   "texte": "À LA RUE"
+  },
+  {
+   "plan": "B1",
+   "texte": "11 MILLIONS"
+  },
+  {
+   "plan": "B1",
+   "texte": "DE PAUVRES"
+  },
+  {
+   "plan": "B2",
+   "texte": "QUE COMPTENT"
+  },
+  {
+   "plan": "B2",
+   "texte": "LES STATISTIQUES"
+  },
+  {
+   "plan": "B3",
+   "texte": "OFFICIELLES"
+  },
+  {
+   "plan": "B3",
+   "texte": "TELLE EST"
+  },
+  {
+   "plan": "B3",
+   "texte": "LA FRANCE"
+  },
+  {
+   "plan": "B3",
+   "texte": "DORÉNAVANT"
+  },
+  {
+   "plan": "C1",
+   "texte": "8 MILLIONS"
+  },
+  {
+   "plan": "C1",
+   "texte": "DE PAUVRES"
+  },
+  {
+   "plan": "C1",
+   "texte": "À L'AIDE"
+  },
+  {
+   "plan": "C1",
+   "texte": "ALIMENTAIRE"
+  },
+  {
+   "plan": "C2",
+   "texte": "8 MILLIONS"
+  },
+  {
+   "plan": "C2",
+   "texte": "DE PAUVRES"
+  },
+  {
+   "plan": "C2",
+   "texte": "À L'AIDE"
+  },
+  {
+   "plan": "C2",
+   "texte": "ALIMENTAIRE"
+  },
+  {
+   "plan": "C3",
+   "texte": "11 MILLIONS"
+  },
+  {
+   "plan": "C3",
+   "texte": "DE PAUVRES"
+  },
+  {
+   "plan": "C4",
+   "texte": "11 MILLIONS"
+  },
+  {
+   "plan": "C4",
+   "texte": "DE PAUVRES"
+  },
+  {
+   "plan": "C5",
+   "texte": "TELLE EST"
+  },
+  {
+   "plan": "C5",
+   "texte": "LA FRANCE"
+  },
+  {
+   "plan": "C5",
+   "texte": "DORÉNAVANT"
+  },
+  {
+   "plan": "C6",
+   "texte": "TELLE EST"
+  },
+  {
+   "plan": "C6",
+   "texte": "LA FRANCE"
+  },
+  {
+   "plan": "C6",
+   "texte": "DORÉNAVANT"
+  },
+  {
+   "plan": "FIN",
+   "texte": "JEAN-LUC"
+  },
+  {
+   "plan": "FIN",
+   "texte": "MÉLENCHON"
+  },
+  {
+   "plan": "FIN",
+   "texte": "2027"
+  }
+ ],
+ "video": [
+  {
+   "id": "A1",
+   "clip": "R13_A1.mov",
+   "folder": "genR13",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R13/out/R13_A1.mov",
+   "s": 0,
+   "e": 94,
+   "rec": 0,
+   "dur": 94,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "dans la salle, de dos (synchro) : Mélenchon au pupitre au loin, « 8 millions de pauvres à l'aide alimentaire », fond bleu nuit",
+   "kind": "collage",
+   "temps": 8.02,
+   "photos": [
+    {
+     "fichier": "lot7/sources/R13-melenchon-convention-pauvres.mp4",
+     "in_s": 12.05,
+     "out_s": 15.183,
+     "cadre_source": [
+      440,
+      110,
+      1100,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=Yc46p2zQZxY",
+     "t_youtube_s": 802.05,
+     "synchro": true
+    }
+   ]
+  },
+  {
+   "id": "A2",
+   "clip": "R13_A2.mov",
+   "folder": "genR13",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R13/out/R13_A2.mov",
+   "s": 0,
+   "e": 55,
+   "rec": 94,
+   "dur": 55,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "même plan de dos synchro, fond orange : voix « 3 000 personnes à la rue », à l'écran seulement « À LA RUE » (chiffre douteux jamais affiché) + la foule de la convention (elle ne parle pas)",
+   "kind": "collage",
+   "temps": 4.69,
+   "photos": [
+    {
+     "fichier": "lot7/sources/R13-melenchon-convention-pauvres.mp4",
+     "in_s": 15.183,
+     "out_s": 17.017,
+     "cadre_source": [
+      440,
+      110,
+      1100,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=Yc46p2zQZxY",
+     "t_youtube_s": 805.18,
+     "synchro": true
+    },
+    {
+     "fichier": "lot7/sources/R13-melenchon-convention-ouverture.mp4",
+     "in_s": 41.6,
+     "out_s": 43.433,
+     "cadre_source": [
+      0,
+      400,
+      1300,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=Yc46p2zQZxY",
+     "t_youtube_s": 41.6,
+     "synchro": false
+    }
+   ]
+  },
+  {
+   "id": "B1",
+   "clip": "R13_B1.mov",
+   "folder": "genR13",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R13/out/R13_B1.mov",
+   "s": 0,
+   "e": 84,
+   "rec": 149,
+   "dur": 84,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "affiche crème à trame orange : l'équipe qui applaudit, la salle, les militants sur scène (il ne parle pas à l'image ; le gros plan de lecture des notes est écarté) : « 11 millions de pauvres »",
+   "kind": "collage",
+   "temps": 7.17,
+   "photos": [
+    {
+     "fichier": "lot7/sources/R13-melenchon-convention-ouverture.mp4",
+     "in_s": 0.3,
+     "out_s": 3.1,
+     "cadre_source": [
+      300,
+      160,
+      1700,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=Yc46p2zQZxY",
+     "t_youtube_s": 0.3,
+     "synchro": false
+    },
+    {
+     "fichier": "lot7/sources/R13-melenchon-convention-pauvres.mp4",
+     "in_s": 43.0,
+     "out_s": 45.8,
+     "cadre_source": [
+      0,
+      640,
+      1920,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=Yc46p2zQZxY",
+     "t_youtube_s": 833.0,
+     "synchro": false
+    },
+    {
+     "fichier": "lot7/sources/R13-melenchon-convention-ouverture.mp4",
+     "in_s": 12.0,
+     "out_s": 14.8,
+     "cadre_source": [
+      360,
+      740,
+      1560,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=Yc46p2zQZxY",
+     "t_youtube_s": 12.0,
+     "synchro": false
+    }
+   ]
+  },
+  {
+   "id": "B2",
+   "clip": "R13_B2.mov",
+   "folder": "genR13",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R13/out/R13_B2.mov",
+   "s": 0,
+   "e": 41,
+   "rec": 233,
+   "dur": 41,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "gros plan synchro, fond bleu nuit, écho orange : « que comptent les statistiques… »",
+   "kind": "cut",
+   "temps": 3.5,
+   "source": {
+    "fichier": "lot7/sources/R13-melenchon-convention-pauvres.mp4",
+    "in_s": 19.817,
+    "out_s": 21.183,
+    "fps": 60.0,
+    "url": "https://www.youtube.com/watch?v=Yc46p2zQZxY",
+    "t_youtube_s": 809.82,
+    "contexte": "Convention pour les municipales 2026, 23/11/2025 (chaîne JEAN-LUC MÉLENCHON), extrait 790-840 s",
+    "synchro": true,
+    "gel_jusqua_s": 18.07
+   }
+  },
+  {
+   "id": "B3",
+   "clip": "R13_B3.mov",
+   "folder": "genR13",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R13/out/R13_B3.mov",
+   "s": 0,
+   "e": 93,
+   "rec": 274,
+   "dur": 93,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "collage d'affiche sur la fin de la phrase (il ne parle pas à l'image : la salle en contre-jour, les militants sur scène, la salle vue de la scène) : « …officielles, telle est la France dorénavant » ; le gros plan de la fin (tête baissée sur ses notes) est écarté",
+   "kind": "collage",
+   "temps": 7.94,
+   "photos": [
+    {
+     "fichier": "lot7/sources/R13-melenchon-convention-applaudissements.mp4",
+     "in_s": 17.0,
+     "out_s": 20.1,
+     "cadre_source": [
+      0,
+      430,
+      1500,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=Yc46p2zQZxY",
+     "t_youtube_s": 1267.0,
+     "synchro": false
+    },
+    {
+     "fichier": "lot7/sources/R13-melenchon-convention-ouverture.mp4",
+     "in_s": 14.0,
+     "out_s": 17.1,
+     "cadre_source": [
+      360,
+      740,
+      1560,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=Yc46p2zQZxY",
+     "t_youtube_s": 14.0,
+     "synchro": false
+    },
+    {
+     "fichier": "lot7/sources/R13-melenchon-convention-pauvres.mp4",
+     "in_s": 46.0,
+     "out_s": 49.1,
+     "cadre_source": [
+      0,
+      640,
+      1920,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=Yc46p2zQZxY",
+     "t_youtube_s": 836.0,
+     "synchro": false
+    }
+   ]
+  },
+  {
+   "id": "C1",
+   "clip": "R13_C1.mov",
+   "folder": "genR13",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R13/out/R13_C1.mov",
+   "s": 0,
+   "e": 22,
+   "rec": 367,
+   "dur": 22,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "DROP (entrée du beat de Pump It) : flash 3 images, silhouette blanche puis Mélenchon bras levé vers la salle (ouverture, musique seule), fond orange",
+   "kind": "cut",
+   "temps": 1.88,
+   "source": {
+    "fichier": "lot7/sources/R13-melenchon-convention-ouverture.mp4",
+    "in_s": 25.45,
+    "out_s": 26.183,
+    "fps": 60.0,
+    "url": "https://www.youtube.com/watch?v=Yc46p2zQZxY",
+    "t_youtube_s": 25.45,
+    "contexte": "Convention pour les municipales 2026, 23/11/2025 (chaîne JEAN-LUC MÉLENCHON), ouverture 0-45 s",
+    "synchro": false
+   }
+  },
+  {
+   "id": "C2",
+   "clip": "R13_C2.mov",
+   "folder": "genR13",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R13/out/R13_C2.mov",
+   "s": 0,
+   "e": 25,
+   "rec": 389,
+   "dur": 25,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "collage bleu nuit : la salle en contre-jour, les militants sur scène, la salle vue de la scène ; même carton qui reste",
+   "kind": "collage",
+   "temps": 2.13,
+   "photos": [
+    {
+     "fichier": "lot7/sources/R13-melenchon-convention-applaudissements.mp4",
+     "in_s": 21.0,
+     "out_s": 21.833,
+     "cadre_source": [
+      0,
+      430,
+      1500,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=Yc46p2zQZxY",
+     "t_youtube_s": 1271.0,
+     "synchro": false
+    },
+    {
+     "fichier": "lot7/sources/R13-melenchon-convention-ouverture.mp4",
+     "in_s": 18.0,
+     "out_s": 18.833,
+     "cadre_source": [
+      360,
+      740,
+      1560,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=Yc46p2zQZxY",
+     "t_youtube_s": 18.0,
+     "synchro": false
+    },
+    {
+     "fichier": "lot7/sources/R13-melenchon-convention-pauvres.mp4",
+     "in_s": 44.5,
+     "out_s": 45.333,
+     "cadre_source": [
+      0,
+      640,
+      1920,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=Yc46p2zQZxY",
+     "t_youtube_s": 834.5,
+     "synchro": false
+    }
+   ]
+  },
+  {
+   "id": "C3",
+   "clip": "R13_C3.mov",
+   "folder": "genR13",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R13/out/R13_C3.mov",
+   "s": 0,
+   "e": 25,
+   "rec": 414,
+   "dur": 25,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "plein cadre bichromie : la foule debout, drapeaux, bords d'affiche déchirés ; carton « 11 millions de pauvres »",
+   "kind": "full",
+   "temps": 2.13,
+   "source": {
+    "fichier": "lot7/sources/R13-melenchon-convention-ouverture.mp4",
+    "in_s": 42.6,
+    "out_s": 43.433,
+    "fps": 60.0,
+    "url": "https://www.youtube.com/watch?v=Yc46p2zQZxY",
+    "t_youtube_s": 42.6,
+    "contexte": "Convention pour les municipales 2026, 23/11/2025 (chaîne JEAN-LUC MÉLENCHON), ouverture 0-45 s",
+    "synchro": false
+   }
+  },
+  {
+   "id": "C4",
+   "clip": "R13_C4.mov",
+   "folder": "genR13",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R13/out/R13_C4.mov",
+   "s": 0,
+   "e": 22,
+   "rec": 439,
+   "dur": 22,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "Mélenchon index pointé (même discours, 829 s, musique seule), écho orange ; même carton",
+   "kind": "cut",
+   "temps": 1.88,
+   "source": {
+    "fichier": "lot7/sources/R13-melenchon-convention-pauvres.mp4",
+    "in_s": 39.25,
+    "out_s": 39.983,
+    "fps": 60.0,
+    "url": "https://www.youtube.com/watch?v=Yc46p2zQZxY",
+    "t_youtube_s": 829.25,
+    "contexte": "Convention pour les municipales 2026, 23/11/2025 (chaîne JEAN-LUC MÉLENCHON), extrait 790-840 s",
+    "synchro": false
+   }
+  },
+  {
+   "id": "C5",
+   "clip": "R13_C5.mov",
+   "folder": "genR13",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R13/out/R13_C5.mov",
+   "s": 0,
+   "e": 18,
+   "rec": 461,
+   "dur": 18,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "collage orange : l'équipe qui applaudit, la salle, les militants sur scène ; carton « telle est la France dorénavant »",
+   "kind": "collage",
+   "temps": 1.54,
+   "photos": [
+    {
+     "fichier": "lot7/sources/R13-melenchon-convention-ouverture.mp4",
+     "in_s": 3.2,
+     "out_s": 3.8,
+     "cadre_source": [
+      300,
+      160,
+      1700,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=Yc46p2zQZxY",
+     "t_youtube_s": 3.2,
+     "synchro": false
+    },
+    {
+     "fichier": "lot7/sources/R13-melenchon-convention-pauvres.mp4",
+     "in_s": 48.0,
+     "out_s": 48.6,
+     "cadre_source": [
+      0,
+      640,
+      1920,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=Yc46p2zQZxY",
+     "t_youtube_s": 838.0,
+     "synchro": false
+    },
+    {
+     "fichier": "lot7/sources/R13-melenchon-convention-ouverture.mp4",
+     "in_s": 22.0,
+     "out_s": 22.6,
+     "cadre_source": [
+      360,
+      740,
+      1560,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=Yc46p2zQZxY",
+     "t_youtube_s": 22.0,
+     "synchro": false
+    }
+   ]
+  },
+  {
+   "id": "C6",
+   "clip": "R13_C6.mov",
+   "folder": "genR13",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R13/out/R13_C6.mov",
+   "s": 0,
+   "e": 29,
+   "rec": 479,
+   "dur": 29,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "Mélenchon main tendue vers la salle (même discours, 831 s, musique seule) : silhouette blanche 3 images puis découpe, affiche crème ; même carton",
+   "kind": "cut",
+   "temps": 2.48,
+   "source": {
+    "fichier": "lot7/sources/R13-melenchon-convention-pauvres.mp4",
+    "in_s": 41.2,
+    "out_s": 42.167,
+    "fps": 60.0,
+    "url": "https://www.youtube.com/watch?v=Yc46p2zQZxY",
+    "t_youtube_s": 831.2,
+    "contexte": "Convention pour les municipales 2026, 23/11/2025 (chaîne JEAN-LUC MÉLENCHON), extrait 790-840 s",
+    "synchro": false
+   }
+  },
+  {
+   "id": "C7",
+   "clip": "R13_C7.mov",
+   "folder": "genR13",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R13/out/R13_C7.mov",
+   "s": 0,
+   "e": 30,
+   "rec": 508,
+   "dur": 30,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "collage sans texte : la salle en contre-jour, Mélenchon arrive au pupitre, la salle de dos",
+   "kind": "collage",
+   "temps": 2.56,
+   "photos": [
+    {
+     "fichier": "lot7/sources/R13-melenchon-convention-applaudissements.mp4",
+     "in_s": 19.0,
+     "out_s": 20.0,
+     "cadre_source": [
+      0,
+      430,
+      1500,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=Yc46p2zQZxY",
+     "t_youtube_s": 1269.0,
+     "synchro": false
+    },
+    {
+     "fichier": "lot7/sources/R13-melenchon-convention-ouverture.mp4",
+     "in_s": 7.6,
+     "out_s": 8.6,
+     "cadre_source": [
+      200,
+      150,
+      1700,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=Yc46p2zQZxY",
+     "t_youtube_s": 7.6,
+     "synchro": false
+    },
+    {
+     "fichier": "lot7/sources/R13-melenchon-convention-pauvres.mp4",
+     "in_s": 13.0,
+     "out_s": 14.0,
+     "cadre_source": [
+      440,
+      110,
+      1100,
+      1080
+     ],
+     "url": "https://www.youtube.com/watch?v=Yc46p2zQZxY",
+     "t_youtube_s": 803.0,
+     "synchro": false
+    }
+   ]
+  },
+  {
+   "id": "FIN",
+   "clip": "R13_FIN.mov",
+   "folder": "genR13",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R13/out/R13_FIN.mov",
+   "s": 0,
+   "e": 58,
+   "rec": 538,
+   "dur": 58,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "carton final propre (affiche crème sur fond orange, bleu nuit + orange) : son nom + 2027, pas de CTA",
+   "kind": "card",
+   "temps": 4.95
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "R13-mix.wav",
+   "folder": "genR13",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R13/out/R13-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS : voix PV 12.28-24.25 s (+4 dB) à 0.23 s ; Pump It : break 143.048-148.410 s puis intro dès 0 s (raccord sur la mesure, fondu 8 ms), -19 dB sous la voix, montée sur le riff de l'intro, plein au drop, fondu de fin 0,3 s"
+  }
+ ],
+ "stems": [
+  "lot7/_claude/gen/R13/out/R13-voix.wav",
+  "lot7/_claude/gen/R13/out/R13-musique.wav"
+ ],
+ "logos_exclus": "logos « Convention municipales » (haut gauche) et LFI (haut droite) : hors des cadres photo, fonds détourés ; écrans à texte de la scène hors cadre"
+}

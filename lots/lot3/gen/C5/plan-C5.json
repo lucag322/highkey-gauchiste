@@ -1,0 +1,329 @@
+{
+ "name": "C5 - Citation cine - Bagayoko",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 18.665,
+ "note": "Plans ProRes 9:16 prêts (recadrés hors logos, étalonnés, texte cuit). Ralentis à faire dans Resolve : speed_pct + Optical Flow ; e-s = images source à vitesse normale. Générateur : lot3/_claude/gen/C5/genC5.py",
+ "citation": {
+  "texte": "Ici, on a su dire non. Non aux fascistes, non à la collaboration et non à la haine.",
+  "fichier": "lot3/sources/C5-bagayoko-meeting-citation.mp4",
+  "in_s": 16.1,
+  "out_s": 23.0,
+  "source_url": "https://www.youtube.com/watch?v=1dkY_JVFx9I",
+  "yt_in_s": 521.1,
+  "yt_out_s": 528.0,
+  "date": "2026-06-07, meeting de Saint-Denis (chaîne JEAN-LUC MÉLENCHON)"
+ },
+ "musique": {
+  "fichier": "lot3/sons/C5-stromae-alors-on-danse_complet.wav",
+  "url": "https://youtu.be/VHoT4N43jK8",
+  "fin_dans_complet_s": 74.4,
+  "debut_dans_complet_s": 55.735,
+  "drop_timeline_s": 7.8,
+  "coupes_timeline_s": [
+   7.8,
+   9.595,
+   11.87,
+   13.65,
+   14.915,
+   15.935,
+   17.72
+  ]
+ },
+ "textes": [
+  {
+   "t0": 0.2,
+   "t1": 1.12,
+   "lignes": [
+    "ICI"
+   ],
+   "rouge": []
+  },
+  {
+   "t0": 1.12,
+   "t1": 3.24,
+   "lignes": [
+    "ON A SU",
+    "DIRE NON"
+   ],
+   "rouge": [
+    "NON"
+   ]
+  },
+  {
+   "t0": 3.24,
+   "t1": 4.64,
+   "lignes": [
+    "NON AUX",
+    "FASCISTES"
+   ],
+   "rouge": []
+  },
+  {
+   "t0": 4.64,
+   "t1": 5.62,
+   "lignes": [
+    "NON À LA",
+    "COLLABORATION"
+   ],
+   "rouge": []
+  },
+  {
+   "t0": 5.62,
+   "t1": 7.8,
+   "lignes": [
+    "ET NON",
+    "À LA HAINE"
+   ],
+   "rouge": [
+    "HAINE"
+   ]
+  }
+ ],
+ "video": [
+  {
+   "id": "Q1",
+   "clip": "C5_Q1.mov",
+   "folder": "genC5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/C5/out/C5_Q1.mov",
+   "s": 0,
+   "e": 97,
+   "clip_fps": 30,
+   "rec": 0,
+   "dur": 97,
+   "track": 1,
+   "note": "ICI / ON A SU / DIRE NON sur noir",
+   "effets": "noir + grain, texte cuit (Baskerville SemiBold approche 0,20 em ; mot rouge en CaslonGraphique-Opti)"
+  },
+  {
+   "id": "Q2",
+   "clip": "C5_Q2.mov",
+   "folder": "genC5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/C5/out/C5_Q2.mov",
+   "s": 0,
+   "e": 42,
+   "clip_fps": 30,
+   "rec": 97,
+   "dur": 42,
+   "track": 1,
+   "note": "au pupitre SAINT-DENIS, synchro labiale",
+   "source": {
+    "fichier": "lot3/sources/C5-bagayoko-meeting-citation.mp4",
+    "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I",
+    "yt_in_s": 524.34,
+    "in_s": 19.34,
+    "out_s": 20.74
+   },
+   "effets": "recadrage 9:16 suivi visage (bornes [0, 0, 1570, 1080]), zoom 1.30->1.36, sépia lavé + vignette + grain, texte cuit"
+  },
+  {
+   "id": "Q3",
+   "clip": "C5_Q3.mov",
+   "folder": "genC5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/C5/out/C5_Q3.mov",
+   "s": 0,
+   "e": 30,
+   "clip_fps": 30,
+   "rec": 139,
+   "dur": 30,
+   "track": 1,
+   "note": "NON À LA / COLLABORATION sur noir",
+   "effets": "noir + grain, texte cuit (Baskerville SemiBold approche 0,20 em ; mot rouge en CaslonGraphique-Opti)"
+  },
+  {
+   "id": "Q4",
+   "clip": "C5_Q4.mov",
+   "folder": "genC5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/C5/out/C5_Q4.mov",
+   "s": 0,
+   "e": 65,
+   "clip_fps": 30,
+   "rec": 169,
+   "dur": 65,
+   "track": 1,
+   "note": "pupitre serré, synchro, « haine » puis « Alors » de Stromae, coupe au boom",
+   "source": {
+    "fichier": "lot3/sources/C5-bagayoko-meeting-citation.mp4",
+    "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I",
+    "yt_in_s": 526.72,
+    "in_s": 21.72,
+    "out_s": 23.887
+   },
+   "effets": "recadrage 9:16 suivi visage (bornes [0, 0, 1570, 1080]), zoom 1.36->1.46, sépia lavé + vignette + grain, texte cuit"
+  },
+  {
+   "id": "B01",
+   "clip": "C5_B01.mov",
+   "folder": "genC5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/C5/out/C5_B01.mov",
+   "s": 0,
+   "e": 54,
+   "clip_fps": 30,
+   "rec": 234,
+   "dur": 54,
+   "track": 1,
+   "note": "drop : vue aérienne, place noire de monde devant la basilique",
+   "source": {
+    "fichier": "lot3/sources/C5-bagayoko-meeting-arrivee.mp4",
+    "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I",
+    "yt_in_s": 300.0,
+    "in_s": 4.0,
+    "out_s": 4.9
+   },
+   "effets": "recadrage 9:16 fixe (bornes [0, 0, 1570, 1080]), zoom 1.00->1.05, sépia lavé + vignette + grain",
+   "speed_pct": 50,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B02",
+   "clip": "C5_B02.mov",
+   "folder": "genC5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/C5/out/C5_B02.mov",
+   "s": 0,
+   "e": 68,
+   "clip_fps": 30,
+   "rec": 288,
+   "dur": 68,
+   "track": 1,
+   "note": "Bagayoko au pupitre, grand sourire",
+   "source": {
+    "fichier": "lot3/sources/C5-bagayoko-meeting-arrivee.mp4",
+    "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I",
+    "yt_in_s": 328.0,
+    "in_s": 32.0,
+    "out_s": 33.133
+   },
+   "effets": "recadrage 9:16 suivi visage (bornes [0, 0, 1570, 1080]), zoom 1.00->1.06, sépia lavé + vignette + grain",
+   "speed_pct": 50,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B03",
+   "clip": "C5_B03.mov",
+   "folder": "genC5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/C5/out/C5_B03.mov",
+   "s": 0,
+   "e": 45,
+   "clip_fps": 25,
+   "rec": 356,
+   "dur": 54,
+   "track": 1,
+   "note": "rassemblement contre le racisme (04/2026), écharpe tricolore, main levée",
+   "source": {
+    "fichier": "lot3/sources/C5-bagayoko-clpress-stdenis.mp4",
+    "url": "https://www.youtube.com/watch?v=evum5gQACBw",
+    "yt_in_s": 2135.6,
+    "in_s": 5.6,
+    "out_s": 6.5
+   },
+   "effets": "recadrage 9:16 suivi visage (bornes [300, 0, 1235, 660]), zoom 1.00->1.05, sépia lavé + vignette + grain",
+   "speed_pct": 50,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B04",
+   "clip": "C5_B04.mov",
+   "folder": "genC5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/C5/out/C5_B04.mov",
+   "s": 0,
+   "e": 37,
+   "clip_fps": 30,
+   "rec": 410,
+   "dur": 37,
+   "track": 1,
+   "note": "foule devant l'hôtel de ville de Saint-Denis",
+   "source": {
+    "fichier": "lot3/sources/C5-bagayoko-meeting-gagner.mp4",
+    "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I",
+    "yt_in_s": 804.0,
+    "in_s": 9.0,
+    "out_s": 9.617
+   },
+   "effets": "recadrage 9:16 fixe (bornes [0, 0, 1570, 1080]), zoom 1.00->1.05, sépia lavé + vignette + grain",
+   "speed_pct": 50,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B05",
+   "clip": "C5_B05.mov",
+   "folder": "genC5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/C5/out/C5_B05.mov",
+   "s": 0,
+   "e": 31,
+   "clip_fps": 30,
+   "rec": 447,
+   "dur": 31,
+   "track": 1,
+   "note": "pupitre, geste de la main",
+   "source": {
+    "fichier": "lot3/sources/C5-bagayoko-meeting-final.mp4",
+    "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I",
+    "yt_in_s": 1005.0,
+    "in_s": 1.0,
+    "out_s": 1.517
+   },
+   "effets": "recadrage 9:16 suivi visage (bornes [0, 0, 1570, 1080]), zoom 1.00->1.05, sépia lavé + vignette + grain",
+   "speed_pct": 50,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B06",
+   "clip": "C5_B06.mov",
+   "folder": "genC5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/C5/out/C5_B06.mov",
+   "s": 0,
+   "e": 54,
+   "clip_fps": 30,
+   "rec": 478,
+   "dur": 54,
+   "track": 1,
+   "note": "index levé vers la foule",
+   "source": {
+    "fichier": "lot3/sources/C5-bagayoko-meeting-arrivee.mp4",
+    "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I",
+    "yt_in_s": 330.0,
+    "in_s": 34.0,
+    "out_s": 34.9
+   },
+   "effets": "recadrage 9:16 suivi visage (bornes [0, 0, 1570, 1080]), zoom 1.00->1.06, sépia lavé + vignette + grain",
+   "speed_pct": 50,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B07",
+   "clip": "C5_B07.mov",
+   "folder": "genC5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/C5/out/C5_B07.mov",
+   "s": 0,
+   "e": 28,
+   "clip_fps": 30,
+   "rec": 532,
+   "dur": 28,
+   "track": 1,
+   "note": "place pleine, drapeaux, fondu au noir",
+   "source": {
+    "fichier": "lot3/sources/C5-bagayoko-meeting-final.mp4",
+    "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I",
+    "yt_in_s": 1033.0,
+    "in_s": 29.0,
+    "out_s": 29.467
+   },
+   "effets": "recadrage 9:16 fixe (bornes [0, 0, 1570, 1080]), zoom 1.00->1.04, sépia lavé + vignette + grain",
+   "speed_pct": 50,
+   "retime": "optical_flow",
+   "fade_out_s": 0.8
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "C5-mix.wav",
+   "folder": "genC5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/C5/out/C5-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS : voix citation 16.10-23.00 s (fondu 60 ms) + musique complet 55.73-74.40 s, couplet -9 dB sous la voix, plein à 6,95 s, fondu de fin 1,1 s"
+  }
+ ]
+}

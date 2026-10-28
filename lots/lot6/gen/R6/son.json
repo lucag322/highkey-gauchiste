@@ -1,0 +1,60 @@
+{
+ "id": "R6",
+ "titre": "Djadja",
+ "artiste": "Aya Nakamura",
+ "url": "https://www.youtube.com/watch?v=iPGgnzc34tY",
+ "chaine": "Aya Nakamura (officielle, certifiée, « Aya Nakamura - Djadja (Clip officiel) »)",
+ "fichier": "lot6/sons/R6-aya-djadja_complet.wav",
+ "extrait_complet_s": {
+  "debut": 77.9861,
+  "fin": 97.536
+ },
+ "paroles_audibles": "sous la phrase (baissé) : fin de « C'est pas comme ça qu'on fait les choses » puis le pont « Putain mais tu déconnes / C'est pas comme ça qu'on fait les choses » x2 ; au drop : refrain « Oh Djadja, y a pas moyen Djadja, j'suis pas ta catin Djadja, genre… »",
+ "bpm": 98.0,
+ "temps_s": 0.61218,
+ "drop": {
+  "complet_s": 88.1851,
+  "timeline_s": 10.199,
+  "nature": "retour du kick après le pont sans basse, refrain « Oh Djadja »"
+ },
+ "frappes_timeline_s": [
+  0.0954,
+  10.199,
+  10.8099,
+  11.4222,
+  11.6475,
+  12.0345,
+  12.6469,
+  12.7315,
+  13.259,
+  13.8714,
+  14.0448,
+  14.4836,
+  15.0959,
+  15.708,
+  16.3204,
+  16.5454,
+  16.9324,
+  17.5448,
+  18.1571,
+  18.7692,
+  18.895,
+  19.3816,
+  19.5072,
+  19.6876,
+  19.811,
+  19.9939
+ ],
+ "coupes_sur_frappes_s": [
+  3.5675,
+  7.8594,
+  10.199,
+  11.4222,
+  12.6469,
+  13.8714,
+  15.0959,
+  16.3204,
+  17.5448
+ ],
+ "mix": "lot6/_claude/gen/R6/out/R6-mix.wav"
+}

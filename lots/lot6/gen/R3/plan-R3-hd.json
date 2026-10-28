@@ -1,0 +1,675 @@
+{
+ "name": "R3 - Collage ransom-note - Jean-Luc Mélenchon (album 2017 -> 2026)",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 19.633,
+ "note": "Plans ProRes 9:16 composés en Python (lot6/_claude/gen/R3/out) : Mélenchon détouré (segment/Vision) sur aplats vifs (mandarine, turquoise, fuchsia, cobalt) qui changent sur les frappes, contour autocollant, double tirage tramé, bandes, scotch, tirages couleur (2017 avant le drop, 2026 après), silhouettes blanches 3 images, foule plein cadre, textes ransom-note cuits. s/e en images du clip (30 i/s), rec en images timeline. Coupes sur les kicks réels de Music Sounds Better With You (out/R3-frappes.json). Aucun ralenti. Générateur : genR3.py",
+ "phrase": {
+  "texte": "Il faut que soit mis un terme à cette caste dorée de parasites incapables, inutiles.",
+  "url": "https://www.youtube.com/watch?v=yrjWwsV4zS4",
+  "source": "lot6/sources/R3-marseille2017-caste.mp4",
+  "in_s": 23.4,
+  "out_s": 32.35,
+  "t_youtube_s": [
+   2523.4,
+   2532.35
+  ],
+  "timeline_s": [
+   0.3,
+   9.25
+  ],
+  "voix": "son direct, images synchro de la régie d'origine (plan large, foule, plan large) ; pause naturelle de 1,4 s après « à » gardée ; applaudissements coupés en fondu après « inutiles »"
+ },
+ "musique": {
+  "fichier": "lot6/sons/R3-stardust-music-sounds-better_complet.wav",
+  "titre": "Stardust - Music Sounds Better With You",
+  "url": "https://www.youtube.com/watch?v=FQlAEiCb8m0",
+  "debut_complet_s": 170.242,
+  "fin_complet_s": 189.875,
+  "drop_timeline_s": 9.9549,
+  "coupes_kicks_s": [
+   1.7218,
+   5.1232,
+   7.0593,
+   9.9549,
+   10.9212,
+   11.8895,
+   12.8543,
+   13.8287,
+   14.79,
+   16.7118,
+   17.7016
+  ],
+  "coupes_images": [
+   52,
+   154,
+   212,
+   299,
+   328,
+   357,
+   386,
+   415,
+   444,
+   501,
+   531
+  ]
+ },
+ "textes": [
+  {
+   "plan": "A1",
+   "texte": "IL FAUT"
+  },
+  {
+   "plan": "A1",
+   "texte": "QUE SOIT"
+  },
+  {
+   "plan": "A1",
+   "texte": "MIS UN"
+  },
+  {
+   "plan": "A2",
+   "texte": "TERME À"
+  },
+  {
+   "plan": "A2",
+   "texte": "CETTE"
+  },
+  {
+   "plan": "A2",
+   "texte": "CASTE"
+  },
+  {
+   "plan": "A2",
+   "texte": "DORÉE"
+  },
+  {
+   "plan": "A3",
+   "texte": "CASTE"
+  },
+  {
+   "plan": "A3",
+   "texte": "DORÉE"
+  },
+  {
+   "plan": "A3",
+   "texte": "DE PARASITES"
+  },
+  {
+   "plan": "A4",
+   "texte": "INCAPABLES"
+  },
+  {
+   "plan": "A4",
+   "texte": "INUTILES"
+  },
+  {
+   "plan": "B1",
+   "texte": "CETTE"
+  },
+  {
+   "plan": "B1",
+   "texte": "CASTE"
+  },
+  {
+   "plan": "B1",
+   "texte": "DORÉE"
+  },
+  {
+   "plan": "B2",
+   "texte": "DE"
+  },
+  {
+   "plan": "B2",
+   "texte": "PARASITES"
+  },
+  {
+   "plan": "B3",
+   "texte": "INCAPABLES."
+  },
+  {
+   "plan": "B4",
+   "texte": "INUTILES."
+  },
+  {
+   "plan": "B5",
+   "texte": "IL FAUT Y"
+  },
+  {
+   "plan": "B5",
+   "texte": "METTRE"
+  },
+  {
+   "plan": "B5",
+   "texte": "UN TERME."
+  },
+  {
+   "plan": "FIN",
+   "texte": "JEAN-LUC"
+  },
+  {
+   "plan": "FIN",
+   "texte": "MÉLENCHON"
+  },
+  {
+   "plan": "FIN",
+   "texte": "2027"
+  }
+ ],
+ "video": [
+  {
+   "id": "A1",
+   "clip": "R3_A1.mov",
+   "folder": "genR3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R3/out/R3_A1.mov",
+   "s": 0,
+   "e": 52,
+   "rec": 0,
+   "dur": 52,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2017 — Vieux-Port, plan large synchro (« Il faut que soit mis un… ») : Mélenchon découpé en couleur, contour autocollant, double tramé cobalt, aplat qui change sur les frappes",
+   "kind": "cut",
+   "temps": 3.58,
+   "source": {
+    "fichier": "lot6/sources/R3-marseille2017-caste.mp4",
+    "in_s": 23.1,
+    "out_s": 24.833,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=yrjWwsV4zS4",
+    "t_youtube_s": 2523.1,
+    "contexte": "meeting pour la paix, Vieux-Port de Marseille, 9/4/2017 (chaîne JEAN-LUC MÉLENCHON)"
+   }
+  },
+  {
+   "id": "A2",
+   "clip": "R3_A2.mov",
+   "folder": "genR3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R3/out/R3_A2.mov",
+   "s": 0,
+   "e": 102,
+   "rec": 52,
+   "dur": 102,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2017 — plan synchro de la foule (« …terme à… cette caste dorée ») : tirages couleur scotchés sur un aplat qui change à chaque frappe ; tirage synchro figé sur ses 0,45 dernières s (la régie repasse au plan large) + photo fixe du plan large + foule (autres moments, sans lui)",
+   "kind": "collage",
+   "temps": 7.02,
+   "photos": [
+    {
+     "fichier": "lot6/sources/R3-marseille2017-caste.mp4",
+     "in_s": 24.833,
+     "cadre_source": [
+      0,
+      0,
+      1620,
+      890
+     ],
+     "tirage": "color",
+     "url": "https://www.youtube.com/watch?v=yrjWwsV4zS4",
+     "synchro": true
+    },
+    {
+     "fichier": "lot6/sources/R3-marseille2017-caste.mp4",
+     "in_s": 24.7,
+     "cadre_source": [
+      640,
+      120,
+      1420,
+      880
+     ],
+     "tirage": "color",
+     "url": "https://www.youtube.com/watch?v=yrjWwsV4zS4",
+     "synchro": false
+    },
+    {
+     "fichier": "lot6/sources/R3-marseille2017-caste.mp4",
+     "in_s": 35.8,
+     "cadre_source": [
+      200,
+      0,
+      1620,
+      890
+     ],
+     "tirage": "color",
+     "url": "https://www.youtube.com/watch?v=yrjWwsV4zS4",
+     "synchro": false
+    },
+    {
+     "fichier": "lot6/sources/R3-marseille2017-caste.mp4",
+     "in_s": 47.6,
+     "cadre_source": [
+      0,
+      0,
+      1620,
+      890
+     ],
+     "tirage": "color",
+     "url": "https://www.youtube.com/watch?v=yrjWwsV4zS4",
+     "synchro": false
+    }
+   ]
+  },
+  {
+   "id": "A3",
+   "clip": "R3_A3.mov",
+   "folder": "genR3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R3/out/R3_A3.mov",
+   "s": 0,
+   "e": 58,
+   "rec": 154,
+   "dur": 58,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2017 — plan large synchro (« caste dorée de parasites ») : Mélenchon découpé en couleur, double tramé mandarine, tirages couleur de la foule (autres moments, sans lui)",
+   "kind": "cut",
+   "temps": 3.99,
+   "source": {
+    "fichier": "lot6/sources/R3-marseille2017-caste.mp4",
+    "in_s": 28.233,
+    "out_s": 30.167,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=yrjWwsV4zS4",
+    "t_youtube_s": 2528.23,
+    "contexte": "meeting pour la paix, Vieux-Port de Marseille, 9/4/2017 (chaîne JEAN-LUC MÉLENCHON)"
+   },
+   "photos": [
+    {
+     "fichier": "lot6/sources/R3-marseille2017-caste.mp4",
+     "in_s": 34.6,
+     "cadre_source": [
+      200,
+      0,
+      1620,
+      890
+     ],
+     "tirage": "color",
+     "url": "https://www.youtube.com/watch?v=yrjWwsV4zS4",
+     "synchro": false
+    },
+    {
+     "fichier": "lot6/sources/R3-marseille2017-caste.mp4",
+     "in_s": 47.5,
+     "cadre_source": [
+      0,
+      0,
+      1620,
+      890
+     ],
+     "tirage": "color",
+     "url": "https://www.youtube.com/watch?v=yrjWwsV4zS4",
+     "synchro": false
+    }
+   ]
+  },
+  {
+   "id": "A4",
+   "clip": "R3_A4.mov",
+   "folder": "genR3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R3/out/R3_A4.mov",
+   "s": 0,
+   "e": 87,
+   "rec": 212,
+   "dur": 87,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2017 — plan large synchro (« incapables, inutiles ») : Mélenchon découpé en couleur, double tramé turquoise, un tirage de la foule de plus sur les frappes du break",
+   "kind": "cut",
+   "temps": 5.99,
+   "source": {
+    "fichier": "lot6/sources/R3-marseille2017-caste.mp4",
+    "in_s": 30.167,
+    "out_s": 33.067,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=yrjWwsV4zS4",
+    "t_youtube_s": 2530.17,
+    "contexte": "meeting pour la paix, Vieux-Port de Marseille, 9/4/2017 (chaîne JEAN-LUC MÉLENCHON)"
+   },
+   "photos": [
+    {
+     "fichier": "lot6/sources/R3-marseille2017-caste.mp4",
+     "in_s": 43.3,
+     "cadre_source": [
+      0,
+      0,
+      1620,
+      890
+     ],
+     "tirage": "color",
+     "url": "https://www.youtube.com/watch?v=yrjWwsV4zS4",
+     "synchro": false
+    },
+    {
+     "fichier": "lot6/sources/R3-marseille2017-caste.mp4",
+     "in_s": 48.4,
+     "cadre_source": [
+      0,
+      0,
+      1620,
+      890
+     ],
+     "tirage": "color",
+     "url": "https://www.youtube.com/watch?v=yrjWwsV4zS4",
+     "synchro": false
+    },
+    {
+     "fichier": "lot6/sources/R3-marseille2017-caste.mp4",
+     "in_s": 57.9,
+     "cadre_source": [
+      0,
+      0,
+      1620,
+      890
+     ],
+     "tirage": "color",
+     "url": "https://www.youtube.com/watch?v=yrjWwsV4zS4",
+     "synchro": false
+    }
+   ]
+  },
+  {
+   "id": "B1",
+   "clip": "R3_B1.mov",
+   "folder": "genR3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R3/out/R3_B1.mov",
+   "s": 0,
+   "e": 29,
+   "rec": 299,
+   "dur": 29,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — Fête de l'Huma, bras tendu : flash blanc du drop, Mélenchon détouré en couleur sur mandarine, contour autocollant",
+   "kind": "cut",
+   "temps": 2.0,
+   "source": {
+    "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+    "in_s": 62.4,
+    "out_s": 63.367,
+    "fps": 50.0,
+    "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+    "t_youtube_s": 4772.4,
+    "contexte": "Fête de l'Humanité, 12/9/2026 (chaîne JEAN-LUC MÉLENCHON)"
+   }
+  },
+  {
+   "id": "B2",
+   "clip": "R3_B2.mov",
+   "folder": "genR3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R3/out/R3_B2.mov",
+   "s": 0,
+   "e": 29,
+   "rec": 328,
+   "dur": 29,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — collage couleur : foules de Valence (drapeaux) et de la Fête de l'Huma sur turquoise",
+   "kind": "collage",
+   "temps": 2.0,
+   "photos": [
+    {
+     "fichier": "lot1/sources/1-melenchon-valence-amfis.mp4",
+     "in_s": 30.0,
+     "cadre_source": [
+      0,
+      180,
+      1560,
+      1080
+     ],
+     "tirage": "color",
+     "url": "https://www.youtube.com/watch?v=IYegq2-6-go",
+     "synchro": false
+    },
+    {
+     "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+     "in_s": 75.0,
+     "cadre_source": [
+      0,
+      0,
+      1920,
+      1080
+     ],
+     "tirage": "color",
+     "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+     "synchro": false
+    },
+    {
+     "fichier": "lot1/sources/1-melenchon-valence-amfis.mp4",
+     "in_s": 102.0,
+     "cadre_source": [
+      0,
+      280,
+      1500,
+      1080
+     ],
+     "tirage": "color",
+     "url": "https://www.youtube.com/watch?v=IYegq2-6-go",
+     "synchro": false
+    }
+   ]
+  },
+  {
+   "id": "B3",
+   "clip": "R3_B3.mov",
+   "folder": "genR3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R3/out/R3_B3.mov",
+   "s": 0,
+   "e": 29,
+   "rec": 357,
+   "dur": 29,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — Fête de l'Huma, la foule plein cadre en couleur, bords déchirés ; gros mot blanc avec contour",
+   "kind": "full",
+   "temps": 2.0,
+   "source": {
+    "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+    "in_s": 73.6,
+    "out_s": 74.567,
+    "fps": 50.0,
+    "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+    "t_youtube_s": 4783.6,
+    "contexte": "Fête de l'Humanité, 12/9/2026 (chaîne JEAN-LUC MÉLENCHON)"
+   }
+  },
+  {
+   "id": "B4",
+   "clip": "R3_B4.mov",
+   "folder": "genR3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R3/out/R3_B4.mov",
+   "s": 0,
+   "e": 29,
+   "rec": 386,
+   "dur": 29,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — Valence, index levé : silhouette blanche 3 images puis Mélenchon en couleur sur fuchsia",
+   "kind": "sil",
+   "temps": 2.0,
+   "source": {
+    "fichier": "lot1/sources/1-melenchon-valence-amfis.mp4",
+    "in_s": 147.4,
+    "out_s": 148.367,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=IYegq2-6-go",
+    "t_youtube_s": 1767.4,
+    "contexte": "meeting des AMFiS, Valence, 2026 (chaîne JEAN-LUC MÉLENCHON)"
+   }
+  },
+  {
+   "id": "B5",
+   "clip": "R3_B5.mov",
+   "folder": "genR3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R3/out/R3_B5.mov",
+   "s": 0,
+   "e": 29,
+   "rec": 415,
+   "dur": 29,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — Fête de l'Huma, Mélenchon détouré sur cobalt + tirage couleur de la foule de Valence ; conclusion : IL FAUT Y METTRE UN TERME.",
+   "kind": "cut",
+   "temps": 2.0,
+   "source": {
+    "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+    "in_s": 85.3,
+    "out_s": 86.267,
+    "fps": 50.0,
+    "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+    "t_youtube_s": 4795.3,
+    "contexte": "Fête de l'Humanité, 12/9/2026 (chaîne JEAN-LUC MÉLENCHON)"
+   },
+   "photos": [
+    {
+     "fichier": "lot1/sources/1-melenchon-valence-amfis.mp4",
+     "in_s": 33.0,
+     "cadre_source": [
+      0,
+      180,
+      1560,
+      1080
+     ],
+     "tirage": "color",
+     "url": "https://www.youtube.com/watch?v=IYegq2-6-go",
+     "synchro": false
+    }
+   ]
+  },
+  {
+   "id": "B6",
+   "clip": "R3_B6.mov",
+   "folder": "genR3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R3/out/R3_B6.mov",
+   "s": 0,
+   "e": 57,
+   "rec": 444,
+   "dur": 57,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "collage couleur : gros plan du Vieux-Port 2017 recouvert, frappe après frappe, par les tirages de 2026 (Huma, Valence) sur un aplat qui change à chaque frappe — sans texte",
+   "kind": "collage",
+   "temps": 3.92,
+   "photos": [
+    {
+     "fichier": "lot6/sources/R3-marseille2017-caste.mp4",
+     "in_s": 39.5,
+     "cadre_source": [
+      300,
+      0,
+      1600,
+      890
+     ],
+     "tirage": "color",
+     "url": "https://www.youtube.com/watch?v=yrjWwsV4zS4",
+     "synchro": false
+    },
+    {
+     "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+     "in_s": 12.0,
+     "cadre_source": [
+      520,
+      40,
+      1720,
+      800
+     ],
+     "tirage": "color",
+     "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+     "synchro": false
+    },
+    {
+     "fichier": "lot1/sources/1-melenchon-valence-amfis.mp4",
+     "in_s": 203.4,
+     "cadre_source": [
+      380,
+      20,
+      1500,
+      815
+     ],
+     "tirage": "color",
+     "url": "https://www.youtube.com/watch?v=IYegq2-6-go",
+     "synchro": false
+    },
+    {
+     "fichier": "lot1/sources/1-melenchon-valence-amfis.mp4",
+     "in_s": 26.0,
+     "cadre_source": [
+      0,
+      180,
+      1560,
+      1080
+     ],
+     "tirage": "color",
+     "url": "https://www.youtube.com/watch?v=IYegq2-6-go",
+     "synchro": false
+    }
+   ]
+  },
+  {
+   "id": "B7",
+   "clip": "R3_B7.mov",
+   "folder": "genR3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R3/out/R3_B7.mov",
+   "s": 0,
+   "e": 30,
+   "rec": 501,
+   "dur": 30,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — Fête de l'Huma : silhouette blanche puis Mélenchon en couleur sur turquoise",
+   "kind": "sil",
+   "temps": 2.07,
+   "source": {
+    "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+    "in_s": 165.0,
+    "out_s": 166.0,
+    "fps": 50.0,
+    "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+    "t_youtube_s": 4875.0,
+    "contexte": "Fête de l'Humanité, 12/9/2026 (chaîne JEAN-LUC MÉLENCHON)"
+   }
+  },
+  {
+   "id": "FIN",
+   "clip": "R3_FIN.mov",
+   "folder": "genR3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R3/out/R3_FIN.mov",
+   "s": 0,
+   "e": 58,
+   "rec": 531,
+   "dur": 58,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "carton final propre (fond crème, noir + fuchsia + mandarine) : son nom et 2027 (année de l'élection), bien visible",
+   "kind": "card",
+   "temps": 3.99
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "R3-mix.wav",
+   "folder": "genR3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R3/out/R3-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS : voix 23.34-32.42 s (+-1 dB) à 0.24 s ; Stardust dès 170.242 s du complet, -14 dB sous la voix, montée dans le break, plein au drop, fondu de fin 0,4 s"
+  }
+ ],
+ "stems": [
+  "lot6/_claude/gen/R3/out/R3-voix.wav",
+  "lot6/_claude/gen/R3/out/R3-musique.wav"
+ ],
+ "logos_exclus": "Marseille : sous-titres incrustés, interprète LSF et pancartes hors cadres ; Huma et Valence : pupitres (logos) sous la découpe, filigrane MELENCHON 2027 de Valence hors cadre"
+}

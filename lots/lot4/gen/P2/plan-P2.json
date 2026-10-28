@@ -1,0 +1,205 @@
+{
+ "name": "P2 - Portrait - Delogu",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 15.0,
+ "note": "Lot 4, recette caiden.agr (portrait) comme lot3/P1 : hook lent en voix diégétique synchro (meeting Quartiers Nord, angles de la captation d'origine), drop sur « l'Assemblée » puis hémicycle / meeting caméra épaule / sourire en coupes sèches sur les frappes réelles, aucun texte. Plans ProRes 9:16 30 i/s prêts, aucun ralenti (speed_pct 100). Générateur : lot4/_claude/gen/P2/genP2.py",
+ "musique": {
+  "fichier": "lot4/sons/P2-kordhell-murder-in-my-mind_complet.wav",
+  "debut_extrait_s": 8.812,
+  "fin_extrait_s": 23.812,
+  "drop_timeline_s": 8.2,
+  "coupes_timeline_s": [
+   1.7,
+   4.7,
+   6.167,
+   8.2,
+   10.2,
+   11.7
+  ],
+  "sous_la_voix": "passe-bas 450 Hz -9 dB, s'ouvre de 5,5 s au drop (montée), plein au drop"
+ },
+ "phrase": {
+  "source": "https://youtu.be/oKStIbwdqHc?t=4853 (meeting Quartiers Nord 08/02/2026, 4853.28-4860.80 s de la vidéo)",
+  "texte": "Alors oui, c'est un lieu hautement symbolique pour moi, un jeune des quartiers nord de Marseille, passé du quartier à l'Assemblée.",
+  "timeline_s": [
+   0.53,
+   8.05
+  ]
+ },
+ "video": [
+  {
+   "id": "A",
+   "clip": "P2_A.mov",
+   "folder": "P2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/P2/out/P2_A.mov",
+   "s": 0,
+   "e": 51,
+   "clip_fps": 30,
+   "rec": 0,
+   "dur": 51,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "hook : gros plan au pupitre, voix synchro (début de la phrase), poussée lente",
+   "source": {
+    "fichier": "lot3/sources/A8-delogu-quartiers-nord-a.mp4",
+    "in_s": 172.75,
+    "out_s": 174.45,
+    "youtube": "https://youtu.be/oKStIbwdqHc?t=4852",
+    "desc": "chaîne Sébastien Delogu, meeting Quartiers Nord de la liste Marseille fière et populaire (08/02/2026), captation multicaméra"
+   },
+   "effets": "recadrage 9:16 suivi visage, poussée x1.00 -> x1.03, étalonnage naturel chaud",
+   "coupe_sur_frappe_s": 0.0
+  },
+  {
+   "id": "B",
+   "clip": "P2_B.mov",
+   "folder": "P2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/P2/out/P2_B.mov",
+   "s": 0,
+   "e": 90,
+   "clip_fps": 30,
+   "rec": 51,
+   "dur": 90,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "hook : plan de salle, de profil face au public des quartiers Nord, voix synchro",
+   "source": {
+    "fichier": "lot3/sources/A8-delogu-quartiers-nord-a.mp4",
+    "in_s": 174.48,
+    "out_s": 177.44,
+    "youtube": "https://youtu.be/oKStIbwdqHc?t=4854",
+    "desc": "chaîne Sébastien Delogu, meeting Quartiers Nord de la liste Marseille fière et populaire (08/02/2026), captation multicaméra"
+   },
+   "effets": "recadrage 9:16 suivi visage, poussée x1.00 -> x1.03, étalonnage naturel chaud",
+   "coupe_sur_frappe_s": 1.7
+  },
+  {
+   "id": "C",
+   "clip": "P2_C.mov",
+   "folder": "P2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/P2/out/P2_C.mov",
+   "s": 0,
+   "e": 44,
+   "clip_fps": 30,
+   "rec": 141,
+   "dur": 44,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "hook : gros plan, « un jeune des quartiers nord de Marseille », voix synchro",
+   "source": {
+    "fichier": "lot3/sources/A8-delogu-quartiers-nord-a.mp4",
+    "in_s": 177.44,
+    "out_s": 178.907,
+    "youtube": "https://youtu.be/oKStIbwdqHc?t=4857",
+    "desc": "chaîne Sébastien Delogu, meeting Quartiers Nord de la liste Marseille fière et populaire (08/02/2026), captation multicaméra"
+   },
+   "effets": "recadrage 9:16 suivi visage, poussée x1.03 -> x1.05, étalonnage naturel chaud",
+   "coupe_sur_frappe_s": 4.7
+  },
+  {
+   "id": "D",
+   "clip": "P2_D.mov",
+   "folder": "P2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/P2/out/P2_D.mov",
+   "s": 0,
+   "e": 61,
+   "clip_fps": 30,
+   "rec": 185,
+   "dur": 61,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "hook : face pupitre (cadre serré sans affiche ni logo), « passé du quartier à l'Assemblée »",
+   "source": {
+    "fichier": "lot3/sources/A8-delogu-quartiers-nord-a.mp4",
+    "in_s": 178.92,
+    "out_s": 180.953,
+    "youtube": "https://youtu.be/oKStIbwdqHc?t=4858",
+    "desc": "chaîne Sébastien Delogu, meeting Quartiers Nord de la liste Marseille fière et populaire (08/02/2026), captation multicaméra"
+   },
+   "effets": "recadrage 9:16 suivi visage, poussée x1.00 -> x1.03, étalonnage naturel chaud",
+   "coupe_sur_frappe_s": 6.167
+  },
+  {
+   "id": "E",
+   "clip": "P2_E.mov",
+   "folder": "P2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/P2/out/P2_E.mov",
+   "s": 0,
+   "e": 60,
+   "clip_fps": 30,
+   "rec": 246,
+   "dur": 60,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "drop sur « l'Assemblée » : seul debout dans l'hémicycle (QAG Gaza 28/05/2025, plan large)",
+   "source": {
+    "fichier": "lot3/sources/A8-delogu-qag-gaza-2025.mp4",
+    "in_s": 104.0,
+    "out_s": 106.0,
+    "youtube": "https://youtu.be/gEZLJe_uJUs?t=104",
+    "desc": "La France insoumise à l'Assemblée nationale, QAG Gaza 28/05/2025, plan large : seul debout dans l'hémicycle"
+   },
+   "effets": "recadrage 9:16 suivi visage, poussée x1.00 -> x1.03, étalonnage naturel chaud",
+   "coupe_sur_frappe_s": 8.2
+  },
+  {
+   "id": "F",
+   "clip": "P2_F.mov",
+   "folder": "P2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/P2/out/P2_F.mov",
+   "s": 0,
+   "e": 45,
+   "clip_fps": 30,
+   "rec": 306,
+   "dur": 45,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "meeting, caméra épaule au milieu des siens : il pointe la caméra, sourire",
+   "source": {
+    "fichier": "lot3/sources/A8-delogu-quartiers-nord-b.mp4",
+    "in_s": 539.64,
+    "out_s": 541.14,
+    "youtube": "https://youtu.be/oKStIbwdqHc?t=5779",
+    "desc": "chaîne Sébastien Delogu, meeting Quartiers Nord (08/02/2026), fin du meeting caméra épaule"
+   },
+   "effets": "recadrage 9:16 suivi visage, poussée x1.00 -> x1.04, étalonnage naturel chaud",
+   "coupe_sur_frappe_s": 10.2
+  },
+  {
+   "id": "G",
+   "clip": "P2_G.mov",
+   "folder": "P2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/P2/out/P2_G.mov",
+   "s": 0,
+   "e": 99,
+   "clip_fps": 30,
+   "rec": 351,
+   "dur": 99,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "fin : gros plan, sourire ; fondu au noir 0,6 s",
+   "source": {
+    "fichier": "lot3/sources/A8-delogu-quartiers-nord-b.mp4",
+    "in_s": 478.4,
+    "out_s": 481.7,
+    "youtube": "https://youtu.be/oKStIbwdqHc?t=5718",
+    "desc": "chaîne Sébastien Delogu, meeting Quartiers Nord (08/02/2026), fin du meeting caméra épaule"
+   },
+   "effets": "recadrage 9:16 suivi visage, poussée x1.00 -> x1.05, étalonnage naturel chaud, fondu au noir 0,6 s cuit",
+   "coupe_sur_frappe_s": 11.7
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "P2-mix.wav",
+   "folder": "P2",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/P2/out/P2-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix final -14 LUFS : voix 0.53-8.05 s sur le morceau étouffé qui monte, morceau plein au drop 8.200 s, fondu de fin"
+  }
+ ]
+}

@@ -1,0 +1,542 @@
+{
+ "name": "R14 - Collage ransom-note tract syndical - Jean-Luc Mélenchon",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 18.18,
+ "note": "Plans ProRes 9:16 composés en Python (lot7/_claude/gen/R14/out), découpes decoupe.py : mur d'affiches qui se recouvrent (une par temps, posée de haut en bas, colle humide), tracts jaunes à bandeau violet, Mélenchon détouré seul (decoupe.py), double tirage tramé, silhouettes blanches 3 images, photos de manif en bichromie, textes ransom-note cuits. s/e en images du clip (30 i/s), rec en images timeline. Coupes sur les kicks réels de Sweet Dreams (out/R14-frappes.json). Aucun ralenti. Générateur : lot7/_claude/gen/R14/genR14.py",
+ "phrase": {
+  "texte": "Nous parlons de 5 millions de nos concitoyens qui se sont mis au service des autres et qui chaque jour portent ce pays sur leur dos",
+  "url": "https://www.youtube.com/watch?v=N406os8VSkE",
+  "source": "lot3/sources/C4-melenchon-intersyndicale.mp4",
+  "in_s": 132.4,
+  "out_s": 141.82,
+  "timeline_s": [
+   0.45,
+   9.87
+  ],
+  "voix": "son direct synchro : la marche en grande photo couleur collée (A1, A3, A4), foule (A2) ; suite « pour pouvoir le faire fonctionner » non gardée"
+ },
+ "musique": {
+  "fichier": "lot7/sons/R14-eurythmics-sweet-dreams_complet.wav",
+  "titre": "Eurythmics - Sweet Dreams (Are Made of This) (2018 Remastered)",
+  "url": "https://www.youtube.com/watch?v=mZxwGnOz7ZQ",
+  "debut_complet_s": 39.3184,
+  "fin_complet_s": 57.498,
+  "drop_timeline_s": 10.033,
+  "coupes_frappes_s": [
+   4.3239,
+   6.2412,
+   7.6725,
+   10.033,
+   11.0316,
+   11.9986,
+   12.9295,
+   13.9094,
+   14.8621,
+   15.8313
+  ],
+  "coupes_images": [
+   130,
+   187,
+   230,
+   301,
+   331,
+   360,
+   388,
+   417,
+   446,
+   475
+  ]
+ },
+ "textes": [
+  {
+   "plan": "A1",
+   "texte": "NOUS PARLONS DE"
+  },
+  {
+   "plan": "A1",
+   "texte": "5 MILLIONS"
+  },
+  {
+   "plan": "A1",
+   "texte": "DE NOS"
+  },
+  {
+   "plan": "A1",
+   "texte": "CONCITOYENS"
+  },
+  {
+   "plan": "A2",
+   "texte": "QUI SE SONT MIS"
+  },
+  {
+   "plan": "A2",
+   "texte": "AU SERVICE"
+  },
+  {
+   "plan": "A2",
+   "texte": "DES AUTRES"
+  },
+  {
+   "plan": "A3",
+   "texte": "ET QUI"
+  },
+  {
+   "plan": "A3",
+   "texte": "CHAQUE JOUR"
+  },
+  {
+   "plan": "A4",
+   "texte": "PORTENT CE PAYS"
+  },
+  {
+   "plan": "A4",
+   "texte": "SUR LEUR DOS"
+  },
+  {
+   "plan": "B1",
+   "texte": "5 MILLIONS DE NOS CONCITOYENS"
+  },
+  {
+   "plan": "B2",
+   "texte": "AU SERVICE DES AUTRES"
+  },
+  {
+   "plan": "B3",
+   "texte": "CHAQUE JOUR"
+  },
+  {
+   "plan": "B4",
+   "texte": "PORTENT CE PAYS SUR LEUR DOS"
+  },
+  {
+   "plan": "FIN",
+   "texte": "JEAN-LUC"
+  },
+  {
+   "plan": "FIN",
+   "texte": "MÉLENCHON"
+  },
+  {
+   "plan": "FIN",
+   "texte": "2027"
+  }
+ ],
+ "video": [
+  {
+   "id": "A1",
+   "clip": "R14_A1.mov",
+   "folder": "genR14",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R14/out/R14_A1.mov",
+   "s": 0,
+   "e": 130,
+   "rec": 0,
+   "dur": 130,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "son direct SYNCHRO : la marche intersyndicale (29/09/2026) en grande photo couleur collée au mur (bords déchirés, scotch), « Nous parlons de 5 millions de nos concitoyens »",
+   "kind": "collage",
+   "temps": 9.05,
+   "affiches": [
+    {
+     "type": "photo:IS:149.6:jv",
+     "temps": 0
+    },
+    {
+     "type": "tract",
+     "temps": 2
+    },
+    {
+     "type": "trame",
+     "temps": 4
+    },
+    {
+     "type": "bande",
+     "temps": 6
+    }
+   ],
+   "photos": [
+    {
+     "fichier": "lot3/sources/C4-melenchon-intersyndicale.mp4",
+     "in_s": 131.95,
+     "out_s": 136.283,
+     "synchro": true,
+     "cadre_source": [
+      640,
+      0,
+      1585,
+      1080
+     ],
+     "bichromie": "couleur",
+     "url": "https://www.youtube.com/watch?v=N406os8VSkE"
+    }
+   ]
+  },
+  {
+   "id": "A2",
+   "clip": "R14_A2.mov",
+   "folder": "genR14",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R14/out/R14_A2.mov",
+   "s": 0,
+   "e": 57,
+   "rec": 130,
+   "dur": 57,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "voix off sur la foule : « qui se sont mis au service des autres » ; affiche de la manif collée en grand puis recouverte",
+   "kind": "collage",
+   "temps": 3.97,
+   "affiches": [
+    {
+     "type": "photo:IS:118.0:violet",
+     "temps": 0
+    },
+    {
+     "type": "tract",
+     "temps": 1
+    },
+    {
+     "type": "photo:SD7:2.0:jv",
+     "temps": 2
+    },
+    {
+     "type": "trame",
+     "temps": 3
+    }
+   ]
+  },
+  {
+   "id": "A3",
+   "clip": "R14_A3.mov",
+   "folder": "genR14",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R14/out/R14_A3.mov",
+   "s": 0,
+   "e": 43,
+   "rec": 187,
+   "dur": 43,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "même plan synchro, plus serré, nouvelle photo collée : « et qui chaque jour »",
+   "kind": "collage",
+   "temps": 2.99,
+   "affiches": [
+    {
+     "type": "trame",
+     "temps": 0
+    },
+    {
+     "type": "photo:SD7:5.0:vif",
+     "temps": 1
+    }
+   ],
+   "photos": [
+    {
+     "fichier": "lot3/sources/C4-melenchon-intersyndicale.mp4",
+     "in_s": 138.183,
+     "out_s": 139.617,
+     "synchro": true,
+     "cadre_source": [
+      800,
+      0,
+      1500,
+      860
+     ],
+     "bichromie": "couleur",
+     "url": "https://www.youtube.com/watch?v=N406os8VSkE"
+    }
+   ]
+  },
+  {
+   "id": "A4",
+   "clip": "R14_A4.mov",
+   "folder": "genR14",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R14/out/R14_A4.mov",
+   "s": 0,
+   "e": 71,
+   "rec": 230,
+   "dur": 71,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "plan synchro : « portent ce pays sur leur dos », les affiches de la manif se recouvrent autour de la photo jusqu'au drop",
+   "kind": "collage",
+   "temps": 4.94,
+   "affiches": [
+    {
+     "type": "photo:IS:76.0:jaune",
+     "temps": 0
+    },
+    {
+     "type": "tract",
+     "temps": 1
+    },
+    {
+     "type": "photo:IS:174.0:violet",
+     "temps": 3
+    }
+   ],
+   "photos": [
+    {
+     "fichier": "lot3/sources/C4-melenchon-intersyndicale.mp4",
+     "in_s": 139.617,
+     "out_s": 141.983,
+     "synchro": true,
+     "cadre_source": [
+      700,
+      0,
+      1585,
+      1000
+     ],
+     "bichromie": "couleur",
+     "url": "https://www.youtube.com/watch?v=N406os8VSkE"
+    }
+   ]
+  },
+  {
+   "id": "B1",
+   "clip": "R14_B1.mov",
+   "folder": "genR14",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R14/out/R14_B1.mov",
+   "s": 0,
+   "e": 30,
+   "rec": 301,
+   "dur": 30,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "drop : flash blanc 3 images, silhouette blanche puis Mélenchon (Saint-Denis, main levée) sur affiche jaune, double tirage violet",
+   "kind": "sil",
+   "temps": 2.09,
+   "source": {
+    "fichier": "lot3/sources/C4-melenchon-stdenis-02.mp4",
+    "in_s": 7.0,
+    "out_s": 8.0,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I",
+    "contexte": "meeting de Saint-Denis, 07/06/2026 (chaîne JEAN-LUC MÉLENCHON)"
+   },
+   "affiches": [
+    {
+     "type": "photo:IS:80.0:violet",
+     "temps": 0
+    },
+    {
+     "type": "tract",
+     "temps": 1
+    }
+   ]
+  },
+  {
+   "id": "B2",
+   "clip": "R14_B2.mov",
+   "folder": "genR14",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R14/out/R14_B2.mov",
+   "s": 0,
+   "e": 29,
+   "rec": 331,
+   "dur": 29,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "mur d'affiches : la foule et les drapeaux de Saint-Denis, la manif intersyndicale, collées l'une sur l'autre",
+   "kind": "collage",
+   "temps": 2.02,
+   "affiches": [
+    {
+     "type": "photo:SD7:3.2:jv",
+     "temps": 0
+    },
+    {
+     "type": "photo:IS:120.0:jaune",
+     "temps": 1
+    },
+    {
+     "type": "tract",
+     "temps": 1
+    }
+   ]
+  },
+  {
+   "id": "B3",
+   "clip": "R14_B3.mov",
+   "folder": "genR14",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R14/out/R14_B3.mov",
+   "s": 0,
+   "e": 28,
+   "rec": 360,
+   "dur": 28,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — meeting de Saint-Denis, gros plan (sans le son) : Mélenchon détouré sur affiche lilas, feuille violette déchirée",
+   "kind": "cut",
+   "temps": 1.95,
+   "source": {
+    "fichier": "lot3/sources/C4-melenchon-stdenis-03.mp4",
+    "in_s": 26.6,
+    "out_s": 27.533,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I",
+    "contexte": "meeting de Saint-Denis, 07/06/2026 (chaîne JEAN-LUC MÉLENCHON)"
+   },
+   "affiches": [
+    {
+     "type": "tract",
+     "temps": 0
+    },
+    {
+     "type": "photo:SD1:18.0:violet",
+     "temps": 1
+    }
+   ]
+  },
+  {
+   "id": "B4",
+   "clip": "R14_B4.mov",
+   "folder": "genR14",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R14/out/R14_B4.mov",
+   "s": 0,
+   "e": 29,
+   "rec": 388,
+   "dur": 29,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "Saint-Denis, index levé (sans le son) : « portent ce pays sur leur dos »",
+   "kind": "cut",
+   "temps": 2.02,
+   "source": {
+    "fichier": "lot3/sources/C4-melenchon-stdenis-06.mp4",
+    "in_s": 12.0,
+    "out_s": 12.967,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I",
+    "contexte": "meeting de Saint-Denis, 07/06/2026 (chaîne JEAN-LUC MÉLENCHON)"
+   },
+   "affiches": [
+    {
+     "type": "photo:IS:150.8:violet",
+     "temps": 0
+    },
+    {
+     "type": "trame",
+     "temps": 1
+    }
+   ]
+  },
+  {
+   "id": "B5",
+   "clip": "R14_B5.mov",
+   "folder": "genR14",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R14/out/R14_B5.mov",
+   "s": 0,
+   "e": 29,
+   "rec": 417,
+   "dur": 29,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "les affiches se recouvrent au demi-temps : foule de la manif, tracts, drapeaux de Saint-Denis",
+   "kind": "collage",
+   "temps": 2.02,
+   "affiches": [
+    {
+     "type": "photo:IS:176.5:jv",
+     "temps": 0
+    },
+    {
+     "type": "tract",
+     "temps": 0.5
+    },
+    {
+     "type": "photo:SD7:7.0:violet",
+     "temps": 1
+    },
+    {
+     "type": "bande",
+     "temps": 1.5
+    },
+    {
+     "type": "photo:IS:76.8:jaune",
+     "temps": 1.75
+    }
+   ]
+  },
+  {
+   "id": "B6",
+   "clip": "R14_B6.mov",
+   "folder": "genR14",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R14/out/R14_B6.mov",
+   "s": 0,
+   "e": 29,
+   "rec": 446,
+   "dur": 29,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "Saint-Denis, poing serré (sans le son) : silhouette blanche 3 images puis en couleur sur le mur violet",
+   "kind": "sil",
+   "temps": 2.02,
+   "source": {
+    "fichier": "lot3/sources/C4-melenchon-stdenis-01.mp4",
+    "in_s": 6.5,
+    "out_s": 7.467,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=1dkY_JVFx9I",
+    "contexte": "meeting de Saint-Denis, 07/06/2026, place vue d'en haut (chaîne JEAN-LUC MÉLENCHON)"
+   },
+   "affiches": [
+    {
+     "type": "tract",
+     "temps": 0
+    },
+    {
+     "type": "photo:IS:236.0:jv",
+     "temps": 1
+    }
+   ]
+  },
+  {
+   "id": "FIN",
+   "clip": "R14_FIN.mov",
+   "folder": "genR14",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R14/out/R14_FIN.mov",
+   "s": 0,
+   "e": 70,
+   "rec": 475,
+   "dur": 70,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "carton final : affiche jaune collée sur le mur violet, JEAN-LUC MÉLENCHON + 2027",
+   "kind": "card",
+   "temps": 4.87,
+   "affiches": [
+    {
+     "type": "tract_fin",
+     "temps": 0
+    }
+   ]
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "R14-mix.wav",
+   "folder": "genR14",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R14/out/R14-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS : voix IS 131.95-141.98 s (+4 dB) à 0.00 s ; Sweet Dreams dès 39.318 s du complet, baissé sous la voix (interlude du riff), montée, plein au drop, fondu de fin 0,4 s"
+  }
+ ],
+ "stems": [
+  "lot7/_claude/gen/R14/out/R14-voix.wav",
+  "lot7/_claude/gen/R14/out/R14-musique.wav"
+ ],
+ "logos_exclus": "intersyndicale : filigrane MELENCHON2027.fr hors fenêtre (détourage x < 1590, photos y > 180) ; Saint-Denis : filigrane et pupitre exclus"
+}

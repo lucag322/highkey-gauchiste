@@ -1,0 +1,689 @@
+{
+ "name": "R10 - Collage ransom-note - Rima Hassan",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 19.634,
+ "note": "Plans ProRes 9:16 composés en Python (lot7/_claude/gen/R10/out) : fonds papier froissé blanc / gris + feuilles déchirées, Rima Hassan détourée seule (instance Vision, tools/inst) en N&B, double tirage tramé vert, silhouettes blanches 3 images, photos N&B vivantes, textes ransom-note cuits (mots-clés en lettres de magazine vertes). s/e en images du clip (30 i/s), rec en images timeline. Coupes sur les frappes réelles de Freedom! '90. Aucun ralenti. Générateur : lot7/_claude/gen/R10/genR10.py",
+ "phrase": {
+  "texte": "Non, il n'y a pas de neutralité à avoir face au génocide, face au colonialisme, face au fascisme.",
+  "url": "https://www.youtube.com/watch?v=lML9ZGssEac",
+  "youtube_s": [
+   2303.32,
+   2311.5
+  ],
+  "source": "lot7/sources/R10-hassan-strasbourg-neutralite.mp4",
+  "in_s": 13.32,
+  "out_s": 21.5,
+  "timeline_s": [
+   0.6,
+   8.78
+  ],
+  "voix": "son direct synchro (plans A1-A4)"
+ },
+ "musique": {
+  "fichier": "lot7/sons/R10-freedom90_complet.wav",
+  "titre": "George Michael - Freedom! '90 (Remastered)",
+  "url": "https://www.youtube.com/watch?v=FaEjDk3lgcI",
+  "debut_complet_s": 126.396,
+  "fin_complet_s": 146.03,
+  "drop_timeline_s": 9.2118,
+  "coupes_frappes_s": [
+   1.3629,
+   2.687,
+   3.9796,
+   6.5987,
+   7.573,
+   8.4009,
+   9.2118,
+   10.536,
+   11.8359,
+   13.1228,
+   14.4444,
+   17.073
+  ],
+  "coupes_images": [
+   41,
+   81,
+   119,
+   198,
+   227,
+   252,
+   276,
+   316,
+   355,
+   394,
+   433,
+   512
+  ]
+ },
+ "textes": [
+  {
+   "plan": "A1",
+   "texte": "NON,"
+  },
+  {
+   "plan": "A2",
+   "texte": "IL N'Y A PAS / DE / NEUTRALITÉ"
+  },
+  {
+   "plan": "A3",
+   "texte": "IL N'Y A PAS / DE / NEUTRALITÉ"
+  },
+  {
+   "plan": "A4",
+   "texte": "À AVOIR / FACE AU / GÉNOCIDE,"
+  },
+  {
+   "plan": "A6",
+   "texte": "FACE AU / COLONIALISME,"
+  },
+  {
+   "plan": "A7",
+   "texte": "FACE AU / COLONIALISME,"
+  },
+  {
+   "plan": "A7",
+   "texte": "FACE AU / FASCISME."
+  },
+  {
+   "plan": "A8",
+   "texte": "FACE AU / FASCISME."
+  },
+  {
+   "plan": "B1",
+   "texte": "PAS DE NEUTRALITÉ."
+  },
+  {
+   "plan": "B2",
+   "texte": "FACE AU GÉNOCIDE,"
+  },
+  {
+   "plan": "B3",
+   "texte": "FACE AU COLONIALISME,"
+  },
+  {
+   "plan": "B4",
+   "texte": "FACE AU FASCISME."
+  },
+  {
+   "plan": "FIN",
+   "texte": "RIMA HASSAN"
+  }
+ ],
+ "video": [
+  {
+   "id": "A1",
+   "clip": "R10_A1.mov",
+   "folder": "genR10",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R10/out/R10_A1.mov",
+   "s": 0,
+   "e": 41,
+   "rec": 0,
+   "dur": 41,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — meeting Justice pour la Palestine, Strasbourg, son direct : « Non, » (elle regarde la salle), grande silhouette N&B qui monte du bas, double tirage tramé vert",
+   "kind": "cut",
+   "temps": 2.09,
+   "source": {
+    "fichier": "lot7/sources/R10-hassan-strasbourg-neutralite.mp4",
+    "in_s": 12.717,
+    "out_s": 14.084,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=lML9ZGssEac",
+    "contexte": "meeting Justice pour la Palestine, Strasbourg, 17/06/2026 (chaîne La France insoumise) — plan de la phrase",
+    "youtube_t": 2302.7
+   },
+   "photos": [
+    {
+     "fichier": "lot7/sources/R10-hassan-strasbourg-neutralite.mp4",
+     "in_s": 31.5,
+     "out_s": 32.87,
+     "cadre_source": [
+      0,
+      190,
+      1600,
+      1080
+     ],
+     "ton": "nb",
+     "url": "https://www.youtube.com/watch?v=lML9ZGssEac"
+    }
+   ]
+  },
+  {
+   "id": "A2",
+   "clip": "R10_A2.mov",
+   "folder": "genR10",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R10/out/R10_A2.mov",
+   "s": 0,
+   "e": 40,
+   "rec": 41,
+   "dur": 40,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "la salle aux drapeaux (sans parole) pendant « il n'y a pas de » : elle lit ses notes à ce moment-là",
+   "kind": "collage",
+   "temps": 2.04,
+   "photos": [
+    {
+     "fichier": "lot7/sources/R10-hassan-strasbourg-neutralite.mp4",
+     "in_s": 32.0,
+     "out_s": 33.33,
+     "cadre_source": [
+      0,
+      190,
+      1600,
+      1080
+     ],
+     "ton": "dur",
+     "url": "https://www.youtube.com/watch?v=lML9ZGssEac"
+    },
+    {
+     "fichier": "lot3/sources/A7-hassan-strasbourg-c.mp4",
+     "in_s": 5.0,
+     "out_s": 6.33,
+     "cadre_source": [
+      0,
+      190,
+      1600,
+      1080
+     ],
+     "ton": "nb",
+     "url": "https://www.youtube.com/watch?v=lML9ZGssEac"
+    }
+   ]
+  },
+  {
+   "id": "A3",
+   "clip": "R10_A3.mov",
+   "folder": "genR10",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R10/out/R10_A3.mov",
+   "s": 0,
+   "e": 38,
+   "rec": 81,
+   "dur": 38,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "plan synchro, elle regarde la salle : « neutralité », NEUTRALITÉ en lettres de magazine vertes",
+   "kind": "cut",
+   "temps": 1.94,
+   "source": {
+    "fichier": "lot7/sources/R10-hassan-strasbourg-neutralite.mp4",
+    "in_s": 15.417,
+    "out_s": 16.684,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=lML9ZGssEac",
+    "contexte": "meeting Justice pour la Palestine, Strasbourg, 17/06/2026 (chaîne La France insoumise) — plan de la phrase",
+    "youtube_t": 2305.4
+   },
+   "photos": [
+    {
+     "fichier": "lot7/sources/R10-hassan-strasbourg-neutralite.mp4",
+     "in_s": 34.8,
+     "out_s": 36.07,
+     "cadre_source": [
+      0,
+      190,
+      1600,
+      1080
+     ],
+     "ton": "gris",
+     "url": "https://www.youtube.com/watch?v=lML9ZGssEac"
+    }
+   ]
+  },
+  {
+   "id": "A4",
+   "clip": "R10_A4.mov",
+   "folder": "genR10",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R10/out/R10_A4.mov",
+   "s": 0,
+   "e": 79,
+   "rec": 119,
+   "dur": 79,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "la salle comble (sans parole) pendant « à avoir face au génocide » : elle lit ses notes ; une photo de plus à chaque temps",
+   "kind": "collage",
+   "temps": 4.02,
+   "photos": [
+    {
+     "fichier": "lot7/sources/R10-hassan-strasbourg-neutralite.mp4",
+     "in_s": 26.0,
+     "out_s": 28.63,
+     "cadre_source": [
+      200,
+      300,
+      1350,
+      1080
+     ],
+     "ton": "nb",
+     "url": "https://www.youtube.com/watch?v=lML9ZGssEac"
+    },
+    {
+     "fichier": "lot3/sources/A7-hassan-strasbourg-b.mp4",
+     "in_s": 33.0,
+     "out_s": 35.63,
+     "cadre_source": [
+      0,
+      190,
+      1600,
+      1080
+     ],
+     "ton": "gris",
+     "url": "https://www.youtube.com/watch?v=lML9ZGssEac"
+    },
+    {
+     "fichier": "lot3/sources/A7-hassan-strasbourg-c.mp4",
+     "in_s": 8.0,
+     "out_s": 10.63,
+     "cadre_source": [
+      0,
+      190,
+      1600,
+      1080
+     ],
+     "ton": "nb",
+     "url": "https://www.youtube.com/watch?v=lML9ZGssEac"
+    }
+   ]
+  },
+  {
+   "id": "A6",
+   "clip": "R10_A6.mov",
+   "folder": "genR10",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R10/out/R10_A6.mov",
+   "s": 0,
+   "e": 29,
+   "rec": 198,
+   "dur": 29,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "la salle debout (sans parole) pendant « face au colonialisme »",
+   "kind": "collage",
+   "temps": 1.48,
+   "photos": [
+    {
+     "fichier": "lot3/sources/A7-hassan-strasbourg-b.mp4",
+     "in_s": 34.0,
+     "out_s": 34.97,
+     "cadre_source": [
+      0,
+      190,
+      1600,
+      1080
+     ],
+     "ton": "dur",
+     "url": "https://www.youtube.com/watch?v=lML9ZGssEac"
+    },
+    {
+     "fichier": "lot7/sources/R10-hassan-strasbourg-neutralite.mp4",
+     "in_s": 34.0,
+     "out_s": 34.97,
+     "cadre_source": [
+      0,
+      190,
+      1600,
+      1080
+     ],
+     "ton": "nb",
+     "url": "https://www.youtube.com/watch?v=lML9ZGssEac"
+    }
+   ]
+  },
+  {
+   "id": "A7",
+   "clip": "R10_A7.mov",
+   "folder": "genR10",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R10/out/R10_A7.mov",
+   "s": 0,
+   "e": 25,
+   "rec": 227,
+   "dur": 25,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "plan synchro, elle regarde la salle : « face au fascisme », poussée avant",
+   "kind": "cut",
+   "temps": 1.27,
+   "source": {
+    "fichier": "lot7/sources/R10-hassan-strasbourg-neutralite.mp4",
+    "in_s": 20.284,
+    "out_s": 21.117,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=lML9ZGssEac",
+    "contexte": "meeting Justice pour la Palestine, Strasbourg, 17/06/2026 (chaîne La France insoumise) — plan de la phrase",
+    "youtube_t": 2310.3
+   },
+   "photos": [
+    {
+     "fichier": "lot3/sources/A7-hassan-strasbourg-b.mp4",
+     "in_s": 36.0,
+     "out_s": 36.83,
+     "cadre_source": [
+      0,
+      190,
+      1600,
+      1080
+     ],
+     "ton": "nb",
+     "url": "https://www.youtube.com/watch?v=lML9ZGssEac"
+    }
+   ]
+  },
+  {
+   "id": "A8",
+   "clip": "R10_A8.mov",
+   "folder": "genR10",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R10/out/R10_A8.mov",
+   "s": 0,
+   "e": 24,
+   "rec": 252,
+   "dur": 24,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "la salle (sans parole) sur la fin de « fascisme » et la montée avant le drop (le plan source change de caméra à 21,47 s)",
+   "kind": "collage",
+   "temps": 1.22,
+   "photos": [
+    {
+     "fichier": "lot3/sources/A7-hassan-strasbourg-c.mp4",
+     "in_s": 36.0,
+     "out_s": 36.8,
+     "cadre_source": [
+      0,
+      190,
+      1600,
+      1080
+     ],
+     "ton": "nb",
+     "url": "https://www.youtube.com/watch?v=lML9ZGssEac"
+    },
+    {
+     "fichier": "lot7/sources/R10-hassan-strasbourg-neutralite.mp4",
+     "in_s": 29.0,
+     "out_s": 29.8,
+     "cadre_source": [
+      0,
+      300,
+      1350,
+      1080
+     ],
+     "ton": "gris",
+     "url": "https://www.youtube.com/watch?v=lML9ZGssEac"
+    }
+   ]
+  },
+  {
+   "id": "B1",
+   "clip": "R10_B1.mov",
+   "folder": "genR10",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R10/out/R10_B1.mov",
+   "s": 0,
+   "e": 40,
+   "rec": 276,
+   "dur": 40,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "drop « Freedom! » — même meeting, fin du discours, gros plan expressif (sans le son) : silhouette blanche 3 images puis grande découpe N&B, double tirage vert",
+   "kind": "sil",
+   "temps": 2.04,
+   "source": {
+    "fichier": "lot3/sources/A7-hassan-strasbourg-c.mp4",
+    "in_s": 21.4,
+    "out_s": 22.733,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=lML9ZGssEac",
+    "contexte": "même meeting, fin du discours, Strasbourg 17/06/2026 (chaîne La France insoumise)",
+    "youtube_t": 2655.4
+   }
+  },
+  {
+   "id": "B2",
+   "clip": "R10_B2.mov",
+   "folder": "genR10",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R10/out/R10_B2.mov",
+   "s": 0,
+   "e": 39,
+   "rec": 316,
+   "dur": 39,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "collage N&B : la foule aux drapeaux et la salle debout, une photo par demi-temps",
+   "kind": "collage",
+   "temps": 1.99,
+   "photos": [
+    {
+     "fichier": "lot7/sources/R10-hassan-strasbourg-neutralite.mp4",
+     "in_s": 31.0,
+     "out_s": 32.3,
+     "cadre_source": [
+      0,
+      190,
+      1600,
+      1080
+     ],
+     "ton": "dur",
+     "url": "https://www.youtube.com/watch?v=lML9ZGssEac"
+    },
+    {
+     "fichier": "lot3/sources/A7-hassan-strasbourg-c.mp4",
+     "in_s": 35.0,
+     "out_s": 36.3,
+     "cadre_source": [
+      0,
+      190,
+      1600,
+      1080
+     ],
+     "ton": "nb",
+     "url": "https://www.youtube.com/watch?v=lML9ZGssEac"
+    },
+    {
+     "fichier": "lot7/sources/R10-hassan-strasbourg-neutralite.mp4",
+     "in_s": 27.5,
+     "out_s": 28.8,
+     "cadre_source": [
+      0,
+      300,
+      1350,
+      1080
+     ],
+     "ton": "gris",
+     "url": "https://www.youtube.com/watch?v=lML9ZGssEac"
+    }
+   ]
+  },
+  {
+   "id": "B3",
+   "clip": "R10_B3.mov",
+   "folder": "genR10",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R10/out/R10_B3.mov",
+   "s": 0,
+   "e": 39,
+   "rec": 355,
+   "dur": 39,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "Strasbourg, plus tôt dans le discours (elle regarde la salle, sans le son) : grande découpe N&B, bas de feuille noire déchirée",
+   "kind": "cut",
+   "temps": 1.99,
+   "source": {
+    "fichier": "lot3/sources/A7-hassan-strasbourg-a.mp4",
+    "in_s": 28.6,
+    "out_s": 29.9,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=lML9ZGssEac",
+    "contexte": "même meeting, Strasbourg 17/06/2026 (chaîne La France insoumise)",
+    "youtube_t": 2223.6
+   },
+   "photos": [
+    {
+     "fichier": "lot3/sources/A7-hassan-strasbourg-b.mp4",
+     "in_s": 35.0,
+     "out_s": 36.3,
+     "cadre_source": [
+      0,
+      190,
+      1600,
+      1080
+     ],
+     "ton": "nb",
+     "url": "https://www.youtube.com/watch?v=lML9ZGssEac"
+    }
+   ]
+  },
+  {
+   "id": "B4",
+   "clip": "R10_B4.mov",
+   "folder": "genR10",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R10/out/R10_B4.mov",
+   "s": 0,
+   "e": 39,
+   "rec": 394,
+   "dur": 39,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — meeting des municipales de La Courneuve (elle regarde la salle, sans le son) : autre contexte, grande découpe N&B",
+   "kind": "cut",
+   "temps": 1.99,
+   "source": {
+    "fichier": "lot3/sources/A7-hassan-courneuve-a.mp4",
+    "in_s": 14.75,
+    "out_s": 16.05,
+    "fps": 30.0,
+    "url": "https://www.youtube.com/watch?v=bpYEswmz7us",
+    "contexte": "meeting des municipales de La Courneuve, 16/01/2026",
+    "youtube_t": 939.8
+   },
+   "photos": [
+    {
+     "fichier": "lot3/sources/A7-hassan-strasbourg-c.mp4",
+     "in_s": 6.5,
+     "out_s": 7.8,
+     "cadre_source": [
+      0,
+      190,
+      1600,
+      1080
+     ],
+     "ton": "gris",
+     "url": "https://www.youtube.com/watch?v=lML9ZGssEac"
+    }
+   ]
+  },
+  {
+   "id": "B5",
+   "clip": "R10_B5.mov",
+   "folder": "genR10",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R10/out/R10_B5.mov",
+   "s": 0,
+   "e": 79,
+   "rec": 433,
+   "dur": 79,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "« Freedom! » : la salle debout se colle photo après photo (un temps chacune), sans texte",
+   "kind": "collage",
+   "temps": 4.02,
+   "photos": [
+    {
+     "fichier": "lot7/sources/R10-hassan-strasbourg-neutralite.mp4",
+     "in_s": 33.0,
+     "out_s": 35.63,
+     "cadre_source": [
+      0,
+      190,
+      1600,
+      1080
+     ],
+     "ton": "dur",
+     "url": "https://www.youtube.com/watch?v=lML9ZGssEac"
+    },
+    {
+     "fichier": "lot3/sources/A7-hassan-strasbourg-b.mp4",
+     "in_s": 32.0,
+     "out_s": 34.63,
+     "cadre_source": [
+      0,
+      190,
+      1600,
+      1080
+     ],
+     "ton": "nb",
+     "url": "https://www.youtube.com/watch?v=lML9ZGssEac"
+    },
+    {
+     "fichier": "lot3/sources/A7-hassan-strasbourg-c.mp4",
+     "in_s": 34.0,
+     "out_s": 36.63,
+     "cadre_source": [
+      0,
+      190,
+      1600,
+      1080
+     ],
+     "ton": "gris",
+     "url": "https://www.youtube.com/watch?v=lML9ZGssEac"
+    },
+    {
+     "fichier": "lot7/sources/R10-hassan-strasbourg-neutralite.mp4",
+     "in_s": 30.5,
+     "out_s": 33.13,
+     "cadre_source": [
+      0,
+      300,
+      1350,
+      1080
+     ],
+     "ton": "nb",
+     "url": "https://www.youtube.com/watch?v=lML9ZGssEac"
+    }
+   ]
+  },
+  {
+   "id": "FIN",
+   "clip": "R10_FIN.mov",
+   "folder": "genR10",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R10/out/R10_FIN.mov",
+   "s": 0,
+   "e": 77,
+   "rec": 512,
+   "dur": 77,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "carton final propre (papier, noir + vert) : son nom en lettres de magazine, pas de CTA",
+   "kind": "card",
+   "temps": 3.92
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "R10-mix.wav",
+   "folder": "genR10",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R10/out/R10-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS : voix PH 13.22-21.62 s (+4 dB) à 0.50 s ; Freedom! '90 dès 126.396 s du complet, -20 dB sous la voix (pré-refrain), montée, plein au drop, fondu de fin 0,4 s"
+  }
+ ],
+ "stems": [
+  "lot7/_claude/gen/R10/out/R10-voix.wav",
+  "lot7/_claude/gen/R10/out/R10-musique.wav"
+ ],
+ "logos_exclus": "Strasbourg : logo ELA (haut droite) et pupitre JUSTICE POUR LA PALESTINE hors des fenêtres de détourage ; La Courneuve : pupitre et logo hors fenêtre"
+}

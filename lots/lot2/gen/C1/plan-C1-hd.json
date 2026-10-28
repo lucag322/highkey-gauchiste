@@ -1,0 +1,350 @@
+{
+ "name": "C1 - Citation cine - Guette",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 20.0,
+ "note": "Aperçu lot 2. Plans ProRes 9:16 prêts (recadrés, étalonnés, texte cuit). Ralentis dans Resolve : speed_pct + Optical Flow ; e-s = images source à vitesse normale. Générateur : lot2/_claude/gen/C1/genC1.py",
+ "musique": {
+  "fichier": "lot2/sons/C1-zimmer-time_complet.wav",
+  "titre": "Hans Zimmer - Time (Inception), WaterTower Music",
+  "debut_dans_complet_s": 146.0917,
+  "fin_dans_complet_s": 166.092,
+  "bpm": 63.0,
+  "grande_entree_complet_s": 152.77,
+  "drop_timeline_s": 6.667,
+  "attaques_complet_s": {
+   "b1": 146.105,
+   "baisser": 147.055,
+   "jamais": 150.86,
+   "tout": 151.8,
+   "entree": 152.77,
+   "m2": 156.58,
+   "t4": 159.455,
+   "m3": 160.4,
+   "a3": 162.185,
+   "m4": 164.22
+  },
+  "coupes_timeline_s": [
+   0.9667,
+   4.7667,
+   5.7,
+   6.6667,
+   10.5,
+   13.3667,
+   14.3,
+   16.1,
+   18.1333
+  ],
+  "coupes": "chaque coupe sur une attaque mesurée (temps_forts.py) : noires de la montée sous la citation, puis une par mesure (+ 4e temps 159,46) après la grande entrée"
+ },
+ "citations": [
+  {
+   "source": "lot2/sources/C1-guette-bezons-citation.mp4 5,44-11,44 s (YouTube 9Cgr6La_XaE, 1021,9-1028,1 s), timeline = source - 5.112",
+   "texte": "Nous n'allons pas baisser la tête, nous n'allons pas céder aux intimidations, nous n'allons jamais renoncer à tout changer."
+  },
+  {
+   "source": "lot2/_claude/gen/C1/dl/amfis-fin.mp4 4,38-7,30 s (YouTube HW03wZDi6Tk ≈1682,4-1685,3 s), timeline = source + 11.318",
+   "texte": "Dans un an, nous pouvons tout changer."
+  }
+ ],
+ "textes": [
+  {
+   "t0": 0.33,
+   "t1": 0.97,
+   "lignes": [
+    "NOUS",
+    "N’ALLONS",
+    "PAS"
+   ],
+   "rouge": []
+  },
+  {
+   "t0": 0.95,
+   "t1": 1.99,
+   "lignes": [
+    "BAISSER",
+    "LA TÊTE"
+   ],
+   "rouge": [
+    "TÊTE"
+   ]
+  },
+  {
+   "t0": 1.99,
+   "t1": 3.03,
+   "lignes": [
+    "NOUS",
+    "N’ALLONS",
+    "PAS CÉDER"
+   ],
+   "rouge": []
+  },
+  {
+   "t0": 3.03,
+   "t1": 4.41,
+   "lignes": [
+    "AUX",
+    "INTIMIDATIONS"
+   ],
+   "rouge": []
+  },
+  {
+   "t0": 4.41,
+   "t1": 4.77,
+   "lignes": [
+    "NOUS",
+    "N’ALLONS"
+   ],
+   "rouge": []
+  },
+  {
+   "t0": 4.77,
+   "t1": 5.7,
+   "lignes": [
+    "JAMAIS",
+    "RENONCER",
+    "À"
+   ],
+   "rouge": [
+    "JAMAIS"
+   ]
+  },
+  {
+   "t0": 5.7,
+   "t1": 6.67,
+   "lignes": [
+    "TOUT",
+    "CHANGER"
+   ],
+   "rouge": []
+  },
+  {
+   "t0": 15.7,
+   "t1": 17.46,
+   "lignes": [
+    "DANS",
+    "UN AN"
+   ],
+   "rouge": []
+  },
+  {
+   "t0": 17.46,
+   "t1": 20.0,
+   "lignes": [
+    "NOUS",
+    "POUVONS",
+    "TOUT",
+    "CHANGER"
+   ],
+   "rouge": [
+    "TOUT",
+    "CHANGER"
+   ]
+  }
+ ],
+ "video": [
+  {
+   "id": "Q1",
+   "clip": "C1_Q1.mov",
+   "folder": "C1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C1/out/C1_Q1.mov",
+   "s": 0,
+   "e": 29,
+   "clip_fps": 30,
+   "rec": 0,
+   "dur": 29,
+   "track": 1,
+   "note": "noir : NOUS N'ALLONS PAS (1 temps : attaques 146,11 -> 147,06)",
+   "effets": "noir + grain, texte cuit (Baskerville SemiBold espacée, mot-clé CaslonGraphique-Opti rouge)"
+  },
+  {
+   "id": "Q2",
+   "clip": "C1_Q2_30.mov",
+   "folder": "C1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C1/out/C1_Q2_30.mov",
+   "s": 0,
+   "e": 114,
+   "clip_fps": 30,
+   "rec": 29,
+   "dur": 114,
+   "track": 1,
+   "note": "Bezons, synchro labiale, TÊTE rouge ; coupe sur « baisser »",
+   "source": {
+    "fichier": "lot2/sources/C1-guette-bezons-citation.mp4",
+    "in_s": 6.078,
+    "out_s": 9.878
+   },
+   "effets": "recadrage 9:16 suivi visage, poussée 1.22->1.30, sépia lavé + vignette + grain, logos effacés, texte cuit"
+  },
+  {
+   "id": "Q3",
+   "clip": "C1_Q3.mov",
+   "folder": "C1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C1/out/C1_Q3.mov",
+   "s": 0,
+   "e": 28,
+   "clip_fps": 30,
+   "rec": 143,
+   "dur": 28,
+   "track": 1,
+   "note": "JAMAIS rouge sur noir, sur l'attaque 150,86 ; RENONCER À",
+   "effets": "noir + grain, texte cuit (Baskerville SemiBold espacée, mot-clé CaslonGraphique-Opti rouge)"
+  },
+  {
+   "id": "Q4",
+   "clip": "C1_Q4_30.mov",
+   "folder": "C1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C1/out/C1_Q4_30.mov",
+   "s": 0,
+   "e": 29,
+   "clip_fps": 30,
+   "rec": 171,
+   "dur": 29,
+   "track": 1,
+   "note": "Bezons, synchro, TOUT CHANGER ; coupe sur l'attaque 151,80",
+   "source": {
+    "fichier": "lot2/sources/C1-guette-bezons-citation.mp4",
+    "in_s": 10.812,
+    "out_s": 11.772
+   },
+   "effets": "recadrage 9:16 suivi visage, poussée 1.30->1.36, sépia lavé + vignette + grain, logos effacés, texte cuit"
+  },
+  {
+   "id": "B01",
+   "clip": "C1_B01_30.mov",
+   "folder": "C1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C1/out/C1_B01_30.mov",
+   "s": 0,
+   "e": 115,
+   "clip_fps": 30,
+   "rec": 200,
+   "dur": 115,
+   "track": 1,
+   "note": "GRANDE ENTRÉE de Time (152,77) : Meaux, foule immense, projecteur",
+   "source": {
+    "fichier": "lot2/sources/C1-guette-meaux-09.mp4",
+    "in_s": 1.0,
+    "out_s": 2.92
+   },
+   "effets": "recadrage 9:16 fixe, poussée 1.00->1.08, sépia lavé + vignette + grain, logos effacés",
+   "speed_pct": 41.6667,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B02",
+   "clip": "C1_B02_30.mov",
+   "folder": "C1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C1/out/C1_B02_30.mov",
+   "s": 0,
+   "e": 86,
+   "clip_fps": 30,
+   "rec": 315,
+   "dur": 86,
+   "track": 1,
+   "note": "mesure 156,58 : Meaux, Guetté, gestes",
+   "source": {
+    "fichier": "lot2/sources/C1-guette-meaux-10.mp4",
+    "in_s": 1.5,
+    "out_s": 2.94
+   },
+   "effets": "recadrage 9:16 suivi visage, poussée 1.00->1.06, sépia lavé + vignette + grain, logos effacés",
+   "speed_pct": 41.6667,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B03",
+   "clip": "C1_B03_30.mov",
+   "folder": "C1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C1/out/C1_B03_30.mov",
+   "s": 0,
+   "e": 28,
+   "clip_fps": 30,
+   "rec": 401,
+   "dur": 28,
+   "track": 1,
+   "note": "4e temps 159,46 : AMFIS 2026, foule de dos, poing levé",
+   "source": {
+    "fichier": "lot2/sources/C1-guette-amfis-02.mp4",
+    "in_s": 1.0,
+    "out_s": 1.467
+   },
+   "effets": "recadrage 9:16 fixe, poussée 1.00->1.03, sépia lavé + vignette + grain, logos effacés",
+   "speed_pct": 100.0,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B04",
+   "clip": "C1_B04_30.mov",
+   "folder": "C1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C1/out/C1_B04_30.mov",
+   "s": 0,
+   "e": 54,
+   "clip_fps": 30,
+   "rec": 429,
+   "dur": 54,
+   "track": 1,
+   "note": "mesure 160,40 : Meaux, foule sombre (voix « Dans un » commence ici)",
+   "source": {
+    "fichier": "lot2/sources/C1-guette-meaux-02.mp4",
+    "in_s": 1.0,
+    "out_s": 1.9
+   },
+   "effets": "recadrage 9:16 fixe, poussée 1.00->1.04, sépia lavé + vignette + grain, logos effacés, texte cuit",
+   "speed_pct": 41.6667,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "V1",
+   "clip": "C1_V1_30.mov",
+   "folder": "C1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C1/out/C1_V1_30.mov",
+   "s": 0,
+   "e": 61,
+   "clip_fps": 30,
+   "rec": 483,
+   "dur": 61,
+   "track": 1,
+   "note": "attaque 162,19 : AMFIS 2026, « an, nous pouvons » synchro",
+   "source": {
+    "fichier": "lot2/_claude/gen/C1/dl/amfis-fin.mp4",
+    "in_s": 4.782,
+    "out_s": 6.815
+   },
+   "effets": "recadrage 9:16 suivi visage, poussée 1.12->1.18, sépia lavé + vignette + grain, logos effacés, texte cuit"
+  },
+  {
+   "id": "B08",
+   "clip": "C1_B08_30.mov",
+   "folder": "C1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C1/out/C1_B08_30.mov",
+   "s": 0,
+   "e": 56,
+   "clip_fps": 30,
+   "rec": 544,
+   "dur": 56,
+   "track": 1,
+   "note": "mesure 164,22 : TOUT CHANGER rouge, Meaux scène symétrique, fondu au noir",
+   "source": {
+    "fichier": "lot2/sources/C1-guette-meaux-01.mp4",
+    "in_s": 1.0,
+    "out_s": 1.94
+   },
+   "effets": "recadrage 9:16 fixe, poussée 1.00->1.06, sépia lavé + vignette + grain, logos effacés, texte cuit",
+   "speed_pct": 41.6667,
+   "retime": "optical_flow",
+   "fade_out_s": 0.8
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "C1-mix.wav",
+   "folder": "C1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot2/_claude/gen/C1/out/C1-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix final -14 LUFS : Time de 146.092 s (morceau complet) posé en 0, montée -2,5 dB sous la voix 1, grande entrée à 6.667 s, voix 2 à 15.618 s, duck -9 dB sous la voix 2 ; stems C1-musique.wav / C1-voix.wav"
+  }
+ ]
+}

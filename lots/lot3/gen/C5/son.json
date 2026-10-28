@@ -1,0 +1,16 @@
+{
+ "id": "C5",
+ "titre": "Alors on danse",
+ "artiste": "Stromae",
+ "url": "https://youtu.be/VHoT4N43jK8",
+ "chaine": "StromaeVEVO (Stromae - Alors on danse (Official Video), 575 M vues)",
+ "fichier": "lot3/sons/C5-stromae-alors-on-danse_complet.wav",
+ "note_fichier": "audio du clip officiel : 0-14 s = ambiance du clip, le morceau démarre vers 14 s (temps ci-dessous = fichier complet)",
+ "extrait": {"debut_s": 55.735, "fin_s": 74.40, "timeline_0_s": 55.735},
+ "bpm": 118,
+ "drop": {"complet_s": 63.535, "timeline_s": 7.80, "note": "boom basse+kick sur « danse » du 1er « Alors on danse » (attaque mesurée, score 46,8) ; « Alors » commence à 62,56"},
+ "frappes_utilisees_complet_s": [63.535, 65.315, 67.605, 69.385, 70.650, 71.670, 73.455],
+ "frappes_timeline_s": [7.80, 9.58, 11.87, 13.65, 14.915, 15.935, 17.72],
+ "paroles_audibles": "sous la voix (-9 dB) : « Qui dit fatigue, dit réveil, encore sourd de la veille / Alors on sort pour oublier tous les problèmes » ; puis plein : « Alors on danse » x3 (62,56-72,2)",
+ "mesure": "temps_forts.py (lot2/_claude/gen/C1) sur le morceau complet ; vérif sur l'export par verif_coupes.py"
+}

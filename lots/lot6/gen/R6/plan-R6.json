@@ -1,0 +1,604 @@
+{
+ "name": "R6 - Collage ransom-note - Sébastien Delogu",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 19.55,
+ "note": "Plans ProRes 9:16 composés en Python (lot6/_claude/gen/R6/out) : fonds papier froissé + feuille déchirée, Delogu détouré seul (instance Vision, tools/inst), double tirage tramé, silhouettes blanches 3 images, photos vivantes en bichromie, textes ransom-note cuits. s/e en images du clip (30 i/s), rec en images timeline. Coupes sur les frappes réelles de Djadja (out/R6-frappes.json). Aucun ralenti. Générateur : lot6/_claude/gen/R6/genR6.py",
+ "phrase": {
+  "texte": "J'ai été sanctionné, intimidé, menacé et même moqué. Je vous ai vu vous moquer car je trébuchais sur des mots, mais moi au moins, mes valeurs n'ont pas titubé.",
+  "url": "https://www.youtube.com/watch?v=gEZLJe_uJUs",
+  "source": "lot3/sources/A8-delogu-qag-gaza-2025.mp4",
+  "in_s": 5.6,
+  "out_s": 15.26,
+  "timeline_s": [
+   0.29,
+   9.95
+  ],
+  "voix": "son direct synchro (plans A1-A3) ; la phrase commence dans la source par « Comme tant d'autres Français, » (4,08-5,42), non gardé"
+ },
+ "musique": {
+  "fichier": "lot6/sons/R6-aya-djadja_complet.wav",
+  "titre": "Aya Nakamura - Djadja",
+  "url": "https://www.youtube.com/watch?v=iPGgnzc34tY",
+  "debut_complet_s": 77.9861,
+  "fin_complet_s": 97.536,
+  "drop_timeline_s": 10.199,
+  "coupes_frappes_s": [
+   3.5675,
+   7.8594,
+   10.199,
+   11.4222,
+   12.6469,
+   13.8714,
+   15.0959,
+   16.3204,
+   17.5448
+  ],
+  "coupes_images": [
+   107,
+   236,
+   306,
+   343,
+   379,
+   416,
+   453,
+   490,
+   526
+  ]
+ },
+ "textes": [
+  {
+   "plan": "A1",
+   "texte": "J'AI ÉTÉ"
+  },
+  {
+   "plan": "A1",
+   "texte": "SANCTIONNÉ"
+  },
+  {
+   "plan": "A1",
+   "texte": "INTIMIDÉ"
+  },
+  {
+   "plan": "A1",
+   "texte": "MENACÉ"
+  },
+  {
+   "plan": "A2",
+   "texte": "ET MÊME"
+  },
+  {
+   "plan": "A2",
+   "texte": "MOQUÉ"
+  },
+  {
+   "plan": "A2",
+   "texte": "JE VOUS"
+  },
+  {
+   "plan": "A2",
+   "texte": "AI VU"
+  },
+  {
+   "plan": "A2",
+   "texte": "VOUS MOQUER"
+  },
+  {
+   "plan": "A2",
+   "texte": "CAR JE"
+  },
+  {
+   "plan": "A2",
+   "texte": "TRÉBUCHAIS"
+  },
+  {
+   "plan": "A2",
+   "texte": "SUR DES MOTS"
+  },
+  {
+   "plan": "A3",
+   "texte": "MAIS MOI"
+  },
+  {
+   "plan": "A3",
+   "texte": "AU MOINS"
+  },
+  {
+   "plan": "A3",
+   "texte": "MES VALEURS"
+  },
+  {
+   "plan": "A3",
+   "texte": "N'ONT PAS"
+  },
+  {
+   "plan": "A3",
+   "texte": "TITUBÉ"
+  },
+  {
+   "plan": "B1",
+   "texte": "SANCTIONNÉ."
+  },
+  {
+   "plan": "B1",
+   "texte": "INTIMIDÉ."
+  },
+  {
+   "plan": "B2",
+   "texte": "MENACÉ."
+  },
+  {
+   "plan": "B2",
+   "texte": "MOQUÉ."
+  },
+  {
+   "plan": "B3",
+   "texte": "MAIS MOI AU MOINS"
+  },
+  {
+   "plan": "B4",
+   "texte": "MES VALEURS N'ONT PAS TITUBÉ."
+  },
+  {
+   "plan": "FIN",
+   "texte": "SÉBASTIEN"
+  },
+  {
+   "plan": "FIN",
+   "texte": "DELOGU"
+  }
+ ],
+ "video": [
+  {
+   "id": "A1",
+   "clip": "R6_A1.mov",
+   "folder": "genR6",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R6/out/R6_A1.mov",
+   "s": 0,
+   "e": 107,
+   "rec": 0,
+   "dur": 107,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2025 — QAG Gaza, son direct : « J'ai été sanctionné, intimidé, menacé », Delogu détouré seul (instance) sur fond cobalt, double tirage tramé jaune, hémicycle en photo",
+   "kind": "cut",
+   "temps": 5.83,
+   "source": {
+    "fichier": "lot3/sources/A8-delogu-qag-gaza-2025.mp4",
+    "in_s": 5.31,
+    "out_s": 8.877,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=gEZLJe_uJUs",
+    "contexte": "QAG Gaza, 28/05/2025 (chaîne La France insoumise à l'Assemblée nationale)",
+    "youtube_t": 5.3
+   },
+   "photos": [
+    {
+     "fichier": "lot3/sources/A8-delogu-qag-gaza-2025.mp4",
+     "in_s": 49.0,
+     "out_s": 52.57,
+     "cadre_source": [
+      0,
+      250,
+      1920,
+      790
+     ],
+     "bichromie": "cobalt",
+     "url": "https://www.youtube.com/watch?v=gEZLJe_uJUs"
+    }
+   ]
+  },
+  {
+   "id": "A2",
+   "clip": "R6_A2.mov",
+   "folder": "genR6",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R6/out/R6_A2.mov",
+   "s": 0,
+   "e": 129,
+   "rec": 107,
+   "dur": 129,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "même plan synchro : « et même moqué. Je vous ai vu vous moquer car je trébuchais sur des mots », 3 tableaux qui se remplacent, hémicycle 2024 en photo bleue",
+   "kind": "cut",
+   "temps": 7.02,
+   "source": {
+    "fichier": "lot3/sources/A8-delogu-qag-gaza-2025.mp4",
+    "in_s": 8.877,
+    "out_s": 13.177,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=gEZLJe_uJUs",
+    "contexte": "QAG Gaza, 28/05/2025 (chaîne La France insoumise à l'Assemblée nationale)",
+    "youtube_t": 8.9
+   },
+   "photos": [
+    {
+     "fichier": "lot3/sources/A8-delogu-drapeau-lfian.mp4",
+     "in_s": 161.0,
+     "out_s": 165.3,
+     "cadre_source": [
+      60,
+      280,
+      1860,
+      1000
+     ],
+     "bichromie": "bleu",
+     "url": "https://www.youtube.com/watch?v=iHBkHUaUUTc"
+    }
+   ]
+  },
+  {
+   "id": "A3",
+   "clip": "R6_A3.mov",
+   "folder": "genR6",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R6/out/R6_A3.mov",
+   "s": 0,
+   "e": 70,
+   "rec": 236,
+   "dur": 70,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "même plan synchro : « mais moi au moins, mes valeurs n'ont pas titubé » ; les photos du meeting des quartiers Nord se collent derrière lui (du quartier à l'Assemblée)",
+   "kind": "cut",
+   "temps": 3.81,
+   "source": {
+    "fichier": "lot3/sources/A8-delogu-qag-gaza-2025.mp4",
+    "in_s": 13.177,
+    "out_s": 15.51,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=gEZLJe_uJUs",
+    "contexte": "QAG Gaza, 28/05/2025 (chaîne La France insoumise à l'Assemblée nationale)",
+    "youtube_t": 13.2
+   },
+   "photos": [
+    {
+     "fichier": "lot3/sources/A8-delogu-quartiers-nord-b.mp4",
+     "in_s": 284.0,
+     "out_s": 286.33,
+     "cadre_source": [
+      0,
+      200,
+      1920,
+      1080
+     ],
+     "bichromie": "jaune",
+     "url": "https://www.youtube.com/watch?v=oKStIbwdqHc"
+    },
+    {
+     "fichier": "lot3/sources/A8-delogu-quartiers-nord-b.mp4",
+     "in_s": 241.0,
+     "out_s": 243.33,
+     "cadre_source": [
+      0,
+      150,
+      1920,
+      1080
+     ],
+     "bichromie": "jaune",
+     "url": "https://www.youtube.com/watch?v=oKStIbwdqHc"
+    }
+   ]
+  },
+  {
+   "id": "B1",
+   "clip": "R6_B1.mov",
+   "folder": "genR6",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R6/out/R6_B1.mov",
+   "s": 0,
+   "e": 37,
+   "rec": 306,
+   "dur": 37,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — meeting Quartiers Nord, gros plan intense : silhouette blanche 3 images (flash du drop) puis Delogu détouré en couleur, contour autocollant, double tirage tramé bleu",
+   "kind": "sil",
+   "temps": 2.01,
+   "source": {
+    "fichier": "lot3/sources/A8-delogu-quartiers-nord-b.mp4",
+    "in_s": 414.0,
+    "out_s": 415.233,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=oKStIbwdqHc",
+    "contexte": "meeting Quartiers Nord, 08/02/2026 (chaîne Sébastien Delogu)",
+    "youtube_t": 5654.0
+   }
+  },
+  {
+   "id": "B2",
+   "clip": "R6_B2.mov",
+   "folder": "genR6",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R6/out/R6_B2.mov",
+   "s": 0,
+   "e": 36,
+   "rec": 343,
+   "dur": 36,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "collage : la salle des quartiers Nord (drapeaux) et l'hémicycle se superposent, une photo par temps, sur fond cobalt",
+   "kind": "collage",
+   "temps": 1.96,
+   "photos": [
+    {
+     "fichier": "lot3/sources/A8-delogu-quartiers-nord-b.mp4",
+     "in_s": 432.5,
+     "out_s": 433.7,
+     "cadre_source": [
+      0,
+      120,
+      1920,
+      1080
+     ],
+     "bichromie": "jaune",
+     "url": "https://www.youtube.com/watch?v=oKStIbwdqHc"
+    },
+    {
+     "fichier": "lot3/sources/A8-delogu-drapeau-lfian.mp4",
+     "in_s": 163.0,
+     "out_s": 164.2,
+     "cadre_source": [
+      60,
+      280,
+      1860,
+      1000
+     ],
+     "bichromie": "ciel",
+     "url": "https://www.youtube.com/watch?v=iHBkHUaUUTc"
+    },
+    {
+     "fichier": "lot3/sources/A8-delogu-quartiers-nord-b.mp4",
+     "in_s": 288.0,
+     "out_s": 289.2,
+     "cadre_source": [
+      0,
+      200,
+      1920,
+      1080
+     ],
+     "bichromie": "jaune",
+     "url": "https://www.youtube.com/watch?v=oKStIbwdqHc"
+    }
+   ]
+  },
+  {
+   "id": "B3",
+   "clip": "R6_B3.mov",
+   "folder": "genR6",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R6/out/R6_B3.mov",
+   "s": 0,
+   "e": 37,
+   "rec": 379,
+   "dur": 37,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2025 — lancement de campagne à Marseille, au pupitre : détouré sur fond ciel + feuille jaune déchirée, hémicycle tramé derrière",
+   "kind": "cut",
+   "temps": 2.01,
+   "source": {
+    "fichier": "lot3/sources/A8-delogu-lancement-a.mp4",
+    "in_s": 12.0,
+    "out_s": 13.233,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=jJa6EONNokI",
+    "contexte": "lancement de campagne, Marseille, 08/12/2025 (chaîne Sébastien Delogu)",
+    "youtube_t": 1062.0
+   },
+   "photos": [
+    {
+     "fichier": "lot3/sources/A8-delogu-qag-gaza-2025.mp4",
+     "in_s": 50.5,
+     "out_s": 51.73,
+     "cadre_source": [
+      0,
+      250,
+      1920,
+      790
+     ],
+     "bichromie": "cobalt",
+     "url": "https://www.youtube.com/watch?v=gEZLJe_uJUs"
+    }
+   ]
+  },
+  {
+   "id": "B4",
+   "clip": "R6_B4.mov",
+   "folder": "genR6",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R6/out/R6_B4.mov",
+   "s": 0,
+   "e": 37,
+   "rec": 416,
+   "dur": 37,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2025 — QAG Gaza (fin de la question, sans le son) : l'Assemblée devant les photos bleues de la salle des quartiers Nord",
+   "kind": "cut",
+   "temps": 2.01,
+   "source": {
+    "fichier": "lot3/sources/A8-delogu-qag-gaza-2025.mp4",
+    "in_s": 112.0,
+    "out_s": 113.233,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=gEZLJe_uJUs",
+    "contexte": "QAG Gaza, 28/05/2025 (chaîne La France insoumise à l'Assemblée nationale)",
+    "youtube_t": 112.0
+   },
+   "photos": [
+    {
+     "fichier": "lot3/sources/A8-delogu-quartiers-nord-b.mp4",
+     "in_s": 241.5,
+     "out_s": 242.73,
+     "cadre_source": [
+      0,
+      150,
+      1920,
+      1080
+     ],
+     "bichromie": "bleu",
+     "url": "https://www.youtube.com/watch?v=oKStIbwdqHc"
+    },
+    {
+     "fichier": "lot3/sources/A8-delogu-quartiers-nord-b.mp4",
+     "in_s": 433.0,
+     "out_s": 434.23,
+     "cadre_source": [
+      0,
+      120,
+      1920,
+      1080
+     ],
+     "bichromie": "bleu",
+     "url": "https://www.youtube.com/watch?v=oKStIbwdqHc"
+    }
+   ]
+  },
+  {
+   "id": "B5",
+   "clip": "R6_B5.mov",
+   "folder": "genR6",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R6/out/R6_B5.mov",
+   "s": 0,
+   "e": 37,
+   "rec": 453,
+   "dur": 37,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "collage qui se remplit photo après photo (demi-temps) : hémicycle, salle des quartiers Nord, hémicycle, drapeaux — du quartier à l'Assemblée",
+   "kind": "collage",
+   "temps": 2.01,
+   "photos": [
+    {
+     "fichier": "lot3/sources/A8-delogu-qag-gaza-2025.mp4",
+     "in_s": 51.5,
+     "out_s": 52.73,
+     "cadre_source": [
+      0,
+      250,
+      1920,
+      790
+     ],
+     "bichromie": "cobalt",
+     "url": "https://www.youtube.com/watch?v=gEZLJe_uJUs"
+    },
+    {
+     "fichier": "lot3/sources/A8-delogu-quartiers-nord-b.mp4",
+     "in_s": 285.5,
+     "out_s": 286.73,
+     "cadre_source": [
+      0,
+      200,
+      1920,
+      1080
+     ],
+     "bichromie": "jaune",
+     "url": "https://www.youtube.com/watch?v=oKStIbwdqHc"
+    },
+    {
+     "fichier": "lot3/sources/A8-delogu-drapeau-lfian.mp4",
+     "in_s": 165.0,
+     "out_s": 166.23,
+     "cadre_source": [
+      60,
+      280,
+      1860,
+      1000
+     ],
+     "bichromie": "bleu",
+     "url": "https://www.youtube.com/watch?v=iHBkHUaUUTc"
+    },
+    {
+     "fichier": "lot3/sources/A8-delogu-quartiers-nord-b.mp4",
+     "in_s": 434.0,
+     "out_s": 435.23,
+     "cadre_source": [
+      0,
+      120,
+      1920,
+      1080
+     ],
+     "bichromie": "jaune",
+     "url": "https://www.youtube.com/watch?v=oKStIbwdqHc"
+    }
+   ]
+  },
+  {
+   "id": "B6",
+   "clip": "R6_B6.mov",
+   "folder": "genR6",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R6/out/R6_B6.mov",
+   "s": 0,
+   "e": 36,
+   "rec": 490,
+   "dur": 36,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — meeting Quartiers Nord, grand sourire (sans parole) : silhouette blanche 3 images puis Delogu en couleur sur fond cobalt, double tirage tramé jaune",
+   "kind": "sil",
+   "temps": 1.96,
+   "source": {
+    "fichier": "lot3/sources/A8-delogu-quartiers-nord-a.mp4",
+    "in_s": 195.6,
+    "out_s": 196.8,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=oKStIbwdqHc",
+    "contexte": "meeting Quartiers Nord, liste Marseille fière et populaire, 08/02/2026 (chaîne Sébastien Delogu)",
+    "youtube_t": 4875.6
+   },
+   "photos": [
+    {
+     "fichier": "lot3/sources/A8-delogu-quartiers-nord-b.mp4",
+     "in_s": 289.0,
+     "out_s": 290.2,
+     "cadre_source": [
+      0,
+      200,
+      1920,
+      1080
+     ],
+     "bichromie": "jaune",
+     "url": "https://www.youtube.com/watch?v=oKStIbwdqHc"
+    }
+   ]
+  },
+  {
+   "id": "FIN",
+   "clip": "R6_FIN.mov",
+   "folder": "genR6",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R6/out/R6_FIN.mov",
+   "s": 0,
+   "e": 60,
+   "rec": 526,
+   "dur": 60,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "carton final propre (papier, bleu + jaune) : son nom et ses mots, pas de CTA",
+   "kind": "card",
+   "temps": 3.27
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "R6-mix.wav",
+   "folder": "genR6",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot6/_claude/gen/R6/out/R6-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS : voix QAG 5.53-15.42 s (+4 dB) à 0.22 s ; Djadja dès 77.986 s du complet, -19 dB sous la voix (pont sans basse), montée, plein au drop, fondu de fin 0,4 s"
+  }
+ ],
+ "stems": [
+  "lot6/_claude/gen/R6/out/R6-voix.wav",
+  "lot6/_claude/gen/R6/out/R6-musique.wav"
+ ],
+ "logos_exclus": "QAG : logo LFI, chrono AN et sous-titres incrustés hors des fenêtres (détourage et photos) ; hémicycle 2024 : logo et chrono hors cadre photo ; meetings : fond rouge, affiches et logo LFI supprimés par le détourage"
+}

@@ -1,0 +1,55 @@
+{
+ "id": "C6",
+ "titre": "Bolide allemand",
+ "artiste": "SDM",
+ "url": "https://youtu.be/WcX37NouKxw",
+ "chaine": "SDM Officiel (SDM - BOLIDE ALLEMAND 1/2 (Clip Officiel), 193 M vues)",
+ "fichier": "lot4/sons/C6-sdm-bolide-allemand_complet.wav",
+ "extrait": {
+  "debut_s": 58.435,
+  "fin_s": 77.6,
+  "timeline_0_s": 58.435
+ },
+ "bpm": 132.6,
+ "bpm_note": "trap en demi-temps : temps de 0,905 s (66,3 BPM ressenti), mesure ≈ 3,62 s",
+ "drop": {
+  "complet_s": 68.16,
+  "timeline_s": 9.725,
+  "note": "attaque 808 (score 34,5) sur « Sortie d'… », 1er temps du 1er refrain, juste après le break 66,5-67,7 s où tombe la fin de la phrase"
+ },
+ "frappes_utilisees_complet_s": [
+  60.32,
+  62.505,
+  64.745,
+  66.525,
+  68.16,
+  69.955,
+  71.775,
+  73.59,
+  75.415
+ ],
+ "frappes_timeline_s": [
+  1.885,
+  4.07,
+  6.31,
+  8.09,
+  9.725,
+  11.52,
+  13.34,
+  15.155,
+  16.98
+ ],
+ "coupes_images_timeline": [
+  56,
+  123,
+  190,
+  243,
+  292,
+  346,
+  400,
+  455,
+  510
+ ],
+ "paroles_audibles": "sous la voix (passe-bas 1,2 kHz, -11 -> -5 dB) : fin du couplet « Maintenant ça va, j'encule la vie d'avant / J'ai qu'moi puis la télé… sur l'divan / Et derrière j'suis devant » ; puis plein, refrain : « Sortie d'… c'est bon j'suis plus là, à l'affût, un, deux, j'ai les porcs dans l'rétro, trois, quatre, sortie d'… j'suis dans l'bolide allemand » (transcription Whisper, à vérifier)",
+ "mesure": "temps_forts.py (lot2/_claude/gen/C1) sur le morceau complet ; vérif sur l'export par verif.py (écart max 15 ms)"
+}

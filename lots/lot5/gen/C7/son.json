@@ -1,0 +1,58 @@
+{
+ "id": "C7",
+ "titre": "POWER",
+ "artiste": "Kanye West",
+ "url": "https://www.youtube.com/watch?v=L53gjP-TtGE",
+ "chaine": "Kanye West (@KanyeWestVEVO, clip officiel « Kanye West - POWER », 1:42, 161 M vues)",
+ "fichier": "lot5/sons/C7-kanye-power_complet.wav",
+ "extrait": {
+  "debut_s": 15.834,
+  "fin_s": 34.49,
+  "timeline_0_s": 15.834
+ },
+ "bpm": 76.9,
+ "bpm_note": "temps de 0,78 s mesuré sur les attaques du refrain (26,705 / 27,46 / 28,24 / 31,36 / 33,695 / 34,49)",
+ "drop": {
+  "complet_s": 25.12,
+  "timeline_s": 9.286,
+  "note": "attaque score 20,9 + entrée de la basse après le trou 24,75-25,0 s, sur « No one man should have all that power » (1er refrain)"
+ },
+ "frappes_utilisees_complet_s": [
+  17.945,
+  20.075,
+  22.015,
+  23.43,
+  25.12,
+  26.705,
+  28.24,
+  29.6,
+  31.36,
+  32.72
+ ],
+ "frappes_timeline_s": [
+  2.111,
+  4.241,
+  6.181,
+  7.596,
+  9.286,
+  10.871,
+  12.406,
+  13.766,
+  15.526,
+  16.886
+ ],
+ "coupes_images_timeline": [
+  63,
+  127,
+  186,
+  228,
+  279,
+  326,
+  372,
+  413,
+  466,
+  507
+ ],
+ "paroles_audibles": "sous la voix (passe-bas 1,2 kHz, -11 -> -5 dB) : fin du couplet « Do it better than anybody you've ever seen do it / Screams from the haters, got a nice ring to it / I guess every superhero need his theme music » ; puis plein, refrain : « No one man should have all that power / The clock's ticking, I just count the hours / Stop tripping, I'm tripping off the power » (Whisper, tx/power.json)",
+ "mesure": "temps_forts.py (lot2/_claude/gen/C1) sur le morceau complet ; vérif sur l'export (verif.py) et sur le stem musique : écart max 15 ms"
+}

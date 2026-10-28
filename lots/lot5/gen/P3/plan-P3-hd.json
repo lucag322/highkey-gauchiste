@@ -1,0 +1,181 @@
+{
+ "name": "P3 - Portrait - Bompard",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 15.0,
+ "note": "Lot 5, recette caiden.agr (portrait) comme lot3/P1 et lot4/P2 : hook lent en voix diégétique synchro (QAG LCP 20/10/2026, angles de la captation d'origine), drop après « réponse politique » puis arrivée dans la foule à Angoulême / plateau C à vous / pupitre / Internationale en coupes sèches sur les frappes réelles, aucun texte. Plans ProRes 9:16 30 i/s prêts, aucun ralenti (speed_pct 100). Générateur : lot5/_claude/gen/P3/genP3.py",
+ "musique": {
+  "fichier": "lot5/sons/P3-chief-keef-i-dont-like_complet.wav",
+  "debut_extrait_s": 31.251,
+  "fin_extrait_s": 46.251,
+  "drop_timeline_s": 5.667,
+  "coupes_timeline_s": [
+   3.0,
+   5.667,
+   7.933,
+   10.0,
+   12.033
+  ],
+  "sous_la_voix": "passe-bas 450 Hz -9 dB, s'ouvre de 3,6 s au drop (montée), plein au drop"
+ },
+ "phrase": {
+  "source": "https://youtu.be/6KmW4swF4Uk?t=64 (QAG LCP 20/10/2026, 64,92-69,90 s de la vidéo)",
+  "texte": "Il n'y a pas d'autre réponse à une crise politique qu'une réponse politique.",
+  "timeline_s": [
+   0.24,
+   5.22
+  ]
+ },
+ "video": [
+  {
+   "id": "A",
+   "clip": "P3_A.mov",
+   "folder": "P3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/P3/out/P3_A.mov",
+   "s": 0,
+   "e": 90,
+   "clip_fps": 30,
+   "rec": 0,
+   "dur": 90,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "hook : à son banc, gros plan, voix synchro « Il n'y a pas d'autre réponse à une crise politique »",
+   "source": {
+    "fichier": "lot1/sources/2-bompard-nunez-qag.mp4",
+    "in_s": 64.68,
+    "out_s": 67.64,
+    "youtube": "https://youtu.be/6KmW4swF4Uk?t=64",
+    "desc": "LCP - Assemblée nationale, QAG 20/10/2026, Bompard face à Laurent Nuñez (déjà au lot 1 ; phrase et plans 64,7-70,9 s jamais utilisés)"
+   },
+   "effets": "recadrage 9:16 suivi visage, poussée x1.00 -> x1.03, étalonnage naturel chaud",
+   "coupe_sur_frappe_s": 0.0
+  },
+  {
+   "id": "B",
+   "clip": "P3_B.mov",
+   "folder": "P3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/P3/out/P3_B.mov",
+   "s": 0,
+   "e": 80,
+   "clip_fps": 30,
+   "rec": 90,
+   "dur": 80,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "hook : plan large LCP, seul debout dans l'hémicycle, voix synchro « qu'une réponse politique »",
+   "source": {
+    "fichier": "lot1/sources/2-bompard-nunez-qag.mp4",
+    "in_s": 67.68,
+    "out_s": 70.347,
+    "youtube": "https://youtu.be/6KmW4swF4Uk?t=67",
+    "desc": "LCP - Assemblée nationale, QAG 20/10/2026, Bompard face à Laurent Nuñez (déjà au lot 1 ; phrase et plans 64,7-70,9 s jamais utilisés)"
+   },
+   "effets": "recadrage 9:16 suivi visage, poussée x1.00 -> x1.03, étalonnage naturel chaud",
+   "coupe_sur_frappe_s": 3.0
+  },
+  {
+   "id": "E",
+   "clip": "P3_E.mov",
+   "folder": "P3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/P3/out/P3_E.mov",
+   "s": 0,
+   "e": 68,
+   "clip_fps": 30,
+   "rec": 170,
+   "dur": 68,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "drop : arrivée à Angoulême au milieu du public qui applaudit (caméra épaule)",
+   "source": {
+    "fichier": "lot5/sources/P3-bompard-angouleme-arrivee.mp4",
+    "in_s": 3.1,
+    "out_s": 5.367,
+    "youtube": "https://youtu.be/ATRtW3ULK1U?t=1839",
+    "desc": "La France insoumise, réunion publique à Angoulême avec Manuel Bompard (30/09/2026), arrivée dans la salle, caméra épaule"
+   },
+   "effets": "recadrage 9:16 suivi visage, poussée x1.00 -> x1.04, étalonnage naturel chaud",
+   "coupe_sur_frappe_s": 5.667
+  },
+  {
+   "id": "F",
+   "clip": "P3_F.mov",
+   "folder": "P3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/P3/out/P3_F.mov",
+   "s": 0,
+   "e": 62,
+   "clip_fps": 30,
+   "rec": 238,
+   "dur": 62,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "plateau TV (C à vous), gros plan, il explique les mains ouvertes",
+   "source": {
+    "fichier": "lot5/sources/P3-bompard-cavous-plateau.mp4",
+    "in_s": 48.0,
+    "out_s": 50.067,
+    "youtube": "https://youtu.be/Ri9XYs1F98U?t=58",
+    "desc": "C à vous - France Télévisions (06/10/2026), « Lycées : Manuel Bompard dans la manifestation à Paris », plateau"
+   },
+   "effets": "recadrage 9:16 suivi visage, poussée x1.00 -> x1.04, étalonnage naturel chaud",
+   "coupe_sur_frappe_s": 7.933
+  },
+  {
+   "id": "G",
+   "clip": "P3_G.mov",
+   "folder": "P3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/P3/out/P3_G.mov",
+   "s": 0,
+   "e": 61,
+   "clip_fps": 30,
+   "rec": 300,
+   "dur": 61,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "pupitre d'Angoulême, geste ample",
+   "source": {
+    "fichier": "lot5/sources/P3-bompard-angouleme-pupitre.mp4",
+    "in_s": 13.37,
+    "out_s": 15.4,
+    "youtube": "https://youtu.be/ATRtW3ULK1U?t=1885",
+    "desc": "La France insoumise, réunion publique à Angoulême (30/09/2026), au pupitre"
+   },
+   "effets": "recadrage 9:16 suivi visage, poussée x1.00 -> x1.04, étalonnage naturel chaud",
+   "coupe_sur_frappe_s": 10.0
+  },
+  {
+   "id": "H",
+   "clip": "P3_H.mov",
+   "folder": "P3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/P3/out/P3_H.mov",
+   "s": 0,
+   "e": 89,
+   "clip_fps": 30,
+   "rec": 361,
+   "dur": 89,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "fin : sur scène, il chante l'Internationale avec les insoumis, poings levés autour ; fondu au noir 0,6 s",
+   "source": {
+    "fichier": "lot5/sources/P3-bompard-angouleme-final.mp4",
+    "in_s": 53.9,
+    "out_s": 56.867,
+    "youtube": "https://youtu.be/ATRtW3ULK1U?t=4685",
+    "desc": "La France insoumise, réunion publique à Angoulême (30/09/2026), Internationale sur scène"
+   },
+   "effets": "recadrage 9:16 suivi visage, poussée x1.00 -> x1.04, étalonnage naturel chaud, fondu au noir 0,6 s cuit",
+   "coupe_sur_frappe_s": 12.033
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "P3-mix.wav",
+   "folder": "P3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/P3/out/P3-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix final -14 LUFS : voix 0.24-5.22 s sur le morceau étouffé qui monte, morceau plein au drop 5.667 s, fondu de fin"
+  }
+ ]
+}

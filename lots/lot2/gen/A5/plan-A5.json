@@ -1,0 +1,200 @@
+{
+ "name": "A5 - Aura N&B - Bally Bagayoko",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 14.899,
+ "note": "Plans 9:16 recadrés + étalonnés N&B (lot2/_claude/gen/A5/out), vitesse normale. s/e en images du clip (30 i/s), rec en images timeline. speed_pct : ralenti Resolve Optical Flow + Speed Warp (aperçu = setpts simple). Coupes sur les temps (68,5 BPM, 0,876 s), drop 808 à 4,38 s.",
+ "phrase": {
+  "texte": "Eh oui, on va gagner !",
+  "source": "lot2/sources/A5b-bagayoko-meeting-b.mp4 17,12-18,56 s, clameur jusqu'à 20,3 s (YouTube 1dkY_JVFx9I, chaîne officielle JLM, meeting de Saint-Denis 07/06/2026)",
+  "timeline_s": [
+   2.5,
+   3.94
+  ]
+ },
+ "video": [
+  {
+   "id": "hook",
+   "clip": "A5_aura_intro.mov",
+   "folder": "genA5",
+   "s": 0,
+   "e": 53,
+   "rec": 0,
+   "track": 1,
+   "kind": "card"
+  },
+  {
+   "id": "long_53",
+   "clip": "A5_long_cut.mov",
+   "folder": "genA5",
+   "s": 0,
+   "e": 78,
+   "rec": 53,
+   "track": 1,
+   "kind": "shot",
+   "source": "lot2/sources/A5b-bagayoko-meeting-b.mp4 @ 16.37 s",
+   "effet": "cut",
+   "temps": 3,
+   "pourquoi": "« Eh oui, on va gagner ! » gros plan au pupitre SAINT-DENIS, son synchrone, la foule hurle après",
+   "texte": "CE / COMBAT (rouge) · NOUS ALLONS / LE GAGNER (mot à mot, Arial Black)"
+  },
+  {
+   "id": "foule_131",
+   "clip": "A5_foule_drop.mov",
+   "folder": "genA5",
+   "s": 0,
+   "e": 27,
+   "rec": 131,
+   "track": 1,
+   "kind": "shot",
+   "source": "lot2/sources/A5b-bagayoko-meeting-b.mp4 @ 3.00 s",
+   "effet": "drop",
+   "temps": 1,
+   "pourquoi": "place noire de monde devant l'hôtel de ville"
+  },
+  {
+   "id": "sourire_158",
+   "clip": "A5_sourire_whip.mov",
+   "folder": "genA5",
+   "s": 0,
+   "e": 26,
+   "rec": 158,
+   "track": 1,
+   "kind": "shot",
+   "source": "lot2/sources/A5b-bagayoko-meeting-c.mp4 @ 39.30 s",
+   "effet": "whip",
+   "temps": 1,
+   "pourquoi": "sourire, main levée vers la foule"
+  },
+  {
+   "id": "place_184",
+   "clip": "A5_place_whip.mov",
+   "folder": "genA5",
+   "s": 0,
+   "e": 26,
+   "rec": 184,
+   "track": 1,
+   "kind": "shot",
+   "source": "lot2/sources/A5b-bagayoko-meeting-c.mp4 @ 25.00 s",
+   "effet": "whip",
+   "temps": 1,
+   "pourquoi": "foule en liesse, drapeaux"
+  },
+  {
+   "id": "pupitre_210",
+   "clip": "A5_pupitre_whip.mov",
+   "folder": "genA5",
+   "s": 0,
+   "e": 27,
+   "rec": 210,
+   "track": 1,
+   "kind": "shot",
+   "source": "lot2/sources/A5b-bagayoko-meeting-c.mp4 @ 50.30 s",
+   "effet": "whip",
+   "temps": 1,
+   "pourquoi": "au pupitre, regard sur la foule"
+  },
+  {
+   "id": "dos_237",
+   "clip": "A5_dos_cut.mov",
+   "folder": "genA5",
+   "s": 0,
+   "e": 52,
+   "rec": 237,
+   "track": 1,
+   "kind": "shot",
+   "source": "lot2/sources/A5b-bagayoko-meeting-b.mp4 @ 29.60 s",
+   "effet": "cut",
+   "temps": 2,
+   "pourquoi": "de dos au pupitre face à la mer de drapeaux",
+   "speed_pct": 60,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "aura_289",
+   "clip": "A5_aura.mov",
+   "folder": "genA5",
+   "s": 0,
+   "e": 27,
+   "rec": 289,
+   "track": 1,
+   "kind": "card"
+  },
+  {
+   "id": "pointe_316",
+   "clip": "A5_pointe_drop.mov",
+   "folder": "genA5",
+   "s": 0,
+   "e": 26,
+   "rec": 316,
+   "track": 1,
+   "kind": "shot",
+   "source": "lot2/sources/A5b-bagayoko-meeting-c.mp4 @ 42.00 s",
+   "effet": "drop",
+   "temps": 1,
+   "pourquoi": "index levé, éclat de rire"
+  },
+  {
+   "id": "basilique_342",
+   "clip": "A5_basilique_whip.mov",
+   "folder": "genA5",
+   "s": 0,
+   "e": 26,
+   "rec": 342,
+   "track": 1,
+   "kind": "shot",
+   "source": "lot2/sources/A5b-bagayoko-meeting-b.mp4 @ 23.00 s",
+   "effet": "whip",
+   "temps": 1,
+   "pourquoi": "place pleine devant la basilique"
+  },
+  {
+   "id": "rire_368",
+   "clip": "A5_rire_whip.mov",
+   "folder": "genA5",
+   "s": 0,
+   "e": 26,
+   "rec": 368,
+   "track": 1,
+   "kind": "shot",
+   "source": "lot2/sources/A5b-bagayoko-meeting-c.mp4 @ 38.40 s",
+   "effet": "whip",
+   "temps": 1,
+   "pourquoi": "sourire de face, seul au pupitre"
+  },
+  {
+   "id": "fin",
+   "clip": "A5_aura_fin.mov",
+   "folder": "genA5",
+   "s": 0,
+   "e": 53,
+   "rec": 394,
+   "track": 1,
+   "kind": "card"
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "A5-mix.wav",
+   "folder": "genA5",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS"
+  }
+ ],
+ "musique": {
+  "fichier": "lot2/sons/A5-freeze-rael.wav",
+  "debut_dans_extrait_s": 1.842,
+  "debut_dans_complet_s": 52.092,
+  "gain_db": -3.6,
+  "titre": "Freeze Raël - Freeze Corleone (https://www.youtube.com/watch?v=_Zey1wgfA-c)"
+ },
+ "stems": [
+  "lot2/_claude/gen/A5/out/A5-voix.wav",
+  "lot2/_claude/gen/A5/out/A5-musique.wav"
+ ],
+ "logos_exclus": "filigrane MELENCHON2027.fr (fenêtre x <= 1570), logo LE MÉDIA en haut à gauche (fenêtre x >= 380)",
+ "version": "v2 (sources A5b) ; v1 refusée : plan-A5_v1.json"
+}

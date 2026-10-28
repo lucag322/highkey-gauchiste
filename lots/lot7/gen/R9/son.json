@@ -1,0 +1,70 @@
+{
+ "id": "R9",
+ "titre": "Meuda",
+ "artiste": "Tiakola",
+ "url": "https://www.youtube.com/watch?v=Qq7Q6CLCfvs",
+ "chaine": "TIAKOLA (chaîne officielle certifiée, « Tiakola - Meuda (Clip officiel) »)",
+ "fichier": "lot7/sons/R9-tiakola-meuda_complet.wav",
+ "extrait_complet_s": {
+  "debut": 23.877,
+  "fin": 42.877
+ },
+ "paroles_audibles": "aucune parole écrite (consigne Luca) : sous la phrase, fin du 1er couplet (partie guitare sans basse, baissée) ; au drop, le 1er refrain (32,74-42,88 s du morceau, entrée de la basse 808)",
+ "bpm": 142.0,
+ "temps_s": 0.4225,
+ "structure_s": {
+  "partie_sans_basse": [
+   0,
+   32.7
+  ],
+  "refrain_1": [
+   32.74,
+   56.5
+  ],
+  "refrain_2": [
+   86.1,
+   110.6
+  ],
+  "refrain_3_partiel": [
+   141.6,
+   151.5
+  ]
+ },
+ "drop": {
+  "complet_s": 32.7398,
+  "timeline_s": 8.8628,
+  "nature": "entrée de la basse 808 sur le 1er refrain (le refrain revient à 86 s et 141 s du morceau)"
+ },
+ "frappes_timeline_s": [
+  1.0465,
+  1.6793,
+  2.9783,
+  5.5048,
+  8.8623,
+  9.2991,
+  9.7066,
+  11.1967,
+  11.5031,
+  12.243,
+  12.8772,
+  14.3551,
+  14.8496,
+  15.5958,
+  16.4686,
+  17.1482,
+  18.3691,
+  19.0034
+ ],
+ "coupes_sur_frappes_s": [
+  2.9783,
+  5.5048,
+  8.8628,
+  11.398,
+  12.243,
+  13.0872,
+  14.3558,
+  15.5958,
+  16.4686
+ ],
+ "mix": "lot7/_claude/gen/R9/out/R9-mix.wav"
+}

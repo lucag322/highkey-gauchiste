@@ -1,0 +1,515 @@
+{
+ "name": "K1 - Karaoké discours - Boyard",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 22.433,
+ "note": "Plans ProRes 1080x1920 30 i/s prêts (recadrés, étalonnés, sous-titres cuits). Aucun ralenti. Générateur : lot3/_claude/gen/K1/genK1.py ; calage : timing.py",
+ "phrase": {
+  "texte": "La jeunesse vient de prendre conscience d'elle-même. Vous avez été trop loin. Elle s'est déjà trop sacrifiée pour reculer maintenant. Alors, monsieur le ministre de l'Éducation nationale, acceptez que vous avez perdu, que les jeunes ont raison depuis le début.",
+  "source_url": "https://www.youtube.com/watch?v=clLUMRlLyPc",
+  "in_s_url": 94.28,
+  "out_s_url": 107.66,
+  "chaine": "LCP - Assemblée nationale",
+  "date": "2026-10-06",
+  "blocs_voix_timeline": [
+   {
+    "url_in": 94.24,
+    "url_out": 101.76,
+    "timeline_in": 1.12
+   },
+   {
+    "url_in": 102.0,
+    "url_out": 104.1,
+    "timeline_in": 8.83
+   },
+   {
+    "url_in": 104.2,
+    "url_out": 105.98,
+    "timeline_in": 11.2
+   },
+   {
+    "url_in": 106.04,
+    "url_out": 107.78,
+    "timeline_in": 13.34
+   }
+  ]
+ },
+ "textes": {
+  "police": "Avenir Next Heavy Italic",
+  "couleur": "#FFD700",
+  "taille": "jusqu'à 150 px (1 à 3 lignes, bloc ≤ 58 % de large)",
+  "position": "bas-centre, bas du bloc à 71,5 % (zone sûre TikTok)",
+  "contour": "sombre net + ombre douce, pas de fond",
+  "guillemets": "aucun",
+  "fragments": [
+   {
+    "t0": 1.16,
+    "t1": 1.9,
+    "texte": "La jeunesse"
+   },
+   {
+    "t0": 1.9,
+    "t1": 3.3,
+    "texte": "vient de prendre conscience"
+   },
+   {
+    "t0": 3.3,
+    "t1": 3.98,
+    "texte": "d’elle-même"
+   },
+   {
+    "t0": 3.98,
+    "t1": 4.82,
+    "texte": "Vous avez été"
+   },
+   {
+    "t0": 4.82,
+    "t1": 6.139,
+    "texte": "trop loin"
+   },
+   {
+    "t0": 6.139,
+    "t1": 6.655,
+    "texte": "Elle s’est déjà"
+   },
+   {
+    "t0": 6.655,
+    "t1": 7.663,
+    "texte": "trop sacrifiée"
+   },
+   {
+    "t0": 7.663,
+    "t1": 8.18,
+    "texte": "pour reculer"
+   },
+   {
+    "t0": 8.18,
+    "t1": 8.692,
+    "texte": "maintenant"
+   },
+   {
+    "t0": 8.692,
+    "t1": 9.713,
+    "texte": "Alors monsieur le ministre"
+   },
+   {
+    "t0": 9.713,
+    "t1": 11.241,
+    "texte": "de l’Éducation nationale"
+   },
+   {
+    "t0": 11.241,
+    "t1": 13.279,
+    "texte": "acceptez que vous avez perdu"
+   },
+   {
+    "t0": 13.279,
+    "t1": 14.299,
+    "texte": "que les jeunes ont raison"
+   },
+   {
+    "t0": 14.299,
+    "t1": 15.317,
+    "texte": "depuis le début"
+   }
+  ]
+ },
+ "video": [
+  {
+   "id": "O1",
+   "clip": "K1_O1.mov",
+   "folder": "genK1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/K1/out/K1_O1.mov",
+   "s": 0,
+   "e": 184,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 0,
+   "dur": 184,
+   "track": 1,
+   "note": "ouverture longue synchro : Boyard à l'Assemblée, La jeunesse ... trop loin",
+   "source": {
+    "fichier": "lot3/sources/K1-boyard-lcp-qag-2026-10.mp4",
+    "in_s": 3.12,
+    "out_s": 9.253,
+    "url": "https://www.youtube.com/watch?v=clLUMRlLyPc",
+    "temps_url_s": 93.12,
+    "chaine": "LCP - Assemblée nationale",
+    "date": "2026-10-06"
+   },
+   "effets": "recadrage 9:16 (suivi du visage, bornes [280, 0, 1450, 845]), poussée lente 1->1.12, étalonnage couleur doux + vignette + grain, sous-titres cuits"
+  },
+  {
+   "id": "F6",
+   "clip": "K1_F6.mov",
+   "folder": "genK1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/K1/out/K1_F6.mov",
+   "s": 0,
+   "e": 16,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 184,
+   "dur": 16,
+   "track": 1,
+   "note": "Elle s'est déjà : sit-in de lycéens",
+   "source": {
+    "fichier": "lot3/sources/K1-lyceens-franceinfo-2026-10.mp4",
+    "in_s": 6.55,
+    "out_s": 7.083,
+    "url": "https://www.youtube.com/watch?v=Fs3db3YZsUs",
+    "temps_url_s": 41.55,
+    "chaine": "franceinfo",
+    "date": "2026-10-12"
+   },
+   "effets": "recadrage 9:16 (centre fixe sans visage coupé, bornes [0, 0, 1920, 855]), poussée lente 1->1.06, étalonnage couleur doux + vignette + grain, sous-titres cuits"
+  },
+  {
+   "id": "F7",
+   "clip": "K1_F7.mov",
+   "folder": "genK1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/K1/out/K1_F7.mov",
+   "s": 0,
+   "e": 30,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 200,
+   "dur": 30,
+   "track": 1,
+   "note": "trop sacrifiée : CRS et lacrymogènes (Lyon, 6/10)",
+   "source": {
+    "fichier": "lot3/sources/K1-lyceens-leprogres-2026-10.mp4",
+    "in_s": 9.9,
+    "out_s": 10.9,
+    "url": "https://www.youtube.com/watch?v=VU8-H-Iy5mY",
+    "temps_url_s": 24.9,
+    "chaine": "Le Progrès (images Cebra Info)",
+    "date": "2026-10-06"
+   },
+   "effets": "recadrage 9:16 (centre fixe sans visage coupé, bornes [240, 0, 1640, 1080]), poussée lente 1->1.06, étalonnage couleur doux + vignette + grain, sous-titres cuits"
+  },
+  {
+   "id": "F8",
+   "clip": "K1_F8.mov",
+   "folder": "genK1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/K1/out/K1_F8.mov",
+   "s": 0,
+   "e": 15,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 230,
+   "dur": 15,
+   "track": 1,
+   "note": "pour reculer : cortège lycéen avec banderoles",
+   "source": {
+    "fichier": "lot3/sources/K1-lyceens-leprogres-2026-10.mp4",
+    "in_s": 39.0,
+    "out_s": 39.5,
+    "url": "https://www.youtube.com/watch?v=VU8-H-Iy5mY",
+    "temps_url_s": 54.0,
+    "chaine": "Le Progrès (images Cebra Info)",
+    "date": "2026-10-06"
+   },
+   "effets": "recadrage 9:16 (centre fixe sans visage coupé, bornes [240, 0, 1640, 1080]), poussée lente 1->1.06, étalonnage couleur doux + vignette + grain, sous-titres cuits"
+  },
+  {
+   "id": "F9",
+   "clip": "K1_F9.mov",
+   "folder": "genK1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/K1/out/K1_F9.mov",
+   "s": 0,
+   "e": 16,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 245,
+   "dur": 16,
+   "track": 1,
+   "note": "maintenant : poing levé au meeting",
+   "source": {
+    "fichier": "lot3/sources/K1-boyard-meeting-npp-a.mp4",
+    "in_s": 0.05,
+    "out_s": 0.583,
+    "url": "https://www.youtube.com/watch?v=cNkMqVnlUl0",
+    "temps_url_s": 140.05,
+    "chaine": "Louis Boyard (meeting Nouveau Paris populaire)",
+    "date": "2026-01-31"
+   },
+   "effets": "recadrage 9:16 (suivi du visage, bornes [0, 0, 1690, 1080]), poussée lente 1->1.06, étalonnage couleur doux + vignette + grain, sous-titres cuits"
+  },
+  {
+   "id": "F10",
+   "clip": "K1_F10.mov",
+   "folder": "genK1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/K1/out/K1_F10.mov",
+   "s": 0,
+   "e": 30,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 261,
+   "dur": 30,
+   "track": 1,
+   "note": "Alors monsieur le ministre : synchro, Assemblée (version LFI)",
+   "source": {
+    "fichier": "lot3/sources/K1-boyard-lfi-qag-2026-10.mp4",
+    "in_s": 101.684,
+    "out_s": 102.684,
+    "url": "https://www.youtube.com/watch?v=QbYEjxSoyww",
+    "temps_url_s": 101.68,
+    "chaine": "La France insoumise à l'Assemblée nationale",
+    "date": "2026-10-06"
+   },
+   "effets": "recadrage 9:16 (suivi du visage, bornes [270, 0, 1555, 800]), poussée lente 1->1.06, étalonnage couleur doux + vignette + grain, sous-titres cuits"
+  },
+  {
+   "id": "F11",
+   "clip": "K1_F11.mov",
+   "folder": "genK1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/K1/out/K1_F11.mov",
+   "s": 0,
+   "e": 46,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 291,
+   "dur": 46,
+   "track": 1,
+   "note": "de l'Éducation nationale : lycée bloqué (poubelles)",
+   "source": {
+    "fichier": "lot3/sources/K1-lyceens-franceinfo-2026-10.mp4",
+    "in_s": 1.5,
+    "out_s": 3.033,
+    "url": "https://www.youtube.com/watch?v=Fs3db3YZsUs",
+    "temps_url_s": 36.5,
+    "chaine": "franceinfo",
+    "date": "2026-10-12"
+   },
+   "effets": "recadrage 9:16 (centre fixe sans visage coupé, bornes [0, 0, 1920, 855]), poussée lente 1->1.06, étalonnage couleur doux + vignette + grain, sous-titres cuits"
+  },
+  {
+   "id": "F12",
+   "clip": "K1_F12.mov",
+   "folder": "genK1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/K1/out/K1_F12.mov",
+   "s": 0,
+   "e": 61,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 337,
+   "dur": 61,
+   "track": 1,
+   "note": "acceptez que vous avez perdu : bras tendu, accusateur",
+   "source": {
+    "fichier": "lot3/sources/K1-boyard-meeting-npp-b.mp4",
+    "in_s": 35.0,
+    "out_s": 37.033,
+    "url": "https://www.youtube.com/watch?v=cNkMqVnlUl0",
+    "temps_url_s": 287.0,
+    "chaine": "Louis Boyard (meeting Nouveau Paris populaire)",
+    "date": "2026-01-31"
+   },
+   "effets": "recadrage 9:16 (suivi du visage, bornes [0, 0, 1690, 1080]), poussée lente 1->1.06, étalonnage couleur doux + vignette + grain, sous-titres cuits"
+  },
+  {
+   "id": "F13",
+   "clip": "K1_F13.mov",
+   "folder": "genK1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/K1/out/K1_F13.mov",
+   "s": 0,
+   "e": 31,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 398,
+   "dur": 31,
+   "track": 1,
+   "note": "que les jeunes ont raison : lycéens bras levés",
+   "source": {
+    "fichier": "lot3/sources/K1-lyceens-franceinfo-2026-10.mp4",
+    "in_s": 50.6,
+    "out_s": 51.633,
+    "url": "https://www.youtube.com/watch?v=Fs3db3YZsUs",
+    "temps_url_s": 85.6,
+    "chaine": "franceinfo",
+    "date": "2026-10-12"
+   },
+   "effets": "recadrage 9:16 (centre fixe sans visage coupé, bornes [0, 0, 1920, 855]), poussée lente 1->1.06, étalonnage couleur doux + vignette + grain, sous-titres cuits"
+  },
+  {
+   "id": "F14",
+   "clip": "K1_F14.mov",
+   "folder": "genK1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/K1/out/K1_F14.mov",
+   "s": 0,
+   "e": 31,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 429,
+   "dur": 31,
+   "track": 1,
+   "note": "depuis le début : cortège lycéen avec pancartes",
+   "source": {
+    "fichier": "lot3/sources/K1-lyceens-franceinfo-2026-10.mp4",
+    "in_s": 53.3,
+    "out_s": 54.333,
+    "url": "https://www.youtube.com/watch?v=Fs3db3YZsUs",
+    "temps_url_s": 88.3,
+    "chaine": "franceinfo",
+    "date": "2026-10-12"
+   },
+   "effets": "recadrage 9:16 (centre fixe sans visage coupé, bornes [0, 0, 1920, 855]), poussée lente 1->1.06, étalonnage couleur doux + vignette + grain, sous-titres cuits"
+  },
+  {
+   "id": "R1",
+   "clip": "K1_R1.mov",
+   "folder": "genK1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/K1/out/K1_R1.mov",
+   "s": 0,
+   "e": 30,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 460,
+   "dur": 30,
+   "track": 1,
+   "note": "drop You've been : groupe LFI debout qui applaudit",
+   "source": {
+    "fichier": "lot3/sources/K1-boyard-lcp-qag-2026-10.mp4",
+    "in_s": 36.0,
+    "out_s": 37.0,
+    "url": "https://www.youtube.com/watch?v=clLUMRlLyPc",
+    "temps_url_s": 126.0,
+    "chaine": "LCP - Assemblée nationale",
+    "date": "2026-10-06"
+   },
+   "effets": "recadrage 9:16 (centre fixe sans visage coupé, bornes [280, 0, 1450, 845]), poussée lente 1->1.06, étalonnage couleur doux + vignette + grain"
+  },
+  {
+   "id": "R2",
+   "clip": "K1_R2.mov",
+   "folder": "genK1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/K1/out/K1_R2.mov",
+   "s": 0,
+   "e": 15,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 490,
+   "dur": 15,
+   "track": 1,
+   "note": "rafale hit by : bras levé au meeting",
+   "source": {
+    "fichier": "lot3/sources/K1-boyard-meeting-npp-b.mp4",
+    "in_s": 39.7,
+    "out_s": 40.2,
+    "url": "https://www.youtube.com/watch?v=cNkMqVnlUl0",
+    "temps_url_s": 291.7,
+    "chaine": "Louis Boyard (meeting Nouveau Paris populaire)",
+    "date": "2026-01-31"
+   },
+   "effets": "recadrage 9:16 (suivi du visage, bornes [0, 0, 1690, 1080]), poussée lente 1->1.06, étalonnage couleur doux + vignette + grain"
+  },
+  {
+   "id": "R3",
+   "clip": "K1_R3.mov",
+   "folder": "genK1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/K1/out/K1_R3.mov",
+   "s": 0,
+   "e": 16,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 505,
+   "dur": 16,
+   "track": 1,
+   "note": "rafale you've been : salle du meeting",
+   "source": {
+    "fichier": "lot3/sources/K1-boyard-meeting-npp-a.mp4",
+    "in_s": 12.0,
+    "out_s": 12.533,
+    "url": "https://www.youtube.com/watch?v=cNkMqVnlUl0",
+    "temps_url_s": 152.0,
+    "chaine": "Louis Boyard (meeting Nouveau Paris populaire)",
+    "date": "2026-01-31"
+   },
+   "effets": "recadrage 9:16 (centre fixe sans visage coupé, bornes [0, 0, 1690, 1080]), poussée lente 1->1.06, étalonnage couleur doux + vignette + grain"
+  },
+  {
+   "id": "N1",
+   "clip": "K1_N1.mov",
+   "folder": "genK1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/K1/out/K1_N1.mov",
+   "s": 0,
+   "e": 30,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 521,
+   "dur": 30,
+   "track": 1,
+   "note": "hit by : la salle du meeting agite les drapeaux",
+   "source": {
+    "fichier": "lot3/sources/K1-boyard-meeting-npp-b.mp4",
+    "in_s": 6.0,
+    "out_s": 7.0,
+    "url": "https://www.youtube.com/watch?v=cNkMqVnlUl0",
+    "temps_url_s": 258.0,
+    "chaine": "Louis Boyard (meeting Nouveau Paris populaire)",
+    "date": "2026-01-31"
+   },
+   "effets": "recadrage 9:16 (centre fixe sans visage coupé, bornes [0, 0, 1690, 1080]), poussée lente 1->1.06, étalonnage couleur doux + vignette + grain"
+  },
+  {
+   "id": "N2",
+   "clip": "K1_N2.mov",
+   "folder": "genK1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/K1/out/K1_N2.mov",
+   "s": 0,
+   "e": 31,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 551,
+   "dur": 31,
+   "track": 1,
+   "note": "a smooth criminal : foule lycéenne et fumigènes (Lyon, 6/10)",
+   "source": {
+    "fichier": "lot3/sources/K1-lyceens-leprogres-2026-10.mp4",
+    "in_s": 26.0,
+    "out_s": 27.033,
+    "url": "https://www.youtube.com/watch?v=VU8-H-Iy5mY",
+    "temps_url_s": 41.0,
+    "chaine": "Le Progrès (images Cebra Info)",
+    "date": "2026-10-06"
+   },
+   "effets": "recadrage 9:16 (centre fixe sans visage coupé, bornes [240, 0, 1640, 1080]), poussée lente 1->1.06, étalonnage couleur doux + vignette + grain"
+  },
+  {
+   "id": "DOC",
+   "clip": "K1_DOC.mov",
+   "folder": "genK1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/K1/out/K1_DOC.mov",
+   "s": 0,
+   "e": 91,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "rec": 582,
+   "dur": 91,
+   "track": 1,
+   "note": "retour du groove : document d'époque plein écran, bandeau URGENT BFMTV",
+   "source": {
+    "fichier": "lot3/sources/K1-boyard-bfmtv-urgent-2026-10.mp4",
+    "in_s": 4.3,
+    "out_s": 7.333,
+    "url": "https://www.youtube.com/watch?v=lZ-hCPSoNv4",
+    "temps_url_s": 4.3,
+    "chaine": "Louis Boyard (capture BFMTV en direct)",
+    "date": "2026-10-02"
+   },
+   "effets": "capture plein écran 9:16 : image recadrée sur Boyard (sans logo de coin ni micros siglés) + bandeau URGENT découpé en 2 lignes (sans bandeau défilant), poussée 1,00->1,02, fondu au noir 0.4 s"
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "K1-mix.wav",
+   "folder": "genK1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/K1/out/K1-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS : musique seule 1.16 s, voix (blocs 94.28-101.64, 102.04-103.98, 104.24-105.86, 106.08-107.66) avec musique -10 dB dessous, musique pleine après « début » (rafale + document), fondu 0.4 s"
+  }
+ ]
+}

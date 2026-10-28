@@ -1,0 +1,53 @@
+{
+ "titre": "Dark Beach",
+ "artiste": "Pastel Ghost",
+ "url": "https://youtu.be/guDJvZp5Bqk",
+ "chaine": "PASTEL GHOST (officielle)",
+ "fichier": "lot3/sons/G4-pastel-ghost-dark-beach_complet.wav",
+ "extrait_morceau_s": [
+  68.938,
+  83.838
+ ],
+ "bpm": 129.9,
+ "drop": {
+  "morceau_s": 74.188,
+  "timeline_s": 5.25,
+  "note": "le drop connu (edits TikTok) : pic « les plus revus » YouTube 73,6-75,8 s ; creux d'une mesure 72,38-74,19 puis crash + retour plein"
+ },
+ "sous_la_phrase": "montée 68,94-74,19 s du morceau, étouffée (passe-bas 420 Hz, -7 dB) sous la voix",
+ "frappes": "kicks réels (attaque 30-120 Hz) sur chaque temps, rythme/frappes.json",
+ "kicks_timeline_s": [
+  0.175,
+  0.639,
+  1.098,
+  1.561,
+  2.019,
+  2.482,
+  2.944,
+  3.407,
+  3.87,
+  4.327,
+  4.789,
+  5.25,
+  5.714,
+  6.178,
+  6.637,
+  7.096,
+  7.563,
+  8.021,
+  8.482,
+  8.943,
+  9.407,
+  9.868,
+  10.329,
+  10.791,
+  11.252,
+  11.713,
+  12.175,
+  12.634,
+  13.098,
+  13.563,
+  14.022,
+  14.482
+ ]
+}

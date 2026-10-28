@@ -1,0 +1,369 @@
+{
+ "name": "G6 - Glow - Guetté",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 14.9,
+ "note": "Lot 4, glow COULEUR (aucune image N&B). Coupes sur les frappes réelles d'Experience (rythme/frappes.json). Plans ProRes 9:16 30 i/s prêts (recadrés, poussées, étalonnés, texte cuit sur A0/A1, flash cuit sur A1/B1, fondu cuit sur B9). Sources 25 i/s. Ralentis : speed_pct + Optical Flow. Générateur : lot4/_claude/gen/G6/genG6.py, halo #FF8C8E",
+ "musique": {
+  "fichier": "lot4/sons/G6-einaudi-experience_complet.wav",
+  "debut_extrait_s": 116.492,
+  "entree_pleine_timeline_s": 5.0,
+  "bpm_reel": 92.4,
+  "frappes_timeline_s": [
+   0.429,
+   1.072,
+   1.743,
+   2.392,
+   3.022,
+   3.626,
+   4.323,
+   5.0,
+   5.693,
+   6.266,
+   6.914,
+   7.547,
+   8.212,
+   8.868,
+   9.512,
+   10.16,
+   10.864,
+   11.474,
+   12.106,
+   12.755,
+   13.408,
+   14.046,
+   14.703
+  ],
+  "sous_la_voix": "morceau -8 dB (passe-bas 2,5 kHz) de 0 à 4.68 s, remonte au drop 5.00 s"
+ },
+ "phrase": {
+  "source": "https://youtu.be/hl8dSp1e_o8 401,94-406,37 s (franceinfo / Télé Matin « Les 4 vérités », 22/10/2026)",
+  "texte": "Honnêtement, ce gouvernement n'inspire que dégoût à la population française. Je pense qu'il devrait s'en rendre compte.",
+  "timeline_s": [
+   0.25,
+   4.68
+  ]
+ },
+ "textes": [
+  {
+   "t0": 0.25,
+   "t1": 0.75,
+   "ligne": "HONNÊTEMENT",
+   "taille_px": 83,
+   "lignes": 1
+  },
+  {
+   "t0": 0.75,
+   "t1": 1.25,
+   "ligne": "CE GOUVERNEMENT",
+   "taille_px": 76,
+   "lignes": 2
+  },
+  {
+   "t0": 1.25,
+   "t1": 2.41,
+   "ligne": "N'INSPIRE QUE DÉGOÛT",
+   "taille_px": 98,
+   "lignes": 2
+  },
+  {
+   "t0": 2.41,
+   "t1": 3.51,
+   "ligne": "À LA POPULATION FRANÇAISE",
+   "taille_px": 73,
+   "lignes": 2
+  },
+  {
+   "t0": 3.51,
+   "t1": 4.07,
+   "ligne": "JE PENSE QU'IL DEVRAIT",
+   "taille_px": 90,
+   "lignes": 2
+  },
+  {
+   "t0": 4.07,
+   "t1": 5.0,
+   "ligne": "S'EN RENDRE COMPTE",
+   "taille_px": 99,
+   "lignes": 2
+  }
+ ],
+ "zone_texte": "zone sûre TikTok : bloc ≤ 60 % de large centré (x 0,20-0,80), centre à y 0,60 (dans 0,12-0,75)",
+ "halo": "#FF8C8E (fond lever de soleil du plateau Télé Matin)",
+ "video": [
+  {
+   "id": "A0",
+   "clip": "G6_A0.mov",
+   "folder": "G6",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G6/out/G6_A0.mov",
+   "s": 0,
+   "e": 32,
+   "clip_fps": 30,
+   "rec": 0,
+   "dur": 32,
+   "track": 1,
+   "note": "début de la phrase sur le plan large franceinfo (elle parle, lèvres illisibles) ; la régie est sur le présentateur à ce moment",
+   "source": {
+    "fichier": "lot4/sources/G6-guette-franceinfo-2026-10-22.mp4",
+    "fps": 25,
+    "in_s": 361.05,
+    "out_s": 362.117,
+    "youtube": "hl8dSp1e_o8 361.05-362.12 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo ni bandeau), glow couleur rose, texte cuit",
+   "frappe_s": 0.0,
+   "poussee": "x1.00 -> x1.02, de la frappe 0.000 s à la frappe 1.072 s (temps timeline)"
+  },
+  {
+   "id": "A1",
+   "clip": "G6_A1.mov",
+   "folder": "G6",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G6/out/G6_A1.mov",
+   "s": 0,
+   "e": 118,
+   "clip_fps": 30,
+   "rec": 32,
+   "dur": 118,
+   "track": 1,
+   "note": "phrase en synchro exacte sur le gros plan franceinfo, flash doux sur la coupe",
+   "source": {
+    "fichier": "lot4/sources/G6-guette-franceinfo-2026-10-22.mp4",
+    "fps": 25,
+    "in_s": 402.762,
+    "out_s": 406.695,
+    "youtube": "hl8dSp1e_o8 402.76-406.70 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo ni bandeau), glow couleur rose, texte cuit",
+   "frappe_s": 1.072,
+   "poussee": "x1.00 -> x1.03, de la frappe 1.072 s à la frappe 5.000 s (temps timeline)"
+  },
+  {
+   "id": "B1",
+   "clip": "G6_B1.mov",
+   "folder": "G6",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G6/out/G6_B1.mov",
+   "s": 0,
+   "e": 38,
+   "clip_fps": 30,
+   "rec": 150,
+   "dur": 38,
+   "track": 1,
+   "note": "drop (passage le plus connu, 121,49 s du morceau) : flash, gros plan franceinfo, elle parle",
+   "source": {
+    "fichier": "lot4/sources/G6-guette-franceinfo-2026-10-22.mp4",
+    "fps": 25,
+    "in_s": 347.4,
+    "out_s": 348.667,
+    "youtube": "hl8dSp1e_o8 347.40-348.67 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo ni bandeau), glow couleur rose, flash 0,13 s cuit",
+   "frappe_s": 5.0,
+   "poussee": "x1.00 -> x1.03, de la frappe 5.000 s à la frappe 6.266 s (temps timeline)"
+  },
+  {
+   "id": "B2",
+   "clip": "G6_B2.mov",
+   "folder": "G6",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G6/out/G6_B2.mov",
+   "s": 0,
+   "e": 38,
+   "clip_fps": 30,
+   "rec": 188,
+   "dur": 38,
+   "track": 1,
+   "note": "BFMTV, fond ciel rose (lever de soleil)",
+   "source": {
+    "fichier": "lot4/sources/G6-guette-bfmtv-2026-10-08.mp4",
+    "fps": 25,
+    "in_s": 505.6,
+    "out_s": 506.867,
+    "youtube": "YTteQi-qY9w 505.60-506.87 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo ni bandeau), glow couleur rose",
+   "frappe_s": 6.266,
+   "poussee": "x1.00 -> x1.03, de la frappe 6.266 s à la frappe 7.547 s (temps timeline)"
+  },
+  {
+   "id": "B3",
+   "clip": "G6_B3.mov",
+   "folder": "G6",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G6/out/G6_B3.mov",
+   "s": 0,
+   "e": 40,
+   "clip_fps": 30,
+   "rec": 226,
+   "dur": 40,
+   "track": 1,
+   "note": "gros plan franceinfo (ralenti)",
+   "source": {
+    "fichier": "lot4/sources/G6-guette-franceinfo-2026-10-22.mp4",
+    "fps": 25,
+    "in_s": 364.4,
+    "out_s": 365.067,
+    "youtube": "hl8dSp1e_o8 364.40-365.07 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo ni bandeau), glow couleur rose",
+   "frappe_s": 7.547,
+   "poussee": "x1.00 -> x1.03, de la frappe 7.547 s à la frappe 8.868 s (temps timeline)",
+   "speed_pct": 50.0,
+   "retime": "optical_flow",
+   "ralenti": "50 % : clip 30 i/s à vitesse normale, Resolve à 50 % (Optical Flow, Speed Warp better)"
+  },
+  {
+   "id": "B4",
+   "clip": "G6_B4.mov",
+   "folder": "G6",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G6/out/G6_B4.mov",
+   "s": 0,
+   "e": 39,
+   "clip_fps": 30,
+   "rec": 266,
+   "dur": 39,
+   "track": 1,
+   "note": "BFMTV, fond bordeaux",
+   "source": {
+    "fichier": "lot4/sources/G6-guette-bfmtv-2026-10-08.mp4",
+    "fps": 25,
+    "in_s": 345.8,
+    "out_s": 347.1,
+    "youtube": "YTteQi-qY9w 345.80-347.10 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo ni bandeau), glow couleur rose",
+   "frappe_s": 8.868,
+   "poussee": "x1.00 -> x1.03, de la frappe 8.868 s à la frappe 10.160 s (temps timeline)"
+  },
+  {
+   "id": "B5",
+   "clip": "G6_B5.mov",
+   "folder": "G6",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G6/out/G6_B5.mov",
+   "s": 0,
+   "e": 21,
+   "clip_fps": 30,
+   "rec": 305,
+   "dur": 21,
+   "track": 1,
+   "note": "meeting de Meaux, fond noir (1 temps)",
+   "source": {
+    "fichier": "lot4/sources/G6-guette-meaux-05.mp4",
+    "fps": 25,
+    "in_s": 1.0,
+    "out_s": 1.7,
+    "youtube": "Cse3O99mlR0 (extrait lot2 C1-guette-meaux-05)"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo ni bandeau), glow couleur rose",
+   "frappe_s": 10.16,
+   "poussee": "x1.00 -> x1.02, de la frappe 10.160 s à la frappe 10.864 s (temps timeline)"
+  },
+  {
+   "id": "B6",
+   "clip": "G6_B6.mov",
+   "folder": "G6",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G6/out/G6_B6.mov",
+   "s": 0,
+   "e": 18,
+   "clip_fps": 30,
+   "rec": 326,
+   "dur": 18,
+   "track": 1,
+   "note": "gros plan franceinfo (1 temps)",
+   "source": {
+    "fichier": "lot4/sources/G6-guette-franceinfo-2026-10-22.mp4",
+    "fps": 25,
+    "in_s": 373.0,
+    "out_s": 373.6,
+    "youtube": "hl8dSp1e_o8 373.00-373.60 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo ni bandeau), glow couleur rose",
+   "frappe_s": 10.864,
+   "poussee": "x1.00 -> x1.02, de la frappe 10.864 s à la frappe 11.474 s (temps timeline)"
+  },
+  {
+   "id": "B7",
+   "clip": "G6_B7.mov",
+   "folder": "G6",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G6/out/G6_B7.mov",
+   "s": 0,
+   "e": 39,
+   "clip_fps": 30,
+   "rec": 344,
+   "dur": 39,
+   "track": 1,
+   "note": "BFMTV, fond ciel rose, elle parle",
+   "source": {
+    "fichier": "lot4/sources/G6-guette-bfmtv-2026-10-08.mp4",
+    "fps": 25,
+    "in_s": 509.5,
+    "out_s": 510.8,
+    "youtube": "YTteQi-qY9w 509.50-510.80 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo ni bandeau), glow couleur rose",
+   "frappe_s": 11.474,
+   "poussee": "x1.00 -> x1.03, de la frappe 11.474 s à la frappe 12.755 s (temps timeline)"
+  },
+  {
+   "id": "B8",
+   "clip": "G6_B8.mov",
+   "folder": "G6",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G6/out/G6_B8.mov",
+   "s": 0,
+   "e": 38,
+   "clip_fps": 30,
+   "rec": 383,
+   "dur": 38,
+   "track": 1,
+   "note": "gros plan franceinfo (ralenti)",
+   "source": {
+    "fichier": "lot4/sources/G6-guette-franceinfo-2026-10-22.mp4",
+    "fps": 25,
+    "in_s": 351.5,
+    "out_s": 352.133,
+    "youtube": "hl8dSp1e_o8 351.50-352.13 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo ni bandeau), glow couleur rose",
+   "frappe_s": 12.755,
+   "poussee": "x1.00 -> x1.03, de la frappe 12.755 s à la frappe 14.046 s (temps timeline)",
+   "speed_pct": 50.0,
+   "retime": "optical_flow",
+   "ralenti": "50 % : clip 30 i/s à vitesse normale, Resolve à 50 % (Optical Flow, Speed Warp better)"
+  },
+  {
+   "id": "B9",
+   "clip": "G6_B9.mov",
+   "folder": "G6",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G6/out/G6_B9.mov",
+   "s": 0,
+   "e": 26,
+   "clip_fps": 30,
+   "rec": 421,
+   "dur": 26,
+   "track": 1,
+   "note": "BFMTV fond bordeaux (ralenti), fondu au noir 0,6 s",
+   "source": {
+    "fichier": "lot4/sources/G6-guette-bfmtv-2026-10-08.mp4",
+    "fps": 25,
+    "in_s": 349.5,
+    "out_s": 349.933,
+    "youtube": "YTteQi-qY9w 349.50-349.93 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo ni bandeau), glow couleur rose, fondu au noir 0,6 s cuit",
+   "frappe_s": 14.046,
+   "poussee": "x1.00 -> x1.03, de la frappe 14.046 s à la frappe 14.900 s (temps timeline)",
+   "speed_pct": 50.0,
+   "retime": "optical_flow",
+   "ralenti": "50 % : clip 30 i/s à vitesse normale, Resolve à 50 % (Optical Flow, Speed Warp better)"
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "G6-mix.wav",
+   "folder": "G6",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G6/out/G6-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix final -14 LUFS : voix 0.25-4.68 s, Experience baissé dessous puis plein au drop 5.00 s, fondu de fin"
+  }
+ ]
+}

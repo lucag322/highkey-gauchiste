@@ -1,0 +1,64 @@
+{
+ "id": "A8",
+ "titre": "Alors on danse",
+ "artiste": "Stromae",
+ "url": "https://youtu.be/VHoT4N43jK8",
+ "chaine": "Stromae (officielle, « Stromae - Alors on danse (Official Video) », 28/04/2010)",
+ "fichier": "lot3/sons/A8-stromae-alors-on-danse_complet.wav",
+ "extrait_complet_s": {
+  "debut": 58.8823,
+  "fin": 73.852
+ },
+ "paroles_audibles": "« …encore sûr de la veille » (0-1,1 s), « Alors on sort pour oublier tous les problèmes » baissé -9 dB sous la phrase de Delogu, « Alors on… » dans le break (3,7-4,6 s), drop sur « danse », puis refrain « Alors on danse » (7,4 s et 11,5 s)",
+ "bpm": 118.0,
+ "temps_s": 0.5085,
+ "drop": {
+  "complet_s": 63.536,
+  "timeline_s": 4.6534,
+  "nature": "1er kick plein après le break, sur « danse »"
+ },
+ "break": {
+  "frappe_complet_s": 62.746,
+  "timeline_s": 3.8639
+ },
+ "frappes_timeline_s": [
+  0.0289,
+  4.6534,
+  5.1583,
+  5.6705,
+  6.1787,
+  6.6874,
+  7.1955,
+  7.7041,
+  8.2081,
+  8.7214,
+  9.2261,
+  9.7383,
+  10.2465,
+  10.7551,
+  11.2634,
+  11.772,
+  12.2795,
+  12.7891,
+  13.2941,
+  13.8061,
+  14.3144,
+  14.823
+ ],
+ "coupes_sur_frappes_s": [
+  4.6534,
+  5.6705,
+  6.6874,
+  7.1955,
+  8.2081,
+  8.7214,
+  9.7383,
+  10.2465,
+  11.2634,
+  12.2795,
+  13.2941
+ ],
+ "gain_db": 5.0,
+ "niveau_extrait_lufs": -19.2,
+ "mix": "lot3/_claude/gen/A8/out/A8-mix.wav (-14,0 LUFS, TP -2,0 dBTP)"
+}

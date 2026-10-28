@@ -1,0 +1,261 @@
+{
+ "name": "V1 - Longue pose N&B - Manon Aubry",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 14.4,
+ "note": "Plans ProRes 9:16 recadrés, N&B, texte cuit (gen/V1/out). s/e en images du clip (30 i/s), rec en images timeline. Aucun ralenti : speed_pct 100 partout. Coupes sur les kicks réels du drop (frappes.json). Générateur : lot3/_claude/gen/V1/genV1.py",
+ "phrase": {
+  "texte": "Tant qu'il y aura un enfant palestinien à sauver, une famille à protéger, une terre à défendre, un peuple à libérer, alors nous continuerons. Nous continuerons et nous ne lâcherons rien.",
+  "extrait_audible": "un peuple à libérer, alors nous continuerons. Nous continuerons et nous ne lâcherons rien.",
+  "url": "https://www.youtube.com/watch?v=c-KnJoiz928",
+  "source": "Manon Aubry, meeting « Justice pour la Palestine », Strasbourg, 17/06/2026 (chaîne Manon Aubry)",
+  "in_s": 740.15,
+  "out_s": 745.99,
+  "voix": "son direct synchro sur la longue pose, musique qui monte dessous, refrain juste après"
+ },
+ "texte_style": {
+  "police": "Arial Black",
+  "couleur": "#FFFFFF, mot-clé RIEN #E4002B",
+  "contour": "noir + ombre floue",
+  "position": "centré, 1re ligne y ≈ 1100 (1060 pour le dernier carton), lignes ≤ 670 px : zone sûre TikTok x 0,17-0,83, y 0,12-0,75"
+ },
+ "musique": {
+  "fichier": "lot3/sons/V1-stromae-sante.wav",
+  "complet": "lot3/sons/V1-stromae-sante_complet.wav",
+  "debut_dans_complet_s": 32.945,
+  "refrain_timeline_s": 5.93,
+  "paroles_audibles": "fin du couplet (« …vestes aux vestiaires / Arlette, arrête, toi la fête tu la passes aux toilettes ») sous la voix, puis refrain « Et si on célébrait ceux qui ne célèbrent pas / Pour une fois j'aimerais lever mon verre à ceux qui n'en ont pas »",
+  "coupes_timeline_s": [
+   5.93,
+   7.246,
+   8.546,
+   9.849,
+   11.143,
+   11.791,
+   12.469,
+   13.111,
+   14.4
+  ]
+ },
+ "video": [
+  {
+   "id": "pose",
+   "clip": "V1_pose.mov",
+   "folder": "genV1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/V1/out/V1_pose.mov",
+   "s": 0,
+   "e": 178,
+   "rec": 0,
+   "dur": 178,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "longue pose en son direct : « un peuple à libérer, alors nous continuerons. Nous continuerons et nous ne lâcherons rien. »",
+   "source": {
+    "fichier": "lot3/sources/V1-aubry-strasbourg-e.mp4",
+    "in_s": 15.13,
+    "out_s": 21.063,
+    "url": "https://www.youtube.com/watch?v=c-KnJoiz928",
+    "t_youtube_s": 740.13
+   },
+   "texte": "UN PEUPLE / À LIBÉRER · ALORS NOUS / CONTINUERONS · NOUS / CONTINUERONS · ET NOUS NE / LÂCHERONS / RIEN (rouge)",
+   "effets": "longue pose sans coupe 5,93 s en son direct (voix synchro), poussée lente 1,00 -> 1,08, N&B contrasté, grain, cartons cuits mot à mot"
+  },
+  {
+   "id": "dos",
+   "clip": "V1_dos.mov",
+   "folder": "genV1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/V1/out/V1_dos.mov",
+   "s": 0,
+   "e": 39,
+   "rec": 178,
+   "dur": 39,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "plan de dos, face à la foule (entrée du drop)",
+   "source": {
+    "fichier": "lot3/sources/V1-aubry-strasbourg-a.mp4",
+    "in_s": 36.0,
+    "out_s": 37.3,
+    "url": "https://www.youtube.com/watch?v=c-KnJoiz928",
+    "t_youtube_s": 36.0
+   },
+   "temps": 2,
+   "coupe_sur_t": 5.93
+  },
+  {
+   "id": "salle",
+   "clip": "V1_salle.mov",
+   "folder": "genV1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/V1/out/V1_salle.mov",
+   "s": 0,
+   "e": 39,
+   "rec": 217,
+   "dur": 39,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "salle debout, ovation finale",
+   "source": {
+    "fichier": "lot3/sources/V1-aubry-strasbourg-d.mp4",
+    "in_s": 14.0,
+    "out_s": 15.3,
+    "url": "https://www.youtube.com/watch?v=c-KnJoiz928",
+    "t_youtube_s": 784.0
+   },
+   "temps": 2,
+   "coupe_sur_t": 7.246
+  },
+  {
+   "id": "poing",
+   "clip": "V1_poing.mov",
+   "folder": "genV1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/V1/out/V1_poing.mov",
+   "s": 0,
+   "e": 39,
+   "rec": 256,
+   "dur": 39,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "poing levé",
+   "source": {
+    "fichier": "lot3/sources/V1-aubry-strasbourg-c.mp4",
+    "in_s": 19.0,
+    "out_s": 20.3,
+    "url": "https://www.youtube.com/watch?v=c-KnJoiz928",
+    "t_youtube_s": 459.0
+   },
+   "temps": 2,
+   "coupe_sur_t": 8.546
+  },
+  {
+   "id": "poing2",
+   "clip": "V1_poing2.mov",
+   "folder": "genV1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/V1/out/V1_poing2.mov",
+   "s": 0,
+   "e": 39,
+   "rec": 295,
+   "dur": 39,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "poing levé, voix forte",
+   "source": {
+    "fichier": "lot3/sources/V1-aubry-strasbourg-c.mp4",
+    "in_s": 22.85,
+    "out_s": 24.15,
+    "url": "https://www.youtube.com/watch?v=c-KnJoiz928",
+    "t_youtube_s": 462.85
+   },
+   "temps": 2,
+   "coupe_sur_t": 9.849
+  },
+  {
+   "id": "foule",
+   "clip": "V1_foule.mov",
+   "folder": "genV1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/V1/out/V1_foule.mov",
+   "s": 0,
+   "e": 20,
+   "rec": 334,
+   "dur": 20,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "salle comble (plan large)",
+   "source": {
+    "fichier": "lot3/sources/V1-aubry-strasbourg-b.mp4",
+    "in_s": 12.0,
+    "out_s": 12.667,
+    "url": "https://www.youtube.com/watch?v=c-KnJoiz928",
+    "t_youtube_s": 96.0
+   },
+   "temps": 1,
+   "coupe_sur_t": 11.143
+  },
+  {
+   "id": "bras",
+   "clip": "V1_bras.mov",
+   "folder": "genV1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/V1/out/V1_bras.mov",
+   "s": 0,
+   "e": 20,
+   "rec": 354,
+   "dur": 20,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "bras levé",
+   "source": {
+    "fichier": "lot3/sources/V1-aubry-strasbourg-c.mp4",
+    "in_s": 24.0,
+    "out_s": 24.667,
+    "url": "https://www.youtube.com/watch?v=c-KnJoiz928",
+    "t_youtube_s": 464.0
+   },
+   "temps": 1,
+   "coupe_sur_t": 11.791
+  },
+  {
+   "id": "poing3",
+   "clip": "V1_poing3.mov",
+   "folder": "genV1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/V1/out/V1_poing3.mov",
+   "s": 0,
+   "e": 19,
+   "rec": 374,
+   "dur": 19,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "poing serré",
+   "source": {
+    "fichier": "lot3/sources/V1-aubry-strasbourg-c.mp4",
+    "in_s": 27.85,
+    "out_s": 28.483,
+    "url": "https://www.youtube.com/watch?v=c-KnJoiz928",
+    "t_youtube_s": 467.85
+   },
+   "temps": 1,
+   "coupe_sur_t": 12.469
+  },
+  {
+   "id": "fin",
+   "clip": "V1_fin.mov",
+   "folder": "genV1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/V1/out/V1_fin.mov",
+   "s": 0,
+   "e": 39,
+   "rec": 393,
+   "dur": 39,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "poing levé, fin (autre caméra)",
+   "source": {
+    "fichier": "lot3/sources/V1-aubry-strasbourg-a.mp4",
+    "in_s": 40.75,
+    "out_s": 42.05,
+    "url": "https://www.youtube.com/watch?v=c-KnJoiz928",
+    "t_youtube_s": 40.75
+   },
+   "temps": 2,
+   "coupe_sur_t": 13.111
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "V1-mix.wav",
+   "folder": "genV1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/V1/out/V1-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "voix + ambiance du meeting (son direct 15,15-20,99 s de l'extrait e) sur la longue pose ; Santé (Stromae) 32.945-47.345 s du clip officiel : couplet qui monte de -20 à -7 dB sous la voix, puis refrain plein à 5.93 s (« Et si on célébrait… à ceux qui n'en ont pas »), -14 LUFS, fondu de fin 0,5 s"
+  }
+ ]
+}

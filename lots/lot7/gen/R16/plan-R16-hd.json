@@ -1,0 +1,612 @@
+{
+ "name": "R16 - Collage ransom-note béton - David Guiraud",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 18.956,
+ "note": "Plans ProRes 9:16 composés en Python (lot7/_claude/gen/R16/out) : murs de béton banché / affiches jaune fluo, feuilles déchirées, Guiraud détouré seul (instance Vision, tools/inst), double tirage tramé, trait de bombe fluo, silhouettes blanches 3 images, photos vivantes en bichromie + scotch toilé, textes ransom-note cuits. s/e en images du clip (30 i/s), rec en images timeline. Coupes sur les caisses claires réelles de Moulaga (out/R16-frappes.json). Aucun ralenti. Générateur : lot7/_claude/gen/R16/genR16.py",
+ "phrase": {
+  "texte": "À Roubaix, aucune menace, aucune intimidation ne nous fera reculer",
+  "url": "https://www.youtube.com/watch?v=o-1R3UFtXiQ",
+  "source": "lot5/sources/V3-guiraud-roubaix-final.mp4",
+  "in_s": 49.08,
+  "out_s": 53.72,
+  "youtube_s": [
+   2944.08,
+   2948.72
+  ],
+  "timeline_s": [
+   0.36,
+   5.0
+  ],
+  "voix": "voix off sur des plans où il ne parle pas (A1 salle debout, A2 il marche dans une rue de briques, A3 son affiche et ses militants) : au meeting il lit ses notes tête baissée sur ce passage (règle Luca) ; suite « car nous avons dans nos corps… » (54,10 s) non gardée"
+ },
+ "musique": {
+  "fichier": "lot7/sons/R16-heuss-moulaga_complet.wav",
+  "titre": "Heuss L'enfoiré - Moulaga (feat. JuL)",
+  "url": "https://www.youtube.com/watch?v=5OAysfkcMjg",
+  "debut_complet_s": 140.434,
+  "fin_complet_s": 159.39,
+  "drop_timeline_s": 5.5015,
+  "coupes_frappes_s": [
+   1.1799,
+   3.0999,
+   5.5015,
+   6.9398,
+   8.8599,
+   10.7799,
+   12.6999,
+   13.66,
+   14.6198,
+   16.5399
+  ],
+  "coupes_images": [
+   35,
+   93,
+   165,
+   208,
+   266,
+   323,
+   381,
+   410,
+   439,
+   496
+  ]
+ },
+ "textes": [
+  {
+   "plan": "A1",
+   "texte": "À ROUBAIX"
+  },
+  {
+   "plan": "A2",
+   "texte": "AUCUNE / MENACE"
+  },
+  {
+   "plan": "A3",
+   "texte": "AUCUNE / INTIMIDATION"
+  },
+  {
+   "plan": "A3",
+   "texte": "NE NOUS / FERA RECULER"
+  },
+  {
+   "plan": "B1",
+   "texte": "À ROUBAIX"
+  },
+  {
+   "plan": "B2",
+   "texte": "AUCUNE MENACE"
+  },
+  {
+   "plan": "B3",
+   "texte": "AUCUNE INTIMIDATION"
+  },
+  {
+   "plan": "B4",
+   "texte": "NE NOUS FERA RECULER."
+  },
+  {
+   "plan": "FIN",
+   "texte": "MAIRE DE ROUBAIX"
+  },
+  {
+   "plan": "FIN",
+   "texte": "DAVID"
+  },
+  {
+   "plan": "FIN",
+   "texte": "GUIRAUD"
+  }
+ ],
+ "video": [
+  {
+   "id": "A1",
+   "clip": "R16_A1.mov",
+   "folder": "genR16",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R16/out/R16_A1.mov",
+   "s": 0,
+   "e": 35,
+   "rec": 0,
+   "dur": 35,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "voix sur la salle du meeting debout (plan où il ne parle pas) : « À Roubaix, », mur de béton, trait de bombe fluo, cité en brique",
+   "kind": "collage",
+   "temps": 2.43,
+   "photos": [
+    {
+     "fichier": "lot5/sources/V3-guiraud-roubaix-final.mp4",
+     "in_s": 70.5,
+     "out_s": 71.67,
+     "cadre_source": [
+      0,
+      150,
+      1680,
+      1080
+     ],
+     "bichromie": "fluo",
+     "url": "https://www.youtube.com/watch?v=o-1R3UFtXiQ"
+    },
+    {
+     "fichier": "lot7/sources/R16-guiraud-lcp-rue.mp4",
+     "in_s": 33.0,
+     "out_s": 34.17,
+     "cadre_source": [
+      300,
+      140,
+      1920,
+      1000
+     ],
+     "bichromie": "beton",
+     "url": "https://www.youtube.com/watch?v=I3VFkqdyiHU"
+    }
+   ]
+  },
+  {
+   "id": "A2",
+   "clip": "R16_A2.mov",
+   "folder": "genR16",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R16/out/R16_A2.mov",
+   "s": 0,
+   "e": 58,
+   "rec": 35,
+   "dur": 58,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "voix sur un plan où il ne parle pas : « aucune menace, », il marche en souriant dans une rue de briques (LCP), tag « VOTEZ DIMANCHE » collé derrière",
+   "kind": "cut",
+   "temps": 4.03,
+   "source": {
+    "fichier": "lot7/sources/R16-guiraud-lcp-brique.mp4",
+    "in_s": 0.3,
+    "out_s": 2.233,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=I3VFkqdyiHU",
+    "contexte": "LCP - Assemblée nationale, « La France insoumise : la conquête de Roubaix | En immersion », 26/03/2026 — rues de briques",
+    "youtube_t": 1058.3
+   },
+   "photos": [
+    {
+     "fichier": "lot7/sources/R16-guiraud-lcp-tag.mp4",
+     "in_s": 10.5,
+     "out_s": 12.43,
+     "cadre_source": [
+      420,
+      40,
+      1920,
+      1000
+     ],
+     "bichromie": "encre",
+     "url": "https://www.youtube.com/watch?v=I3VFkqdyiHU"
+    }
+   ]
+  },
+  {
+   "id": "A3",
+   "clip": "R16_A3.mov",
+   "folder": "genR16",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R16/out/R16_A3.mov",
+   "s": 0,
+   "e": 72,
+   "rec": 93,
+   "dur": 72,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "voix sur son affiche de campagne puis les militants au tract (plans où il ne parle pas) : « aucune intimidation ne nous fera reculer »",
+   "kind": "collage",
+   "temps": 5.0,
+   "photos": [
+    {
+     "fichier": "lot7/sources/R16-guiraud-lcp-affiche.mp4",
+     "in_s": 0.3,
+     "out_s": 2.7,
+     "cadre_source": [
+      1210,
+      60,
+      1850,
+      620
+     ],
+     "bichromie": "fluo",
+     "url": "https://www.youtube.com/watch?v=I3VFkqdyiHU"
+    },
+    {
+     "fichier": "lot7/sources/R16-guiraud-lcp-tag.mp4",
+     "in_s": 3.5,
+     "out_s": 5.9,
+     "cadre_source": [
+      300,
+      60,
+      1500,
+      1000
+     ],
+     "bichromie": "beton",
+     "url": "https://www.youtube.com/watch?v=I3VFkqdyiHU"
+    },
+    {
+     "fichier": "lot7/sources/R16-guiraud-lcp-rue.mp4",
+     "in_s": 73.5,
+     "out_s": 75.9,
+     "cadre_source": [
+      300,
+      140,
+      1920,
+      1000
+     ],
+     "bichromie": "encre",
+     "url": "https://www.youtube.com/watch?v=I3VFkqdyiHU"
+    }
+   ]
+  },
+  {
+   "id": "B1",
+   "clip": "R16_B1.mov",
+   "folder": "genR16",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R16/out/R16_B1.mov",
+   "s": 0,
+   "e": 43,
+   "rec": 165,
+   "dur": 43,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "dans la rue au marché, blouson (LCP) : silhouette blanche 3 images (flash du drop) puis Guiraud en couleur, contour autocollant, double tirage noir",
+   "kind": "sil",
+   "temps": 2.99,
+   "source": {
+    "fichier": "lot7/sources/R16-guiraud-lcp-tag.mp4",
+    "in_s": 0.0,
+    "out_s": 1.433,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=I3VFkqdyiHU",
+    "contexte": "LCP - Assemblée nationale, « La France insoumise : la conquête de Roubaix | En immersion », 26/03/2026 — militants, tag « Votez dimanche »",
+    "youtube_t": 1455.0
+   },
+   "photos": [
+    {
+     "fichier": "lot7/sources/R16-guiraud-lcp-rue.mp4",
+     "in_s": 48.0,
+     "out_s": 49.43,
+     "cadre_source": [
+      300,
+      140,
+      1920,
+      1000
+     ],
+     "bichromie": "beton",
+     "url": "https://www.youtube.com/watch?v=I3VFkqdyiHU"
+    }
+   ]
+  },
+  {
+   "id": "B2",
+   "clip": "R16_B2.mov",
+   "folder": "genR16",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R16/out/R16_B2.mov",
+   "s": 0,
+   "e": 58,
+   "rec": 208,
+   "dur": 58,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "collage sur béton : cités en brique, rue de Roubaix, hôtel de ville, une photo par temps",
+   "kind": "collage",
+   "temps": 4.03,
+   "photos": [
+    {
+     "fichier": "lot7/sources/R16-guiraud-lcp-rue.mp4",
+     "in_s": 47.0,
+     "out_s": 48.93,
+     "cadre_source": [
+      300,
+      140,
+      1920,
+      1000
+     ],
+     "bichromie": "fluo",
+     "url": "https://www.youtube.com/watch?v=I3VFkqdyiHU"
+    },
+    {
+     "fichier": "lot7/sources/R16-guiraud-lcp-brique.mp4",
+     "in_s": 6.0,
+     "out_s": 7.93,
+     "cadre_source": [
+      300,
+      140,
+      1920,
+      1000
+     ],
+     "bichromie": "beton",
+     "url": "https://www.youtube.com/watch?v=I3VFkqdyiHU"
+    },
+    {
+     "fichier": "lot7/sources/R16-guiraud-lcp-eglise.mp4",
+     "in_s": 23.0,
+     "out_s": 24.93,
+     "cadre_source": [
+      300,
+      140,
+      1920,
+      1000
+     ],
+     "bichromie": "fluo",
+     "url": "https://www.youtube.com/watch?v=I3VFkqdyiHU"
+    }
+   ]
+  },
+  {
+   "id": "B3",
+   "clip": "R16_B3.mov",
+   "folder": "genR16",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R16/out/R16_B3.mov",
+   "s": 0,
+   "e": 57,
+   "rec": 266,
+   "dur": 57,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "au marché, devant les briques (LCP) : détouré sur béton clair + feuille fluo déchirée, Grand-Place derrière",
+   "kind": "cut",
+   "temps": 3.96,
+   "source": {
+    "fichier": "lot7/sources/R16-guiraud-lcp-rue.mp4",
+    "in_s": 12.0,
+    "out_s": 13.9,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=I3VFkqdyiHU",
+    "contexte": "LCP - Assemblée nationale, « La France insoumise : la conquête de Roubaix | En immersion », 26/03/2026 — marché, cités en brique",
+    "youtube_t": 702.0
+   },
+   "photos": [
+    {
+     "fichier": "lot7/sources/R16-guiraud-lcp-eglise.mp4",
+     "in_s": 27.0,
+     "out_s": 28.9,
+     "cadre_source": [
+      300,
+      140,
+      1920,
+      1000
+     ],
+     "bichromie": "betfluo",
+     "url": "https://www.youtube.com/watch?v=I3VFkqdyiHU"
+    }
+   ]
+  },
+  {
+   "id": "B4",
+   "clip": "R16_B4.mov",
+   "folder": "genR16",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R16/out/R16_B4.mov",
+   "s": 0,
+   "e": 58,
+   "rec": 323,
+   "dur": 58,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "collage sur affiche fluo : militants au tract autour de lui, tag « VOTEZ DIMANCHE », salle debout",
+   "kind": "collage",
+   "temps": 4.03,
+   "photos": [
+    {
+     "fichier": "lot7/sources/R16-guiraud-lcp-tag.mp4",
+     "in_s": 4.5,
+     "out_s": 6.43,
+     "cadre_source": [
+      300,
+      60,
+      1500,
+      1000
+     ],
+     "bichromie": "beton",
+     "url": "https://www.youtube.com/watch?v=I3VFkqdyiHU"
+    },
+    {
+     "fichier": "lot7/sources/R16-guiraud-lcp-tag.mp4",
+     "in_s": 11.5,
+     "out_s": 13.43,
+     "cadre_source": [
+      420,
+      40,
+      1920,
+      1000
+     ],
+     "bichromie": "encre",
+     "url": "https://www.youtube.com/watch?v=I3VFkqdyiHU"
+    },
+    {
+     "fichier": "lot5/sources/V3-guiraud-roubaix-final.mp4",
+     "in_s": 72.5,
+     "out_s": 74.43,
+     "cadre_source": [
+      0,
+      150,
+      1680,
+      1080
+     ],
+     "bichromie": "betfluo",
+     "url": "https://www.youtube.com/watch?v=o-1R3UFtXiQ"
+    }
+   ]
+  },
+  {
+   "id": "B5",
+   "clip": "R16_B5.mov",
+   "folder": "genR16",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R16/out/R16_B5.mov",
+   "s": 0,
+   "e": 29,
+   "rec": 381,
+   "dur": 29,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "collage au demi-temps : hôtel de ville, façades de briques",
+   "kind": "collage",
+   "temps": 2.01,
+   "photos": [
+    {
+     "fichier": "lot7/sources/R16-guiraud-lcp-eglise.mp4",
+     "in_s": 24.0,
+     "out_s": 24.97,
+     "cadre_source": [
+      300,
+      140,
+      1920,
+      1000
+     ],
+     "bichromie": "fluo",
+     "url": "https://www.youtube.com/watch?v=I3VFkqdyiHU"
+    },
+    {
+     "fichier": "lot7/sources/R16-guiraud-lcp-rue.mp4",
+     "in_s": 52.0,
+     "out_s": 52.97,
+     "cadre_source": [
+      300,
+      140,
+      1920,
+      1000
+     ],
+     "bichromie": "beton",
+     "url": "https://www.youtube.com/watch?v=I3VFkqdyiHU"
+    }
+   ]
+  },
+  {
+   "id": "B6",
+   "clip": "R16_B6.mov",
+   "folder": "genR16",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R16/out/R16_B6.mov",
+   "s": 0,
+   "e": 29,
+   "rec": 410,
+   "dur": 29,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "réunion publique de quartier, de profil avant de prendre le micro (LCP) : détouré sur béton, son affiche derrière",
+   "kind": "cut",
+   "temps": 2.01,
+   "source": {
+    "fichier": "lot7/sources/R16-guiraud-lcp-affiche.mp4",
+    "in_s": 9.4,
+    "out_s": 10.367,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=I3VFkqdyiHU",
+    "contexte": "LCP - Assemblée nationale, « La France insoumise : la conquête de Roubaix | En immersion », 26/03/2026 — réunion publique, affiche de campagne",
+    "youtube_t": 804.4
+   },
+   "photos": [
+    {
+     "fichier": "lot7/sources/R16-guiraud-lcp-affiche.mp4",
+     "in_s": 0.3,
+     "out_s": 1.27,
+     "cadre_source": [
+      1210,
+      60,
+      1850,
+      620
+     ],
+     "bichromie": "betfluo",
+     "url": "https://www.youtube.com/watch?v=I3VFkqdyiHU"
+    }
+   ]
+  },
+  {
+   "id": "B7",
+   "clip": "R16_B7.mov",
+   "folder": "genR16",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R16/out/R16_B7.mov",
+   "s": 0,
+   "e": 57,
+   "rec": 439,
+   "dur": 57,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "collage final avant le carton : la salle debout, les militants au tract, une rue de briques",
+   "kind": "collage",
+   "temps": 3.96,
+   "photos": [
+    {
+     "fichier": "lot5/sources/V3-guiraud-roubaix-final.mp4",
+     "in_s": 73.5,
+     "out_s": 75.4,
+     "cadre_source": [
+      0,
+      150,
+      1680,
+      1080
+     ],
+     "bichromie": "beton",
+     "url": "https://www.youtube.com/watch?v=o-1R3UFtXiQ"
+    },
+    {
+     "fichier": "lot7/sources/R16-guiraud-lcp-tag.mp4",
+     "in_s": 5.0,
+     "out_s": 6.9,
+     "cadre_source": [
+      300,
+      60,
+      1500,
+      1000
+     ],
+     "bichromie": "fluo",
+     "url": "https://www.youtube.com/watch?v=I3VFkqdyiHU"
+    },
+    {
+     "fichier": "lot7/sources/R16-guiraud-lcp-brique.mp4",
+     "in_s": 10.0,
+     "out_s": 11.9,
+     "cadre_source": [
+      300,
+      140,
+      1920,
+      1000
+     ],
+     "bichromie": "encre",
+     "url": "https://www.youtube.com/watch?v=I3VFkqdyiHU"
+    }
+   ]
+  },
+  {
+   "id": "FIN",
+   "clip": "R16_FIN.mov",
+   "folder": "genR16",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R16/out/R16_FIN.mov",
+   "s": 0,
+   "e": 73,
+   "rec": 496,
+   "dur": 73,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "carton final : son nom en grand sur affiche fluo + MAIRE DE ROUBAIX en lettres découpées (élu le 22/03/2026)",
+   "kind": "card",
+   "temps": 5.07
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "R16-mix.wav",
+   "folder": "genR16",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R16/out/R16-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS : voix meeting 48.95-53.92 s (+4 dB) à 0.23 s ; Moulaga dès 140.434 s du complet, -20 dB sous la voix, montée, plein au drop, fondu de fin 0,4 s"
+  }
+ ],
+ "stems": [
+  "lot7/_claude/gen/R16/out/R16-voix.wav",
+  "lot7/_claude/gen/R16/out/R16-musique.wav"
+ ],
+ "logos_exclus": "meeting : logo LFI et pupitre hors fenêtre du détourage ; LCP : logo LCP et pastille « en immersion » hors des cadres photo, détourages = la personne seule ; 1er tour : bonnettes de micros tenues par d'autres hors de l'instance détourée"
+}

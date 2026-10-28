@@ -1,0 +1,327 @@
+{
+ "name": "Z1 - Archivage lazy Melenchon (L'Amour Toujours)",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 17.333,
+ "phrase": "Les riches en France vivent au-dessus de nos moyens.",
+ "source_phrase": "https://www.youtube.com/watch?v=yrjWwsV4zS4 (chaîne JEAN-LUC MÉLENCHON, meeting pour la paix, Marseille 9/4/2017) 2646,05-2650,80 s",
+ "note": "Plans ProRes 1080x1920 30 i/s recadrés (sources 25 i/s), aucun ralenti. Générateur : lot3/_claude/gen/Z1/genZ1.py",
+ "sous_titre": {
+  "lignes": [
+   "Les riches en France",
+   "vivent au-dessus",
+   "de nos moyens."
+  ],
+  "t0": 0.0,
+  "t1": 5.25,
+  "police": "Inter SemiBold 70 px blanc, contour 2 px + ombre douce, haut du bloc y = 1128 (0.588 H), interligne 92 px : zone sûre TikTok x 0,17-0,83, y 0,12-0,75"
+ },
+ "musique": {
+  "fichier": "lot3/sons/Z1-gigi-dagostino-lamour-toujours_complet.wav",
+  "depart_dans_complet_s": 27.393,
+  "drop_timeline_s": 6.987,
+  "frappes_coupes_timeline_s": [
+   6.987,
+   7.837,
+   8.702,
+   9.562,
+   9.997,
+   10.427,
+   11.287,
+   12.152,
+   13.017,
+   13.442,
+   13.877,
+   15.602,
+   17.332
+  ]
+ },
+ "video": [
+  {
+   "id": "P0",
+   "clip": "Z1_P0.mov",
+   "folder": "genZ1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/Z1/out/Z1_P0.mov",
+   "s": 0,
+   "e": 210,
+   "clip_fps": 30,
+   "rec": 0,
+   "dur": 210,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "Plan long unique : Mélenchon, Vieux-Port 9/4/2017, phrase + ovation, sous-titre blanc",
+   "source": {
+    "fichier": "lot3/sources/Z1-marseille2017-riches.mp4",
+    "in_s": 6.0,
+    "out_s": 13.0,
+    "youtube": "https://www.youtube.com/watch?v=yrjWwsV4zS4&t=2646"
+   },
+   "effets": "recadrage 9:16 suivi visage, poussée avant ease-in 1,00->1.07 finissant sur la frappe, bloom couleur des zones claires (fort au drop puis retombe), couleurs d'origine, sous-titre blanc cuit"
+  },
+  {
+   "id": "B01",
+   "clip": "Z1_B01.mov",
+   "folder": "genZ1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/Z1/out/Z1_B01.mov",
+   "s": 0,
+   "e": 25,
+   "clip_fps": 30,
+   "rec": 210,
+   "dur": 25,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "Vieux-Port, marée humaine, scène et grande roue (drop sur le riff)",
+   "source": {
+    "fichier": "lot3/sources/Z1-marseille2017-debut.mp4",
+    "in_s": 16.3,
+    "out_s": 17.133,
+    "youtube": "https://www.youtube.com/watch?v=yrjWwsV4zS4&t=16"
+   },
+   "effets": "recadrage 9:16 fixe, poussée avant ease-in 1,00->1.10 finissant sur la frappe, bloom couleur des zones claires (fort au drop puis retombe), couleurs d'origine"
+  },
+  {
+   "id": "B02",
+   "clip": "Z1_B02.mov",
+   "folder": "genZ1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/Z1/out/Z1_B02.mov",
+   "s": 0,
+   "e": 26,
+   "clip_fps": 30,
+   "rec": 235,
+   "dur": 26,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "drapeaux et pancartes phi",
+   "source": {
+    "fichier": "lot3/sources/Z1-marseille2017-debut.mp4",
+    "in_s": 51.0,
+    "out_s": 51.867,
+    "youtube": "https://www.youtube.com/watch?v=yrjWwsV4zS4&t=51"
+   },
+   "effets": "recadrage 9:16 fixe, poussée avant ease-in 1,00->1.10 finissant sur la frappe, bloom couleur des zones claires (fort au drop puis retombe), couleurs d'origine"
+  },
+  {
+   "id": "B03",
+   "clip": "Z1_B03.mov",
+   "folder": "genZ1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/Z1/out/Z1_B03.mov",
+   "s": 0,
+   "e": 26,
+   "clip_fps": 30,
+   "rec": 261,
+   "dur": 26,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "République 18/3/2017, statue de la République au-dessus de la foule",
+   "source": {
+    "fichier": "lot3/sources/Z1-republique2017-fin.mp4",
+    "in_s": 125.0,
+    "out_s": 125.867,
+    "youtube": "https://www.youtube.com/watch?v=b5atq_VZd2M&t=3815"
+   },
+   "effets": "recadrage 9:16 fixe, poussée avant ease-in 1,00->1.10 finissant sur la frappe, bloom couleur des zones claires (fort au drop puis retombe), couleurs d'origine"
+  },
+  {
+   "id": "B04",
+   "clip": "Z1_B04.mov",
+   "folder": "genZ1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/Z1/out/Z1_B04.mov",
+   "s": 0,
+   "e": 13,
+   "clip_fps": 30,
+   "rec": 287,
+   "dur": 13,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "Vieux-Port, drapeaux",
+   "source": {
+    "fichier": "lot3/sources/Z1-marseille2017-fin.mp4",
+    "in_s": 72.0,
+    "out_s": 72.433,
+    "youtube": "https://www.youtube.com/watch?v=yrjWwsV4zS4&t=3587"
+   },
+   "effets": "recadrage 9:16 fixe, poussée avant ease-in 1,00->1.06 finissant sur la frappe, bloom couleur des zones claires (fort au drop puis retombe), couleurs d'origine"
+  },
+  {
+   "id": "B05",
+   "clip": "Z1_B05.mov",
+   "folder": "genZ1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/Z1/out/Z1_B05.mov",
+   "s": 0,
+   "e": 13,
+   "clip_fps": 30,
+   "rec": 300,
+   "dur": 13,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "République, foule et drapeaux",
+   "source": {
+    "fichier": "lot3/sources/Z1-republique2017-fin.mp4",
+    "in_s": 84.0,
+    "out_s": 84.433,
+    "youtube": "https://www.youtube.com/watch?v=b5atq_VZd2M&t=3774"
+   },
+   "effets": "recadrage 9:16 fixe, poussée avant ease-in 1,00->1.06 finissant sur la frappe, bloom couleur des zones claires (fort au drop puis retombe), couleurs d'origine"
+  },
+  {
+   "id": "B06",
+   "clip": "Z1_B06.mov",
+   "folder": "genZ1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/Z1/out/Z1_B06.mov",
+   "s": 0,
+   "e": 26,
+   "clip_fps": 30,
+   "rec": 313,
+   "dur": 26,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "Mélenchon au pupitre, drapeaux",
+   "source": {
+    "fichier": "lot3/sources/Z1-marseille2017-debut.mp4",
+    "in_s": 71.6,
+    "out_s": 72.467,
+    "youtube": "https://www.youtube.com/watch?v=yrjWwsV4zS4&t=71"
+   },
+   "effets": "recadrage 9:16 suivi visage, poussée avant ease-in 1,00->1.10 finissant sur la frappe, bloom couleur des zones claires (fort au drop puis retombe), couleurs d'origine"
+  },
+  {
+   "id": "B07",
+   "clip": "Z1_B07.mov",
+   "folder": "genZ1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/Z1/out/Z1_B07.mov",
+   "s": 0,
+   "e": 26,
+   "clip_fps": 30,
+   "rec": 339,
+   "dur": 26,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "foule vue d'un immeuble",
+   "source": {
+    "fichier": "lot3/sources/Z1-marseille2017-debut.mp4",
+    "in_s": 67.6,
+    "out_s": 68.467,
+    "youtube": "https://www.youtube.com/watch?v=yrjWwsV4zS4&t=67"
+   },
+   "effets": "recadrage 9:16 fixe, poussée avant ease-in 1,00->1.10 finissant sur la frappe, bloom couleur des zones claires (fort au drop puis retombe), couleurs d'origine"
+  },
+  {
+   "id": "B08",
+   "clip": "Z1_B08.mov",
+   "folder": "genZ1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/Z1/out/Z1_B08.mov",
+   "s": 0,
+   "e": 26,
+   "clip_fps": 30,
+   "rec": 365,
+   "dur": 26,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "République, foule et drapeaux",
+   "source": {
+    "fichier": "lot3/sources/Z1-republique2017-fin.mp4",
+    "in_s": 9.0,
+    "out_s": 9.867,
+    "youtube": "https://www.youtube.com/watch?v=b5atq_VZd2M&t=3699"
+   },
+   "effets": "recadrage 9:16 fixe, poussée avant ease-in 1,00->1.10 finissant sur la frappe, bloom couleur des zones claires (fort au drop puis retombe), couleurs d'origine"
+  },
+  {
+   "id": "B09",
+   "clip": "Z1_B09.mov",
+   "folder": "genZ1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/Z1/out/Z1_B09.mov",
+   "s": 0,
+   "e": 12,
+   "clip_fps": 30,
+   "rec": 391,
+   "dur": 12,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "marée de drapeaux devant le port",
+   "source": {
+    "fichier": "lot3/sources/Z1-marseille2017-debut.mp4",
+    "in_s": 45.0,
+    "out_s": 45.4,
+    "youtube": "https://www.youtube.com/watch?v=yrjWwsV4zS4&t=45"
+   },
+   "effets": "recadrage 9:16 fixe, poussée avant ease-in 1,00->1.06 finissant sur la frappe, bloom couleur des zones claires (fort au drop puis retombe), couleurs d'origine"
+  },
+  {
+   "id": "B10",
+   "clip": "Z1_B10.mov",
+   "folder": "genZ1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/Z1/out/Z1_B10.mov",
+   "s": 0,
+   "e": 13,
+   "clip_fps": 30,
+   "rec": 403,
+   "dur": 13,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "drapeaux, pancartes",
+   "source": {
+    "fichier": "lot3/sources/Z1-marseille2017-debut.mp4",
+    "in_s": 28.0,
+    "out_s": 28.433,
+    "youtube": "https://www.youtube.com/watch?v=yrjWwsV4zS4&t=28"
+   },
+   "effets": "recadrage 9:16 fixe, poussée avant ease-in 1,00->1.06 finissant sur la frappe, bloom couleur des zones claires (fort au drop puis retombe), couleurs d'origine"
+  },
+  {
+   "id": "B11",
+   "clip": "Z1_B11.mov",
+   "folder": "genZ1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/Z1/out/Z1_B11.mov",
+   "s": 0,
+   "e": 52,
+   "clip_fps": 30,
+   "rec": 416,
+   "dur": 52,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "Mélenchon bras levé vers la foule",
+   "source": {
+    "fichier": "lot3/sources/Z1-marseille2017-fin.mp4",
+    "in_s": 94.2,
+    "out_s": 95.933,
+    "youtube": "https://www.youtube.com/watch?v=yrjWwsV4zS4&t=3609"
+   },
+   "effets": "recadrage 9:16 fixe, poussée avant ease-in 1,00->1.10 finissant sur la frappe, bloom couleur des zones claires (fort au drop puis retombe), couleurs d'origine"
+  },
+  {
+   "id": "B12",
+   "clip": "Z1_B12.mov",
+   "folder": "genZ1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/Z1/out/Z1_B12.mov",
+   "s": 0,
+   "e": 52,
+   "clip_fps": 30,
+   "rec": 468,
+   "dur": 52,
+   "track": 1,
+   "speed_pct": 100,
+   "note": "foule et drapeaux devant la mer, fondu au noir",
+   "source": {
+    "fichier": "lot3/sources/Z1-marseille2017-fin.mp4",
+    "in_s": 52.0,
+    "out_s": 53.733,
+    "youtube": "https://www.youtube.com/watch?v=yrjWwsV4zS4&t=3567"
+   },
+   "effets": "recadrage 9:16 fixe, poussée avant ease-in 1,00->1.10 finissant sur la frappe, bloom couleur des zones claires (fort au drop puis retombe), couleurs d'origine",
+   "fade_out_s": 0.7
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "Z1-mix.wav",
+   "folder": "genZ1",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot3/_claude/gen/Z1/out/Z1-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS : voix + ovation du fichier riches 6,00-13.34 s à 0 s ; musique passe-bas -12 dB sous la phrase, montée pendant l'ovation, pleine au drop 6.987 s, fondu 0,9 s"
+  }
+ ]
+}

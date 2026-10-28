@@ -1,0 +1,16 @@
+{
+ "id": "P1",
+ "titre": "MONTAGEM TOMADA",
+ "artiste": "MXZI",
+ "url": "https://youtu.be/EYaP4h6njtI",
+ "chaine": "MXZI (officielle, vérifiée) - MONTAGEM TOMADA (Official Visualiser)",
+ "fichier": "lot3/sons/P1-mxzi-montagem-tomada_complet.wav",
+ "extrait_utilise_s": {"debut": 36.232, "fin": 51.232},
+ "bpm": 130,
+ "structure": "0-3,7 intro (non utilisée) ; 7,9-36 partie A ; 37-44,3 break sans basse (voix « la vida es un carrusel », « vamos a disfrutarla ») ; 44,33 entrée de la 808 (drop utilisé) ; 49,9 basse plus forte ; 51,7 reprise des kicks",
+ "drop": {"morceau_s": 44.328, "timeline_s": 8.096},
+ "frappes_coupes_timeline_s": [8.096, 9.942, 11.788],
+ "frappes_timeline_s": [8.096, 8.442, 9.025, 9.489, 9.942, 10.289, 10.876, 11.328, 11.788, 12.135, 12.717, 13.26, 13.725, 14.183, 14.582],
+ "paroles_audibles": "La vida es un carrusel / Vamos a disfrutarla (espagnol, sous la voix de Léaument, baissées)",
+ "mix": "voix 0,12-7,84 s, morceau baissé (passe-bas 450 Hz, -9 dB) sous la voix puis plein au drop, fondu de fin 1,2 s ; -14,0 LUFS, TP -1,7 dBTP"
+}

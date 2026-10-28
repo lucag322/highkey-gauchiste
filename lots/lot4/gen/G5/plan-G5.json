@@ -1,0 +1,408 @@
+{
+ "name": "G5 - Glow - Bagayoko",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 14.9,
+ "note": "Lot 4, glow COULEUR (aucune image N&B). Coupes sur les kicks réels (rythme/frappes.json). Plans ProRes 9:16 30 i/s prêts (recadrés, poussées, étalonnés, texte cuit sur A1-A3, flash cuit sur B1, fondu cuit sur B10). Ralentis : speed_pct + Optical Flow (sources 30 i/s seulement). Générateur : lot4/_claude/gen/G5/genG5.py, halo #FFB97F",
+ "musique": {
+  "fichier": "lot4/sons/G5-stromae-ta-fete_complet.wav",
+  "debut_extrait_s": 20.963,
+  "entree_pleine_timeline_s": 5.3,
+  "bpm_reel": 128.0,
+  "kicks_timeline_s": [
+   0.095,
+   0.563,
+   1.034,
+   1.496,
+   1.971,
+   2.435,
+   2.91,
+   3.372,
+   3.845,
+   4.312,
+   4.783,
+   5.3,
+   5.723,
+   6.243,
+   6.713,
+   7.181,
+   7.646,
+   8.116,
+   8.584,
+   9.052,
+   9.467,
+   9.632,
+   9.991,
+   10.461,
+   10.93,
+   11.398,
+   11.867,
+   12.279,
+   12.483,
+   12.804,
+   13.276,
+   13.687,
+   13.856,
+   14.156,
+   14.36,
+   14.626,
+   14.823
+  ],
+  "sous_la_voix": "beat étouffé (passe-bas 420 Hz -7 dB) de 0 à 3.70 s, filtre qui s'ouvre sur 1.6 s, plein au drop 5.30 s"
+ },
+ "phrase": {
+  "source": "https://youtu.be/GvFhlaCWWGI 925,40-930,12 s (Le Média, entretien à Saint-Denis, 18/03/2026)",
+  "texte": "Nous sommes une ville antifasciste, antiraciste, anti-impérialiste.",
+  "timeline_s": [
+   0.25,
+   4.97
+  ]
+ },
+ "textes": [
+  {
+   "t0": 0.25,
+   "t1": 0.59,
+   "ligne": "NOUS SOMMES"
+  },
+  {
+   "t0": 0.59,
+   "t1": 0.99,
+   "ligne": "UNE VILLE"
+  },
+  {
+   "t0": 0.99,
+   "t1": 2.61,
+   "ligne": "ANTIFASCISTE"
+  },
+  {
+   "t0": 2.61,
+   "t1": 4.31,
+   "ligne": "ANTIRACISTE"
+  },
+  {
+   "t0": 4.31,
+   "t1": 5.3,
+   "ligne": "ANTI-IMPÉRIALISTE"
+  }
+ ],
+ "halo": "#FFB97F (façade de l'hôtel de ville de Saint-Denis au soleil)",
+ "video": [
+  {
+   "id": "A1",
+   "clip": "G5_A1.mov",
+   "folder": "G5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G5/out/G5_A1.mov",
+   "s": 0,
+   "e": 45,
+   "clip_fps": 30,
+   "rec": 0,
+   "dur": 45,
+   "track": 1,
+   "note": "début de la phrase (dit pendant le plan large de la régie) sur un autre plan moyen du même entretien, micro devant la bouche",
+   "source": {
+    "fichier": "lot2/sources/A5b-bagayoko-lemedia-a.mp4",
+    "fps": 25,
+    "in_s": 20.0,
+    "out_s": 21.5,
+    "youtube": "GvFhlaCWWGI 270.00-271.50 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo, logo du micro Le Média flouté), glow couleur ambre, texte cuit",
+   "frappe_s": 0.0,
+   "poussee": "x1.00 -> x1.02, du kick 0.000 s au kick 1.496 s (temps timeline)"
+  },
+  {
+   "id": "A2",
+   "clip": "G5_A2.mov",
+   "folder": "G5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G5/out/G5_A2.mov",
+   "s": 0,
+   "e": 56,
+   "clip_fps": 30,
+   "rec": 45,
+   "dur": 56,
+   "track": 1,
+   "note": "phrase en synchro exacte, plan moyen assis",
+   "source": {
+    "fichier": "lot2/sources/A5b-bagayoko-lemedia-b.mp4",
+    "fps": 25,
+    "in_s": 1.646,
+    "out_s": 3.513,
+    "youtube": "GvFhlaCWWGI 926.65-928.51 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo, logo du micro Le Média flouté), glow couleur ambre, texte cuit",
+   "frappe_s": 1.496,
+   "poussee": "x1.00 -> x1.02, du kick 1.496 s au kick 3.372 s (temps timeline)"
+  },
+  {
+   "id": "A3",
+   "clip": "G5_A3.mov",
+   "folder": "G5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G5/out/G5_A3.mov",
+   "s": 0,
+   "e": 58,
+   "clip_fps": 30,
+   "rec": 101,
+   "dur": 58,
+   "track": 1,
+   "note": "punch-in avant sur le kick, synchro exacte",
+   "source": {
+    "fichier": "lot2/sources/A5b-bagayoko-lemedia-b.mp4",
+    "fps": 25,
+    "in_s": 3.522,
+    "out_s": 5.455,
+    "youtube": "GvFhlaCWWGI 928.52-930.46 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo, logo du micro Le Média flouté), glow couleur ambre, texte cuit",
+   "frappe_s": 3.372,
+   "poussee": "x1.00 -> x1.03, du kick 3.372 s au kick 5.300 s (temps timeline)"
+  },
+  {
+   "id": "B1",
+   "clip": "G5_B1.mov",
+   "folder": "G5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G5/out/G5_B1.mov",
+   "s": 0,
+   "e": 28,
+   "clip_fps": 30,
+   "rec": 159,
+   "dur": 28,
+   "track": 1,
+   "note": "drop : flash, grand sourire au micro",
+   "source": {
+    "fichier": "lot2/sources/A5b-bagayoko-lemedia-a.mp4",
+    "fps": 25,
+    "in_s": 1.3,
+    "out_s": 2.233,
+    "youtube": "GvFhlaCWWGI 251.30-252.23 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo, logo du micro Le Média flouté), glow couleur ambre, flash 0,13 s cuit",
+   "frappe_s": 5.3,
+   "poussee": "x1.00 -> x1.03, du kick 5.300 s au kick 6.243 s (temps timeline)"
+  },
+  {
+   "id": "B2",
+   "clip": "G5_B2.mov",
+   "folder": "G5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G5/out/G5_B2.mov",
+   "s": 0,
+   "e": 28,
+   "clip_fps": 30,
+   "rec": 187,
+   "dur": 28,
+   "track": 1,
+   "note": "meeting de Saint-Denis, au pupitre, regard relevé",
+   "source": {
+    "fichier": "lot2/sources/A5b-bagayoko-meeting-a.mp4",
+    "fps": 30,
+    "in_s": 9.0,
+    "out_s": 9.933,
+    "youtube": "1dkY_JVFx9I (extrait lot2 A5b-meeting-a, voir derush-AG.json)"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo), glow couleur ambre",
+   "frappe_s": 6.243,
+   "poussee": "x1.00 -> x1.03, du kick 6.243 s au kick 7.181 s (temps timeline)"
+  },
+  {
+   "id": "B3",
+   "clip": "G5_B3.mov",
+   "folder": "G5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G5/out/G5_B3.mov",
+   "s": 0,
+   "e": 28,
+   "clip_fps": 30,
+   "rec": 215,
+   "dur": 28,
+   "track": 1,
+   "note": "Le Média, index levé",
+   "source": {
+    "fichier": "lot2/sources/A5b-bagayoko-lemedia-b.mp4",
+    "fps": 25,
+    "in_s": 9.0,
+    "out_s": 9.933,
+    "youtube": "GvFhlaCWWGI 934.00-934.93 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo, logo du micro Le Média flouté), glow couleur ambre",
+   "frappe_s": 7.181,
+   "poussee": "x1.00 -> x1.03, du kick 7.181 s au kick 8.116 s (temps timeline)"
+  },
+  {
+   "id": "B4",
+   "clip": "G5_B4.mov",
+   "folder": "G5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G5/out/G5_B4.mov",
+   "s": 0,
+   "e": 29,
+   "clip_fps": 30,
+   "rec": 243,
+   "dur": 29,
+   "track": 1,
+   "note": "meeting, regard relevé vers la foule (ralenti)",
+   "source": {
+    "fichier": "lot2/sources/A5b-bagayoko-meeting-a.mp4",
+    "fps": 30,
+    "in_s": 18.0,
+    "out_s": 18.483,
+    "youtube": "1dkY_JVFx9I (extrait lot2 A5b-meeting-a, voir derush-AG.json)"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo), glow couleur ambre",
+   "frappe_s": 8.116,
+   "poussee": "x1.00 -> x1.03, du kick 8.116 s au kick 9.052 s (temps timeline)",
+   "speed_pct": 50.0,
+   "retime": "optical_flow",
+   "ralenti": "50 % : clip 30 i/s à vitesse normale, Resolve à 50 % (Optical Flow, Speed Warp better)"
+  },
+  {
+   "id": "B5",
+   "clip": "G5_B5.mov",
+   "folder": "G5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G5/out/G5_B5.mov",
+   "s": 0,
+   "e": 28,
+   "clip_fps": 30,
+   "rec": 272,
+   "dur": 28,
+   "track": 1,
+   "note": "Le Média, rire, main ouverte",
+   "source": {
+    "fichier": "lot2/sources/A5b-bagayoko-lemedia-a.mp4",
+    "fps": 25,
+    "in_s": 16.0,
+    "out_s": 16.933,
+    "youtube": "GvFhlaCWWGI 266.00-266.93 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo, logo du micro Le Média flouté), glow couleur ambre",
+   "frappe_s": 9.052,
+   "poussee": "x1.00 -> x1.03, du kick 9.052 s au kick 9.991 s (temps timeline)"
+  },
+  {
+   "id": "B6",
+   "clip": "G5_B6.mov",
+   "folder": "G5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G5/out/G5_B6.mov",
+   "s": 0,
+   "e": 28,
+   "clip_fps": 30,
+   "rec": 300,
+   "dur": 28,
+   "track": 1,
+   "note": "Le Média, main levée",
+   "source": {
+    "fichier": "lot2/sources/A5b-bagayoko-lemedia-b.mp4",
+    "fps": 25,
+    "in_s": 12.0,
+    "out_s": 12.933,
+    "youtube": "GvFhlaCWWGI 937.00-937.93 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo, logo du micro Le Média flouté), glow couleur ambre",
+   "frappe_s": 9.991,
+   "poussee": "x1.00 -> x1.03, du kick 9.991 s au kick 10.930 s (temps timeline)"
+  },
+  {
+   "id": "B7",
+   "clip": "G5_B7.mov",
+   "folder": "G5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G5/out/G5_B7.mov",
+   "s": 0,
+   "e": 28,
+   "clip_fps": 30,
+   "rec": 328,
+   "dur": 28,
+   "track": 1,
+   "note": "meeting, face caméra (ralenti)",
+   "source": {
+    "fichier": "lot2/sources/A5b-bagayoko-meeting-a.mp4",
+    "fps": 30,
+    "in_s": 0.2,
+    "out_s": 0.667,
+    "youtube": "1dkY_JVFx9I (extrait lot2 A5b-meeting-a, voir derush-AG.json)"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo), glow couleur ambre",
+   "frappe_s": 10.93,
+   "poussee": "x1.00 -> x1.03, du kick 10.930 s au kick 11.867 s (temps timeline)",
+   "speed_pct": 50.0,
+   "retime": "optical_flow",
+   "ralenti": "50 % : clip 30 i/s à vitesse normale, Resolve à 50 % (Optical Flow, Speed Warp better)"
+  },
+  {
+   "id": "B8",
+   "clip": "G5_B8.mov",
+   "folder": "G5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G5/out/G5_B8.mov",
+   "s": 0,
+   "e": 28,
+   "clip_fps": 30,
+   "rec": 356,
+   "dur": 28,
+   "track": 1,
+   "note": "Le Média, mains ouvertes",
+   "source": {
+    "fichier": "lot2/sources/A5b-bagayoko-lemedia-a.mp4",
+    "fps": 25,
+    "in_s": 21.3,
+    "out_s": 22.233,
+    "youtube": "GvFhlaCWWGI 271.30-272.23 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo, logo du micro Le Média flouté), glow couleur ambre",
+   "frappe_s": 11.867,
+   "poussee": "x1.00 -> x1.03, du kick 11.867 s au kick 12.804 s (temps timeline)"
+  },
+  {
+   "id": "B9",
+   "clip": "G5_B9.mov",
+   "folder": "G5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G5/out/G5_B9.mov",
+   "s": 0,
+   "e": 27,
+   "clip_fps": 30,
+   "rec": 384,
+   "dur": 27,
+   "track": 1,
+   "note": "Le Média, geste de la main",
+   "source": {
+    "fichier": "lot2/sources/A5b-bagayoko-lemedia-b.mp4",
+    "fps": 25,
+    "in_s": 15.0,
+    "out_s": 15.9,
+    "youtube": "GvFhlaCWWGI 940.00-940.90 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo, logo du micro Le Média flouté), glow couleur ambre",
+   "frappe_s": 12.804,
+   "poussee": "x1.00 -> x1.03, du kick 12.804 s au kick 13.687 s (temps timeline)"
+  },
+  {
+   "id": "B10",
+   "clip": "G5_B10.mov",
+   "folder": "G5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G5/out/G5_B10.mov",
+   "s": 0,
+   "e": 36,
+   "clip_fps": 30,
+   "rec": 411,
+   "dur": 36,
+   "track": 1,
+   "note": "Le Média, sourire, fondu au noir 0,6 s",
+   "source": {
+    "fichier": "lot2/sources/A5b-bagayoko-lemedia-a.mp4",
+    "fps": 25,
+    "in_s": 2.9,
+    "out_s": 4.1,
+    "youtube": "GvFhlaCWWGI 252.90-254.10 s"
+   },
+   "effets": "recadrage 9:16 suivi visage (sans logo, logo du micro Le Média flouté), glow couleur ambre, fondu au noir 0,6 s cuit",
+   "frappe_s": 13.687,
+   "poussee": "x1.00 -> x1.04, du kick 13.687 s au kick 14.900 s (temps timeline)"
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "G5-mix.wav",
+   "folder": "G5",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot4/_claude/gen/G5/out/G5-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix final -14 LUFS : voix 0.22-5.10 s, Ta fête étouffé dessous puis montée et plein au drop 5.30 s, fondu de fin"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "M2",
+ "titre": "Au DD",
+ "artiste": "PNL",
+ "url": "https://youtu.be/BtyHYIpykN0",
+ "chaine": "PNL (officielle, « PNL - Au DD [Clip Officiel] », 22/03/2019)",
+ "fichier": "lot4/sons/M2-pnl-au-dd_complet.wav",
+ "extrait_complet_s": {
+  "debut": 117.8971,
+  "fin": 132.847
+ },
+ "paroles_audibles": "sous la phrase d'Aubry (musique -15 -> -9 dB) : « Moi j'ai donné pendant longtemps / Puis j'ai perdu mes pétales » ; break ; « Au DD » crié (123,70 s) ; drop puis début du refrain : « J'la passe à la détaille, la pécu, la vie… sert des regrets devant ton bébé » et « J'sors de chez toi, j'reprends ta voiture mal garée puis j'retire ton PV » (transcription Whisper, à vérifier à l'oreille)",
+ "bpm": 120.0,
+ "temps_s": 0.5,
+ "drop": {
+  "complet_s": 123.895,
+  "timeline_s": 5.9977,
+  "nature": "1er kick plein du refrain, sur « DD » de « Au DD » crié, juste après le break (122,4-123,7 s)"
+ },
+ "frappes_timeline_s": [
+  0.0088,
+  1.2535,
+  2.0035,
+  2.7537,
+  4.0032,
+  5.9977,
+  8.0016,
+  9.9992,
+  11.2535,
+  11.2535,
+  11.9987,
+  13.2533,
+  14.0036
+ ],
+ "coupes_sur_frappes_s": [
+  4.0032,
+  5.9977,
+  8.0016,
+  9.9992,
+  11.9987,
+  14.0036
+ ],
+ "mix": "lot4/_claude/gen/M2/out/M2-mix.wav (-14,3 LUFS, TP -2,8 dBTP mesurés sur l'aperçu)"
+}

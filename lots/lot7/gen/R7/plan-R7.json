@@ -1,0 +1,645 @@
+{
+ "name": "R7 - Collage ransom-note pancartes - Jean-Luc Mélenchon",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 19.37,
+ "note": "Plans ProRes 9:16 composés en Python (lot7/_claude/gen/R7/out) : fonds papier froissé + feuille déchirée, Mélenchon détouré seul (instance Vision, tools/inst), double tirage tramé, silhouette blanche 3 images au drop, photos de foule vivantes (couleur / bichromies), pancartes brandies (texte ransom-note cuit), coquelicots en papier. s/e en images du clip (30 i/s), rec en images timeline. Coupes sur les frappes réelles de Freed from Desire (out/R7-frappes.json). Aucun ralenti. Générateur : lot7/_claude/gen/R7/genR7.py",
+ "phrase": {
+  "texte": "Gouverner sans compter sur les fadaises magiques de la main invisible du marché et autres stupidités métaphysiques.",
+  "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+  "source": "lot1/sources/3-melenchon-huma-citation.mp4",
+  "in_s": 61.86,
+  "out_s": 69.18,
+  "youtube_s": [
+   4771.86,
+   4779.18
+  ],
+  "timeline_s": [
+   0.3,
+   7.62
+  ],
+  "voix": "son direct ; plans A0 et A4 = foule (sans parole), plans A1-A3 synchro (A3 coupé avant la tête baissée sur les notes) ; « c'est-à-dire » (61,34-61,78) non gardé"
+ },
+ "musique": {
+  "fichier": "lot7/sons/R7-gala-freed-from-desire_complet.wav",
+  "titre": "Gala - Freed from Desire",
+  "url": "https://www.youtube.com/watch?v=Qvu033SBMYU",
+  "debut_complet_s": 51.6914,
+  "fin_complet_s": 71.061,
+  "drop_timeline_s": 8.219000000000001,
+  "coupes_frappes_s": [
+   1.8811,
+   4.9171,
+   6.3576,
+   7.3107,
+   8.219000000000001,
+   10.0786,
+   11.9384,
+   13.799100000000001,
+   16.1238,
+   17.0559
+  ],
+  "coupes_images": [
+   56,
+   148,
+   191,
+   219,
+   247,
+   302,
+   358,
+   414,
+   484,
+   512
+  ]
+ },
+ "textes": [
+  {
+   "plan": "A0",
+   "texte": "GOUVERNER SANS COMPTER",
+   "temps": "mot à mot sur la voix"
+  },
+  {
+   "plan": "A1",
+   "texte": "SUR LES FADAISES MAGIQUES",
+   "temps": "mot à mot sur la voix"
+  },
+  {
+   "plan": "A1",
+   "texte": "DE LA MAIN INVISIBLE",
+   "temps": "mot à mot sur la voix"
+  },
+  {
+   "plan": "A2",
+   "texte": "LA MAIN INVISIBLE DU MARCHÉ",
+   "temps": "mot à mot sur la voix"
+  },
+  {
+   "plan": "A2",
+   "texte": "ET AUTRES STUPIDITÉS",
+   "temps": "mot à mot sur la voix"
+  },
+  {
+   "plan": "A3",
+   "texte": "STUPIDITÉS MÉTAPHYSIQUES",
+   "temps": "mot à mot sur la voix"
+  },
+  {
+   "plan": "A4",
+   "texte": "STUPIDITÉS MÉTAPHYSIQUES",
+   "temps": "mot à mot sur la voix"
+  },
+  {
+   "plan": "B1",
+   "texte": "GOUVERNER."
+  },
+  {
+   "plan": "B2",
+   "texte": "SANS COMPTER SUR LES FADAISES MAGIQUES"
+  },
+  {
+   "plan": "B3",
+   "texte": "LA MAIN INVISIBLE DU MARCHÉ"
+  },
+  {
+   "plan": "B4",
+   "texte": "ET AUTRES STUPIDITÉS MÉTAPHYSIQUES."
+  },
+  {
+   "plan": "FIN",
+   "texte": "2027"
+  },
+  {
+   "plan": "FIN",
+   "texte": "JEAN-LUC"
+  },
+  {
+   "plan": "FIN",
+   "texte": "MÉLENCHON"
+  }
+ ],
+ "video": [
+  {
+   "id": "A0",
+   "clip": "R7_A0.mov",
+   "folder": "genR7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R7/out/R7_A0.mov",
+   "s": 0,
+   "e": 56,
+   "rec": 0,
+   "dur": 56,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "2026 — Fête de l'Huma, la foule au soleil (sans parole) sous « Gouverner sans compter » : photos collées, pancarte brandie",
+   "kind": "collage",
+   "temps": 4.01,
+   "photos": [
+    {
+     "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+     "in_s": 225.0,
+     "out_s": 226.87,
+     "cadre_source": [
+      240,
+      300,
+      1680,
+      1080
+     ],
+     "tirage": "couleur",
+     "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+     "synchro": false
+    },
+    {
+     "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+     "in_s": 257.0,
+     "out_s": 258.87,
+     "cadre_source": [
+      200,
+      430,
+      1720,
+      1080
+     ],
+     "tirage": "rose",
+     "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+     "synchro": false
+    }
+   ]
+  },
+  {
+   "id": "A1",
+   "clip": "R7_A1.mov",
+   "folder": "genR7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R7/out/R7_A1.mov",
+   "s": 0,
+   "e": 92,
+   "rec": 56,
+   "dur": 92,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "Fête de l'Huma, son direct synchro : « sur les fadaises magiques de la main invisible », Mélenchon détouré seul sur rose, double tirage tramé coquelicot",
+   "kind": "cut",
+   "temps": 6.59,
+   "source": {
+    "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+    "in_s": 63.427,
+    "out_s": 66.493,
+    "fps": 50.0,
+    "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+    "contexte": "Fête de l'Humanité, 12/09/2026 (chaîne JEAN-LUC MÉLENCHON), extrait 4710-5010 s",
+    "youtube_t": 4773.4,
+    "synchro": true
+   },
+   "photos": [
+    {
+     "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+     "in_s": 141.0,
+     "out_s": 144.07,
+     "cadre_source": [
+      0,
+      330,
+      1600,
+      1080
+     ],
+     "tirage": "coq",
+     "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+     "synchro": false
+    }
+   ]
+  },
+  {
+   "id": "A2",
+   "clip": "R7_A2.mov",
+   "folder": "genR7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R7/out/R7_A2.mov",
+   "s": 0,
+   "e": 43,
+   "rec": 148,
+   "dur": 43,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "même plan synchro : « du marché et autres stupidités », une 2e pancarte remplace la 1re sur « et autres »",
+   "kind": "cut",
+   "temps": 3.08,
+   "source": {
+    "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+    "in_s": 66.493,
+    "out_s": 67.927,
+    "fps": 50.0,
+    "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+    "contexte": "Fête de l'Humanité, 12/09/2026 (chaîne JEAN-LUC MÉLENCHON), extrait 4710-5010 s",
+    "youtube_t": 4776.5,
+    "synchro": true
+   },
+   "photos": [
+    {
+     "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+     "in_s": 215.0,
+     "out_s": 216.43,
+     "cadre_source": [
+      300,
+      380,
+      1920,
+      1080
+     ],
+     "tirage": "rose",
+     "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+     "synchro": false
+    }
+   ]
+  },
+  {
+   "id": "A3",
+   "clip": "R7_A3.mov",
+   "folder": "genR7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R7/out/R7_A3.mov",
+   "s": 0,
+   "e": 28,
+   "rec": 191,
+   "dur": 28,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "même plan synchro : « stupidités métaphysiques », coupé avant qu'il baisse la tête sur ses notes (68,9 s)",
+   "kind": "cut",
+   "temps": 2.01,
+   "source": {
+    "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+    "in_s": 67.927,
+    "out_s": 68.86,
+    "fps": 50.0,
+    "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+    "contexte": "Fête de l'Humanité, 12/09/2026 (chaîne JEAN-LUC MÉLENCHON), extrait 4710-5010 s",
+    "youtube_t": 4777.9,
+    "synchro": true
+   },
+   "photos": [
+    {
+     "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+     "in_s": 209.0,
+     "out_s": 209.93,
+     "cadre_source": [
+      200,
+      470,
+      1720,
+      1080
+     ],
+     "tirage": "couleur",
+     "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+     "synchro": false
+    },
+    {
+     "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+     "in_s": 264.0,
+     "out_s": 264.93,
+     "cadre_source": [
+      200,
+      300,
+      1720,
+      1080
+     ],
+     "tirage": "coq",
+     "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+     "synchro": false
+    }
+   ]
+  },
+  {
+   "id": "A4",
+   "clip": "R7_A4.mov",
+   "folder": "genR7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R7/out/R7_A4.mov",
+   "s": 0,
+   "e": 28,
+   "rec": 219,
+   "dur": 28,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "Fête de l'Huma, la foule (sans parole) sur la fin de « métaphysiques » et l'ovation, jusqu'au drop : même pancarte qui continue",
+   "kind": "collage",
+   "temps": 2.01,
+   "photos": [
+    {
+     "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+     "in_s": 211.5,
+     "out_s": 212.43,
+     "cadre_source": [
+      200,
+      470,
+      1720,
+      1080
+     ],
+     "tirage": "couleur",
+     "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+     "synchro": false
+    },
+    {
+     "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+     "in_s": 262.5,
+     "out_s": 263.43,
+     "cadre_source": [
+      200,
+      300,
+      1720,
+      1080
+     ],
+     "tirage": "coq",
+     "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+     "synchro": false
+    }
+   ]
+  },
+  {
+   "id": "B1",
+   "clip": "R7_B1.mov",
+   "folder": "genR7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R7/out/R7_B1.mov",
+   "s": 0,
+   "e": 55,
+   "rec": 247,
+   "dur": 55,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "DROP « Na na na » — Fête de l'Huma (152 s, poing serré, sans le son) : silhouette blanche 3 images puis Mélenchon en couleur, contour autocollant",
+   "kind": "sil",
+   "temps": 3.94,
+   "source": {
+    "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+    "in_s": 152.0,
+    "out_s": 153.833,
+    "fps": 50.0,
+    "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+    "contexte": "Fête de l'Humanité, 12/09/2026 (chaîne JEAN-LUC MÉLENCHON), extrait 4710-5010 s",
+    "youtube_t": 4862.0,
+    "synchro": false
+   }
+  },
+  {
+   "id": "B2",
+   "clip": "R7_B2.mov",
+   "folder": "genR7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R7/out/R7_B2.mov",
+   "s": 0,
+   "e": 56,
+   "rec": 302,
+   "dur": 56,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "collage de foule d'été : la Fête de l'Huma en photos (couleur, rose, coquelicot) qui se collent une par temps, pancarte brandie",
+   "kind": "collage",
+   "temps": 4.01,
+   "photos": [
+    {
+     "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+     "in_s": 228.0,
+     "out_s": 229.87,
+     "cadre_source": [
+      300,
+      300,
+      1700,
+      1080
+     ],
+     "tirage": "couleur",
+     "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+     "synchro": false
+    },
+    {
+     "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+     "in_s": 259.0,
+     "out_s": 260.87,
+     "cadre_source": [
+      300,
+      430,
+      1820,
+      1080
+     ],
+     "tirage": "rose",
+     "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+     "synchro": false
+    },
+    {
+     "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+     "in_s": 246.0,
+     "out_s": 247.87,
+     "cadre_source": [
+      0,
+      460,
+      1920,
+      1080
+     ],
+     "tirage": "coq",
+     "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+     "synchro": false
+    },
+    {
+     "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+     "in_s": 279.0,
+     "out_s": 280.87,
+     "cadre_source": [
+      200,
+      470,
+      1720,
+      1080
+     ],
+     "tirage": "couleur",
+     "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+     "synchro": false
+    }
+   ]
+  },
+  {
+   "id": "B3",
+   "clip": "R7_B3.mov",
+   "folder": "genR7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R7/out/R7_B3.mov",
+   "s": 0,
+   "e": 56,
+   "rec": 358,
+   "dur": 56,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "Fête de l'Huma (124 s, bras tendu vers la foule, sans le son) : détouré sur coquelicot + feuille rose déchirée",
+   "kind": "cut",
+   "temps": 4.01,
+   "source": {
+    "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+    "in_s": 124.0,
+    "out_s": 125.867,
+    "fps": 50.0,
+    "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+    "contexte": "Fête de l'Humanité, 12/09/2026 (chaîne JEAN-LUC MÉLENCHON), extrait 4710-5010 s",
+    "youtube_t": 4834.0,
+    "synchro": false
+   },
+   "photos": [
+    {
+     "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+     "in_s": 226.5,
+     "out_s": 228.37,
+     "cadre_source": [
+      240,
+      300,
+      1680,
+      1080
+     ],
+     "tirage": "rose",
+     "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+     "synchro": false
+    }
+   ]
+  },
+  {
+   "id": "B4",
+   "clip": "R7_B4.mov",
+   "folder": "genR7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R7/out/R7_B4.mov",
+   "s": 0,
+   "e": 70,
+   "rec": 414,
+   "dur": 70,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "Fête de l'Huma (33 s, index pointé, sans le son) : détouré sur rose poudré, photos de la foule collées derrière",
+   "kind": "cut",
+   "temps": 5.02,
+   "source": {
+    "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+    "in_s": 33.0,
+    "out_s": 35.333,
+    "fps": 50.0,
+    "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+    "contexte": "Fête de l'Humanité, 12/09/2026 (chaîne JEAN-LUC MÉLENCHON), extrait 4710-5010 s",
+    "youtube_t": 4743.0,
+    "synchro": false
+   },
+   "photos": [
+    {
+     "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+     "in_s": 258.0,
+     "out_s": 260.33,
+     "cadre_source": [
+      300,
+      430,
+      1820,
+      1080
+     ],
+     "tirage": "coq",
+     "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+     "synchro": false
+    },
+    {
+     "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+     "in_s": 265.5,
+     "out_s": 267.83,
+     "cadre_source": [
+      200,
+      300,
+      1720,
+      1080
+     ],
+     "tirage": "couleur",
+     "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+     "synchro": false
+    }
+   ]
+  },
+  {
+   "id": "B5",
+   "clip": "R7_B5.mov",
+   "folder": "genR7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R7/out/R7_B5.mov",
+   "s": 0,
+   "e": 28,
+   "rec": 484,
+   "dur": 28,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "collage qui se remplit photo après photo (demi-temps) : la foule de la Fête de l'Huma, coquelicots qui poussent",
+   "kind": "collage",
+   "temps": 2.01,
+   "photos": [
+    {
+     "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+     "in_s": 210.5,
+     "out_s": 211.43,
+     "cadre_source": [
+      200,
+      470,
+      1720,
+      1080
+     ],
+     "tirage": "couleur",
+     "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+     "synchro": false
+    },
+    {
+     "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+     "in_s": 229.0,
+     "out_s": 229.93,
+     "cadre_source": [
+      300,
+      300,
+      1700,
+      1080
+     ],
+     "tirage": "rose",
+     "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+     "synchro": false
+    },
+    {
+     "fichier": "lot1/sources/3-melenchon-huma-citation.mp4",
+     "in_s": 260.0,
+     "out_s": 260.93,
+     "cadre_source": [
+      300,
+      430,
+      1820,
+      1080
+     ],
+     "tirage": "coq",
+     "url": "https://www.youtube.com/watch?v=80bBtk2lTiI",
+     "synchro": false
+    }
+   ]
+  },
+  {
+   "id": "FIN",
+   "clip": "R7_FIN.mov",
+   "folder": "genR7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R7/out/R7_FIN.mov",
+   "s": 0,
+   "e": 69,
+   "rec": 512,
+   "dur": 69,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "carton final propre (rose poudré, coquelicot + encre) : son nom et 2027 sur une pancarte, pas de CTA",
+   "kind": "card",
+   "temps": 4.95
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "R7-mix.wav",
+   "folder": "genR7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot7/_claude/gen/R7/out/R7-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS : voix Huma 61.80-69.50 s (+4 dB) à 0.24 s ; Freed from Desire dès 51.691 s du complet, -19 dB sous la voix, montée, plein au drop, fondu de fin 0,4 s"
+  }
+ ],
+ "stems": [
+  "lot7/_claude/gen/R7/out/R7-voix.wav",
+  "lot7/_claude/gen/R7/out/R7-musique.wav"
+ ],
+ "logos_exclus": "pupitre écrit (FÊTE DE L'HUMA, MELENCHON2027.fr) hors des fenêtres de détourage ; photos de foule recadrées sous les banderoles et le chapiteau écrit"
+}

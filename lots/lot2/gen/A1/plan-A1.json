@@ -1,0 +1,277 @@
+{
+ "name": "A1 - Panot aura N&B",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 15.0,
+ "note": "Plans 9:16 recadrés + N&B (gen/A1/out). s/e en images du clip (30 i/s), rec en images timeline 30 i/s. speed_pct : ralenti Resolve Optical Flow + Speed Warp (e - s = durée timeline à vitesse normale). Coupes sur les temps (90 BPM, drop 5,464 s), aucun plan < 1 temps.",
+ "video": [
+  {
+   "id": "hook",
+   "clip": "A1_aura_intro.mov",
+   "folder": "genA1",
+   "s": 0,
+   "e": 44,
+   "rec": 0,
+   "track": 1,
+   "kind": "card"
+  },
+  {
+   "id": "long",
+   "clip": "A1_long.mov",
+   "folder": "genA1",
+   "s": 0,
+   "e": 120,
+   "rec": 44,
+   "track": 1,
+   "kind": "shot",
+   "source": "A1-panot-rochefort-a.mp4 @ 15.92 s",
+   "texte": "DÉSORMAIS · PLUS / RIEN (rouge) / NE / PASSERA"
+  },
+  {
+   "id": "bras_164",
+   "clip": "A1_bras_drop.mov",
+   "folder": "genA1",
+   "s": 0,
+   "e": 20,
+   "rec": 164,
+   "track": 1,
+   "kind": "shot",
+   "source": "A1-panot-rochefort-a.mp4 @ 51.70 s",
+   "effet": "drop",
+   "temps": 1
+  },
+  {
+   "id": "salle_184",
+   "clip": "A1_salle_whip.mov",
+   "folder": "genA1",
+   "s": 0,
+   "e": 20,
+   "rec": 184,
+   "track": 1,
+   "kind": "shot",
+   "source": "A1-panot-rochefort-c.mp4 @ 52.15 s",
+   "effet": "whip",
+   "temps": 1
+  },
+  {
+   "id": "poing_204",
+   "clip": "A1_poing_whip.mov",
+   "folder": "genA1",
+   "s": 0,
+   "e": 20,
+   "rec": 204,
+   "track": 1,
+   "kind": "shot",
+   "source": "A1-panot-rochefort-b.mp4 @ 27.20 s",
+   "effet": "whip",
+   "temps": 1
+  },
+  {
+   "id": "dessine_224",
+   "clip": "A1_dessine_whip.mov",
+   "folder": "genA1",
+   "s": 0,
+   "e": 20,
+   "rec": 224,
+   "track": 1,
+   "kind": "shot",
+   "source": "A1-panot-rochefort-c.mp4 @ 16.30 s",
+   "effet": "whip",
+   "temps": 1
+  },
+  {
+   "id": "mains_244",
+   "clip": "A1_mains_whip.mov",
+   "folder": "genA1",
+   "s": 0,
+   "e": 20,
+   "rec": 244,
+   "track": 1,
+   "kind": "shot",
+   "source": "A1-panot-rochefort-b.mp4 @ 57.20 s",
+   "effet": "whip",
+   "temps": 1
+  },
+  {
+   "id": "index_264",
+   "clip": "A1_index_whip.mov",
+   "folder": "genA1",
+   "s": 0,
+   "e": 20,
+   "rec": 264,
+   "track": 1,
+   "kind": "shot",
+   "source": "A1-panot-rochefort-b.mp4 @ 100.20 s",
+   "effet": "whip",
+   "temps": 1
+  },
+  {
+   "id": "regard_284",
+   "clip": "A1_regard.mov",
+   "folder": "genA1",
+   "s": 0,
+   "e": 40,
+   "rec": 284,
+   "track": 1,
+   "kind": "shot",
+   "source": "A1-panot-rochefort-a.mp4 @ 42.30 s",
+   "effet": "cut",
+   "temps": 2,
+   "speed_pct": 60,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "face_324",
+   "clip": "A1_face_whip.mov",
+   "folder": "genA1",
+   "s": 0,
+   "e": 20,
+   "rec": 324,
+   "track": 1,
+   "kind": "shot",
+   "source": "A1-panot-rochefort-b.mp4 @ 80.80 s",
+   "effet": "whip",
+   "temps": 1
+  },
+  {
+   "id": "cri_344",
+   "clip": "A1_cri_whip.mov",
+   "folder": "genA1",
+   "s": 0,
+   "e": 20,
+   "rec": 344,
+   "track": 1,
+   "kind": "shot",
+   "source": "A1-panot-lcp-qag-2025-12.mp4 @ 62.30 s",
+   "effet": "whip",
+   "temps": 1
+  },
+  {
+   "id": "bras_364",
+   "clip": "A1_bras_whip.mov",
+   "folder": "genA1",
+   "s": 0,
+   "e": 20,
+   "rec": 364,
+   "track": 1,
+   "kind": "shot",
+   "source": "A1-panot-rochefort-a.mp4 @ 51.70 s",
+   "effet": "whip",
+   "temps": 1
+  },
+  {
+   "id": "poing_384",
+   "clip": "A1_poing_whip.mov",
+   "folder": "genA1",
+   "s": 0,
+   "e": 20,
+   "rec": 384,
+   "track": 1,
+   "kind": "shot",
+   "source": "A1-panot-rochefort-b.mp4 @ 27.20 s",
+   "effet": "whip",
+   "temps": 1
+  },
+  {
+   "id": "hemicycle_404",
+   "clip": "A1_hemicycle_whip.mov",
+   "folder": "genA1",
+   "s": 0,
+   "e": 20,
+   "rec": 404,
+   "track": 1,
+   "kind": "shot",
+   "source": "A1-panot-lcp-qag-2025-12.mp4 @ 31.30 s",
+   "effet": "whip",
+   "temps": 1
+  },
+  {
+   "id": "fin",
+   "clip": "A1_aura_fin.mov",
+   "folder": "genA1",
+   "s": 0,
+   "e": 26,
+   "rec": 424,
+   "track": 1,
+   "kind": "card"
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "A1-mix.wav",
+   "folder": "genA1",
+   "rec": 0,
+   "track": 1,
+   "note": "AURA (Ogryzek) de 0 à 15 s, voix de Panot 3,14-5,4 s (musique baissée dessous), -14 LUFS"
+  }
+ ],
+ "stems": [
+  "lot2/_claude/gen/A1/out/A1-voix.wav",
+  "lot2/_claude/gen/A1/out/A1-musique.wav"
+ ],
+ "sources": {
+  "long": {
+   "fichier": "lot2/sources/A1-panot-rochefort-a.mp4",
+   "t": 15.924,
+   "pourquoi": "phrase « Désormais, plus rien ne passera. » (Rochefort, 22/10/2026)"
+  },
+  "bras": {
+   "fichier": "lot2/sources/A1-panot-rochefort-a.mp4",
+   "t": 51.7,
+   "pourquoi": "bras grands ouverts (Rochefort)"
+  },
+  "poing": {
+   "fichier": "lot2/sources/A1-panot-rochefort-b.mp4",
+   "t": 27.2,
+   "pourquoi": "bras levé, sourire (Rochefort)"
+  },
+  "salle": {
+   "fichier": "lot2/sources/A1-panot-rochefort-c.mp4",
+   "t": 52.15,
+   "pourquoi": "salle debout, drapeaux (Rochefort)"
+  },
+  "dessine": {
+   "fichier": "lot2/sources/A1-panot-rochefort-c.mp4",
+   "t": 16.3,
+   "pourquoi": "mains qui dessinent (Rochefort, autre caméra)"
+  },
+  "mains": {
+   "fichier": "lot2/sources/A1-panot-rochefort-b.mp4",
+   "t": 57.2,
+   "pourquoi": "deux mains levées (Rochefort, avant le bandeau nom)"
+  },
+  "index": {
+   "fichier": "lot2/sources/A1-panot-rochefort-b.mp4",
+   "t": 100.2,
+   "pourquoi": "index levé (Rochefort)"
+  },
+  "regard": {
+   "fichier": "lot2/sources/A1-panot-rochefort-a.mp4",
+   "t": 42.3,
+   "pourquoi": "regard de côté, tribune (Rochefort)"
+  },
+  "face": {
+   "fichier": "lot2/sources/A1-panot-rochefort-b.mp4",
+   "t": 80.8,
+   "pourquoi": "de face, voix forte (Rochefort)"
+  },
+  "cri": {
+   "fichier": "lot2/sources/A1-panot-lcp-qag-2025-12.mp4",
+   "t": 62.3,
+   "pourquoi": "cri final, applaudissements (QAG LCP)"
+  },
+  "hemicycle": {
+   "fichier": "lot2/sources/A1-panot-lcp-qag-2025-12.mp4",
+   "t": 31.3,
+   "pourquoi": "bras tendu, voix forte (QAG LCP)"
+  }
+ },
+ "sources_url": {
+  "A1-panot-rochefort-a.mp4": "youtube 4l2dx1n-UFo (chaîne Mathilde Panot, meeting Rochefort 22/10/2026), offset_yt 1545 s",
+  "A1-panot-rochefort-b.mp4": "youtube 4l2dx1n-UFo, offset_yt 20 s",
+  "A1-panot-rochefort-c.mp4": "youtube 4l2dx1n-UFo, offset_yt 1980 s",
+  "A1-panot-lcp-qag-2025-12.mp4": "youtube mqeo_ILV2_w (LCP, QAG 04/12/2025)"
+ }
+}

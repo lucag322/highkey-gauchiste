@@ -1,0 +1,209 @@
+{
+ "name": "M3 - Aura couleur multi-contextes - Louis Boyard",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 15.0,
+ "note": "Plans ProRes 9:16 recadrés + étalonnage couleur léger (lot5/_claude/gen/M3/out), aucun texte (recette jaxnotpl3). s/e en images du clip (30 i/s), rec en images timeline. Coupes sur les frappes réelles de Le monde ou rien (out/M3-frappes.json), drop = kick avant « Le monde ou rien ». Aucun ralenti. Générateur : lot5/_claude/gen/M3/genM3.py",
+ "phrase": {
+  "texte": "Alors, à vous, les dirigeants du XXe siècle, nous vous regardons et nous vous jugeons.",
+  "url": "https://www.youtube.com/watch?v=cNkMqVnlUl0",
+  "source": "lot3/sources/K1-boyard-meeting-npp-b.mp4",
+  "in_s": 3.8,
+  "out_s": 9.48,
+  "t_youtube_s": [
+   255.8,
+   261.48
+  ],
+  "timeline_s": [
+   0.25,
+   5.93
+  ],
+  "voix": "son direct synchro sur le 1er plan (« Alors, à vous, »), puis en off sur Boyard muet au Duel franceinfo ; finit 0,07 s avant le drop"
+ },
+ "musique": {
+  "fichier": "lot5/sons/M3-pnl-le-monde-ou-rien.wav",
+  "titre": "PNL - Le monde ou rien",
+  "url": "https://www.youtube.com/watch?v=umF1kfVujhM",
+  "debut_complet_s": 95.071,
+  "fin_complet_s": 110.071,
+  "drop_timeline_s": 6.0008,
+  "coupes_frappes_s": [
+   1.9012,
+   6.0008,
+   7.7311,
+   10.0636,
+   12.4004
+  ],
+  "coupes_images": [
+   57,
+   180,
+   232,
+   302,
+   372
+  ]
+ },
+ "video": [
+  {
+   "id": "phrase",
+   "clip": "M3_phrase.mov",
+   "folder": "genM3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/M3/out/M3_phrase.mov",
+   "s": 0,
+   "e": 57,
+   "rec": 0,
+   "dur": 57,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "janv. 2026 — meeting Nouveau Paris populaire : « Alors, à vous, … » en son direct (avant le plan de salle de la source à 5,56 s)",
+   "source": {
+    "fichier": "lot3/sources/K1-boyard-meeting-npp-b.mp4",
+    "in_s": 3.55,
+    "out_s": 5.47,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=cNkMqVnlUl0",
+    "t_youtube_s": 255.55,
+    "contexte": "meeting « Nouveau Paris populaire », Paris, 31/01/2026 (chaîne Louis Boyard)"
+   },
+   "temps": 3.27
+  },
+  {
+   "id": "regard",
+   "clip": "M3_regard.mov",
+   "folder": "genM3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/M3/out/M3_regard.mov",
+   "s": 0,
+   "e": 123,
+   "rec": 57,
+   "dur": 123,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "oct. 2026 — Le Duel franceinfo : muet, la main au menton, il fixe Ian Boucard pendant que sa voix dit « …nous vous regardons et nous vous jugeons » (Boucard et bandeau hors cadre)",
+   "source": {
+    "fichier": "lot1/sources/4-boyard-franceinfo-duel-a.mp4",
+    "in_s": 73.6,
+    "out_s": 77.68,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=dn01kQrjkBo",
+    "t_youtube_s": 463.6,
+    "contexte": "Le Duel franceinfo face à Ian Boucard (LR), révolte lycéenne, 06/10/2026 (chaîne franceinfo)"
+   },
+   "temps": 7.07
+  },
+  {
+   "id": "2022",
+   "clip": "M3_2022.mov",
+   "folder": "genM3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/M3/out/M3_2022.mov",
+   "s": 0,
+   "e": 52,
+   "rec": 180,
+   "dur": 52,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "DROP — juin 2022, 21 ans, nouveau député : de dos, il pousse la porte vitrée et entre au Palais Bourbon (plan « cool » à la place des lunettes, comme le couloir de M2)",
+   "source": {
+    "fichier": "lot5/sources/M3-boyard-parisien-2022.mp4",
+    "in_s": 5.35,
+    "out_s": 7.07,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=sR6LUFh-oUI",
+    "t_youtube_s": 27.35,
+    "contexte": "premiers pas à l'Assemblée du député de 21 ans, juin 2022 (chaîne Le Parisien)"
+   },
+   "temps": 2.99
+  },
+  {
+   "id": "commission",
+   "clip": "M3_commission.mov",
+   "folder": "genM3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/M3/out/M3_commission.mov",
+   "s": 0,
+   "e": 70,
+   "rec": 232,
+   "dur": 70,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "avr. 2026 — Assemblée, rapport santé mentale des jeunes : deux doigts levés",
+   "source": {
+    "fichier": "lot2/sources/G1-boyard-an-santementale-2026-04.mp4",
+    "in_s": 29.5,
+    "out_s": 31.82,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=C_qSIfecvAw",
+    "t_youtube_s": 29.5,
+    "contexte": "rapport sur la santé mentale des jeunes, Assemblée nationale, 29/04/2026 (chaîne La France insoumise à l'Assemblée nationale)"
+   },
+   "temps": 4.02
+  },
+  {
+   "id": "balcon",
+   "clip": "M3_balcon.mov",
+   "folder": "genM3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/M3/out/M3_balcon.mov",
+   "s": 0,
+   "e": 70,
+   "rec": 302,
+   "dur": 70,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "janv. 2026 — meeting Nouveau Paris populaire : de profil, regard levé vers le balcon, main levée",
+   "source": {
+    "fichier": "lot3/sources/K1-boyard-meeting-npp-a.mp4",
+    "in_s": 43.0,
+    "out_s": 45.32,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=cNkMqVnlUl0",
+    "t_youtube_s": 183.0,
+    "contexte": "meeting « Nouveau Paris populaire », Paris, 31/01/2026 (chaîne Louis Boyard)"
+   },
+   "temps": 4.02
+  },
+  {
+   "id": "paris",
+   "clip": "M3_paris.mov",
+   "folder": "genM3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/M3/out/M3_paris.mov",
+   "s": 0,
+   "e": 78,
+   "rec": 372,
+   "dur": 78,
+   "clip_fps": 30,
+   "speed_pct": 100,
+   "track": 1,
+   "note": "oct. 2026 (aujourd'hui) — meeting de Paris, gros plan, il harangue la salle (fin, fondu au noir)",
+   "source": {
+    "fichier": "lot5/sources/M3-boyard-meeting-paris-2026-10.mp4",
+    "in_s": 4.3,
+    "out_s": 6.9,
+    "fps": 25.0,
+    "url": "https://www.youtube.com/watch?v=3QUZoFMQQig",
+    "t_youtube_s": 799.3,
+    "contexte": "meeting de Paris (Mélenchon 2027), intervention de Louis Boyard « Les jeunes nous font honneur », publiée le 14/10/2026 (chaîne Louis Boyard)"
+   },
+   "temps": 4.48,
+   "fade_out_s": 0.4
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "M3-mix.wav",
+   "folder": "genM3",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/M3/out/M3-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS : voix NPPB 3.72-9.62 s (+4 dB) à 0.17 s ; Le monde ou rien dès 95.071 s du morceau, -24 -> -15 -> -9 dB sous la voix, plein au drop, fondu de fin 0,45 s"
+  }
+ ],
+ "stems": [
+  "lot5/_claude/gen/M3/out/M3-voix.wav",
+  "lot5/_claude/gen/M3/out/M3-musique.wav"
+ ],
+ "logos_exclus": "meeting : pupitre « Nouveau Paris populaire » et logo LFI hors cadre ; Duel : bandeau franceinfo et Ian Boucard hors cadre ; Le Parisien : logo haut droite hors cadre ; Assemblée : logos LFI/AN et plaque hors cadre ; meeting de Paris : logo MELENCHON2027.fr, pupitre et public hors cadre"
+}

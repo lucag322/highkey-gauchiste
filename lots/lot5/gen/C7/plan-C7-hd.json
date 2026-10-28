@@ -1,0 +1,363 @@
+{
+ "name": "C7 - Citation cine - Eric Coquerel",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "duree_s": 18.656,
+ "note": "Aperçu lot 5. Plans ProRes 9:16 prêts (recadrés, logos du décor effacés, étalonnés, texte cuit). Ralentis à faire dans Resolve : speed_pct + Optical Flow ; e-s = images source à vitesse normale. Générateur : lot5/_claude/gen/C7/genC7.py",
+ "citation": {
+  "texte": "C'est la constitution d'une noblesse d'argent. Le macronisme, c'est ça. C'est-à-dire quelques milliers de personnes dans ce pays qui s'enrichissent comme jamais on s'est enrichi.",
+  "fichier": "lot5/sources/C7-coquerel-stouen-macronisme.mp4",
+  "in_s": 5.0,
+  "out_s": 13.92,
+  "source_url": "https://www.youtube.com/watch?v=q5zM4ghkEqs",
+  "yt_in_s": 521.0,
+  "yt_out_s": 529.92,
+  "date": "2026-03-02, meeting municipales 2026 à Saint-Ouen (chaîne Eric Coquerel)"
+ },
+ "musique": {
+  "fichier": "lot5/sons/C7-kanye-power_complet.wav",
+  "url": "https://www.youtube.com/watch?v=L53gjP-TtGE",
+  "debut_dans_complet_s": 15.834,
+  "fin_dans_complet_s": 34.49,
+  "drop_timeline_s": 9.286,
+  "coupes_timeline_s": [
+   2.1,
+   4.233,
+   6.2,
+   7.6,
+   9.3,
+   10.867,
+   12.4,
+   13.767,
+   15.533,
+   16.9
+  ]
+ },
+ "textes": [
+  {
+   "t0": 0.36,
+   "t1": 1.1,
+   "lignes": [
+    "C’EST LA",
+    "CONSTITUTION"
+   ],
+   "rouge": []
+  },
+  {
+   "t0": 1.1,
+   "t1": 2.1,
+   "lignes": [
+    "D’UNE",
+    "NOBLESSE",
+    "D’ARGENT"
+   ],
+   "rouge": [
+    "NOBLESSE",
+    "D’ARGENT"
+   ]
+  },
+  {
+   "t0": 2.34,
+   "t1": 3.78,
+   "lignes": [
+    "LE",
+    "MACRONISME",
+    "C’EST ÇA"
+   ],
+   "rouge": [
+    "MACRONISME"
+   ]
+  },
+  {
+   "t0": 3.78,
+   "t1": 4.23,
+   "lignes": [
+    "C’EST-À-DIRE"
+   ],
+   "rouge": []
+  },
+  {
+   "t0": 4.24,
+   "t1": 6.17,
+   "lignes": [
+    "QUELQUES",
+    "MILLIERS",
+    "DE PERSONNES",
+    "DANS CE PAYS"
+   ],
+   "rouge": []
+  },
+  {
+   "t0": 6.16,
+   "t1": 7.94,
+   "lignes": [
+    "QUI",
+    "S’ENRICHISSENT",
+    "COMME JAMAIS"
+   ],
+   "rouge": []
+  },
+  {
+   "t0": 7.94,
+   "t1": 9.3,
+   "lignes": [
+    "ON S’EST",
+    "ENRICHI"
+   ],
+   "rouge": [
+    "ENRICHI"
+   ]
+  }
+ ],
+ "video": [
+  {
+   "id": "Q1",
+   "clip": "C7_Q1.mov",
+   "folder": "genC7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/C7/out/C7_Q1.mov",
+   "s": 0,
+   "e": 63,
+   "clip_fps": 30,
+   "rec": 0,
+   "dur": 63,
+   "track": 1,
+   "note": "C'EST LA / CONSTITUTION puis D'UNE NOBLESSE / D'ARGENT sur noir",
+   "speed_pct": 100,
+   "effets": "noir + grain, texte cuit (Baskerville SemiBold approche 0,20 em ; mot rouge en CaslonGraphique-Opti)"
+  },
+  {
+   "id": "Q2",
+   "clip": "C7_Q2_30.mov",
+   "folder": "genC7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/C7/out/C7_Q2_30.mov",
+   "s": 0,
+   "e": 64,
+   "clip_fps": 30,
+   "rec": 63,
+   "dur": 64,
+   "track": 1,
+   "note": "Saint-Ouen, plan poitrine, synchro labiale (« Le macronisme, c'est ça. C'est-à-dire »)",
+   "source": {
+    "fichier": "lot5/sources/C7-coquerel-stouen-macronisme.mp4",
+    "url": "https://www.youtube.com/watch?v=q5zM4ghkEqs",
+    "in_s": 7.1,
+    "out_s": 9.26,
+    "yt_in_s": 523.1
+   },
+   "effets": "recadrage 9:16 suivi visage (bornes [0, 0, 3456, 1640]), zoom 1.00->1.06, logos NPA/LFI/REV du décor effacés (delogo.py, masque personne Vision), sépia lavé + vignette + grain, texte cuit",
+   "speed_pct": 83.3333
+  },
+  {
+   "id": "Q3",
+   "clip": "C7_Q3.mov",
+   "folder": "genC7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/C7/out/C7_Q3.mov",
+   "s": 0,
+   "e": 59,
+   "clip_fps": 30,
+   "rec": 127,
+   "dur": 59,
+   "track": 1,
+   "note": "QUELQUES MILLIERS / DE PERSONNES / DANS CE PAYS sur noir",
+   "speed_pct": 100,
+   "effets": "noir + grain, texte cuit (Baskerville SemiBold approche 0,20 em ; mot rouge en CaslonGraphique-Opti)"
+  },
+  {
+   "id": "Q4",
+   "clip": "C7_Q4_30.mov",
+   "folder": "genC7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/C7/out/C7_Q4_30.mov",
+   "s": 0,
+   "e": 42,
+   "clip_fps": 30,
+   "rec": 186,
+   "dur": 42,
+   "track": 1,
+   "note": "Saint-Ouen, synchro (« qui s'enrichissent comme »)",
+   "source": {
+    "fichier": "lot5/sources/C7-coquerel-stouen-macronisme.mp4",
+    "url": "https://www.youtube.com/watch?v=q5zM4ghkEqs",
+    "in_s": 11.2,
+    "out_s": 12.6,
+    "yt_in_s": 527.2
+   },
+   "effets": "recadrage 9:16 suivi visage (bornes [0, 0, 3456, 1640]), zoom 1.05->1.12, logos NPA/LFI/REV du décor effacés (delogo.py, masque personne Vision), sépia lavé + vignette + grain, texte cuit",
+   "speed_pct": 83.3333
+  },
+  {
+   "id": "Q5",
+   "clip": "C7_Q5_30.mov",
+   "folder": "genC7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/C7/out/C7_Q5_30.mov",
+   "s": 0,
+   "e": 51,
+   "clip_fps": 30,
+   "rec": 228,
+   "dur": 51,
+   "track": 1,
+   "note": "même plan resserré (punch-in sur la frappe), « jamais on s'est enrichi », coupe au drop",
+   "source": {
+    "fichier": "lot5/sources/C7-coquerel-stouen-macronisme.mp4",
+    "url": "https://www.youtube.com/watch?v=q5zM4ghkEqs",
+    "in_s": 12.6,
+    "out_s": 14.32,
+    "yt_in_s": 528.6
+   },
+   "effets": "recadrage 9:16 suivi visage (bornes [0, 0, 3456, 1640]), zoom 1.25->1.36, logos NPA/LFI/REV du décor effacés (delogo.py, masque personne Vision), sépia lavé + vignette + grain, texte cuit",
+   "speed_pct": 83.3333
+  },
+  {
+   "id": "B01",
+   "clip": "C7_B01_30.mov",
+   "folder": "genC7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/C7/out/C7_B01_30.mov",
+   "s": 0,
+   "e": 47,
+   "clip_fps": 30,
+   "rec": 279,
+   "dur": 47,
+   "track": 1,
+   "note": "drop : Saint-Ouen, gros plan visage au ralenti, regard vers la salle",
+   "source": {
+    "fichier": "lot5/sources/C7-coquerel-stouen-brasleves.mp4",
+    "url": "https://www.youtube.com/watch?v=q5zM4ghkEqs",
+    "in_s": 5.7,
+    "out_s": 6.5,
+    "yt_in_s": 1237.7
+   },
+   "effets": "recadrage 9:16 suivi visage (bornes [0, 0, 3456, 1640]), zoom 1.00->1.05, logos NPA/LFI/REV du décor effacés (delogo.py, masque personne Vision), sépia lavé + vignette + grain",
+   "speed_pct": 41.6667,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B02",
+   "clip": "C7_B02_30.mov",
+   "folder": "genC7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/C7/out/C7_B02_30.mov",
+   "s": 0,
+   "e": 46,
+   "clip_fps": 30,
+   "rec": 326,
+   "dur": 46,
+   "track": 1,
+   "note": "Assemblée nationale, à la tribune, regard levé vers l'hémicycle",
+   "source": {
+    "fichier": "lot2/sources/C2-coquerel-hemicycle-04.mp4",
+    "url": "https://www.youtube.com/watch?v=v6HH2QrtogU",
+    "in_s": 0.6,
+    "out_s": 1.367
+   },
+   "effets": "recadrage 9:16 suivi visage (bornes [0, 40, 1920, 1080]), zoom 1.00->1.05, sépia lavé + vignette + grain",
+   "speed_pct": 100.0,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B03",
+   "clip": "C7_B03_30.mov",
+   "folder": "genC7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/C7/out/C7_B03_30.mov",
+   "s": 0,
+   "e": 41,
+   "clip_fps": 30,
+   "rec": 372,
+   "dur": 41,
+   "track": 1,
+   "note": "Saint-Ouen, plan large au pupitre, regard vers la salle",
+   "source": {
+    "fichier": "lot5/sources/C7-coquerel-stouen-brasouverts.mp4",
+    "url": "https://www.youtube.com/watch?v=q5zM4ghkEqs",
+    "in_s": 12.4,
+    "out_s": 13.1,
+    "yt_in_s": 1046.4
+   },
+   "effets": "recadrage 9:16 suivi visage (bornes [0, 0, 3456, 1640]), zoom 1.00->1.04, logos NPA/LFI/REV du décor effacés (delogo.py, masque personne Vision), sépia lavé + vignette + grain",
+   "speed_pct": 41.6667,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B04",
+   "clip": "C7_B04_30.mov",
+   "folder": "genC7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/C7/out/C7_B04_30.mov",
+   "s": 0,
+   "e": 53,
+   "clip_fps": 30,
+   "rec": 413,
+   "dur": 53,
+   "track": 1,
+   "note": "Assemblée nationale, gros plan à la tribune, relève la tête",
+   "source": {
+    "fichier": "lot2/sources/C2-coquerel-hemicycle-01.mp4",
+    "url": "https://www.youtube.com/watch?v=v6HH2QrtogU",
+    "in_s": 1.7,
+    "out_s": 2.583
+   },
+   "effets": "recadrage 9:16 suivi visage (bornes [0, 40, 1920, 1080]), zoom 1.00->1.05, sépia lavé + vignette + grain",
+   "speed_pct": 100.0,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B05",
+   "clip": "C7_B05_30.mov",
+   "folder": "genC7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/C7/out/C7_B05_30.mov",
+   "s": 0,
+   "e": 41,
+   "clip_fps": 30,
+   "rec": 466,
+   "dur": 41,
+   "track": 1,
+   "note": "Saint-Ouen, gros plan visage au ralenti",
+   "source": {
+    "fichier": "lot5/sources/C7-coquerel-stouen-brasdroit.mp4",
+    "url": "https://www.youtube.com/watch?v=q5zM4ghkEqs",
+    "in_s": 3.0,
+    "out_s": 3.7,
+    "yt_in_s": 327.0
+   },
+   "effets": "recadrage 9:16 suivi visage (bornes [0, 0, 3456, 1640]), zoom 1.00->1.05, logos NPA/LFI/REV du décor effacés (delogo.py, masque personne Vision), sépia lavé + vignette + grain",
+   "speed_pct": 41.6667,
+   "retime": "optical_flow"
+  },
+  {
+   "id": "B06",
+   "clip": "C7_B06_30.mov",
+   "folder": "genC7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/C7/out/C7_B06_30.mov",
+   "s": 0,
+   "e": 53,
+   "clip_fps": 30,
+   "rec": 507,
+   "dur": 53,
+   "track": 1,
+   "note": "Saint-Ouen, mains levées devant lui (juste après la phrase), fondu au noir",
+   "source": {
+    "fichier": "lot5/sources/C7-coquerel-stouen-macronisme.mp4",
+    "url": "https://www.youtube.com/watch?v=q5zM4ghkEqs",
+    "in_s": 15.0,
+    "out_s": 15.9,
+    "yt_in_s": 531.0
+   },
+   "effets": "recadrage 9:16 suivi visage (bornes [0, 0, 3456, 1640]), zoom 1.00->1.05, logos NPA/LFI/REV du décor effacés (delogo.py, masque personne Vision), sépia lavé + vignette + grain",
+   "speed_pct": 41.6667,
+   "retime": "optical_flow",
+   "fade_out_s": 0.6
+  }
+ ],
+ "audio": [
+  {
+   "id": "mix",
+   "clip": "C7-mix.wav",
+   "folder": "genC7",
+   "path": "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/C7/out/C7-mix.wav",
+   "rec": 0,
+   "track": 1,
+   "note": "mix -14 LUFS : voix SM 5.00-13.92 s (fondu 60 ms) + musique complet 15.834-34.49 s ; sous la voix couplet filtré passe-bas 1,2 kHz qui s'ouvre de 6.18 s au drop et volume -11 -> -5 dB (montée), plein sur le drop 9.29 s, fondu de fin 0.6 s"
+  }
+ ],
+ "stems": [
+  "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/C7/out/C7-voix.wav",
+  "/Users/luca.grousset/Movies/highkey-gauchiste/lot5/_claude/gen/C7/out/C7-musique.wav"
+ ]
+}
